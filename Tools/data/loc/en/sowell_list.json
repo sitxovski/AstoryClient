@@ -1,0 +1,33 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_sowell_list_en (ключ = _row.колонка). Применяет Tools/extract_text_lang.py ПОСЛЕ извлечения: was = значение извлечения или null; не совпало (и не prev) - стоп. names11, 14.10.2026.",
+  "rows": [
+    {
+      "key": "721.Name",
+      "value": "GM Sowel 1 (Atk 5000)",
+      "was": null,
+      "why": "14.10.2026 перевод корейского текста (names11)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "722.Name",
+      "value": "GM Sowel 1 (Atk 10000)",
+      "was": null,
+      "why": "14.10.2026 перевод корейского текста (names11)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "723.Name",
+      "value": "GM Sowel 1 (Atk 50000)",
+      "was": null,
+      "why": "14.10.2026 перевод корейского текста (names11)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "724.Name",
+      "value": "GM Sowel 1 (MAtk 5000)",
+      "was": null,
+      "why": "14.10.2026 перевод корейского текста (names11)",
+      "source": "owner_translation"
+    }
+  ]
+}

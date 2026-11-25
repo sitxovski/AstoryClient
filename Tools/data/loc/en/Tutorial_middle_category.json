@@ -1,0 +1,40 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_Tutorial_middle_category_en (ключ `<id>.text`). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null.",
+  "rows": [
+    {
+      "key": "0.text",
+      "value": "Community",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 0: в ORIG названия разделов корейские (커뮤니티), EN-источника нет; перевод этапа 0",
+      "source": "manual (stage0/tutorial_middle_category.tsv)"
+    },
+    {
+      "key": "1.text",
+      "value": "Character",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 0: в ORIG названия разделов корейские (캐릭터), EN-источника нет; перевод этапа 0",
+      "source": "manual (stage0/tutorial_middle_category.tsv)"
+    },
+    {
+      "key": "2.text",
+      "value": "Items",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 0: в ORIG названия разделов корейские (아이템), EN-источника нет; перевод этапа 0",
+      "source": "manual (stage0/tutorial_middle_category.tsv)"
+    },
+    {
+      "key": "3.text",
+      "value": "Economy",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 0: в ORIG названия разделов корейские (경제), EN-источника нет; перевод этапа 0",
+      "source": "manual (stage0/tutorial_middle_category.tsv)"
+    },
+    {
+      "key": "4.text",
+      "value": "Other",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 0: в ORIG названия разделов корейские (기타), EN-источника нет; перевод этапа 0",
+      "source": "manual (stage0/tutorial_middle_category.tsv)"
+    }
+  ]
+}

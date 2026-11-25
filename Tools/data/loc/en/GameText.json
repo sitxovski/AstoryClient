@@ -1,0 +1,3759 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_GameText_en (ключ = id GameText). Применяет Tools/extract_text_lang.py ПОСЛЕ извлечения: was = значение извлечения или null для новой строки; не совпало — стоп. Перевод строки — `\\n` двумя символами, как в GameText.csv.",
+  "rows": [
+    {
+      "key": "990350",
+      "value": "Choose your language / Выберите язык",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "990351",
+      "value": "English",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "990352",
+      "value": "Русский",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "990353",
+      "value": "العربية",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "990354",
+      "value": "Language",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "990355",
+      "value": "The language will change after the game restarts.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "990356",
+      "value": "The language will be applied after the game restarts. Restart now?",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: окно выбора языка/строка Язык",
+      "source": "manual"
+    },
+    {
+      "key": "112116",
+      "value": "Inventory has been organized.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "112400",
+      "value": "Organize Inventory 1",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual (Global EN, комментарий AsdaInventorySubsystem.cpp))",
+      "source": "manual"
+    },
+    {
+      "key": "112401",
+      "value": "Organize Inventory 2",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual (Global EN, комментарий AsdaInventorySubsystem.cpp))",
+      "source": "manual"
+    },
+    {
+      "key": "112402",
+      "value": "Close",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (ORIG5035)",
+      "source": "ORIG5035"
+    },
+    {
+      "key": "112406",
+      "value": "Inventory can be organized once every 60 seconds.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "112503",
+      "value": "Not enough Soul Coins.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990102",
+      "value": "The Soulmate skill table is not loaded.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990400",
+      "value": "<FB>Please enter the world address</F>.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990401",
+      "value": "Invalid port in the server address (must be 1..65535).",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990402",
+      "value": "The server list is not loaded. Enter address:port.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990408",
+      "value": "Login failed (status %d).",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990409",
+      "value": "The server rejected the request. Please log in again.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990416",
+      "value": "The server closed the connection (code %d).\\nPlease log in again.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990418",
+      "value": "The server is unavailable.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990419",
+      "value": "%s is not available yet (code %d).",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990420",
+      "value": "NPC shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990421",
+      "value": "item crafting window (subsystem not running)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990422",
+      "value": "booster shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990423",
+      "value": "clan disbanding",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990424",
+      "value": "clan member limit increase",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990425",
+      "value": "item repair window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990426",
+      "value": "trade house window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990427",
+      "value": "equipment shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990429",
+      "value": "Soulmate (subsystem not running)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990430",
+      "value": "option transfer window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990431",
+      "value": "donation",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990432",
+      "value": "Honor shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990433",
+      "value": "upgrade reset window",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): NpcNsrButton 136npc_0 «Reset total item upgrade» | прежде: 09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990434",
+      "value": "constellation selection window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990435",
+      "value": "faction selection window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990436",
+      "value": "faction war info window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990437",
+      "value": "town tax window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990438",
+      "value": "Hunting Report window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990439",
+      "value": "This NPC action (code %d) does not exist in the original game either.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990446",
+      "value": "Quest %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990447",
+      "value": "episode %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990448",
+      "value": "code %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990449",
+      "value": "     [<FC=%s>%d</F>m]%s",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990451",
+      "value": "Find Pty",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990452",
+      "value": "Shout",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (ORIG5344)",
+      "source": "ORIG5344"
+    },
+    {
+      "key": "990453",
+      "value": "Common",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (ORIG1421)",
+      "source": "ORIG1421"
+    },
+    {
+      "key": "990454",
+      "value": "Clan",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (ORIG5414)",
+      "source": "ORIG5414"
+    },
+    {
+      "key": "990455",
+      "value": "Faction chat is available only during the Faction War.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990456",
+      "value": "Faction chat works only during the Faction War (the siege system is not connected yet).",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990458",
+      "value": "All channels",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990463",
+      "value": "Item %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990464",
+      "value": "Slot %d of container %d, stack: %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990465",
+      "value": "Skill %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990466",
+      "value": "Menu item %d",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990468",
+      "value": "An item with a sowel cannot be moved.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990471",
+      "value": "%s × %d (of %d)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990472",
+      "value": "%s × %d (whole stack)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990474",
+      "value": "This item variant does not exist.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990475",
+      "value": "rejected by the server without a reason",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990476",
+      "value": "the order was not found in the box or its item code did not match",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990477",
+      "value": "the server does not know this item",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990478",
+      "value": "not enough free slots in the inventory",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990479",
+      "value": "Could not take the purchase from the box: %s (code %d).",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990493",
+      "value": "Soulmate skill: rejected by the server (code 18).",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990495",
+      "value": "Possessed",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990496",
+      "value": "The conditions for this option are not met.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990500",
+      "value": "[All channels] ",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990501",
+      "value": "channel cooldown",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990502",
+      "value": "flood protection",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990503",
+      "value": "forbidden word",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990504",
+      "value": "repeats",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990505",
+      "value": "%s",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990506",
+      "value": "[ss1] - [sd1] ch",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990507",
+      "value": "premium shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual); 09.10.2026 ревизия мультиязычности МЕЛК-1: номер окна/служебное имя убраны из видимого текста (номер — комментарием в коде)",
+      "source": "manual"
+    },
+    {
+      "key": "990600",
+      "value": "Free camera",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990601",
+      "value": "WASD — fly, RMB — look, Space/C — up/down, Shift — speed up, ESC — exit",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990602",
+      "value": "Hide: DISABLED (asda.Gm.Hide 0)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990603",
+      "value": "Hide: no connection",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990604",
+      "value": "Hide: waiting for the server…",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990605",
+      "value": "Hide: ON (automatically on entry)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990606",
+      "value": "Hide: ON",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990607",
+      "value": "Hide: OFF",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990608",
+      "value": "operator invisibility: the character disappears completely for everyone in the zone and stays semi-transparent on your own screen (body, equipment and effects); attacks and skills are not allowed while hidden — the server silently drops them anyway; the server accepts the command only from an account with UserIndex 0…5000",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990612",
+      "value": "Recalculate all titles and rankings",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990613",
+      "value": "Conditions of ALL titles for characters currently online + Competition titles 65…69 + Honor ranking. 25 titles cannot be recalculated — their progress is not stored anywhere; offline characters are not covered",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 명예 → Honor (GameText 10082/10127 Honor point) | прежде: 09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990615",
+      "value": "Titles only: check conditions",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990616",
+      "value": "Grants everything already earned by accumulated progress but not yet granted. Online characters only",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990617",
+      "value": "Competition titles 65…69 only",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990618",
+      "value": "Ahead of the Whole Planet, \"God of Battle/Archers/Magic\", \"Rich Kid\" — leader change from the database",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990619",
+      "value": "Honor point ranking only",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 10082/10127 Honor point | прежде: 09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990620",
+      "value": "What the original calculates at 03:00 in the ChannelManager task (EXEC UPTopFamePoint)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990622",
+      "value": "Invalid password",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (ORIG7016)",
+      "source": "ORIG7016"
+    },
+    {
+      "key": "990623",
+      "value": "  Administrator menu",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990624",
+      "value": "Vehicle: sports car",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990625",
+      "value": "Vehicle: SUV",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990626",
+      "value": "Vehicle: pickup",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990627",
+      "value": "Vehicle: hatchback",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990628",
+      "value": "Vehicle: box truck",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990629",
+      "value": "WASD — drive and steer, Space — handbrake, Shift — speed up, F12 — return control to the character",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990631",
+      "value": "Despawn vehicles",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990632",
+      "value": "Remove all spawned vehicles from the scene",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 3: новый id вместо литерала в коде (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "111909",
+      "value": "The village's current tax rate is <FC=FF99FF99>%d%%</F>. <FC=FF99FF99>%s</F>'s top clan is <FC=FF99FF99>%s</F> at this time.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: EN оригинала с порядком аргументов порта (процент, город, клан — asda.TownWar.FixTextArgs=1, как RU-строка)",
+      "source": "ORIG"
+    },
+    {
+      "key": "12062",
+      "value": "Total points on this characteristic ",
+      "was": null,
+      "why": "09.10.2026 мультиязычность: EN оригинала дословно (маркера [ss1] у оригинала нет; код подставляет его только если он есть)",
+      "source": "ORIG"
+    },
+    {
+      "key": "134",
+      "value": "An error occurred. Please try connecting again.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "135",
+      "value": "Unknown error. Please try again in a minute.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "7061",
+      "value": "The Asda Story team wishes you a Happy New Year!",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "200000",
+      "value": "Delete",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "200001",
+      "value": "Cancel",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "900001",
+      "value": "[ss1] has upgraded [ss2]",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "900002",
+      "value": "[ss1] failed to upgrade [ss2]",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990001",
+      "value": "Buy",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990010",
+      "value": "Deselect",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990020",
+      "value": "This action window isn't ready yet. Request for player [ss1] sent.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990100",
+      "value": "This part is not ported yet: [ss1].",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990101",
+      "value": "The extra menu list is empty: the Extra_menu_table failed to load.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990110",
+      "value": "You have lost the title \"[ss1]\".",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990120",
+      "value": "You will automatically appear in the list of players seeking a party and stay there while this window is open. Closing it with \"Cancel\" stops the search. To hide the window and stay listed, press \"Minimize\".",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990121",
+      "value": "Your party will appear in the list of recruiting parties and stay there while this window is open. Closing it with \"Cancel\" stops recruiting. To hide the window and keep it listed, press \"Minimize\".",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990130",
+      "value": "Share",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990131",
+      "value": "Not allowed in safe mode",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990132",
+      "value": "Enter the world in which mode?",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990133",
+      "value": "Normal",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990134",
+      "value": "Soul",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990135",
+      "value": "Soul - no interaction with other players.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990136",
+      "value": "Your Soulmate's character will appear here if they let you play as them!",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990200",
+      "value": "Quickslot Pages",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990201",
+      "value": "Quickslot Page 1",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990202",
+      "value": "Quickslot Page 2",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990203",
+      "value": "Quickslot Page 3",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990204",
+      "value": "Quickslot Page 4",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990205",
+      "value": "Quickslot Page 5",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990206",
+      "value": "Quickslot Bar",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990207",
+      "value": "Slot 1",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990208",
+      "value": "Slot 2",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990209",
+      "value": "Slot 3",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990210",
+      "value": "Slot 4",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990211",
+      "value": "Slot 5",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990212",
+      "value": "Slot 6",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990213",
+      "value": "Slot 7",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990214",
+      "value": "Slot 8",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990215",
+      "value": "Slot 9",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990216",
+      "value": "Slot 10",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990217",
+      "value": "Slot 11",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990218",
+      "value": "Slot 12",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990219",
+      "value": "Top Bar",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990220",
+      "value": "Character",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990221",
+      "value": "Actions",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990222",
+      "value": "Quests",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990223",
+      "value": "Player Search",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990224",
+      "value": "World Map",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990225",
+      "value": "Titles",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990226",
+      "value": "Gear Upgrade",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990227",
+      "value": "Pet Storage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990228",
+      "value": "Screenshot",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990229",
+      "value": "Leave Party",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990230",
+      "value": "Expel from Party",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990231",
+      "value": "Basic Actions",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990232",
+      "value": "Forward",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990233",
+      "value": "Backward",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990234",
+      "value": "Turn Left",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990235",
+      "value": "Turn Right",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990236",
+      "value": "Exchange",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990237",
+      "value": "External Item Trade",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990238",
+      "value": "Nearest Enemy",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990239",
+      "value": "View Character Info",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990240",
+      "value": "Select Myself",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990241",
+      "value": "Share Target",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990242",
+      "value": "Select Sharing Member",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990243",
+      "value": "Private Shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990244",
+      "value": "Reply to Whisper",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990245",
+      "value": "Whisper",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990246",
+      "value": "Greeting",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990247",
+      "value": "Angry",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990248",
+      "value": "Sad",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990249",
+      "value": "Happy",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990250",
+      "value": "Courtship",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990251",
+      "value": "Party and Actions",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990252",
+      "value": "Name Display",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990253",
+      "value": "Unbind Key",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990254",
+      "value": "Accept Soulmate requests",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990255",
+      "value": "Accept party invitations",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990256",
+      "value": "Accept clan invitations",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990257",
+      "value": "Accept trade requests",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990258",
+      "value": "Accept external item trades",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990259",
+      "value": "Accept whispers",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990260",
+      "value": "Accept friend requests",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990261",
+      "value": "Show monster HP",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990262",
+      "value": "Show my name and HP",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990263",
+      "value": "Show help tooltips",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990264",
+      "value": "Show Item Boasting window",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990265",
+      "value": "Display your Soul Guardian",
+      "was": null,
+      "why": "10.10.2026 terms_minors (МЕЛК-1 ревизии en_terms_fix): EN оригинала GameText 30474 — опция окна настроек показывает 99026x (AsdaSystemOptionSubsystem.cpp:227), а не 3047x | прежде «Show my Soul Guardian»: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990266",
+      "value": "Display other Soul Guardian",
+      "was": null,
+      "why": "10.10.2026 terms_minors (МЕЛК-1 ревизии en_terms_fix): EN оригинала GameText 30475 — опция окна настроек показывает 99026x (AsdaSystemOptionSubsystem.cpp:227), а не 3047x | прежде «Show other Soul Guardians»: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990267",
+      "value": "Drag quickslots only with Shift",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990268",
+      "value": "Show top bar",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990269",
+      "value": "Show skill icon after cool time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990270",
+      "value": "Show rank icon",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990271",
+      "value": "Sound Effects",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990272",
+      "value": "Smooth Horizon",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990273",
+      "value": "Chat Bubbles",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990274",
+      "value": "Shader Effects",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990275",
+      "value": " - Water Reflections",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990276",
+      "value": "Trilinear Filtering",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990277",
+      "value": "Starry Sky",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990278",
+      "value": "Glow",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990300",
+      "value": "Quality",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990301",
+      "value": "Effects",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990302",
+      "value": "Screen Mode",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990303",
+      "value": "Borderless",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990304",
+      "value": "Windowed",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990305",
+      "value": "Render Scale",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990306",
+      "value": "Frame Rate Limit",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990307",
+      "value": "Unlimited",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990308",
+      "value": "Vertical Sync",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990309",
+      "value": "Graphics Mode",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990312",
+      "value": "The graphics mode will change after the game restarts.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990313",
+      "value": "Overall Quality",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990314",
+      "value": "Low",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990315",
+      "value": "Medium",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990316",
+      "value": "High",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990317",
+      "value": "Maximum",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990318",
+      "value": "Ultra",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990319",
+      "value": "Custom",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990320",
+      "value": "Auto Detect",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990321",
+      "value": "Textures",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990322",
+      "value": "Shadows",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990323",
+      "value": "Post-Processing",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990324",
+      "value": "Foliage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990325",
+      "value": "Distant Detail",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990326",
+      "value": "Reflections",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990327",
+      "value": "Global Illumination",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990328",
+      "value": "View Distance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990329",
+      "value": "Anti-Aliasing",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990330",
+      "value": "Off",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990334",
+      "value": "Sharpening",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990335",
+      "value": "Low",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990336",
+      "value": "Medium",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990337",
+      "value": "High",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990338",
+      "value": "Anisotropic Filtering",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990339",
+      "value": "Ambient Occlusion",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990340",
+      "value": "Motion Blur",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990341",
+      "value": "Lens Flares",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990342",
+      "value": "Volumetric Clouds",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990343",
+      "value": "\"Overall Quality\" sets all quality groups at once. The setting is applied with \"OK\" or \"Apply\".",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990344",
+      "value": "Auto Detect: quality levels were set from a benchmark of your computer. Apply them with \"OK\" or \"Apply\".",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990345",
+      "value": "Auto Detect failed: the computer benchmark gave no result. Quality levels were not changed.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990346",
+      "value": "Roulette: the server refused (code 12)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990347",
+      "value": "Pet Info",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990348",
+      "value": "This breed has no Pet Evolution Map",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "990349",
+      "value": "Expand Clan",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "115300",
+      "value": "Registered recipes / Max recipes",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "115301",
+      "value": "Crafting EXP",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "111020",
+      "value": "It is already registered. If you want to register the guide again, you need to receive the reward after achieving 10% of the guide.",
+      "was": "It is already registered. If you want to register the guide again, you need to receive the reward after achievinv 10%% of the guide.",
+      "why": "09.10.2026 мультиязычность: строка показывается без printf (AsdaFishBookSubsystem kAlready) — «%%» оригинала печаталось бы двумя знаками; заодно опечатка оригинала achievinv → achieving [ИСПРАВЛЕНИЕ ОРИГИНАЛА]",
+      "source": "ORIG"
+    },
+    {
+      "key": "2409",
+      "value": "No.",
+      "was": null,
+      "why": "09.10.2026 ревизия мультиязычности (исправления): RU 2409 стала «№» (этап 4) — строка без букв, генератор её исключает («RU без букв»), и EN оригинала «No.» (ORIG GameText 2409) пропал бы из оверлея при перегенерации; закреплено ведомостью",
+      "source": "ORIG"
+    },
+    {
+      "key": "990900",
+      "value": "Winning team name",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Название команды-победителя» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990901",
+      "value": "Set city tax",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Установить налог города» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990902",
+      "value": "Select Constellation",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Выбор созвездия» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990903",
+      "value": "Monster Hunting Report",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Отчёт об охоте на монстров» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990904",
+      "value": "My Introduction",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Написать о себе» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990905",
+      "value": "Character Name",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Имя персонажа» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990906",
+      "value": "Ranking: 100th place",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Рейтинг: 100 место» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990907",
+      "value": "Title name here",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Здесь название славы» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990908",
+      "value": "Change chat mode",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Смена режима чата» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990909",
+      "value": "Chat tab settings",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Настройки вкладок чата» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990910",
+      "value": "Gear Disassembly",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Разбор снаряжения» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990911",
+      "value": "Seal Gear",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Запечатать снаряжение» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990912",
+      "value": "Upgrade option obtained",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Получена опция заточки» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990913",
+      "value": "Item name",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Название предмета» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990914",
+      "value": "Change Item Options",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Смена опций предмета» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990915",
+      "value": "Available options 1",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Доступные опции 1» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990916",
+      "value": "Available options 2",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Доступные опции 2» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990917",
+      "value": "Full Gear Upgrade Reset",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Полный сброс заточки снаряжения» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990918",
+      "value": "Item Crafting",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Создание предмета» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990919",
+      "value": "Gear Upgrade",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Заточка снаряжения» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990920",
+      "value": "Item Smelting",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Плавка предмета» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990921",
+      "value": "Item Option Smelting",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Плавка опций предмета» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990922",
+      "value": "Chess Dungeon (Lv.999)",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Шахматное подземелье (ур.999)» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990923",
+      "value": "Attack: 345",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Атака: 345» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990924",
+      "value": "<One-time Seal>",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «<Одноразовая печать>» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990925",
+      "value": "Equip fishing tackle",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Надеть рыболовные снасти» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990926",
+      "value": "Owned gear",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Снаряжение в наличии» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990927",
+      "value": "Show Off Item",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Похвастаться предметом» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990928",
+      "value": "Pet Storage",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Хранилище питомцев» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990929",
+      "value": "Pet Incubator",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): item_list «Premium Pet Incubator», «Common Incubator» | прежде: 10.10.2026 полнота EN: подпись окна «Инкубатор питомцев» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990930",
+      "value": "\"Asda Story\" Blog",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Блог «История Asda»» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990931",
+      "value": "Set contents",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Состав набора» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990932",
+      "value": "Premium Item Postbox",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Почта премиум-предметов» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990933",
+      "value": "Item name here (M)",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Здесь название предмета (м)» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990934",
+      "value": "Functional item title (qty)",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Заголовок функц. предмета (кол-во)» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990935",
+      "value": "Hairstyle name",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Название причёски» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990936",
+      "value": "Item name here",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Здесь название предмета» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990937",
+      "value": "Exit",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Выйти» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990938",
+      "value": "[The Missing Explorer]",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «[Пропавший исследователь]» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990939",
+      "value": "[Place] NPC name",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «[Место] Имя NPC» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990940",
+      "value": "Basic reward",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Базовая награда» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990941",
+      "value": "Reward of choice",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Награда на выбор» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990942",
+      "value": "Create Clan",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Создание клана» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990943",
+      "value": "Send a message to your soulmate",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Отправить записку соулмейту» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990944",
+      "value": "ABCDEFGHIJ",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «АБВГДЕЁЖЗИ» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990945",
+      "value": "About me",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Обо мне» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990946",
+      "value": "Notice",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Объявление» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990947",
+      "value": "[Attention] Transfer of clan master rights",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «[Внимание] Передача прав главы клана» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990948",
+      "value": "Find allies of a similar level",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Поиск союзников близкого уровня» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990949",
+      "value": "Previous soulmate info",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Информация о прежнем соулмейте» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990950",
+      "value": "List of party candidates",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 11821 | прежде: 10.10.2026 полнота EN: подпись окна «Список желающих в группу» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990951",
+      "value": "Party waiting list",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 11825 | прежде: 10.10.2026 полнота EN: подпись окна «Список групп в ожидании» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990952",
+      "value": "Find Party",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 11800/12195 | прежде: 10.10.2026 полнота EN: подпись окна «Поиск группы» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990953",
+      "value": "Edit party info",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Изменение данных группы» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990954",
+      "value": "Shout to the whole world",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Крикнуть на весь мир» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990955",
+      "value": "Whisper with OOOOOOO",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Шёпот с OOOOOOO» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990956",
+      "value": "Soulmate Search",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Поиск соулмейта» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990957",
+      "value": "Handstand",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Стойка на руках» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990958",
+      "value": "Item to extract from",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Предмет для извлечения» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990959",
+      "value": "Item to apply to",
+      "was": null,
+      "why": "10.10.2026 полнота EN: подпись окна «Предмет для наложения» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990960",
+      "value": "Private shop []: chat",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): ExtraMenu 3 «Private shop menu» | прежде: 10.10.2026 полнота EN: подпись окна «Личный магазин []: диалог» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990961",
+      "value": "Which job to choose?",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 직업 → Job (GameText 2297) | прежде: 10.10.2026 полнота EN: подпись окна «Какой класс выбрать?» (своя строка 9909xx)",
+      "source": "manual"
+    },
+    {
+      "key": "990962",
+      "value": "Front title here",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «Здесь переднее звание» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "990963",
+      "value": "Title bonus 1",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «Бонус звания 1» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "990964",
+      "value": "Title bonus 2",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «Бонус звания 2» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "990965",
+      "value": "Title penalty 1",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «Штраф звания 1» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "990966",
+      "value": "Title penalty 2",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «Штраф звания 2» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "990967",
+      "value": "5th title option",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «5-я опция звания» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "990968",
+      "value": "6th title option",
+      "was": null,
+      "why": "10.10.2026 terms_minors: подпись-заготовка окна званий «6-я опция звания» (своя строка 9909xx; EN — прежний перевод надписи из UiLiteral)",
+      "source": "manual"
+    },
+    {
+      "key": "99501",
+      "value": "AStory Remake News",
+      "was": "Asda Story news",
+      "why": "10.10.2026 решение владельца: заголовок окна новостей UI/Login/WBP_AD_Win (loc 99501); прежнее — английский оригинал «Asda Story news»",
+      "source": "manual"
+    },
+    {
+      "key": "11051",
+      "value": "Channel 1",
+      "was": "Beginner Channel",
+      "why": "11.10.2026 владелец: «Канал 1» в EN был «Beginner Channel» из оригинала — вернуть «Channel 1», как остальные каналы",
+      "source": "manual"
+    },
+    {
+      "key": "990969",
+      "value": "Performance test",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990970",
+      "value": "Target: [ss1] FPS ([ss2] ms per frame)",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990971",
+      "value": "Loading the test scene…",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990972",
+      "value": "Pass [ss1]: [ss2], scale [ss3]% — warming up…",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990973",
+      "value": "Pass [ss1]: [ss2], scale [ss3]% — [ss4] ms ([ss5] FPS), GPU [ss6] ms, CPU [ss7] ms",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990974",
+      "value": "Recommended: [ss1], scale [ss2]%",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990975",
+      "value": "The CPU limits the frame rate: lowering graphics quality will not help",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990976",
+      "value": "The target was not reached even at the lowest settings",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990977",
+      "value": "Press OK to apply or Skip to keep the current settings",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990978",
+      "value": "OK",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990979",
+      "value": "Skip",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990980",
+      "value": "Measuring: [ss1] s…",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990981",
+      "value": "Done",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990982",
+      "value": "Applied: [ss1], scale [ss2]%",
+      "was": null,
+      "why": "12.10.2026 bench window (UAsdaBenchSubsystem), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990984",
+      "value": "shadows",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990985",
+      "value": "effects",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990986",
+      "value": "lighting",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990987",
+      "value": "view distance",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990988",
+      "value": "textures",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990989",
+      "value": "reflections",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990990",
+      "value": "post-processing",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990991",
+      "value": "foliage",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990992",
+      "value": "anti-aliasing",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990993",
+      "value": "shading",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990994",
+      "value": "landscape",
+      "was": null,
+      "why": "12.10.2026 bench ladder group names (UAsdaBenchSubsystem::ConfigCaption), manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990633",
+      "value": "Block target's account (for N hours)",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990634",
+      "value": "selected player → hours → confirmation; packet 6094 → server UPHackBlock: login is closed until the term expires, the server sends no reply",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990635",
+      "value": "Account block: select a player character first (click on it)",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990636",
+      "value": "Account block: you cannot block your own account",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990637",
+      "value": "Block the account of player «[ss1]» for [sd1] h? The player keeps playing until logout, login is closed until the term expires. Only the server owner can lift the block earlier.",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990638",
+      "value": "Account block: request for [sd1] h for «[ss1]» sent (6094). The server sends no confirmation — see GameServer/Log/Log_SpeedHack.",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "990639",
+      "value": "Account block: request for «[ss1]» for [sd1] h NOT sent (no connection or unknown target)",
+      "was": null,
+      "why": "12.10.2026 anticheat P6: GM menu item 'Block target account' (opcode 6094 -> UPHackBlock), AsdaAdminSubsystem.cpp ActivateGmBlock; manual translation",
+      "source": "manual"
+    },
+    {
+      "key": "991000",
+      "value": "Easy Anti-Cheat: integrity violation",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991001",
+      "value": "Easy Anti-Cheat Hash Catalogue not found",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991002",
+      "value": "Corrupt Easy Anti-Cheat Hash Catalogue",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991003",
+      "value": "EAC index certificate revoked",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991004",
+      "value": "Could not locate game executable entry in the catalogue.",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991005",
+      "value": "Unknown file version",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991006",
+      "value": "Missing required file",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991007",
+      "value": "Unknown game file",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991008",
+      "value": "Untrusted system file",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991009",
+      "value": "Forbidden module",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991010",
+      "value": "Corrupted memory",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991011",
+      "value": "Forbidden tool",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991012",
+      "value": "Internal anti-cheat error",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991013",
+      "value": "Corrupted packet flow",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991014",
+      "value": "Cannot run under Virtual Machine.",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991015",
+      "value": "Forbidden system configuration",
+      "was": null,
+      "why": "16.10.2026 EAC: нарушение целостности — текст локализации тулкита EAC 2.3.0 (ru_ru/en_us.cfg, game_error), владелец оставил как есть (PLAYER_TEXTS.md); ключ — AsdaEacLoc::ForViolation",
+      "source": "manual"
+    },
+    {
+      "key": "991020",
+      "value": "Disconnected by anti-cheat",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991021",
+      "value": "Easy Anti-Cheat protection was not confirmed. Start the game via Astory.exe and log in again.",
+      "was": null,
+      "prev": [
+        "Easy Anti-Cheat protection was not confirmed. Start the game via start_protected_game.exe and log in again."
+      ],
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc; 16.10.2026 владелец: имя запуска start_protected_game.exe → Astory.exe (бутстрапер EAC переименован в упаковке, eac_package.py)",
+      "source": "manual"
+    },
+    {
+      "key": "991022",
+      "value": "You have been disconnected by Easy Anti-Cheat.",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991023",
+      "value": "Connection to the anti-cheat server was lost. Check your connection and log in again.",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991024",
+      "value": "The anti-cheat server rejected the connection. Restart the game via Astory.exe.",
+      "was": null,
+      "prev": [
+        "The anti-cheat server rejected the connection. Restart the game via start_protected_game.exe."
+      ],
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc; 16.10.2026 владелец: имя запуска start_protected_game.exe → Astory.exe (бутстрапер EAC переименован в упаковке, eac_package.py)",
+      "source": "manual"
+    },
+    {
+      "key": "991025",
+      "value": "Your account has signed in from another computer.",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991026",
+      "value": "Your game connection was not verified by the anti-cheat. Please log in again.",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991031",
+      "value": "Could not verify your sign-in with the anti-cheat. Retrying…",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991032",
+      "value": "Your account was not verified by the anti-cheat server. Please log in again.",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991033",
+      "value": "The anti-cheat server is temporarily unavailable. Retrying…",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991036",
+      "value": "The game must be started via Astory.exe. If the Easy Anti-Cheat service is not installed, run install_eac.bat.",
+      "was": null,
+      "prev": [
+        "The game must be started via start_protected_game.exe. If the Easy Anti-Cheat service is not installed, run install_eac.bat."
+      ],
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc; 16.10.2026 владелец: имя запуска start_protected_game.exe → Astory.exe (бутстрапер EAC переименован в упаковке, eac_package.py)",
+      "source": "manual"
+    },
+    {
+      "key": "991037",
+      "value": "Your sign-in session has expired. Please log in again.",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991038",
+      "value": "The sign-in service is temporarily unavailable. Retrying…",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "991039",
+      "value": "Could not start the anti-cheat session. Retrying…",
+      "was": null,
+      "why": "16.10.2026 EAC: текст игроку утверждён владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md); ключ — AsdaEacTypes.h AsdaEacLoc",
+      "source": "manual"
+    },
+    {
+      "key": "990357",
+      "value": "Damage numbers",
+      "was": null,
+      "why": "18.10.2026 строка «Цифры урона» окна настроек 69500 (явное разрешение владельца; поле профиля DamageTextMode, Ф5 синхронизации боя); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kDmgText…kDmgOff",
+      "source": "manual"
+    },
+    {
+      "key": "990358",
+      "value": "Mine only",
+      "was": null,
+      "why": "18.10.2026 строка «Цифры урона» окна настроек 69500 (явное разрешение владельца; поле профиля DamageTextMode, Ф5 синхронизации боя); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kDmgText…kDmgOff",
+      "source": "manual"
+    },
+    {
+      "key": "990359",
+      "value": "All",
+      "was": null,
+      "why": "18.10.2026 строка «Цифры урона» окна настроек 69500 (явное разрешение владельца; поле профиля DamageTextMode, Ф5 синхронизации боя); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kDmgText…kDmgOff",
+      "source": "manual"
+    },
+    {
+      "key": "990360",
+      "value": "Off",
+      "was": null,
+      "why": "18.10.2026 строка «Цифры урона» окна настроек 69500 (явное разрешение владельца; поле профиля DamageTextMode, Ф5 синхронизации боя); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kDmgText…kDmgOff",
+      "source": "manual"
+    },
+    {
+      "key": "990361",
+      "value": "Mouse sensitivity",
+      "was": null,
+      "why": "19.10.2026 строки «Чувствительность мыши»/«Чувствительность поворота камеры» окна настроек 69500 (запрос владельца; поля профиля CursorSpeedPercent/CameraTurnPercent); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kCursorSpeed/kCameraTurn",
+      "source": "manual"
+    },
+    {
+      "key": "990362",
+      "value": "Camera rotation sensitivity",
+      "was": null,
+      "why": "19.10.2026 строки «Чувствительность мыши»/«Чувствительность поворота камеры» окна настроек 69500 (запрос владельца; поля профиля CursorSpeedPercent/CameraTurnPercent); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kCursorSpeed/kCameraTurn",
+      "source": "manual"
+    },
+    {
+      "key": "990363",
+      "value": "A pet name may contain only Latin letters and digits.",
+      "was": null,
+      "why": "21.10.2026 запрет арабских и русских кличек питомцев (слово владельца): нотис окна 43000 при не-латинской кличке; ключ — AsdaPetCageSubsystem.cpp PetCageLoc::kLatinOnly; сервер — UPPetRename (код 2)",
+      "source": "manual"
+    },
+    {
+      "key": "990364",
+      "value": "Crouch",
+      "was": null,
+      "why": "25.10.2026 строка «Присед» окна настроек 69500 (запрос владельца: режим Ctrl ходьбы вприсядку «Нажатие/Зажатие»; поле профиля CrouchMode); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kCrouchMode/kCrouchToggle/kCrouchHold",
+      "source": "manual"
+    },
+    {
+      "key": "990365",
+      "value": "Toggle",
+      "was": null,
+      "why": "25.10.2026 строка «Присед» окна настроек 69500 (запрос владельца: режим Ctrl ходьбы вприсядку «Нажатие/Зажатие»; поле профиля CrouchMode); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kCrouchMode/kCrouchToggle/kCrouchHold",
+      "source": "manual"
+    },
+    {
+      "key": "990366",
+      "value": "Hold",
+      "was": null,
+      "why": "25.10.2026 строка «Присед» окна настроек 69500 (запрос владельца: режим Ctrl ходьбы вприсядку «Нажатие/Зажатие»; поле профиля CrouchMode); ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kCrouchMode/kCrouchToggle/kCrouchHold",
+      "source": "manual"
+    },
+    {
+      "key": "991100",
+      "value": "Update available! Close the game and update",
+      "was": null,
+      "why": "18.10.2026 окно «Доступно обновление» (проверка новой версии на ходу, просьба владельца; штатное окно ONEBUT_MSGBOX 1500); ключ — UAsdaUpdateCheckSubsystem::kLocText / kLocButton",
+      "source": "manual"
+    },
+    {
+      "key": "991101",
+      "value": "Close game",
+      "was": null,
+      "why": "18.10.2026 окно «Доступно обновление» (проверка новой версии на ходу, просьба владельца; штатное окно ONEBUT_MSGBOX 1500); ключ — UAsdaUpdateCheckSubsystem::kLocText / kLocButton",
+      "source": "manual"
+    },
+    {
+      "key": "990700",
+      "value": "Port functions",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990701",
+      "value": "Original commands",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990702",
+      "value": "Back",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990703",
+      "value": "Next",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990710",
+      "value": "Summon player",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990711",
+      "value": "6012: the named player on any server is moved to you",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990712",
+      "value": "Go to player",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990713",
+      "value": "6014: you are moved to the named player on any server",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990714",
+      "value": "Kick player",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990715",
+      "value": "6018: the named player is disconnected",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990716",
+      "value": "Kill selected player",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990717",
+      "value": "6022: the selected player on this server dies",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990718",
+      "value": "Move selected player",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990719",
+      "value": "6026: the selected player on this server is moved to a cell",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990720",
+      "value": "Sector announcement",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990721",
+      "value": "6028: the text comes from the server file GM_Com_kor.txt",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990722",
+      "value": "Server announcement",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990723",
+      "value": "6029: the text comes from the server file GM_Com_kor.txt",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990724",
+      "value": "Add experience",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990725",
+      "value": "6032: add experience to yourself",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990726",
+      "value": "Add gold",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990727",
+      "value": "6032: add gold to yourself",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990728",
+      "value": "Add skill points",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990729",
+      "value": "6032: add skill points to yourself",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990730",
+      "value": "Monster card",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990731",
+      "value": "6033: drop list of the selected monster to chat",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990732",
+      "value": "Invincibility",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990733",
+      "value": "6035: toggle your invincibility",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990734",
+      "value": "My stats",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990735",
+      "value": "6036: character stats from the server to chat",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990736",
+      "value": "Spawn monster group",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990737",
+      "value": "6045: spawn a monster group by number",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990738",
+      "value": "Remove monster group",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990739",
+      "value": "6046: return a monster group by number",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990740",
+      "value": "Start event",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990741",
+      "value": "6038: experience or drop multiplier for a period",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990742",
+      "value": "Stop event",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990743",
+      "value": "6040: stop an experience or drop event",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990744",
+      "value": "Give item",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990745",
+      "value": "6042: item to the selected player, or to yourself",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990746",
+      "value": "Combat rates vs target",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990747",
+      "value": "6075: your rates against the selected target to chat",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990748",
+      "value": "Kill monster",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990749",
+      "value": "6033: kill the selected monster, card to chat",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990760",
+      "value": "Character name",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990761",
+      "value": "Up to 19 bytes, no apostrophe",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990762",
+      "value": "Cell",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990763",
+      "value": "X Y — cell numbers separated by a space",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990764",
+      "value": "Event",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990765",
+      "value": "type(0 drop, 1 exp) multiplier channel map DD.MM HH:MM DD.MM HH:MM minLv maxLv; −1 = all",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990766",
+      "value": "Stop event",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990767",
+      "value": "type(0 drop, 1 exp) channel map; −1 = all",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990768",
+      "value": "Give item",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990769",
+      "value": "code amount [warehouse]",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990770",
+      "value": "Monster group",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990771",
+      "value": "group number [mode: 0 — to your cell, 1 — to a random point of the spawn area]",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990780",
+      "value": "Kick [ss1] from the game?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990781",
+      "value": "Kill [ss1]?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990782",
+      "value": "Kill the selected monster and show its card?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990790",
+      "value": "Select a player as the target",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990791",
+      "value": "Select a monster as the target",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990792",
+      "value": "sent (the server does not reply)",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990793",
+      "value": "not sent",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990794",
+      "value": "Invalid input",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990795",
+      "value": "The server sends the other fields unreliably",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990796",
+      "value": "Invincibility toggled (the server does not report the state)",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990797",
+      "value": "sent",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990800",
+      "value": "Gather map players",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990801",
+      "value": "4209: all players of the map in your channel are moved to you",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990802",
+      "value": "Clear ground items",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990803",
+      "value": "6007: all items on the ground in your sector",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990804",
+      "value": "Jump to cell",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990805",
+      "value": "6010: you are moved to a cell of your map",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990806",
+      "value": "Revive / restore",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990807",
+      "value": "6024: a dead player revives in place, a living one gets full HP and MP; no target — yourself",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990808",
+      "value": "Reset skill cooldowns",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990809",
+      "value": "6058: to the selected player, or to yourself",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990810",
+      "value": "Countdown",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990811",
+      "value": "6145: countdown on the map, in the channel or everywhere",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990812",
+      "value": "Move everyone from area",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990813",
+      "value": "6146: all players in a rectangle, except operators, to one cell",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990814",
+      "value": "Map block: on",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990815",
+      "value": "6147: stops players in the quizstage battlefield zones — by coordinates, on any map (the original has no movement ban)",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990816",
+      "value": "Map block: off",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990817",
+      "value": "6147: lift the movement restriction on this map",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990820",
+      "value": "Map number",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990821",
+      "value": "Map number (MapInfo.ini); the current map by default",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990822",
+      "value": "Countdown",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990823",
+      "value": "seconds [scope: 0 map, 1 channel, 2 all] [at the end: 0 nothing, 1 block, 2 move out of the quizstage battlefield zone]",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990824",
+      "value": "Move from area",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990825",
+      "value": "minX minZ maxX maxZ X Z — cells",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990830",
+      "value": "Gather all players of map [ss1] in your channel to you?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990831",
+      "value": "Remove all items on the ground in your sector?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990832",
+      "value": "Move all players of area [ss1]?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990833",
+      "value": "Turn the block on? Players in the three quizstage battlefield zones (coordinates 22500…28500 × 21400…23400, on any map) will be stopped and warned.",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990834",
+      "value": "Lift the movement restriction on this map?",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990798",
+      "value": "Select a player or a monster as the target",
+      "was": null,
+      "why": "19.10.2026 вкладка «Команды оригинала» GM-меню (штатные операторские команды оригинала; UAsdaAdminSubsystem / UAsdaGmOriginalSubsystem)",
+      "source": "manual"
+    },
+    {
+      "key": "990835",
+      "value": "Item pickup has no key: F is already used by another command. Assign a key in System Option → Setup shortcut key.",
+      "was": null,
+      "why": "26.10.2026 ревизия wave_1025d 2.2: перенос подбора с Пробела на F не удался (F занята) — нотис вместо молчаливого «без клавиши»; ключ — AsdaSystemOptionSubsystem.cpp SysOptLoc::kPickupUnbound (asda.Keys.PickupUnboundNotice)",
+      "source": "manual"
+    },
+    {
+      "key": "12177",
+      "value": "Send: [sd1]-[sd2]-[sd3] [sd4]:[sd5]",
+      "was": "Send [sd1]-[sd2]-[sd3] [sd4][sd5]",
+      "why": "26.10.2026 записки Другу (агент smmessage, решение координатора): время окна-свитка 6614/6624/6634 — без «:» час и минута слипались («Send 2026-10-26 145»); двоеточие между часом и минутой как в RU, «Send:» по указанию координатора",
+      "source": "manual"
+    },
+    {
+      "key": "3577",
+      "value": "∞",
+      "was": null,
+      "why": "28.10.2026 доска объявлений: EN ORIG A1 C4 (CP949 «∞») извлечение отбросило",
+      "source": "manual"
+    },
+    {
+      "key": "112117",
+      "value": "You cannot attack with a fishing rod.",
+      "was": null,
+      "why": "29.10.2026 баг владельца: атака удочкой печатала «#112117» — строк 112117/112118 нет в RU-оригинале (error list ORIG/MINE). Эталон network.c:41030/41374: отказ 4027/4202 код 11/12 → плашка красным. Сервер (GameServer.c:78403-78411): оружие подтип 10 вариант 1 → 11, вариант 2 → 12; у нас вариант 1 = удочки, 2 = буры. Образец — AsdaFableClassic error list: 112118 «Буром драться нельзя.», 112117 «Лопатой драться нельзя.» (у Fable вариант 1 — лопата) → предмет наш, удочка; EN по образцу Global/WoD 112117 «You cannot attack with the auto-shovel.» (их 112118 — другое сообщение)",
+      "source": "manual"
+    },
+    {
+      "key": "112118",
+      "value": "You cannot attack with a drill.",
+      "was": null,
+      "why": "29.10.2026 баг владельца: атака удочкой печатала «#112117» — строк 112117/112118 нет в RU-оригинале (error list ORIG/MINE). Эталон network.c:41030/41374: отказ 4027/4202 код 11/12 → плашка красным. Сервер (GameServer.c:78403-78411): оружие подтип 10 вариант 1 → 11, вариант 2 → 12; у нас вариант 1 = удочки, 2 = буры. Образец — AsdaFableClassic error list: 112118 «Буром драться нельзя.», 112117 «Лопатой драться нельзя.» (у Fable вариант 1 — лопата) → предмет наш, удочка; EN по образцу Global/WoD 112117 «You cannot attack with the auto-shovel.» (их 112118 — другое сообщение)",
+      "source": "manual"
+    },
+    {
+      "key": "2360",
+      "value": "Sowel Efficiency",
+      "was": "Capacity",
+      "why": "31.10.2026 owner decision (player bug 'Capacity instead of Defense'): label of the item's percent capacity (ItemRecord+0x88/+0x8A) that scales the main sowel; ORIG 'Capacity' misled players. Term 'Sowel' as in 110420-110422. 33005 changed together with 2360.",
+      "source": "manual"
+    },
+    {
+      "key": "33005",
+      "value": "Sowel Efficiency",
+      "was": "Capacity",
+      "why": "31.10.2026 owner decision (player bug 'Capacity instead of Defense'): label of the item's percent capacity (ItemRecord+0x88/+0x8A) that scales the main sowel; ORIG 'Capacity' misled players. Term 'Sowel' as in 110420-110422. 33005 changed together with 2360.",
+      "source": "manual"
+    },
+    {
+      "key": "2386",
+      "value": "You will be revived at your home base in [sd1] sec.",
+      "was": "Revived at headquarters. [sd1]Automatically restarting.",
+      "why": "31.10.2026 owner decision (campwar_bugs wave, player complaint 'resurrection in town is wrong, should say in home base'): ORIG EN unclear; [PORT] text per Reports/campwar_bugs/RE_SPEC.md:109 and Reports/faction_select/FLOW.md:285. Was written straight into DT_Loc_GameText_en.csv/asset; added to the ledger 31.10 so full extract_text_lang.py does not revert it.",
+      "source": "manual"
+    },
+    {
+      "key": "109906",
+      "value": "Upgrade separation failed — the upgrade stays on the item. %d empty weapon upgrade stone(s) used.",
+      "was": "Upgrade separation is succeeded by using %d empty weapon upgrade stone.",
+      "why": "01.11.2026 решение владельца («Да, исправь текст») [ИСПРАВЛЕНИЕ] дефект данных оригинала: текст исхода «неудача/крах» (6550 исход 2/3, оружие) дословно повторял успех 109904",
+      "source": "manual"
+    },
+    {
+      "key": "109907",
+      "value": "Upgrade separation failed — the upgrade stays on the item. %d empty armor upgrade stone(s) used.",
+      "was": "Upgrade separation is succeeded by using %d empty armor upgrade stone.",
+      "why": "01.11.2026 решение владельца («Да, исправь текст») [ИСПРАВЛЕНИЕ] дефект данных оригинала: текст исхода «неудача/крах» (6550 исход 2/3, доспех) дословно повторял успех 109905",
+      "source": "manual"
+    },
+    {
+      "key": "108509",
+      "value": "If upgrade separation fails, the upgrade stays on the item, but the empty upgrade stones are used up. Do you want to continue?",
+      "was": "If you fail for Upgrade separation, the item's upgrade level will become +0. Do you want to continue?",
+      "why": "01.11.2026 решение владельца («Да, исправь текст») [ИСПРАВЛЕНИЕ] дефект данных оригинала: предупреждение врало: при неудаче/крахе сервер (Recv_UserUpgradeExtraction@0x534640, UPItemUpgradeSeparation State 3/4) вещь НЕ меняет — тратятся только пустые камни (половина при неудаче, все при крахе)",
+      "source": "manual"
+    },
+    {
+      "key": "20070",
+      "value": "You can send gifts to [ss1].",
+      "was": "You cannot send gifts to [ss1].",
+      "why": "01.11.2026 P101_CashGift [ИСПРАВЛЕНИЕ] Д-К4 (решение владельца PROJECT_P101 §8 п.6): loc 20070 показывается на коде 1 ответа 5073 (получатель найден и в сети, маршрут сохранён — netHandleCraftResultPacket@0xC337E0, network.c:13028-13040), а текст говорил «не можешь»; id не менялся",
+      "source": "manual"
+    },
+    {
+      "key": "2335",
+      "value": "Do not have",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "9462",
+      "value": "Does not exist",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "9497",
+      "value": "Does not exist",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "11013",
+      "value": "N/A",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12190",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12564",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12565",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12566",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12567",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12575",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12576",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12577",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12578",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12586",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12587",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12588",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "12589",
+      "value": "None",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "102901",
+      "value": "No",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "991200",
+      "value": "From [%s]",
+      "was": null,
+      "why": "05.11.2026 чат с Другом [ИСПРАВЛЕНИЕ] (требование владельца: «От [Имя]» / «Кому [Имя]»): входящее сообщение партнёра строкой «От Имя: текст» — пара к loc 5431 «Игроку %s» / «To [%s]»; ключ — asda.Chat.SoulmateToFormat, AsdaNetSubsystem.cpp (5089 flag 1), kLocSoulmateFrom",
+      "source": "manual"
+    },
+    {
+      "key": "991201",
+      "value": "Move to Forgotten Canyon",
+      "was": null,
+      "why": "06.11.2026 решение владельца (Элла, окно расширения клана 14450): EN подписи кнопки 30037",
+      "source": "manual"
+    },
+    {
+      "key": "12444",
+      "value": "■ Current clan member limit",
+      "was": "■ Currently available clan member openings  ",
+      "why": "06.11.2026 решение владельца (Элла, окно расширения клана 14450): поле показывает лимит мест",
+      "source": "manual"
+    },
+    {
+      "key": "12445",
+      "value": "■ New clan member limit",
+      "was": "■ Desired increase in clan membership openings  ",
+      "why": "06.11.2026 решение владельца (Элла, окно расширения клана 14450): поле показывает лимит после расширения",
+      "source": "manual"
+    },
+    {
+      "key": "8128",
+      "value": "Your Soulmate has started summoning a spirit.",
+      "was": "You do not have a Soulmate.",
+      "why": "06.11.2026 слоты Дружбы: в EN-источнике строки сдвинуты на одну. Эталон `CharSkill_SoulRecallCast@0xAD4F50` показывает 8128 при призыве духа (RU «Твой Друг призывает духа»)."
+    },
+    {
+      "key": "8129",
+      "value": "Your Soulmate",
+      "was": "Your Soulmate has started summoning a spirit.",
+      "why": "06.11.2026 слоты Дружбы: в EN-источнике строки сдвинуты на одну. Эталон `CharSkill_SoulRecallCast@0xAD4F50` показывает 8128 при призыве духа (RU «Твой Друг призывает духа»). 8129 в RU — «Твой Друг», в эталоне не вызывается."
+    },
+    {
+      "key": "111018",
+      "value": "Register <FC=FF99FF99>[%s]</F> to the fish guide of <FC=FF99FF99>[%s]</F>. Once registered, the item will disappear. Do you want to continue?",
+      "was": "Register <FC=FF99FF99>[%s]</F> to the fish guide of <FC=FF99FF99>[%s]</F>. Once registeredm the item will disappear. Do you want to continue?",
+      "why": "07.11.2026 опечатка донора registeredm в диалоге регистрации книги рыбака.",
+      "source": "manual"
+    },
+    {"key": "991202", "value": "Take your prize first: wait for the ball, click it and confirm. Then you can close this window.", "was": null, "why": "07.11.2026 решение владельца (премиум-гача): сцену нельзя закрыть, пока приз не забран; окно-сообщение ONEBUT_MSGBOX, ключ asda.Gacha.PrizeCloseLock, kLocPrizeLock", "source": "manual"},
+    {"key": "991210", "value": "You are not in a clan.", "was": null, "why": "08.11.2026 пачка 16 баг 7 [ИСПРАВЛЕНИЕ] (жалоба владельца: без клана «распустить клан» даёт «Only the clan leader can do it»): игрок без клана — гейты 30016 (роспуск, ui_core.c:16154), 30027 (расширение, ui_core.c:16188) и ответ 4109 код 4 на приглашение (сервер ClanMemberInvite_RequestUser: клана нет → 4); оригинал печатает 12431/12417 «только глава»; ключ asda.Clan.NoClanNotice, AsdaClanSubsystem.cpp kNotInClan", "source": "manual"},
+    {"key": "8052", "value": "Element Info", "was": "Characteristic Info", "why": "08.11.2026 решение владельца (пачка 16, баг 5): подпись под-вкладки страницы «Статус» окна C должна помещаться в элемент 981 (72 px, место 68) нормальным кеглем 8 — иначе BuildStatTabCaptions ужимает шрифт; «Characteristic Info» 89 px → кегль 6; на вкладке стихии атаки/защиты 12048…12061, «Element Info» 60 px, в ряд с Basic Info / Ability Info", "source": "manual"},
+    {"key": "991211", "value": "Admins are not accepting gifts :(", "was": null, "why": "08.11.2026 пачка 20 баг 9 — решение владельца (через координатора): подарок персонажу с именем «GM_…» (без учёта регистра) не отправляется, окно 1500; общая точка UAsdaCashGiftSubsystem (5072 SendCheckName, 5074 SendPresent) — окна 6000 (6296/6333) и 15300; ключ asda.CashGift.RefuseGm, AsdaCashGiftSubsystem.cpp kLocGmRefuse; EN — текст владельца дословно", "source": "manual"},
+    {"key": "991300", "value": "GM teleport: moving to another map is turned off; nothing was sent", "was": null, "why": "09.11.2026 пачка 20 — GM-телепорт Ctrl+ЛКМ по мини-карте/карте мира (UAsdaGmOriginalSubsystem::TryMapClickTeleport, ключ asda.Gm.MapClickTeleport; штатная 6010 своей карты); разбор Reports/batch20/gm_teleport/README.md", "source": "manual", "prev": ["GM teleport: the server cannot move you to another map; nothing was sent"]},
+    {"key": "991301", "value": "GM teleport: operator rights are not confirmed by the server; nothing was sent", "was": null, "why": "09.11.2026 пачка 20 — GM-телепорт Ctrl+ЛКМ по мини-карте/карте мира (UAsdaGmOriginalSubsystem::TryMapClickTeleport, ключ asda.Gm.MapClickTeleport; штатная 6010 своей карты); разбор Reports/batch20/gm_teleport/README.md", "source": "manual"},
+    {"key": "991302", "value": "GM teleport: tile [ss1], [ss2] is outside the map; nothing was sent", "was": null, "why": "09.11.2026 пачка 20 — GM-телепорт Ctrl+ЛКМ по мини-карте/карте мира (UAsdaGmOriginalSubsystem::TryMapClickTeleport, ключ asda.Gm.MapClickTeleport; штатная 6010 своей карты); разбор Reports/batch20/gm_teleport/README.md", "source": "manual"},
+    {"key": "991303", "value": "Jump to map [ss1] → [ss2], [ss3]", "was": null, "why": "09.11.2026 пачка 20, P123 («Да, P123») — GM Ctrl+ЛКМ по чужой карте на карте мира: 6010 с картой (тело 8 б, метка A123) → сервер P123 → 5055 переход; UAsdaGmOriginalSubsystem::SendMapTpJump, kJumpMap; ключ asda.Gm.MapTeleportOtherMap", "source": "manual"},
+    {"key": "12961", "value": "Not For Sale", "was": null, "why": "13.11.2026 R5-fix — решение владельца (через координатора): ответ покупки 5071 код 0x0E «предмет не в таблице разрешённых» (оригинал shop_trade.c:3550) берёт loc 12961; в русском эталоне строки нет (оригинал показывал запасную ppStringArray[99] = 1005 — дефект оригинала), в арабской сборке 12961 = «Not For Sale»; потребители AsdaPremiumShopSubsystem_Buy.cpp и AsdaBoosterShopSubsystem_Buy.cpp (AsdaPremiumBuy::kResLoc5071[0x0E]); разбор Reports/refactor_2026-11/r5/fix/b/REPORT_12961.md", "source": "manual"}
+  ]
+}

@@ -1,0 +1,247 @@
+// ★★★ ВОЛНА «СВОЙ БЛИК» (10.09.2026): ШЕЙДЕРЫ СОБСТВЕННОГО LENS FLARE ЭФФЕКТОВ.
+//
+//   ЗАЧЕМ СВОЙ, А НЕ ДВИЖКОВЫЙ. Движковый блик (r.DefaultFeature.LensFlare) — ЭКРАННЫЙ эффект: он
+//   рождается из ярких пикселей ВСЕГО кадра по порогу и не знает, какому объекту принадлежит. Владельцу
+//   нужен блик У КОНКРЕТНЫХ эффектов по галочке, поэтому движковый выключен совсем
+//   (Config/DefaultEngine.ini: r.DefaultFeature.LensFlare=False), а блик рисуем мы сами.
+//
+//   ФАЙЛ ЛЕЖИТ В <Проект>/Shaders. Каталог /Project движок отображает САМ, в PreInit (LaunchEngineLoop.cpp:2557),
+//   ДО сборки карты глобальных шейдеров — поэтому своего AddShaderSourceDirectoryMapping не нужно вовсе.
+//
+//   ДВА ПРОХОДА:
+//     1. MainVisCS — ВИДИМОСТЬ источника по ГЛУБИНЕ КАДРА. Один поток на блик, несколько проб в конусе
+//        вокруг экранной точки источника, доля непеперекрытых проб = мягкая видимость 0..1 + сглаживание
+//        по времени (иначе на краю перекрытия блик мигал бы каждый кадр).
+//     2. MainVS/MainPS — САМА ЦЕПОЧКА ПРИЗРАКОВ: инстансированные квадраты (по одному на пару
+//        «блик × призрак»), позиции — по линии «источник → центр кадра», форма и цвет — из таблицы
+//        призраков (данные, не код), смешивание — аддитивное поверх тонемапленного кадра.
+
+#include "/Engine/Public/Platform.ush"
+
+// ---------------------------------------------------------------------------------------------------
+// ОБЩИЕ ДАННЫЕ (совпадают побайтно с FAsdaFlareGpu / FAsdaFlareGhostGpu в AsdaFlareFrame.h).
+// ★ Только float4-поля: у структурных буферов раскладка HLSL и C++ обязана совпадать байт в байт,
+//   а смешанные float3/float ложатся по-разному на разных компиляторах.
+// ---------------------------------------------------------------------------------------------------
+struct FAsdaFlareGpu
+{
+	float4 PosRadius;   // xyz — мировая точка источника, w — его габаритный радиус, юн
+	float4 Color;       // rgb — цвет эффекта (линейный), a — ОБЩАЯ сила блика (0 = блика нет)
+	float4 Misc;        // x — id слота (целое числом, для истории), y — первый призрак, z — сколько призраков, w — радиус конуса проб, юн
+	float4 Misc2;       // x — экранный масштаб цепочки, y — запас, z — запас, w — запас
+};
+
+struct FAsdaFlareGhostGpu
+{
+	float4 A;           // x — положение по линии (1 = источник, 0 = центр кадра, <0 = за центром)
+	                    // y — размер (доля высоты кадра), z — вес (сила), w — степень спада
+	float4 B;           // x — кольцо (0 пятно … 1 кольцо), y — хроматизм, z — толщина кольца, w — запас
+	float4 Tint;        // rgb — оттенок призрака, a — насколько он подмешивается к цвету эффекта
+};
+
+StructuredBuffer<FAsdaFlareGpu>      Flares;
+StructuredBuffer<FAsdaFlareGhostGpu> Ghosts;
+
+float4x4 FlareViewProj;        // вид×проекция кадра (матрицы самого движка — второй проекции не пишем)
+float4   DepthRect;            // xy — левый верх прямоугольника ГЛУБИНЫ, zw — его размер (пиксели рендера)
+float4   InvDeviceZToWorldZ;   // View.InvDeviceZToWorldZTransform — перевод device Z → линейный Z
+int      NumFlares;            // сколько слотов бликов заполнено
+
+// ---------------------------------------------------------------------------------------------------
+// ПРОХОД 1: ВИДИМОСТЬ ПО ГЛУБИНЕ КАДРА
+// ---------------------------------------------------------------------------------------------------
+#ifdef ASDA_FLARE_VIS_CS
+
+Texture2D FlareSceneDepth;   // буфер глубины сцены (SRV; выборка Load — без сэмплера)
+RWStructuredBuffer<float2> VisBuffer;    // x — сглаженная видимость, y — asfloat(id) владельца слота
+
+int    NumTaps;         // проб в конусе (1 = жёстко «видно/не видно», 8..16 = мягко)
+float  ConeScale;       // множитель радиуса конуса (asda.Fx.Flare.Cone)
+float  ProjScaleY;      // M[1][1] матрицы проекции — перевод «юниты на расстоянии Z» в доли высоты кадра
+float  MinConePx;       // нижний предел радиуса конуса в пикселях: у далёкого источника угловой размер
+                        // вырождается в точку, и одна проба снова дала бы мигание
+float  DepthBiasRel;    // относительный допуск глубины: перекрытием считается только то, что БЛИЖЕ на эту долю
+float  HistoryBlend;    // доля нового значения в сглаживании по времени (1 = без сглаживания)
+uint   bOcclusionOn;    // 0 — проверку перекрытия не делать вовсе (ключ отката)
+
+// Линейная (мировая) глубина из device Z — формула движка ConvertFromDeviceZ
+float AsdaLinearZ(float DeviceZ)
+{
+	return DeviceZ * InvDeviceZToWorldZ.x + InvDeviceZToWorldZ.y
+	     + 1.0f / (DeviceZ * InvDeviceZToWorldZ.z - InvDeviceZToWorldZ.w);
+}
+
+// Точка i из N на спирали Вогеля (равномерное покрытие диска, без таблиц и без случайных чисел)
+float2 AsdaConeTap(int i, int N)
+{
+	const float GoldenAngle = 2.39996323f;
+	const float R = sqrt((float)i / max((float)N, 1.0f));
+	const float A = GoldenAngle * (float)i;
+	return float2(cos(A), sin(A)) * R;
+}
+
+[numthreads(64, 1, 1)]
+void MainVisCS(uint3 DispatchThreadId : SV_DispatchThreadID)
+{
+	const uint Idx = DispatchThreadId.x;
+	if ((int)Idx >= NumFlares) { return; }
+
+	const FAsdaFlareGpu F = Flares[Idx];
+	// ★ id слота — ЧИСЛОМ, а не битовым узором: узор мелкого целого попадает в денормали, а их
+	//   некоторые драйверы гасят в ноль. Счётчик id на игровой стороне ограничен 2^24 — до этого
+	//   предела целое представляется float ТОЧНО, и сравнение на равенство законно.
+	const float Id = F.Misc.x;
+
+	float Vis = 0.0f;
+	if (F.Color.a > 0.0f)
+	{
+		const float4 Clip = mul(float4(F.PosRadius.xyz, 1.0f), FlareViewProj);
+		if (Clip.w > 0.0f)
+		{
+			const float3 Ndc = Clip.xyz / Clip.w;
+			const float2 Uv  = Ndc.xy * float2(0.5f, -0.5f) + 0.5f;
+			const float2 Px  = DepthRect.xy + Uv * DepthRect.zw;
+
+			if (bOcclusionOn == 0)
+			{
+				Vis = 1.0f;   // перекрытие выключено ключом — источник считается видимым всегда
+			}
+			else
+			{
+				const float SrcZ = AsdaLinearZ(Ndc.z);
+				// РАДИУС КОНУСА. В Misc.w лежит радиус в МИРОВЫХ юнитах (доля габарита источника, данные);
+				// здесь он переводится в пиксели через угловой размер: юниты/Z × M[1][1] × полвысоты кадра.
+				// Нижний предел MinConePx обязателен: у далёкого источника угловой размер вырождается
+				// в точку, одна проба = бинарное «видно/не видно» = мигание на краю перекрытия.
+				float ConePx = (F.Misc.w * ConeScale) / max(SrcZ, 1.0f) * ProjScaleY * 0.5f * DepthRect.w;
+				ConePx = max(ConePx, MinConePx);
+
+				const int N = max(NumTaps, 1);
+				float Sum = 0.0f;
+				[loop]
+				for (int i = 0; i < N; ++i)
+				{
+					const float2 Off = AsdaConeTap(i, N) * ConePx;
+					float2 P = Px + Off;
+					P = clamp(P, DepthRect.xy, DepthRect.xy + DepthRect.zw - 1.0f);
+					const float DZ = FlareSceneDepth.Load(int3((int2)P, 0)).r;
+					const float LinZ = AsdaLinearZ(DZ);
+					// МЯГКО, а не «видно/не видно»: доля видимости пробы плавно едет от 0 до 1 в полосе
+					// ±DepthBiasRel вокруг глубины источника. Полностью закрыто — только то, что заметно ближе.
+					const float Ratio = LinZ / max(SrcZ, 1.0f);
+					Sum += smoothstep(1.0f - DepthBiasRel, 1.0f + DepthBiasRel, Ratio);
+				}
+				Vis = Sum / (float)N;
+			}
+		}
+	}
+
+	// СГЛАЖИВАНИЕ ПО ВРЕМЕНИ. История лежит в том же буфере и живёт между кадрами; слот считается
+	// «своим», только если id совпал — иначе новый эффект унаследовал бы чужую видимость и мигнул.
+	const float2 Prev = VisBuffer[Idx];
+	const float  PrevVis = (Prev.y == Id) ? Prev.x : Vis;
+	const float  NewVis = lerp(PrevVis, Vis, saturate(HistoryBlend));
+	VisBuffer[Idx] = float2(NewVis, Id);
+}
+
+#endif // ASDA_FLARE_VIS_CS
+
+// ---------------------------------------------------------------------------------------------------
+// ПРОХОД 2: ЦЕПОЧКА ПРИЗРАКОВ (инстансированные квадраты, аддитивно)
+// ---------------------------------------------------------------------------------------------------
+#ifdef ASDA_FLARE_DRAW
+
+StructuredBuffer<float2> VisBufferSRV;   // результат прохода 1
+
+int    MaxGhosts;       // сколько слотов призраков на блик (шаг инстанса)
+float  AspectRatio;     // ширина/высота прямоугольника ВЫВОДА (кадр после апскейла)
+float  EdgeFadeStart;   // с какой доли радиуса кадра блик начинает гаснуть к краям
+float  EdgeFadePower;   // степень затухания к краям
+float  GlobalScale;     // общий множитель силы (asda.Fx.Flare.Scale)
+
+struct FAsdaFlareInterp
+{
+	float4 Position : SV_POSITION;
+	nointerpolation float4 Color : TEXCOORD0;   // rgb — цвет×сила, a — не используется
+	float2 Uv : TEXCOORD1;                      // локальные координаты квадрата, −1..1
+	nointerpolation float4 Shape : TEXCOORD2;   // x — спад, y — кольцо, z — хроматизм, w — толщина кольца
+};
+
+void MainVS(uint VertexId : SV_VertexID, uint InstanceId : SV_InstanceID, out FAsdaFlareInterp Out)
+{
+	Out = (FAsdaFlareInterp)0;
+	Out.Position = float4(0, 0, 0, 0);   // вырожденный квадрат (w = 0 → отсекается целиком)
+
+	const uint FlareIdx = InstanceId / (uint)max(MaxGhosts, 1);
+	const uint Slot     = InstanceId % (uint)max(MaxGhosts, 1);
+	if ((int)FlareIdx >= NumFlares) { return; }
+
+	const FAsdaFlareGpu F = Flares[FlareIdx];
+	if (F.Color.a <= 0.0f) { return; }
+
+	const uint GhostFirst = (uint)F.Misc.y;
+	const uint GhostCount = (uint)F.Misc.z;
+	if (Slot >= GhostCount) { return; }
+
+	const float4 Clip = mul(float4(F.PosRadius.xyz, 1.0f), FlareViewProj);
+	if (Clip.w <= 0.0f) { return; }              // источник за камерой — блика нет
+	const float2 SrcNdc = Clip.xy / Clip.w;
+
+	const float Vis = VisBufferSRV[FlareIdx].x;
+	if (Vis <= 0.001f) { return; }               // перекрыт — цепочка не рисуется вовсе
+
+	// ЗАТУХАНИЕ К КРАЯМ: чем дальше источник от центра кадра, тем слабее блик (за краем — ноль).
+	const float RadiusNdc = length(SrcNdc * float2(1.0f, 1.0f));
+	const float Edge = 1.0f - saturate((RadiusNdc - EdgeFadeStart) / max(1.4142f - EdgeFadeStart, 0.001f));
+	const float EdgeFade = pow(saturate(Edge), max(EdgeFadePower, 0.01f));
+	if (EdgeFade <= 0.001f) { return; }
+
+	const FAsdaFlareGhostGpu G = Ghosts[GhostFirst + Slot];
+
+	// Положение призрака: по линии «источник → центр кадра». 1 = сам источник, 0 = центр, <0 = за центром.
+	const float2 CenterNdc = SrcNdc * G.A.x;
+
+	// Размер: доля высоты кадра × экранный масштаб цепочки этого блика.
+	const float HalfY = G.A.y * 2.0f * max(F.Misc2.x, 0.0001f);
+	const float HalfX = HalfY / max(AspectRatio, 0.0001f);
+
+	// Квадрат из SV_VertexID: два треугольника без вершинного буфера.
+	const uint Ids[6] = { 0, 1, 2, 1, 3, 2 };
+	const uint C = Ids[VertexId % 6];
+	const float2 Corner = float2((C & 1) ? 1.0f : -1.0f, (C & 2) ? 1.0f : -1.0f);
+
+	Out.Position = float4(CenterNdc + Corner * float2(HalfX, HalfY), 0.0f, 1.0f);
+	Out.Uv = Corner;
+
+	const float3 Tinted = lerp(F.Color.rgb, F.Color.rgb * G.Tint.rgb, saturate(G.Tint.a));
+	Out.Color = float4(Tinted * F.Color.a * G.A.z * Vis * EdgeFade * GlobalScale, 1.0f);
+	Out.Shape = float4(G.A.w, G.B.x, G.B.y, G.B.z);
+}
+
+// Профиль пятна/кольца на расстоянии d (0 в центре, 1 на краю квадрата)
+float AsdaFlareProfile(float d, float Falloff, float Ring, float RingWidth)
+{
+	const float Blob = pow(saturate(1.0f - d), max(Falloff, 0.01f));
+	const float W = max(RingWidth, 0.01f);
+	const float RingV = pow(saturate(1.0f - abs(d - (1.0f - W)) / W), max(Falloff, 0.01f));
+	return lerp(Blob, RingV, saturate(Ring));
+}
+
+void MainPS(FAsdaFlareInterp In, out float4 OutColor : SV_Target0)
+{
+	const float d = length(In.Uv);
+	const float Falloff = In.Shape.x;
+	const float Ring = In.Shape.y;
+	const float Chroma = In.Shape.z;
+	const float RingW = In.Shape.w;
+
+	// ХРОМАТИЗМ: у каналов чуть разный радиус — так у настоящей оптики расходятся цвета на краю призрака.
+	float3 Rgb;
+	Rgb.r = AsdaFlareProfile(d * (1.0f - Chroma), Falloff, Ring, RingW);
+	Rgb.g = AsdaFlareProfile(d,                   Falloff, Ring, RingW);
+	Rgb.b = AsdaFlareProfile(d * (1.0f + Chroma), Falloff, Ring, RingW);
+
+	OutColor = float4(In.Color.rgb * Rgb, 0.0f);
+}
+
+#endif // ASDA_FLARE_DRAW

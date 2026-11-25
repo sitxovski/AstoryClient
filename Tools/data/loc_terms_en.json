@@ -1,0 +1,25 @@
+{
+  "_comment": "Словарь терминов RU/KO → EN английского оригинала для проверки ручных переводов (`Tools/asda_ui_literals_lang.py --check-terms`). Собран 10.10.2026 (en_terms_fix) по парам строк оригинала: GameText.csv ↔ DT_Loc_GameText_en, jobtype, title_list, WarRank, MobNames, item_list, skill_info (`RawAssets/Text/L10N/en/_sources_*.tsv`, источник ≠ ledger), корейский исходник надписей — `Tools/kor_ru_ui.json`. Правило: строка ведомости, у которой RU (или KO-исходник ведомостей title_option/NpcNsr/QuestBook) совпал с `ru`/`ko` (регэксп Python, без учёта регистра) и не совпал с `unless`, обязана НЕ содержать `bad` и содержать `need` (регэкспы по EN, с учётом регистра). `en` — термин оригинала, `evidence` — id строк оригинала.",
+  "terms": [
+    {"ru": "слав", "bad": "\\bFame\\b", "en": "Title (명성, окно званий) / Honor (명예: очки, монеты, боевая слава)", "evidence": "GameText 2404 Cancel selected Title, 2419 Title info (명성 정보), 10082/10127 Honor point, 10128 Honor Coin, 110604 Honor ranks"},
+    {"ru": "\\bвоин", "bad": "\\bFighter", "en": "Warrior", "evidence": "GameText 6915/10426/11836/12301/15114 «Воин» → Warrior"},
+    {"ko": "전사", "bad": "\\bFighter", "en": "Warrior", "evidence": "GameText 6915 Warrior; kor_ru_ui «전사» → «Воин»"},
+    {"ru": "\\bсолдат", "bad": "\\bWarrior", "en": "Fighter (класс) / Soldier (NPC)", "evidence": "GameText 6133/12557/12621 «Солдат» → Fighter, 8439 Above Fighter; jobtype 1"},
+    {"ru": "лагер[ьяеию]", "bad": "\\bCamp\\b", "en": "Faction", "evidence": "진영: GameText 10081 «Армия» → Faction, 10001 Select Faction; «Свет»/«Тьма» → Light/Darkness Faction"},
+    {"ru": "заместител\\w* главы", "bad": "[Ss]ub-?master", "need": "Vice Clan Leader|vice clan leader", "en": "Vice Clan Leader", "evidence": "GameText 17044"},
+    {"ru": "очк\\w* активности", "bad": "[Aa]ctivity point", "need": "\\bAP\\b", "en": "AP (Owned AP / Contributed AP)", "evidence": "GameText 17003–17008, 17022, 17144"},
+    {"ru": "^поиск (группы|отряда)$", "need": "Find [Pp]arty", "en": "Find Party", "evidence": "GameText 11800/12195"},
+    {"ru": "личн\\w* магазин", "bad": "[Pp]ersonal [Ss]tore", "need": "[Pp]rivate [Ss]hop", "en": "Private shop", "evidence": "ExtraMenu 3 Private shop menu, Spremium 344"},
+    {"ru": "быстр\\w* доступ", "bad": "QuickSlot|[Qq]uick slot bar|shortcut key", "en": "Quickslot / Quickslot Page N / Quickslot Shortkey N", "evidence": "GameText 9100, 11202–11214"},
+    {"ru": "\\bсклад", "bad": "\\b[Ss]torage\\b", "en": "Warehouse", "evidence": "GameText 6918/6919, NPC «Warehouse …» (창고)"},
+    {"ru": "(^|[^а-яё])класс(ы|а|е|ов)?([^а-яё]|$)", "unless": "класса [a-zа-я]\\b|класс навыка", "bad": "\\b[Cc]lass(es)?\\b", "en": "Job (직업)", "evidence": "GameText 2297/10056/11030 «Профессия» → Job, 12912 Character's Job, 8428 Above First Job"},
+    {"ru": "кай[юяие]\\b", "need": "Kaiya", "en": "Kaiya", "evidence": "MobNames 285/590, pettable 12"},
+    {"ru": "страж\\w* душ|хранител\\w* душ", "need": "Soul Guardian", "en": "Soul Guardian", "evidence": "GameText 11232–11234, 30106–30108, 30474/30475"},
+    {"ru": "королевств\\w* истори", "need": "Tales Kingdom", "en": "Tales Kingdom", "evidence": "item_tooltip 41780 (이야기왕국)"},
+    {"ru": "инкубатор", "bad": "[Hh]atchery", "need": "[Ii]ncubator", "en": "Incubator", "evidence": "item_list «Common Incubator», «Premium Pet Incubator»"},
+    {"ko": "속성", "need": "Characteristic", "en": "Characteristic", "evidence": "GameText 12049–12061 Fire/Water/Earth/Climate/Light/Darkness Characteristic"},
+    {"ru": "^стихия \\w+$", "need": "Characteristic", "en": "Characteristic", "evidence": "GameText 12049–12061"},
+    {"ko": "제련", "bad": "Crafting", "need": "Smelting|Refining", "en": "Smelting", "evidence": "GameText 15145 Smelting Item Option, 5581, 8611"},
+    {"ru": "преследовател", "need": "Chaser", "en": "Chaser", "evidence": "title_list 25 (체이서)"}
+  ]
+}

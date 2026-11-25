@@ -1,0 +1,60 @@
+# Copyright (c) 2026 @sitxovski (Discord)
+# your local answers and secrets - never commit
+_setup/astory.settings.local.json
+**/secrets/
+*.env
+*.key
+*.pem
+*.pfx
+*.p12
+# general
+__pycache__/
+*.pyc
+*.log
+*.bak
+*.bak*
+*.tmp
+*.stackdump
+.vs/
+
+# game resources: separate download ("AstoryClient Resources")
+Content/
+# your pak keys (Tools/gen_build_crypto.py)
+Config/DefaultCrypto.ini
+Source/AsdaCore/Private/Crypto/AsdaPakKey.generated.h
+# Unreal Engine build output and caches
+Binaries/
+Intermediate/
+Saved/
+Saved_*/
+DerivedDataCache/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+RawAssets/
+*.sln
+*.slnx
+# launcher build
+Launcher/build/
+Launcher/dist/
+# release pipeline working folders
+DEPLOY/**/Logs/
+DEPLOY/Patch/Inbox/
+DEPLOY/Installer/Output/
+# GAME is collected by Build/5_Collect_GAME.bat (only README.md is tracked)
+DEPLOY/GAME/manifest.json
+DEPLOY/GAME/Launcher/
+DEPLOY/GAME/Redist/
+DEPLOY/GAME/Legal/
+# pinned SSH host key of YOUR update server (ssh-keyscan, see DEPLOY/README.md)
+Tools/data/updater_known_hosts
+Tools/_out/
+# built files and SDK binaries (download the EOS SDK: Prerequisites/README.md)
+DEPLOY/Installer/Boot/build/
+Source/ThirdParty/AsdaEOSSDK/SDK/Bin/
+Source/ThirdParty/AsdaEOSSDK/SDK/Lib/
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.res

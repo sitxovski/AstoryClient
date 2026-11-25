@@ -1,0 +1,8348 @@
+{
+ "alpen": {
+  "MapEffect_eff_mdel_alpen_smoke_00_01": {
+   "loc": [
+    -5102.687,
+    43766.066,
+    1596.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_02": {
+   "loc": [
+    -4983.224,
+    43660.266,
+    1576.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_pado-00_01": {
+   "loc": [
+    -25805.105,
+    5815.583,
+    391.211
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -25205.11,
+      5815.58,
+      391.21
+     ],
+     "ext": [
+      1600.0,
+      900.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_pado-00_02": {
+   "loc": [
+    -25920.961,
+    6175.984,
+    371.211
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -25320.96,
+      6175.98,
+      371.21
+     ],
+     "ext": [
+      1600.0,
+      900.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_pado-00_03": {
+   "loc": [
+    -26039.262,
+    7101.906,
+    301.211
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -25439.26,
+      7101.91,
+      301.21
+     ],
+     "ext": [
+      1600.0,
+      900.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_pado-00_04": {
+   "loc": [
+    -26638.096,
+    16539.994,
+    331.211
+   ],
+   "rot": [
+    0.0,
+    10.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     0.984808,
+     0.173648,
+     0.0
+    ],
+    [
+     -0.173648,
+     0.984808,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.173648,
+       0.984808,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.984808,
+       -0.173648,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.173648,
+       0.984808,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.984808,
+       -0.173648,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.173648,
+       0.984808,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.984808,
+       -0.173648,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.173648,
+       0.984808,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.984808,
+       -0.173648,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.173648,
+       0.984808,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.984808,
+       -0.173648,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -26047.21,
+      16644.18,
+      331.21
+     ],
+     "ext": [
+      1731.98,
+      1164.16,
+      0.0
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_pado-00_05": {
+   "loc": [
+    -26865.158,
+    17580.824,
+    311.211
+   ],
+   "rot": [
+    0.0,
+    30.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     0.866025,
+     0.500001,
+     0.0
+    ],
+    [
+     -0.500001,
+     0.866025,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.500001,
+       0.866025,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.866025,
+       -0.500001,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.500001,
+       0.866025,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.866025,
+       -0.500001,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.500001,
+       0.866025,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.866025,
+       -0.500001,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.500001,
+       0.866025,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.866025,
+       -0.500001,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.500001,
+       0.866025,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.866025,
+       -0.500001,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -26345.54,
+      17880.82,
+      311.21
+     ],
+     "ext": [
+      1835.64,
+      1579.42,
+      0.0
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_03": {
+   "loc": [
+    -31632.006,
+    15206.53,
+    2196.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_04": {
+   "loc": [
+    -31321.021,
+    16040.447,
+    2116.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_05": {
+   "loc": [
+    -31241.506,
+    16530.764,
+    2036.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_06": {
+   "loc": [
+    -31277.439,
+    17360.508,
+    2556.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_alpenjewels_a_00_01": {
+   "loc": [
+    -31836.781,
+    18452.461,
+    2153.691
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object2",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object2",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object2",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object2",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       1.0,
+       0.0
+      ],
+      [
+       -1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    },
+    {
+     "name": "Object2",
+     "type": "0x12",
+     "kind": "mesh12",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       0.0,
+       0.0
+      ],
+      [
+       -0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 264,
+     "c": [
+      -31836.73,
+      18452.48,
+      2200.73
+     ],
+     "ext": [
+      186.57,
+      186.57,
+      201.17
+     ]
+    },
+    "1": {
+     "n": 264,
+     "c": [
+      -31836.84,
+      18452.48,
+      2185.5
+     ],
+     "ext": [
+      219.5,
+      219.5,
+      236.68
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_07": {
+   "loc": [
+    -34606.441,
+    8533.613,
+    1196.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_08": {
+   "loc": [
+    -33045.891,
+    15079.948,
+    1946.549
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_09": {
+   "loc": [
+    -32604.289,
+    19082.604,
+    2221.114
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_alpenbluelight_a_00_01": {
+   "loc": [
+    -37597.761,
+    15400.039,
+    2024.988
+   ],
+   "rot": [
+    17.4142,
+    -12.682,
+    42.5589
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     0.930888,
+     -0.209477,
+     0.299277
+    ],
+    [
+     0.359186,
+     0.674174,
+     -0.645348
+    ],
+    [
+     -0.066579,
+     0.708243,
+     0.702822
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.066579,
+       -0.708243,
+       -0.702822
+      ],
+      [
+       0.359186,
+       0.674174,
+       -0.645348
+      ],
+      [
+       -0.930888,
+       0.209477,
+       -0.299277
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.066579,
+       -0.708243,
+       -0.702822
+      ],
+      [
+       0.359186,
+       0.674174,
+       -0.645348
+      ],
+      [
+       -0.930888,
+       0.209477,
+       -0.299277
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.066579,
+       -0.708243,
+       -0.702822
+      ],
+      [
+       0.359186,
+       0.674174,
+       -0.645348
+      ],
+      [
+       -0.930888,
+       0.209477,
+       -0.299277
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.066579,
+       -0.708243,
+       -0.702822
+      ],
+      [
+       0.359186,
+       0.674174,
+       -0.645348
+      ],
+      [
+       -0.930888,
+       0.209477,
+       -0.299277
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.066579,
+       -0.708243,
+       -0.702822
+      ],
+      [
+       0.359186,
+       0.674174,
+       -0.645348
+      ],
+      [
+       -0.930888,
+       0.209477,
+       -0.299277
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -37510.7,
+      15569.2,
+      1862.77
+     ],
+     "ext": [
+      271.84,
+      332.12,
+      327.66
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_alpengreenlight_a_00_01": {
+   "loc": [
+    -37816.675,
+    16584.042,
+    2118.533
+   ],
+   "rot": [
+    -8.3869,
+    62.6974,
+    139.3032
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     0.453784,
+     0.879094,
+     -0.145858
+    ],
+    [
+     0.630083,
+     -0.432277,
+     -0.645083
+    ],
+    [
+     -0.630139,
+     0.200826,
+     -0.750062
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.630139,
+       -0.200826,
+       0.750062
+      ],
+      [
+       0.630083,
+       -0.432277,
+       -0.645083
+      ],
+      [
+       -0.453784,
+       -0.879094,
+       0.145858
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.630139,
+       -0.200826,
+       0.750062
+      ],
+      [
+       0.630083,
+       -0.432277,
+       -0.645083
+      ],
+      [
+       -0.453784,
+       -0.879094,
+       0.145858
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.630139,
+       -0.200826,
+       0.750062
+      ],
+      [
+       0.630083,
+       -0.432277,
+       -0.645083
+      ],
+      [
+       -0.453784,
+       -0.879094,
+       0.145858
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.630139,
+       -0.200826,
+       0.750062
+      ],
+      [
+       0.630083,
+       -0.432277,
+       -0.645083
+      ],
+      [
+       -0.453784,
+       -0.879094,
+       0.145858
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.630139,
+       -0.200826,
+       0.750062
+      ],
+      [
+       0.630083,
+       -0.432277,
+       -0.645083
+      ],
+      [
+       -0.453784,
+       -0.879094,
+       0.145858
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -37660.49,
+      16473.39,
+      1957.69
+     ],
+     "ext": [
+      325.56,
+      288.22,
+      327.88
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_alpenredlight_a_00_01": {
+   "loc": [
+    -37627.882,
+    15422.152,
+    2118.533
+   ],
+   "rot": [
+    51.0933,
+    114.6262,
+    90.7702
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     -0.261708,
+     0.57093,
+     0.778169
+    ],
+    [
+     -0.312011,
+     0.712929,
+     -0.627998
+    ],
+    [
+     -0.913322,
+     -0.40715,
+     -0.008442
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.913322,
+       0.40715,
+       0.008442
+      ],
+      [
+       -0.312011,
+       0.712929,
+       -0.627998
+      ],
+      [
+       0.261708,
+       -0.57093,
+       -0.778169
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.913322,
+       0.40715,
+       0.008442
+      ],
+      [
+       -0.312011,
+       0.712929,
+       -0.627998
+      ],
+      [
+       0.261708,
+       -0.57093,
+       -0.778169
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.913322,
+       0.40715,
+       0.008442
+      ],
+      [
+       -0.312011,
+       0.712929,
+       -0.627998
+      ],
+      [
+       0.261708,
+       -0.57093,
+       -0.778169
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.913322,
+       0.40715,
+       0.008442
+      ],
+      [
+       -0.312011,
+       0.712929,
+       -0.627998
+      ],
+      [
+       0.261708,
+       -0.57093,
+       -0.778169
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.913322,
+       0.40715,
+       0.008442
+      ],
+      [
+       -0.312011,
+       0.712929,
+       -0.627998
+      ],
+      [
+       0.261708,
+       -0.57093,
+       -0.778169
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -37705.12,
+      15598.71,
+      1959.25
+     ],
+     "ext": [
+      265.35,
+      336.99,
+      325.23
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_alpenyellowlight_a_00_01": {
+   "loc": [
+    -37818.495,
+    16594.364,
+    2012.5
+   ],
+   "rot": [
+    -36.1205,
+    111.5396,
+    66.4948
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     -0.296572,
+     0.751367,
+     -0.589485
+    ],
+    [
+     -0.172512,
+     -0.649249,
+     -0.740753
+    ],
+    [
+     -0.9393,
+     -0.117994,
+     0.322169
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.9393,
+       0.117994,
+       -0.322169
+      ],
+      [
+       -0.172512,
+       -0.649249,
+       -0.740753
+      ],
+      [
+       0.296572,
+       -0.751367,
+       0.589485
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.9393,
+       0.117994,
+       -0.322169
+      ],
+      [
+       -0.172512,
+       -0.649249,
+       -0.740753
+      ],
+      [
+       0.296572,
+       -0.751367,
+       0.589485
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.9393,
+       0.117994,
+       -0.322169
+      ],
+      [
+       -0.172512,
+       -0.649249,
+       -0.740753
+      ],
+      [
+       0.296572,
+       -0.751367,
+       0.589485
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.9393,
+       0.117994,
+       -0.322169
+      ],
+      [
+       -0.172512,
+       -0.649249,
+       -0.740753
+      ],
+      [
+       0.296572,
+       -0.751367,
+       0.589485
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.9393,
+       0.117994,
+       -0.322169
+      ],
+      [
+       -0.172512,
+       -0.649249,
+       -0.740753
+      ],
+      [
+       0.296572,
+       -0.751367,
+       0.589485
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -37860.75,
+      16429.85,
+      1829.04
+     ],
+     "ext": [
+      275.35,
+      328.41,
+      340.32
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_alpenflooer_a_00_01": {
+   "loc": [
+    -37522.609,
+    15979.716,
+    1440.0
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-2",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "1-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       1.0,
+       -0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       1.0,
+       -0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -1.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -0.0,
+       -1.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "2-3",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       1.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       -1.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -37822.61,
+      15979.72,
+      1488.0
+     ],
+     "ext": [
+      600.0,
+      600.0,
+      0.0
+     ]
+    },
+    "1": {
+     "n": 4,
+     "c": [
+      -37822.61,
+      15979.72,
+      1488.0
+     ],
+     "ext": [
+      400.0,
+      400.0,
+      0.0
+     ]
+    },
+    "2": {
+     "n": 4,
+     "c": [
+      -37522.61,
+      15579.72,
+      1488.0
+     ],
+     "ext": [
+      600.0,
+      600.0,
+      0.0
+     ]
+    },
+    "3": {
+     "n": 4,
+     "c": [
+      -37522.61,
+      15579.72,
+      1488.0
+     ],
+     "ext": [
+      400.0,
+      400.0,
+      0.0
+     ]
+    },
+    "4": {
+     "n": 4,
+     "c": [
+      -37622.61,
+      16379.72,
+      1488.0
+     ],
+     "ext": [
+      600.0,
+      600.0,
+      0.0
+     ]
+    },
+    "5": {
+     "n": 4,
+     "c": [
+      -37622.61,
+      16379.72,
+      1488.0
+     ],
+     "ext": [
+      400.0,
+      400.0,
+      0.0
+     ]
+    },
+    "6": {
+     "n": 4,
+     "c": [
+      -37522.61,
+      16129.72,
+      1488.0
+     ],
+     "ext": [
+      600.0,
+      600.0,
+      0.0
+     ]
+    },
+    "7": {
+     "n": 4,
+     "c": [
+      -37522.61,
+      16129.72,
+      1488.0
+     ],
+     "ext": [
+      400.0,
+      400.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_rainbow2_a_00_01": {
+   "loc": [
+    -36053.699,
+    19349.796,
+    1771.194
+   ],
+   "rot": [
+    0.5599,
+    98.7465,
+    -89.4913
+   ],
+   "scale": [
+    22.99089,
+    22.99088,
+    22.9909
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     -0.152056,
+     0.988323,
+     0.009772
+    ],
+    [
+     -0.00729,
+     -0.011008,
+     0.999913
+    ],
+    [
+     0.988345,
+     0.151972,
+     0.008878
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.00729,
+       -0.011008,
+       0.999913
+      ],
+      [
+       0.152056,
+       -0.988323,
+       -0.009772
+      ],
+      [
+       -0.988345,
+       -0.151972,
+       -0.008878
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.988345,
+       0.151972,
+       0.008878
+      ],
+      [
+       0.152056,
+       -0.988323,
+       -0.009772
+      ],
+      [
+       -0.00729,
+       -0.011008,
+       0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.00729,
+       0.011008,
+       -0.999913
+      ],
+      [
+       0.152056,
+       -0.988323,
+       -0.009772
+      ],
+      [
+       0.988345,
+       0.151972,
+       0.008878
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.988345,
+       -0.151972,
+       -0.008878
+      ],
+      [
+       0.152056,
+       -0.988323,
+       -0.009772
+      ],
+      [
+       0.00729,
+       0.011008,
+       -0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.00729,
+       -0.011008,
+       0.999913
+      ],
+      [
+       0.152056,
+       -0.988323,
+       -0.009772
+      ],
+      [
+       -0.988345,
+       -0.151972,
+       -0.008878
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -36052.43,
+      19348.67,
+      1904.65
+     ],
+     "ext": [
+      447.82,
+      146.67,
+      441.28
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_mdel_alpen_smoke_00_10": {
+   "loc": [
+    -33234.031,
+    19716.574,
+    2201.114
+   ],
+   "rot": [
+    0.0,
+    0.0,
+    -0.0
+   ],
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attached": false,
+   "actor_axes": [
+    [
+     1.0,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     1.0,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     1.0
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3911560",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.0,
+       0.0,
+       1.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {}
+  },
+  "MapEffect_eff_rainbow_a_00_01": {
+   "loc": [
+    -31301.478,
+    19962.077,
+    2769.646
+   ],
+   "rot": [
+    0.3873,
+    -49.3081,
+    -89.3502
+   ],
+   "scale": [
+    58.35834,
+    58.35832,
+    58.35836
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     0.651976,
+     -0.75821,
+     0.00676
+    ],
+    [
+     0.004192,
+     0.01252,
+     0.999913
+    ],
+    [
+     -0.758228,
+     -0.651891,
+     0.011341
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.004192,
+       0.01252,
+       0.999913
+      ],
+      [
+       0.651976,
+       -0.75821,
+       0.00676
+      ],
+      [
+       0.758228,
+       0.651891,
+       -0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.758228,
+       -0.651891,
+       0.011341
+      ],
+      [
+       0.651976,
+       -0.75821,
+       0.00676
+      ],
+      [
+       0.004192,
+       0.01252,
+       0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.004192,
+       -0.01252,
+       -0.999913
+      ],
+      [
+       0.651976,
+       -0.75821,
+       0.00676
+      ],
+      [
+       -0.758228,
+       -0.651891,
+       0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.758228,
+       0.651891,
+       -0.011341
+      ],
+      [
+       0.651976,
+       -0.75821,
+       0.00676
+      ],
+      [
+       -0.004192,
+       -0.01252,
+       -0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.004192,
+       0.01252,
+       0.999913
+      ],
+      [
+       0.651976,
+       -0.75821,
+       0.00676
+      ],
+      [
+       0.758228,
+       0.651891,
+       -0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.651976,
+       -0.758209,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -31304.43,
+      19962.56,
+      3108.41
+     ],
+     "ext": [
+      981.4,
+      884.03,
+      1119.62
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_rainbow_a_00_02": {
+   "loc": [
+    -36927.223,
+    9121.867,
+    2269.646
+   ],
+   "rot": [
+    0.3873,
+    -59.3081,
+    -89.3502
+   ],
+   "scale": [
+    58.35834,
+    58.35832,
+    58.35835
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     0.510409,
+     -0.859905,
+     0.00676
+    ],
+    [
+     0.006302,
+     0.011602,
+     0.999913
+    ],
+    [
+     -0.859909,
+     -0.510322,
+     0.011341
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.006302,
+       0.011602,
+       0.999913
+      ],
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.859909,
+       0.510322,
+       -0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859909,
+       -0.510322,
+       0.011341
+      ],
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.006302,
+       0.011602,
+       0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.006302,
+       -0.011602,
+       -0.999913
+      ],
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       -0.859909,
+       -0.510322,
+       0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.859909,
+       0.510322,
+       -0.011341
+      ],
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       -0.006302,
+       -0.011602,
+       -0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.006302,
+       0.011602,
+       0.999913
+      ],
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.859909,
+       0.510322,
+       -0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510409,
+       -0.859905,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -36930.05,
+      9122.85,
+      2608.41
+     ],
+     "ext": [
+      1066.22,
+      746.43,
+      1119.62
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_alpenwave_a_00_01": {
+   "loc": [
+    -38143.049,
+    15926.584,
+    1578.338
+   ],
+   "rot": [
+    -1.7001,
+    100.0248,
+    -85.2038
+   ],
+   "scale": [
+    1.04084,
+    1.04084,
+    1.04084
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     -0.173999,
+     0.984299,
+     -0.029668
+    ],
+    [
+     -0.087481,
+     0.014558,
+     0.99606
+    ],
+    [
+     0.980852,
+     0.175908,
+     0.083575
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "Copy_1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "Copy_1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "Copy_1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "Copy_1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    },
+    {
+     "name": "Copy_1",
+     "type": "0xB",
+     "kind": "quad",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.087481,
+       -0.014558,
+       -0.99606
+      ],
+      [
+       0.980852,
+       0.175908,
+       0.083575
+      ],
+      [
+       0.173999,
+       -0.984299,
+       0.029668
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 4,
+     "c": [
+      -38075.59,
+      15941.83,
+      1688.54
+     ],
+     "ext": [
+      40.82,
+      155.95,
+      160.14
+     ]
+    },
+    "1": {
+     "n": 4,
+     "c": [
+      -37907.14,
+      15972.04,
+      1702.89
+     ],
+     "ext": [
+      130.64,
+      499.03,
+      512.46
+     ]
+    }
+   }
+  },
+  "MapEffect_eff_rainbow_a_00_03": {
+   "loc": [
+    -40906.735,
+    20237.49,
+    2829.646
+   ],
+   "rot": [
+    0.3873,
+    -149.3081,
+    -89.3502
+   ],
+   "scale": [
+    58.35834,
+    58.35832,
+    58.35835
+   ],
+   "chiral": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "attached": true,
+   "actor_axes": [
+    [
+     -0.859905,
+     -0.510409,
+     0.00676
+    ],
+    [
+     0.011602,
+     -0.006302,
+     0.999913
+    ],
+    [
+     -0.510322,
+     0.859908,
+     0.011341
+    ]
+   ],
+   "emitters": [
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.011602,
+       -0.006302,
+       0.999913
+      ],
+      [
+       -0.859905,
+       -0.510409,
+       0.00676
+      ],
+      [
+       0.510322,
+       -0.859908,
+       -0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.510322,
+       0.859908,
+       0.011341
+      ],
+      [
+       -0.859905,
+       -0.510409,
+       0.00676
+      ],
+      [
+       0.011602,
+       -0.006302,
+       0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.011602,
+       0.006302,
+       -0.999913
+      ],
+      [
+       -0.859905,
+       -0.510409,
+       0.00676
+      ],
+      [
+       -0.510322,
+       0.859908,
+       0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.510322,
+       -0.859908,
+       -0.011341
+      ],
+      [
+       -0.859905,
+       -0.510409,
+       0.00676
+      ],
+      [
+       -0.011602,
+       0.006302,
+       -0.999913
+      ]
+     ]
+    },
+    {
+     "name": "Object1",
+     "type": "0xE",
+     "kind": "ring",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       0.011602,
+       -0.006302,
+       0.999913
+      ],
+      [
+       -0.859905,
+       -0.510409,
+       0.00676
+      ],
+      [
+       0.510322,
+       -0.859908,
+       -0.011341
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object3907488",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t0",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t1/2",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "t3/4",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    },
+    {
+     "name": "Object390748",
+     "type": "0xD",
+     "kind": "cone",
+     "node": "tE",
+     "strict_rot": false,
+     "strict_orbit": false,
+     "strict_pos": false,
+     "skin_bones": 0,
+     "basis": [
+      [
+       -0.859905,
+       -0.51041,
+       0.00676
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ],
+      [
+       0.0,
+       0.0,
+       0.0
+      ]
+     ]
+    }
+   ],
+   "runtime_sections": {
+    "0": {
+     "n": 60,
+     "c": [
+      -40905.75,
+      20240.32,
+      3168.41
+     ],
+     "ext": [
+      746.43,
+      1066.22,
+      1119.62
+     ]
+    }
+   }
+  }
+ }
+}

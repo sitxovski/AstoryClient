@@ -1,0 +1,38 @@
+{
+"map": "Mountain Flamion",
+"generator": "asda_portal_pockets.py (04.11.2026)",
+"server_sim_md5": "cc87b87a758e335f99a2e71a583f7495",
+"pocket_reason": "тупик за зоной портала под геометрией объектов",
+"pocket_tiles": [],
+"parity_reason": "проходим по .TER, закрыт битом 0 .sim GameServer",
+"parity_tiles": [
+[
+391,
+61
+],
+[
+432,
+79
+],
+[
+433,
+79
+],
+[
+461,
+48
+],
+[
+461,
+49
+],
+[
+462,
+48
+],
+[
+462,
+49
+]
+]
+}

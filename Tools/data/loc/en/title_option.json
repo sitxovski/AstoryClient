@@ -1,0 +1,761 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_title_option_en (ключ — как в _gaps_title_option.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "1.OptionStatName",
+      "value": "Max Attack",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "2.OptionStatName",
+      "value": "Max Magic Attack",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "3.OptionStatName",
+      "value": "Max Defense",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "4.OptionStatName",
+      "value": "Normal Attack Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "5.OptionStatName",
+      "value": "Max HP",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "6.OptionStatName",
+      "value": "Max MP",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "7.OptionStatName",
+      "value": "HP Potion Recovery",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "8.OptionStatName",
+      "value": "MP Potion Recovery",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "9.OptionStatName",
+      "value": "HP Regeneration",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "10.OptionStatName",
+      "value": "MP Regeneration",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "11.OptionStatName",
+      "value": "Fire Characteristic",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 속성 → Characteristic (GameText 12049) | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "12.OptionStatName",
+      "value": "Water Characteristic",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 12050 | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "13.OptionStatName",
+      "value": "Earth Characteristic",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 12051 | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "14.OptionStatName",
+      "value": "Climate Characteristic",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 12052 | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "15.OptionStatName",
+      "value": "Light Characteristic",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 12053 | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "16.OptionStatName",
+      "value": "Darkness Characteristic",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): GameText 12054 | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "17.OptionStatName",
+      "value": "Fire Resistance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "18.OptionStatName",
+      "value": "Water Resistance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "19.OptionStatName",
+      "value": "Earth Resistance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "20.OptionStatName",
+      "value": "Climate Resistance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "21.OptionStatName",
+      "value": "Light Resistance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "22.OptionStatName",
+      "value": "Darkness Resistance",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): skill_info 553 Darkness Resistance | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "23.OptionStatName",
+      "value": "Smelting Success Rate",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 제련 → Smelting (GameText 8611, 15145) | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "24.OptionStatName",
+      "value": "One Hand Sword Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "25.OptionStatName",
+      "value": "Spear Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "26.OptionStatName",
+      "value": "Two Hand Sword Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "27.OptionStatName",
+      "value": "Crossbow Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "28.OptionStatName",
+      "value": "Bow Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "29.OptionStatName",
+      "value": "Ballista Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "30.OptionStatName",
+      "value": "Staff Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "31.OptionStatName",
+      "value": "One Hand Sword Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "32.OptionStatName",
+      "value": "Spear Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "33.OptionStatName",
+      "value": "Two Hand Sword Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "34.OptionStatName",
+      "value": "Crossbow Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "35.OptionStatName",
+      "value": "Bow Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "36.OptionStatName",
+      "value": "Ballista Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "37.OptionStatName",
+      "value": "Staff Skill Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "38.OptionStatName",
+      "value": "Hunting Exp",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "39.OptionStatName",
+      "value": "Quest Exp",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "40.OptionStatName",
+      "value": "Skill Range",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "41.OptionStatName",
+      "value": "Smelting Level",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 제련 → Smelting (GameText 5581) | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "42.OptionStatName",
+      "value": "Recovery Amount",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "43.OptionStatName",
+      "value": "Item Drop Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "44.OptionStatName",
+      "value": "Min Attack",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "45.OptionStatName",
+      "value": "Min Magic Attack",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "46.OptionStatName",
+      "value": "Min Defense",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "47.OptionStatName",
+      "value": "Min/Max Attack",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "48.OptionStatName",
+      "value": "Min/Max Magic Attack",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "49.OptionStatName",
+      "value": "Min/Max Defense",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "50.OptionStatName",
+      "value": "Dodging",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "51.OptionStatName",
+      "value": "Min Block Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "52.OptionStatName",
+      "value": "Max Block Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "53.OptionStatName",
+      "value": "Min/Max Block Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "54.OptionStatName",
+      "value": "Less Damage when Blocked",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "55.OptionStatName",
+      "value": "Sub Option Prob(OHS Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "56.OptionStatName",
+      "value": "Sub Option Prob(Spear Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "57.OptionStatName",
+      "value": "Sub Option Prob(THS Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "58.OptionStatName",
+      "value": "Sub Option Prob(Crossbow Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "59.OptionStatName",
+      "value": "Sub Option Prob(Bow Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "60.OptionStatName",
+      "value": "Sub Option Prob(Ballista Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "61.OptionStatName",
+      "value": "Sub Option Prob(Staff Skill)",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "62.OptionStatName",
+      "value": "Healing Skill",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "63.OptionStatName",
+      "value": "Recovery Skill",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "64.OptionStatName",
+      "value": "Protective Shield Skill",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "65.OptionStatName",
+      "value": "Strength",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "66.OptionStatName",
+      "value": "Stamina",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "67.OptionStatName",
+      "value": "Intelligence",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "68.OptionStatName",
+      "value": "Energy",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "69.OptionStatName",
+      "value": "Dexterity",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "70.OptionStatName",
+      "value": "Luck",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "71.OptionStatName",
+      "value": "All Stats",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "72.OptionStatName",
+      "value": "Skill MP Consumption",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "73.OptionStatName",
+      "value": "EXP in Party Play",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "74.OptionStatName",
+      "value": "EXP in Solo Play",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "75.OptionStatName",
+      "value": "All Soulmate Stats",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "76.OptionStatName",
+      "value": "Item Selling Price",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "77.OptionStatName",
+      "value": "Max Carry Weight",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "78.OptionStatName",
+      "value": "Item Purchase Discount",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "79.OptionStatName",
+      "value": "Upgrade Cost Discount",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "80.OptionStatName",
+      "value": "Holy Water Purchase Cost",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "81.OptionStatName",
+      "value": "Smelting Fee Discount",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 제련 → Smelting (GameText 15145) | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "82.OptionStatName",
+      "value": "Ignore Physical Defense",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "83.OptionStatName",
+      "value": "% Physical Defense",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "84.OptionStatName",
+      "value": "All Clan Member Stats",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "85.OptionStatName",
+      "value": "Treasure Box Acquisition",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "86.OptionStatName",
+      "value": "Booster Rare Chance",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "87.OptionStatName",
+      "value": "Premium Consumable Effect",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "88.OptionStatName",
+      "value": "Soulmate Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "89.OptionStatName",
+      "value": "Shield Wall Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "90.OptionStatName",
+      "value": "Amplify Damage Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "91.OptionStatName",
+      "value": "Body of Berserker Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "92.OptionStatName",
+      "value": "Archer's Assault Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "93.OptionStatName",
+      "value": "Master of Stealth Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "94.OptionStatName",
+      "value": "Soul of Master Archer Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "95.OptionStatName",
+      "value": "Light of Heaven Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "96.OptionStatName",
+      "value": "Fire Inferno Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "97.OptionStatName",
+      "value": "Earth Flood Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98.OptionStatName",
+      "value": "All Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99.OptionStatName",
+      "value": "Warrior Skill Cool Time",
+      "was": null,
+      "why": "10.10.2026 термины по EN оригинала (en_terms_fix): 전사 → Warrior (GameText 6915) | прежде: 09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "100.OptionStatName",
+      "value": "Archer Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "101.OptionStatName",
+      "value": "Mage Skill Cool Time",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "102.OptionStatName",
+      "value": "Movement Speed",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "103.OptionStatName",
+      "value": "Mining Success Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "104.OptionStatName",
+      "value": "All Skill Damage",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "105.OptionStatName",
+      "value": "All Weapon Critical Hit Rate",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); 09.10.2026 ревизия мультиязычности МЕЛК-2: термин как у EN-оригинала (GameText 8627 «Spear Skill Critical Hit Rate»)",
+      "source": "manual"
+    },
+    {
+      "key": "106.OptionStatName",
+      "value": "Gold Drop Amount",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "107.OptionStatName",
+      "value": "Min/Max Magic Defense",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108.OptionStatName",
+      "value": "Warehouse Fee Discount",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    }
+  ]
+}

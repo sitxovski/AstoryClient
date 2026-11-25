@@ -1,0 +1,1055 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_Talk_en (ключ — как в _gaps_Talk.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "108NPC:0",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:0",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:0",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:0",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:0",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:1",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:1",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:1",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:1",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:1",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:2",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:2",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:2",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:2",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:2",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:3",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:3",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:3",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:3",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:3",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:4",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:4",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:4",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:4",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:4",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:5",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:5",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:5",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:5",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:5",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:6",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:6",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:6",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:6",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:6",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:7",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:7",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:7",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:7",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:7",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:8",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:8",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:8",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:8",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:8",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:9",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:9",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:9",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:9",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:9",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:10",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:10",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:10",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:10",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:10",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:11",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:11",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:11",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:11",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:11",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:12",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:12",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:12",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:12",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:12",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:13",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:13",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:13",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:13",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:13",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:14",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:14",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:14",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:14",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:14",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:15",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:15",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:15",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:15",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:15",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:16",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:16",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:16",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:16",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:16",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:17",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:17",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:17",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:17",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:17",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:18",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:18",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:18",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:18",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:18",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:19",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:19",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:19",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:19",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:19",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:20",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:20",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:20",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:20",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:20",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:21",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:21",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:21",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:21",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:21",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:22",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:22",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:22",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:22",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:22",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:23",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:23",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:23",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:23",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:23",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:24",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:24",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:24",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:24",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:24",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:25",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:25",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:25",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:25",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:25",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:26",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:26",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:26",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:26",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:26",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:27",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:27",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:27",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:27",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:27",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:28",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:28",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:28",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:28",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:28",
+      "value": "Sigh... I'm worried, so worried... The monsters keep getting stronger...",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "108NPC:29",
+      "value": "You can feel the breath of a forgotten warrior.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "109NPC:29",
+      "value": "It looks like someone has used this before.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "98NPC:29",
+      "value": "When you look into the Celestial Mirror, you can see countless stars spread across the sky at a glance. This mirror seems to have been used to observe the heavens.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "99NPC:29",
+      "value": "The Magic Mirror is covered with bizarre, multicolored blotches. There must be some way to use it.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "Ella-1:29",
+      "value": "Hey, I hope you'll fight hard for the peace of the Alpeon Continent too.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    }
+  ]
+}

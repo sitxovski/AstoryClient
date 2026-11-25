@@ -1,0 +1,40 @@
+{
+  "_comment": "Ведомость EN-оверлея EpisodeTable (Tools/extract_text_lang.py, после извлечения: was = значение извлечения или null).",
+  "rows": [
+    {
+      "key": "2067.Title",
+      "value": "The Truth of Armor",
+      "was": "The Truth of Armor ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "2135.Title",
+      "value": "Surprise Attack Conspiracy",
+      "was": "Surprise Attack Conspiracy ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "2166.Title",
+      "value": "Stolen Comemoration Coin 1",
+      "was": "Stolen Comemoration Coin 1 ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "2336.Title",
+      "value": "The situation judgment",
+      "was": "The situation judgment ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "2377.Title",
+      "value": "Looking for Windmill Improving Parts",
+      "was": "Looking for Windmill Improving Parts ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    }
+  ]
+}

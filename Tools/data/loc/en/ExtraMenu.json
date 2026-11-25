@@ -1,0 +1,12 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_ExtraMenu_en (ключ — как в _gaps_ExtraMenu.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "2.Name",
+      "value": "Find party menu",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    }
+  ]
+}

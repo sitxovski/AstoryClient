@@ -1,0 +1,54 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_NpcNsrButton_en (ключ — как в _gaps_NpcNsrButton.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "ella_4.Caption",
+      "value": "Move to Forgotten Canyon",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "ella_5.Caption",
+      "value": "Move to Night Valley",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "132npc_0.Caption",
+      "value": "Hair Shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "146npc_0.Caption",
+      "value": "Booster Shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "131npc_1.Caption",
+      "value": "Premium Shop",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "55npc_1.Caption",
+      "value": "Move to X.",
+      "was": null,
+      "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+      "source": "manual"
+    },
+    {
+      "key": "ella_3.Caption",
+      "value": "Expand Clan",
+      "was": "Move to Night Valley",
+      "why": "06.11.2026 решение владельца (Элла, окно расширения клана 14450): с 27.09 слот 3 = «Расширить клан» (30027); из EN-источника MINE по индексу приходит прежняя 4-я кнопка «Move to Night Valley»",
+      "source": "manual"
+    }
+  ]
+}

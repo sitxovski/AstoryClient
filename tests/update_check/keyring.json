@@ -1,0 +1,9 @@
+{
+ "payload": "eyJjcmVhdGVkIjoiMjAyNi0xMC0xNlQyMTozNTo1OSswMDowMCIsImZvcm1hdCI6ImFzZGEta2V5cmluZy8xIiwicmVsZWFzZV9rZXlzIjpbeyJpZCI6Ijk3ZDJkZGMyMjVmMjg5ZGQiLCJwdWIiOiJkOTE4NjIyNDczZmUzNDgyNDBmZTViY2M3NmYzOGNjMTlkMzU5NmUyM2QwYWIwMWNhMjdiZjE4ZDAwMjBlMjlkIiwicmV2b2tlZCI6ZmFsc2V9XSwic2VxIjoxfQ==",
+ "sigs": [
+  {
+   "key": "9df15db74947e0a0",
+   "sig": "3ItNHJbv+rm6O9BpAZgwddy+QU1P+oFZOzC8ZLe1wmjwV/cg4Dy4nKHascCJHYCYnW+XMlhCehWgeZDjeGlcAg=="
+  }
+ ]
+}

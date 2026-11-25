@@ -1,0 +1,622 @@
+[
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_chst310_00_00_0/Materials/»óÀÇ3.uasset",
+  "old_name": "»óÀÇ3",
+  "ko": "상의3",
+  "new_name": "MI_ch1_f_00_chst310_00_00_0_top3",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_chst310_00_00_0/Materials/MI_ch1_f_00_chst310_00_00_0_top3.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_chst310_00_00_0/Materials/»óÀÇ3",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_chst310_00_00_0/Materials/MI_ch1_f_00_chst310_00_00_0_top3",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_chst311_00_00_0/Materials/»óÀÇ.uasset",
+  "old_name": "»óÀÇ",
+  "ko": "상의",
+  "new_name": "MI_ch1_f_00_chst311_00_00_0_top",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_chst311_00_00_0/Materials/MI_ch1_f_00_chst311_00_00_0_top.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_chst311_00_00_0/Materials/»óÀÇ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_chst311_00_00_0/Materials/MI_ch1_f_00_chst311_00_00_0_top",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_grov310_00_00_0/Materials/Àå°©1.uasset",
+  "old_name": "Àå°©1",
+  "ko": "장갑1",
+  "new_name": "MI_ch1_f_00_grov310_00_00_0_gloves1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_grov310_00_00_0/Materials/MI_ch1_f_00_grov310_00_00_0_gloves1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_grov310_00_00_0/Materials/Àå°©1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_grov310_00_00_0/Materials/MI_ch1_f_00_grov310_00_00_0_gloves1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_grov311_00_00_0/Materials/Àå°©.uasset",
+  "old_name": "Àå°©",
+  "ko": "장갑",
+  "new_name": "MI_ch1_f_00_grov311_00_00_0_gloves",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_grov311_00_00_0/Materials/MI_ch1_f_00_grov311_00_00_0_gloves.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_grov311_00_00_0/Materials/Àå°©",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_grov311_00_00_0/Materials/MI_ch1_f_00_grov311_00_00_0_gloves",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_hcap310_00_00_0/Materials/Åõ±¸.uasset",
+  "old_name": "Åõ±¸",
+  "ko": "투구",
+  "new_name": "MI_ch1_f_00_hcap310_00_00_0_helm",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_hcap310_00_00_0/Materials/MI_ch1_f_00_hcap310_00_00_0_helm.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_hcap310_00_00_0/Materials/Åõ±¸",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_hcap310_00_00_0/Materials/MI_ch1_f_00_hcap310_00_00_0_helm",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_hcap311_00_00_0/Materials/¸ðÀÚ.uasset",
+  "old_name": "¸ðÀÚ",
+  "ko": "모자",
+  "new_name": "MI_ch1_f_00_hcap311_00_00_0_hat",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_hcap311_00_00_0/Materials/MI_ch1_f_00_hcap311_00_00_0_hat.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_hcap311_00_00_0/Materials/¸ðÀÚ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_hcap311_00_00_0/Materials/MI_ch1_f_00_hcap311_00_00_0_hat",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_pant306_00_00_0/Materials/ÇÏÀÇ.uasset",
+  "old_name": "ÇÏÀÇ",
+  "ko": "하의",
+  "new_name": "MI_ch1_f_00_pant306_00_00_0_pants",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_pant306_00_00_0/Materials/MI_ch1_f_00_pant306_00_00_0_pants.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_pant306_00_00_0/Materials/ÇÏÀÇ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_pant306_00_00_0/Materials/MI_ch1_f_00_pant306_00_00_0_pants",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_pant310_00_00_0/Materials/ÇÏÀÇ.uasset",
+  "old_name": "ÇÏÀÇ",
+  "ko": "하의",
+  "new_name": "MI_ch1_f_00_pant310_00_00_0_pants",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_pant310_00_00_0/Materials/MI_ch1_f_00_pant310_00_00_0_pants.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_pant310_00_00_0/Materials/ÇÏÀÇ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_pant310_00_00_0/Materials/MI_ch1_f_00_pant310_00_00_0_pants",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_pant311_00_00_0/Materials/ÇÏÀÇ.uasset",
+  "old_name": "ÇÏÀÇ",
+  "ko": "하의",
+  "new_name": "MI_ch1_f_00_pant311_00_00_0_pants",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_pant311_00_00_0/Materials/MI_ch1_f_00_pant311_00_00_0_pants.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_pant311_00_00_0/Materials/ÇÏÀÇ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_pant311_00_00_0/Materials/MI_ch1_f_00_pant311_00_00_0_pants",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_shoe310_00_00_0/Materials/½Å¹ß.uasset",
+  "old_name": "½Å¹ß",
+  "ko": "신발",
+  "new_name": "MI_ch1_f_00_shoe310_00_00_0_shoes",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_shoe310_00_00_0/Materials/MI_ch1_f_00_shoe310_00_00_0_shoes.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_shoe310_00_00_0/Materials/½Å¹ß",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_shoe310_00_00_0/Materials/MI_ch1_f_00_shoe310_00_00_0_shoes",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_shoe311_00_00_0/Materials/½Å¹ß.uasset",
+  "old_name": "½Å¹ß",
+  "ko": "신발",
+  "new_name": "MI_ch1_f_00_shoe311_00_00_0_shoes",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_00_shoe311_00_00_0/Materials/MI_ch1_f_00_shoe311_00_00_0_shoes.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_shoe311_00_00_0/Materials/½Å¹ß",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_00_shoe311_00_00_0/Materials/MI_ch1_f_00_shoe311_00_00_0_shoes",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/»óÀÇ3.uasset",
+  "old_name": "»óÀÇ3",
+  "ko": "상의3",
+  "new_name": "MI_ch1_f_09_chst308_00_00_0_top3",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/MI_ch1_f_09_chst308_00_00_0_top3.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/»óÀÇ3",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/MI_ch1_f_09_chst308_00_00_0_top3",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/»óÀÇ31.uasset",
+  "old_name": "»óÀÇ31",
+  "ko": "상의31",
+  "new_name": "MI_ch1_f_09_chst308_00_00_0_top31",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/MI_ch1_f_09_chst308_00_00_0_top31.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/»óÀÇ31",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_chst308_00_00_0/Materials/MI_ch1_f_09_chst308_00_00_0_top31",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_hcap214_00_00_0/Materials/½ºÆäÀÌµå_Å·_¿©ÀÚ.uasset",
+  "old_name": "½ºÆäÀÌµå_Å·_¿©ÀÚ",
+  "ko": "스페이드_킹_여자",
+  "new_name": "MI_ch1_f_09_hcap214_00_00_0_spade_king_f",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_hcap214_00_00_0/Materials/MI_ch1_f_09_hcap214_00_00_0_spade_king_f.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_hcap214_00_00_0/Materials/½ºÆäÀÌµå_Å·_¿©ÀÚ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_hcap214_00_00_0/Materials/MI_ch1_f_09_hcap214_00_00_0_spade_king_f",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_hcap215_00_00_0/Materials/Åõ±¸2.uasset",
+  "old_name": "Åõ±¸2",
+  "ko": "투구2",
+  "new_name": "MI_ch1_f_09_hcap215_00_00_0_helm2",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_hcap215_00_00_0/Materials/MI_ch1_f_09_hcap215_00_00_0_helm2.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_hcap215_00_00_0/Materials/Åõ±¸2",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_hcap215_00_00_0/Materials/MI_ch1_f_09_hcap215_00_00_0_helm2",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_pant200_00_00_0/Materials/ÇÏÃ¼_copy.uasset",
+  "old_name": "ÇÏÃ¼_copy",
+  "ko": "하체_copy",
+  "new_name": "MI_ch1_f_09_pant200_00_00_0_lowerbody_copy",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_f_09_pant200_00_00_0/Materials/MI_ch1_f_09_pant200_00_00_0_lowerbody_copy.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_pant200_00_00_0/Materials/ÇÏÃ¼_copy",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_f_09_pant200_00_00_0/Materials/MI_ch1_f_09_pant200_00_00_0_lowerbody_copy",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_chst310_00_00_0/Materials/»óÀÇ1.uasset",
+  "old_name": "»óÀÇ1",
+  "ko": "상의1",
+  "new_name": "MI_ch1_m_00_chst310_00_00_0_top1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_chst310_00_00_0/Materials/MI_ch1_m_00_chst310_00_00_0_top1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_chst310_00_00_0/Materials/»óÀÇ1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_chst310_00_00_0/Materials/MI_ch1_m_00_chst310_00_00_0_top1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_chst311_00_00_0/Materials/¼ö¿µº¹_»óÀÇ1.uasset",
+  "old_name": "¼ö¿µº¹_»óÀÇ1",
+  "ko": "수영복_상의1",
+  "new_name": "MI_ch1_m_00_chst311_00_00_0_swimsuit_top1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_chst311_00_00_0/Materials/MI_ch1_m_00_chst311_00_00_0_swimsuit_top1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_chst311_00_00_0/Materials/¼ö¿µº¹_»óÀÇ1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_chst311_00_00_0/Materials/MI_ch1_m_00_chst311_00_00_0_swimsuit_top1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_grov310_00_00_0/Materials/¼ö¿µº¹Àå°©1.uasset",
+  "old_name": "¼ö¿µº¹Àå°©1",
+  "ko": "수영복장갑1",
+  "new_name": "MI_ch1_m_00_grov310_00_00_0_swimsuit_gloves1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_grov310_00_00_0/Materials/MI_ch1_m_00_grov310_00_00_0_swimsuit_gloves1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_grov310_00_00_0/Materials/¼ö¿µº¹Àå°©1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_grov310_00_00_0/Materials/MI_ch1_m_00_grov310_00_00_0_swimsuit_gloves1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/ÆÈ.uasset",
+  "old_name": "ÆÈ",
+  "ko": "팔",
+  "new_name": "MI_ch1_m_00_grov311_00_00_0_arm",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/MI_ch1_m_00_grov311_00_00_0_arm.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/ÆÈ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/MI_ch1_m_00_grov311_00_00_0_arm",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/ÆÈ1.uasset",
+  "old_name": "ÆÈ1",
+  "ko": "팔1",
+  "new_name": "MI_ch1_m_00_grov311_00_00_0_arm1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/MI_ch1_m_00_grov311_00_00_0_arm1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/ÆÈ1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_grov311_00_00_0/Materials/MI_ch1_m_00_grov311_00_00_0_arm1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_hcap310_00_00_0/Materials/Åõ±¸1.uasset",
+  "old_name": "Åõ±¸1",
+  "ko": "투구1",
+  "new_name": "MI_ch1_m_00_hcap310_00_00_0_helm1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_hcap310_00_00_0/Materials/MI_ch1_m_00_hcap310_00_00_0_helm1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_hcap310_00_00_0/Materials/Åõ±¸1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_hcap310_00_00_0/Materials/MI_ch1_m_00_hcap310_00_00_0_helm1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_hcap311_00_00_0/Materials/Åõ±¸.uasset",
+  "old_name": "Åõ±¸",
+  "ko": "투구",
+  "new_name": "MI_ch1_m_00_hcap311_00_00_0_helm",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_hcap311_00_00_0/Materials/MI_ch1_m_00_hcap311_00_00_0_helm.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_hcap311_00_00_0/Materials/Åõ±¸",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_hcap311_00_00_0/Materials/MI_ch1_m_00_hcap311_00_00_0_helm",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_pant310_00_00_0/Materials/¼ö¿µº¹ÇÏÀÇ1.uasset",
+  "old_name": "¼ö¿µº¹ÇÏÀÇ1",
+  "ko": "수영복하의1",
+  "new_name": "MI_ch1_m_00_pant310_00_00_0_swimsuit_pants1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_pant310_00_00_0/Materials/MI_ch1_m_00_pant310_00_00_0_swimsuit_pants1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_pant310_00_00_0/Materials/¼ö¿µº¹ÇÏÀÇ1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_pant310_00_00_0/Materials/MI_ch1_m_00_pant310_00_00_0_swimsuit_pants1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_pant311_00_00_0/Materials/¼ö¿µº¹_ÇÏÀÇ1.uasset",
+  "old_name": "¼ö¿µº¹_ÇÏÀÇ1",
+  "ko": "수영복_하의1",
+  "new_name": "MI_ch1_m_00_pant311_00_00_0_swimsuit_pants1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_pant311_00_00_0/Materials/MI_ch1_m_00_pant311_00_00_0_swimsuit_pants1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_pant311_00_00_0/Materials/¼ö¿µº¹_ÇÏÀÇ1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_pant311_00_00_0/Materials/MI_ch1_m_00_pant311_00_00_0_swimsuit_pants1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_shoe310_00_00_0/Materials/¼ö¿µº¹½Å¹ß1.uasset",
+  "old_name": "¼ö¿µº¹½Å¹ß1",
+  "ko": "수영복신발1",
+  "new_name": "MI_ch1_m_00_shoe310_00_00_0_swimsuit_shoes1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_shoe310_00_00_0/Materials/MI_ch1_m_00_shoe310_00_00_0_swimsuit_shoes1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_shoe310_00_00_0/Materials/¼ö¿µº¹½Å¹ß1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_shoe310_00_00_0/Materials/MI_ch1_m_00_shoe310_00_00_0_swimsuit_shoes1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_shoe311_00_00_0/Materials/½Å¹ß1.uasset",
+  "old_name": "½Å¹ß1",
+  "ko": "신발1",
+  "new_name": "MI_ch1_m_00_shoe311_00_00_0_shoes1",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_00_shoe311_00_00_0/Materials/MI_ch1_m_00_shoe311_00_00_0_shoes1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_shoe311_00_00_0/Materials/½Å¹ß1",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_00_shoe311_00_00_0/Materials/MI_ch1_m_00_shoe311_00_00_0_shoes1",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/»óÀÇ3.uasset",
+  "old_name": "»óÀÇ3",
+  "ko": "상의3",
+  "new_name": "MI_ch1_m_09_chst308_00_00_0_top3",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/MI_ch1_m_09_chst308_00_00_0_top3.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/»óÀÇ3",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/MI_ch1_m_09_chst308_00_00_0_top3",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/»óÀÇ31.uasset",
+  "old_name": "»óÀÇ31",
+  "ko": "상의31",
+  "new_name": "MI_ch1_m_09_chst308_00_00_0_top31",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/MI_ch1_m_09_chst308_00_00_0_top31.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/»óÀÇ31",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_chst308_00_00_0/Materials/MI_ch1_m_09_chst308_00_00_0_top31",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_hcap214_00_00_0/Materials/½ºÆäÀÌµå_Å·_³²ÀÚ.uasset",
+  "old_name": "½ºÆäÀÌµå_Å·_³²ÀÚ",
+  "ko": "스페이드_킹_남자",
+  "new_name": "MI_ch1_m_09_hcap214_00_00_0_spade_king_m",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_hcap214_00_00_0/Materials/MI_ch1_m_09_hcap214_00_00_0_spade_king_m.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_hcap214_00_00_0/Materials/½ºÆäÀÌµå_Å·_³²ÀÚ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_hcap214_00_00_0/Materials/MI_ch1_m_09_hcap214_00_00_0_spade_king_m",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_hcap215_00_00_0/Materials/Åõ±¸.uasset",
+  "old_name": "Åõ±¸",
+  "ko": "투구",
+  "new_name": "MI_ch1_m_09_hcap215_00_00_0_helm",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_m_09_hcap215_00_00_0/Materials/MI_ch1_m_09_hcap215_00_00_0_helm.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_hcap215_00_00_0/Materials/Åõ±¸",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_m_09_hcap215_00_00_0/Materials/MI_ch1_m_09_hcap215_00_00_0_helm",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_00_swrd215_00_00_0/Materials/´Ü°Ë.uasset",
+  "old_name": "´Ü°Ë",
+  "ko": "단검",
+  "new_name": "MI_ch1_n_00_swrd215_00_00_0_dagger",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_00_swrd215_00_00_0/Materials/MI_ch1_n_00_swrd215_00_00_0_dagger.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_00_swrd215_00_00_0/Materials/´Ü°Ë",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_00_swrd215_00_00_0/Materials/MI_ch1_n_00_swrd215_00_00_0_dagger",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_09_shid308_00_00_0/Materials/¹æÆÐ.uasset",
+  "old_name": "¹æÆÐ",
+  "ko": "방패",
+  "new_name": "MI_ch1_n_09_shid308_00_00_0_shield",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_09_shid308_00_00_0/Materials/MI_ch1_n_09_shid308_00_00_0_shield.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_09_shid308_00_00_0/Materials/¹æÆÐ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_09_shid308_00_00_0/Materials/MI_ch1_n_09_shid308_00_00_0_shield",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_bbow305_00_00_0/Materials/È°.uasset",
+  "old_name": "È°",
+  "ko": "활",
+  "new_name": "MI_ch1_n_90_bbow305_00_00_0_bow",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_bbow305_00_00_0/Materials/MI_ch1_n_90_bbow305_00_00_0_bow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_bbow305_00_00_0/Materials/È°",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_bbow305_00_00_0/Materials/MI_ch1_n_90_bbow305_00_00_0_bow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_bbow308_00_00_0/Materials/¹ß¸®½ºÅ¸.uasset",
+  "old_name": "¹ß¸®½ºÅ¸",
+  "ko": "발리스타",
+  "new_name": "MI_ch1_n_90_bbow308_00_00_0_ballista",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_bbow308_00_00_0/Materials/MI_ch1_n_90_bbow308_00_00_0_ballista.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_bbow308_00_00_0/Materials/¹ß¸®½ºÅ¸",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_bbow308_00_00_0/Materials/MI_ch1_n_90_bbow308_00_00_0_ballista",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_cbow301_00_00_0/Materials/¼®±Ã.uasset",
+  "old_name": "¼®±Ã",
+  "ko": "석궁",
+  "new_name": "MI_ch1_n_90_cbow301_00_00_0_crossbow",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_cbow301_00_00_0/Materials/MI_ch1_n_90_cbow301_00_00_0_crossbow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_cbow301_00_00_0/Materials/¼®±Ã",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_cbow301_00_00_0/Materials/MI_ch1_n_90_cbow301_00_00_0_crossbow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_cbow305_00_00_0/Materials/¼®±Ã.uasset",
+  "old_name": "¼®±Ã",
+  "ko": "석궁",
+  "new_name": "MI_ch1_n_90_cbow305_00_00_0_crossbow",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_cbow305_00_00_0/Materials/MI_ch1_n_90_cbow305_00_00_0_crossbow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_cbow305_00_00_0/Materials/¼®±Ã",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_cbow305_00_00_0/Materials/MI_ch1_n_90_cbow305_00_00_0_crossbow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_cbow308_00_00_0/Materials/¼®±Ã.uasset",
+  "old_name": "¼®±Ã",
+  "ko": "석궁",
+  "new_name": "MI_ch1_n_90_cbow308_00_00_0_crossbow",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_cbow308_00_00_0/Materials/MI_ch1_n_90_cbow308_00_00_0_crossbow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_cbow308_00_00_0/Materials/¼®±Ã",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_cbow308_00_00_0/Materials/MI_ch1_n_90_cbow308_00_00_0_crossbow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_lbow308_00_00_0/Materials/È°.uasset",
+  "old_name": "È°",
+  "ko": "활",
+  "new_name": "MI_ch1_n_90_lbow308_00_00_0_bow",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_lbow308_00_00_0/Materials/MI_ch1_n_90_lbow308_00_00_0_bow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_lbow308_00_00_0/Materials/È°",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_lbow308_00_00_0/Materials/MI_ch1_n_90_lbow308_00_00_0_bow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_spir305_00_00_0/Materials/Ã¢.uasset",
+  "old_name": "Ã¢",
+  "ko": "창",
+  "new_name": "MI_ch1_n_90_spir305_00_00_0_spear",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_spir305_00_00_0/Materials/MI_ch1_n_90_spir305_00_00_0_spear.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_spir305_00_00_0/Materials/Ã¢",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_spir305_00_00_0/Materials/MI_ch1_n_90_spir305_00_00_0_spear",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_spir308_00_00_0/Materials/¹ø°³_Ã¢.uasset",
+  "old_name": "¹ø°³_Ã¢",
+  "ko": "번개_창",
+  "new_name": "MI_ch1_n_90_spir308_00_00_0_lightning_spear",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_spir308_00_00_0/Materials/MI_ch1_n_90_spir308_00_00_0_lightning_spear.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_spir308_00_00_0/Materials/¹ø°³_Ã¢",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_spir308_00_00_0/Materials/MI_ch1_n_90_spir308_00_00_0_lightning_spear",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_step308_00_00_0/Materials/ÁöÆÎÀÌ.uasset",
+  "old_name": "ÁöÆÎÀÌ",
+  "ko": "지팡이",
+  "new_name": "MI_ch1_n_90_step308_00_00_0_staff",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_step308_00_00_0/Materials/MI_ch1_n_90_step308_00_00_0_staff.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_step308_00_00_0/Materials/ÁöÆÎÀÌ",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_step308_00_00_0/Materials/MI_ch1_n_90_step308_00_00_0_staff",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_swrd308_00_00_0/Materials/ÇÑ¼Õ°Ë.uasset",
+  "old_name": "ÇÑ¼Õ°Ë",
+  "ko": "한손검",
+  "new_name": "MI_ch1_n_90_swrd308_00_00_0_sword1h",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_swrd308_00_00_0/Materials/MI_ch1_n_90_swrd308_00_00_0_sword1h.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_swrd308_00_00_0/Materials/ÇÑ¼Õ°Ë",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_swrd308_00_00_0/Materials/MI_ch1_n_90_swrd308_00_00_0_sword1h",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_thnd305_00_00_0/Materials/ÇÑ¼Õ°Ë.uasset",
+  "old_name": "ÇÑ¼Õ°Ë",
+  "ko": "한손검",
+  "new_name": "MI_ch1_n_90_thnd305_00_00_0_sword1h",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_thnd305_00_00_0/Materials/MI_ch1_n_90_thnd305_00_00_0_sword1h.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_thnd305_00_00_0/Materials/ÇÑ¼Õ°Ë",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_thnd305_00_00_0/Materials/MI_ch1_n_90_thnd305_00_00_0_sword1h",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_thnd308_00_00_0/Materials/¾ç¼Õ°Ë.uasset",
+  "old_name": "¾ç¼Õ°Ë",
+  "ko": "양손검",
+  "new_name": "MI_ch1_n_90_thnd308_00_00_0_sword2h",
+  "new_rel": "Content/AsdaAssets/Models/Char/ch1_n_90_thnd308_00_00_0/Materials/MI_ch1_n_90_thnd308_00_00_0_sword2h.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_thnd308_00_00_0/Materials/¾ç¼Õ°Ë",
+  "new_obj": "/Game/AsdaAssets/Models/Char/ch1_n_90_thnd308_00_00_0/Materials/MI_ch1_n_90_thnd308_00_00_0_sword2h",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/Itm1_n_00_shld_00_00/Materials/¹æÆÐ.uasset",
+  "old_name": "¹æÆÐ",
+  "ko": "방패",
+  "new_name": "MI_Itm1_n_00_shld_00_00_shield",
+  "new_rel": "Content/AsdaAssets/Models/Items/Itm1_n_00_shld_00_00/Materials/MI_Itm1_n_00_shld_00_00_shield.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/Itm1_n_00_shld_00_00/Materials/¹æÆÐ",
+  "new_obj": "/Game/AsdaAssets/Models/Items/Itm1_n_00_shld_00_00/Materials/MI_Itm1_n_00_shld_00_00_shield",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/Itm1_n_00_swrd_00_00/Materials/ÇÑ¼Õ°Ë.uasset",
+  "old_name": "ÇÑ¼Õ°Ë",
+  "ko": "한손검",
+  "new_name": "MI_Itm1_n_00_swrd_00_00_sword1h",
+  "new_rel": "Content/AsdaAssets/Models/Items/Itm1_n_00_swrd_00_00/Materials/MI_Itm1_n_00_swrd_00_00_sword1h.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/Itm1_n_00_swrd_00_00/Materials/ÇÑ¼Õ°Ë",
+  "new_obj": "/Game/AsdaAssets/Models/Items/Itm1_n_00_swrd_00_00/Materials/MI_Itm1_n_00_swrd_00_00_sword1h",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_bbow_00_00/Materials/¹ß¸®½ºÅ¸.uasset",
+  "old_name": "¹ß¸®½ºÅ¸",
+  "ko": "발리스타",
+  "new_name": "MI_itm1_n_00_bbow_00_00_ballista",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_bbow_00_00/Materials/MI_itm1_n_00_bbow_00_00_ballista.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_bbow_00_00/Materials/¹ß¸®½ºÅ¸",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_bbow_00_00/Materials/MI_itm1_n_00_bbow_00_00_ballista",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_cbow_00_00/Materials/¼®±Ã.uasset",
+  "old_name": "¼®±Ã",
+  "ko": "석궁",
+  "new_name": "MI_itm1_n_00_cbow_00_00_crossbow",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_cbow_00_00/Materials/MI_itm1_n_00_cbow_00_00_crossbow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_cbow_00_00/Materials/¼®±Ã",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_cbow_00_00/Materials/MI_itm1_n_00_cbow_00_00_crossbow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_lbow_00_00/Materials/È°.uasset",
+  "old_name": "È°",
+  "ko": "활",
+  "new_name": "MI_itm1_n_00_lbow_00_00_bow",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_lbow_00_00/Materials/MI_itm1_n_00_lbow_00_00_bow.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_lbow_00_00/Materials/È°",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_lbow_00_00/Materials/MI_itm1_n_00_lbow_00_00_bow",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_shid_00_00/Materials/¹æÆÐ.uasset",
+  "old_name": "¹æÆÐ",
+  "ko": "방패",
+  "new_name": "MI_itm1_n_00_shid_00_00_shield",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_shid_00_00/Materials/MI_itm1_n_00_shid_00_00_shield.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_shid_00_00/Materials/¹æÆÐ",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_shid_00_00/Materials/MI_itm1_n_00_shid_00_00_shield",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_spir_00_00/Materials/Ã¢.uasset",
+  "old_name": "Ã¢",
+  "ko": "창",
+  "new_name": "MI_itm1_n_00_spir_00_00_spear",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_spir_00_00/Materials/MI_itm1_n_00_spir_00_00_spear.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_spir_00_00/Materials/Ã¢",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_spir_00_00/Materials/MI_itm1_n_00_spir_00_00_spear",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_stap_00_00/Materials/ÁöÆÎÀÌ.uasset",
+  "old_name": "ÁöÆÎÀÌ",
+  "ko": "지팡이",
+  "new_name": "MI_itm1_n_00_stap_00_00_staff",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_stap_00_00/Materials/MI_itm1_n_00_stap_00_00_staff.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_stap_00_00/Materials/ÁöÆÎÀÌ",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_stap_00_00/Materials/MI_itm1_n_00_stap_00_00_staff",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_thnd_00_00/Materials/¾ç¼Õ°Ë_µå¶ø.uasset",
+  "old_name": "¾ç¼Õ°Ë_µå¶ø",
+  "ko": "양손검_드랍",
+  "new_name": "MI_itm1_n_00_thnd_00_00_sword2h_drop",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_00_thnd_00_00/Materials/MI_itm1_n_00_thnd_00_00_sword2h_drop.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_thnd_00_00/Materials/¾ç¼Õ°Ë_µå¶ø",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_00_thnd_00_00/Materials/MI_itm1_n_00_thnd_00_00_sword2h_drop",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_event020_00/Materials/2009³â_´Þ·Â_ÅØ½ºÃÄ.uasset",
+  "old_name": "2009³â_´Þ·Â_ÅØ½ºÃÄ",
+  "ko": "2009년_달력_텍스쳐",
+  "new_name": "MI_itm1_n_100_event020_00_calendar2009_tex",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_event020_00/Materials/MI_itm1_n_100_event020_00_calendar2009_tex.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_event020_00/Materials/2009³â_´Þ·Â_ÅØ½ºÃÄ",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_event020_00/Materials/MI_itm1_n_100_event020_00_calendar2009_tex",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_spc00_00/Materials/·¹¾î±Þ_¹°À½Ç¥.uasset",
+  "old_name": "·¹¾î±Þ_¹°À½Ç¥",
+  "ko": "레어급_물음표",
+  "new_name": "MI_itm1_n_100_spc00_00_rare_question",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_spc00_00/Materials/MI_itm1_n_100_spc00_00_rare_question.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_spc00_00/Materials/·¹¾î±Þ_¹°À½Ç¥",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_spc00_00/Materials/MI_itm1_n_100_spc00_00_rare_question",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/¿øÇü±¸½½.uasset",
+  "old_name": "¿øÇü±¸½½",
+  "ko": "원형구슬",
+  "new_name": "MI_itm1_n_100_spc01_08_round_orb",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/MI_itm1_n_100_spc01_08_round_orb.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/¿øÇü±¸½½",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/MI_itm1_n_100_spc01_08_round_orb",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/¿øÇü±¸½½_blend.uasset",
+  "old_name": "¿øÇü±¸½½_blend",
+  "ko": "원형구슬_blend",
+  "new_name": "MI_itm1_n_100_spc01_08_round_orb_blend",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/MI_itm1_n_100_spc01_08_round_orb_blend.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/¿øÇü±¸½½_blend",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_100_spc01_08/Materials/MI_itm1_n_100_spc01_08_round_orb_blend",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_98_othr220_00/Materials/½ÅºñÁ¶°¢_3d_text.uasset",
+  "old_name": "½ÅºñÁ¶°¢_3d_text",
+  "ko": "신비조각_3d_text",
+  "new_name": "MI_itm1_n_98_othr220_00_mystic_piece_3dtext",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_98_othr220_00/Materials/MI_itm1_n_98_othr220_00_mystic_piece_3dtext.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_98_othr220_00/Materials/½ÅºñÁ¶°¢_3d_text",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_98_othr220_00/Materials/MI_itm1_n_98_othr220_00_mystic_piece_3dtext",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Items/itm1_n_98_othr221_00/Materials/±Ã±ØÁ¶°¢_3d_text.uasset",
+  "old_name": "±Ã±ØÁ¶°¢_3d_text",
+  "ko": "궁극조각_3d_text",
+  "new_name": "MI_itm1_n_98_othr221_00_ultimate_piece_3dtext",
+  "new_rel": "Content/AsdaAssets/Models/Items/itm1_n_98_othr221_00/Materials/MI_itm1_n_98_othr221_00_ultimate_piece_3dtext.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Items/itm1_n_98_othr221_00/Materials/±Ã±ØÁ¶°¢_3d_text",
+  "new_obj": "/Game/AsdaAssets/Models/Items/itm1_n_98_othr221_00/Materials/MI_itm1_n_98_othr221_00_ultimate_piece_3dtext",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/Ã¶Åð.uasset",
+  "old_name": "Ã¶Åð",
+  "ko": "철퇴",
+  "new_name": "MI_mon_m_0_ewood02-a_00_mace",
+  "new_rel": "Content/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/MI_mon_m_0_ewood02-a_00_mace.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/Ã¶Åð",
+  "new_obj": "/Game/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/MI_mon_m_0_ewood02-a_00_mace",
+  "coll": []
+ },
+ {
+  "old_rel": "Content/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/Ã¶Åð1.uasset",
+  "old_name": "Ã¶Åð1",
+  "ko": "철퇴1",
+  "new_name": "MI_mon_m_0_ewood02-a_00_mace1",
+  "new_rel": "Content/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/MI_mon_m_0_ewood02-a_00_mace1.uasset",
+  "old_obj": "/Game/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/Ã¶Åð1",
+  "new_obj": "/Game/AsdaAssets/Models/Mob/mon_m_0_ewood02-a_00/Materials/MI_mon_m_0_ewood02-a_00_mace1",
+  "coll": []
+ }
+]

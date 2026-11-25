@@ -1,0 +1,27 @@
+{
+ "_comment": "Перенаправление сценариев на новые страницы сдачи (75 → ella_19, 85 → ella_18): прежние страницы 3/4 заняты другим содержимым. Строит asda_quest_turnin_restore.py; применяет asda_import_npc_quest_data.py.",
+ "rows": [
+  {
+   "nsr": "ella",
+   "rec": 2,
+   "quest": 85,
+   "was": {
+    "PageId": 3
+   },
+   "set": {
+    "PageId": 18
+   }
+  },
+  {
+   "nsr": "ella",
+   "rec": 3,
+   "quest": 75,
+   "was": {
+    "PageId": 4
+   },
+   "set": {
+    "PageId": 19
+   }
+  }
+ ]
+}

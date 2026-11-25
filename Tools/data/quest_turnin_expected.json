@@ -1,0 +1,8257 @@
+[
+{
+"QuestNo": 0,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 1,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+181
+],
+"Places": [
+[
+181,
+3,
+118,
+310
+]
+]
+},
+{
+"QuestNo": 2,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+91
+],
+"Places": [
+[
+91,
+3,
+189,
+332
+]
+]
+},
+{
+"QuestNo": 3,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 4,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+102
+],
+"Places": [
+[
+102,
+3,
+125,
+234
+]
+]
+},
+{
+"QuestNo": 5,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 6,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 7,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 8,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+102
+],
+"Places": [
+[
+102,
+3,
+125,
+234
+]
+]
+},
+{
+"QuestNo": 9,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 10,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 11,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+34
+],
+"Places": [
+[
+34,
+3,
+119,
+244
+]
+]
+},
+{
+"QuestNo": 12,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 13,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 14,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 15,
+"Stage": 0,
+"ObjIds": [
+21205,
+21206,
+21207
+],
+"ObjCounts": [
+1,
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 16,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 17,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+1
+],
+"Places": [
+[
+1,
+3,
+180,
+324
+]
+]
+},
+{
+"QuestNo": 18,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 19,
+"Stage": 0,
+"ObjIds": [
+21214,
+21215
+],
+"ObjCounts": [
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+31
+],
+"Places": [
+[
+31,
+3,
+118,
+287
+]
+]
+},
+{
+"QuestNo": 20,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+31
+],
+"Places": [
+[
+31,
+3,
+118,
+287
+]
+]
+},
+{
+"QuestNo": 21,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+12
+],
+"Places": [
+[
+12,
+3,
+65,
+363
+]
+]
+},
+{
+"QuestNo": 22,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+13
+],
+"Places": [
+[
+13,
+3,
+58,
+352
+]
+]
+},
+{
+"QuestNo": 23,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 24,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 25,
+"Stage": 0,
+"ObjIds": [
+21245
+],
+"ObjCounts": [
+1
+],
+"ClassId": -1,
+"Npcs": [
+1
+],
+"Places": [
+[
+1,
+3,
+180,
+324
+]
+]
+},
+{
+"QuestNo": 26,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 27,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 28,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 29,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 30,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 31,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 32,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 33,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 34,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+12
+],
+"Places": [
+[
+12,
+3,
+65,
+363
+]
+]
+},
+{
+"QuestNo": 35,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+35
+],
+"Places": [
+[
+35,
+3,
+107,
+244
+]
+]
+},
+{
+"QuestNo": 36,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+35
+],
+"Places": [
+[
+35,
+3,
+107,
+244
+]
+]
+},
+{
+"QuestNo": 37,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 38,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 39,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 40,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 41,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 42,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 43,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 44,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 45,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 46,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 47,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 48,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 49,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 50,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 51,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 52,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 53,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 54,
+"Stage": 0,
+"ObjIds": [
+21269,
+21270,
+21271
+],
+"ObjCounts": [
+1,
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 55,
+"Stage": 0,
+"ObjIds": [
+21262
+],
+"ObjCounts": [
+1
+],
+"ClassId": -1,
+"Npcs": [
+18
+],
+"Places": [
+[
+18,
+0,
+402,
+396
+]
+]
+},
+{
+"QuestNo": 56,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 12,
+"Npcs": [
+19
+],
+"Places": [
+[
+19,
+0,
+407,
+393
+]
+]
+},
+{
+"QuestNo": 57,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 23,
+"Npcs": [
+20
+],
+"Places": [
+[
+20,
+0,
+398,
+393
+]
+]
+},
+{
+"QuestNo": 58,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+5
+],
+"Places": [
+[
+5,
+0,
+352,
+377
+]
+]
+},
+{
+"QuestNo": 59,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+8
+],
+"Places": [
+[
+8,
+0,
+418,
+369
+]
+]
+},
+{
+"QuestNo": 60,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+8
+],
+"Places": [
+[
+8,
+0,
+418,
+369
+]
+]
+},
+{
+"QuestNo": 61,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 62,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+90
+],
+"Places": [
+[
+90,
+3,
+120,
+383
+]
+]
+},
+{
+"QuestNo": 63,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 64,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+18
+],
+"Places": [
+[
+18,
+0,
+402,
+396
+]
+]
+},
+{
+"QuestNo": 65,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+8
+],
+"Places": [
+[
+8,
+0,
+418,
+369
+]
+]
+},
+{
+"QuestNo": 66,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 67,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+8
+],
+"Places": [
+[
+8,
+0,
+418,
+369
+]
+]
+},
+{
+"QuestNo": 68,
+"Stage": 3,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 69,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 70,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 71,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 72,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+27
+],
+"Places": [
+[
+27,
+0,
+383,
+360
+]
+]
+},
+{
+"QuestNo": 73,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 74,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 82,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 74,
+"Stage": 4,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 75,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 76,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 77,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 78,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 79,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 80,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 81,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 90,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+31
+],
+"Places": [
+[
+31,
+3,
+118,
+287
+]
+]
+},
+{
+"QuestNo": 91,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+181
+],
+"Places": [
+[
+181,
+3,
+118,
+310
+]
+]
+},
+{
+"QuestNo": 92,
+"Stage": 1,
+"ObjIds": [
+21180
+],
+"ObjCounts": [
+1
+],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 92,
+"Stage": 1,
+"ObjIds": [
+21182
+],
+"ObjCounts": [
+1
+],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 83,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+105
+],
+"Places": [
+[
+105,
+2,
+91,
+66
+]
+]
+},
+{
+"QuestNo": 84,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+105
+],
+"Places": [
+[
+105,
+2,
+91,
+66
+]
+]
+},
+{
+"QuestNo": 85,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 86,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+27
+],
+"Places": [
+[
+27,
+0,
+383,
+360
+]
+]
+},
+{
+"QuestNo": 87,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 88,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 89,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 102,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 103,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+5
+],
+"Places": [
+[
+5,
+0,
+352,
+377
+]
+]
+},
+{
+"QuestNo": 104,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+],
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 104,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+],
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 105,
+"Stage": 0,
+"ObjIds": [
+21294,
+21295
+],
+"ObjCounts": [
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+18
+],
+"Places": [
+[
+18,
+0,
+402,
+396
+]
+]
+},
+{
+"QuestNo": 106,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+18
+],
+"Places": [
+[
+18,
+0,
+402,
+396
+]
+]
+},
+{
+"QuestNo": 107,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 108,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 109,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+12
+],
+"Places": [
+[
+12,
+3,
+65,
+363
+]
+]
+},
+{
+"QuestNo": 113,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+26
+],
+"Places": [
+[
+26,
+0,
+343,
+408
+]
+]
+},
+{
+"QuestNo": 110,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 111,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+75
+],
+"Places": [
+[
+75,
+0,
+333,
+292
+]
+]
+},
+{
+"QuestNo": 112,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45,
+76
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+],
+[
+76,
+0,
+296,
+97
+],
+[
+45,
+0,
+362,
+369
+],
+[
+76,
+0,
+296,
+97
+]
+]
+},
+{
+"QuestNo": 112,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45,
+76
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+],
+[
+76,
+0,
+296,
+97
+],
+[
+45,
+0,
+362,
+369
+],
+[
+76,
+0,
+296,
+97
+]
+]
+},
+{
+"QuestNo": 114,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 115,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 116,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 117,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 118,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 119,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 120,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 121,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 122,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 123,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 124,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 93,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 94,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 95,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 96,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 97,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 98,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 99,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 100,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 101,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 125,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 126,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 127,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 128,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+64
+],
+"Places": [
+[
+64,
+0,
+242,
+171
+]
+]
+},
+{
+"QuestNo": 129,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 130,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 131,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 132,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 133,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 134,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 135,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 136,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 137,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 138,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+1
+],
+"Places": [
+[
+1,
+3,
+180,
+324
+]
+]
+},
+{
+"QuestNo": 139,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+4
+],
+"Places": [
+[
+4,
+3,
+188,
+347
+]
+]
+},
+{
+"QuestNo": 140,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+91
+],
+"Places": [
+[
+91,
+3,
+189,
+332
+]
+]
+},
+{
+"QuestNo": 141,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 142,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+27
+],
+"Places": [
+[
+27,
+0,
+383,
+360
+]
+]
+},
+{
+"QuestNo": 143,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+32
+],
+"Places": [
+[
+32,
+3,
+212,
+401
+]
+]
+},
+{
+"QuestNo": 144,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 145,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+40
+],
+"Places": [
+[
+40,
+3,
+58,
+312
+]
+]
+},
+{
+"QuestNo": 146,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+13
+],
+"Places": [
+[
+13,
+3,
+58,
+352
+]
+]
+},
+{
+"QuestNo": 147,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+115
+],
+"Places": [
+[
+115,
+5,
+280,
+449
+]
+]
+},
+{
+"QuestNo": 148,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+115
+],
+"Places": [
+[
+115,
+5,
+280,
+449
+]
+]
+},
+{
+"QuestNo": 149,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+108
+],
+"Places": [
+[
+108,
+5,
+94,
+395
+]
+]
+},
+{
+"QuestNo": 150,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+114
+],
+"Places": [
+[
+114,
+5,
+273,
+449
+]
+]
+},
+{
+"QuestNo": 151,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+19
+],
+"Places": [
+[
+19,
+0,
+407,
+393
+]
+]
+},
+{
+"QuestNo": 152,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 153,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+114
+],
+"Places": [
+[
+114,
+5,
+273,
+449
+]
+]
+},
+{
+"QuestNo": 154,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+131
+],
+"Places": [
+[
+131,
+3,
+169,
+319
+]
+]
+},
+{
+"QuestNo": 155,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+33
+],
+"Places": [
+[
+33,
+3,
+212,
+414
+]
+]
+},
+{
+"QuestNo": 156,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+131
+],
+"Places": [
+[
+131,
+3,
+169,
+319
+]
+]
+},
+{
+"QuestNo": 157,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+131
+],
+"Places": [
+[
+131,
+3,
+169,
+319
+],
+[
+131,
+3,
+169,
+319
+]
+]
+},
+{
+"QuestNo": 158,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+33
+],
+"Places": [
+[
+33,
+3,
+212,
+414
+]
+]
+},
+{
+"QuestNo": 159,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+32
+],
+"Places": [
+[
+32,
+3,
+212,
+401
+]
+]
+},
+{
+"QuestNo": 157,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+131
+],
+"Places": [
+[
+131,
+3,
+169,
+319
+],
+[
+131,
+3,
+169,
+319
+]
+]
+},
+{
+"QuestNo": 160,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 161,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 162,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+92
+],
+"Places": [
+[
+92,
+0,
+429,
+415
+]
+]
+},
+{
+"QuestNo": 163,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+13
+],
+"Places": [
+[
+13,
+3,
+58,
+352
+]
+]
+},
+{
+"QuestNo": 164,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 165,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 166,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 167,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 168,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+145
+],
+"Places": [
+[
+145,
+3,
+188,
+360
+]
+]
+},
+{
+"QuestNo": 169,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+145
+],
+"Places": [
+[
+145,
+3,
+188,
+360
+]
+]
+},
+{
+"QuestNo": 170,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 171,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+145
+],
+"Places": [
+[
+145,
+3,
+188,
+360
+]
+]
+},
+{
+"QuestNo": 172,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+145
+],
+"Places": [
+[
+145,
+3,
+188,
+360
+]
+]
+},
+{
+"QuestNo": 173,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 3,
+"Npcs": [
+12
+],
+"Places": [
+[
+12,
+3,
+65,
+363
+]
+]
+},
+{
+"QuestNo": 174,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 175,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 3,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 176,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 3,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 177,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 178,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 179,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 3,
+"Npcs": [
+134
+],
+"Places": [
+[
+134,
+7,
+81,
+112
+]
+]
+},
+{
+"QuestNo": 180,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 3,
+"Npcs": [
+12
+],
+"Places": [
+[
+12,
+3,
+65,
+363
+]
+]
+},
+{
+"QuestNo": 181,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+13
+],
+"Places": [
+[
+13,
+3,
+58,
+352
+]
+]
+},
+{
+"QuestNo": 182,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 183,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 184,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+136
+],
+"Places": [
+[
+136,
+7,
+111,
+131
+]
+]
+},
+{
+"QuestNo": 185,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 186,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+141
+],
+"Places": [
+[
+141,
+7,
+173,
+55
+]
+]
+},
+{
+"QuestNo": 187,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+142
+],
+"Places": [
+[
+142,
+7,
+124,
+334
+]
+]
+},
+{
+"QuestNo": 188,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+142
+],
+"Places": [
+[
+142,
+7,
+124,
+334
+]
+]
+},
+{
+"QuestNo": 189,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+144
+],
+"Places": [
+[
+144,
+7,
+355,
+115
+]
+]
+},
+{
+"QuestNo": 190,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 25,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 191,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 25,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 192,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 25,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 193,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 25,
+"Npcs": [
+123
+],
+"Places": [
+[
+123,
+6,
+353,
+351
+]
+]
+},
+{
+"QuestNo": 194,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+138
+],
+"Places": [
+[
+138,
+7,
+126,
+200
+]
+]
+},
+{
+"QuestNo": 195,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+138
+],
+"Places": [
+[
+138,
+7,
+126,
+200
+]
+]
+},
+{
+"QuestNo": 196,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 25,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 197,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+144
+],
+"Places": [
+[
+144,
+7,
+355,
+115
+]
+]
+},
+{
+"QuestNo": 198,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+141
+],
+"Places": [
+[
+141,
+7,
+173,
+55
+]
+]
+},
+{
+"QuestNo": 199,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": 14,
+"Npcs": [
+13
+],
+"Places": [
+[
+13,
+3,
+58,
+352
+]
+]
+},
+{
+"QuestNo": 200,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 201,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 202,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 203,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 204,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 205,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 206,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+48
+],
+"Places": [
+[
+48,
+3,
+139,
+462
+]
+]
+},
+{
+"QuestNo": 207,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+181
+],
+"Places": [
+[
+181,
+3,
+118,
+310
+]
+]
+},
+{
+"QuestNo": 208,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+48
+],
+"Places": [
+[
+48,
+3,
+139,
+462
+]
+]
+},
+{
+"QuestNo": 209,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+33
+],
+"Places": [
+[
+33,
+3,
+212,
+414
+]
+]
+},
+{
+"QuestNo": 210,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+1
+],
+"Places": [
+[
+1,
+3,
+180,
+324
+]
+]
+},
+{
+"QuestNo": 211,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+1
+],
+"Places": [
+[
+1,
+3,
+180,
+324
+]
+]
+},
+{
+"QuestNo": 212,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+1
+],
+"Places": [
+[
+1,
+3,
+180,
+324
+]
+]
+},
+{
+"QuestNo": 213,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 214,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+100
+],
+"Places": [
+[
+100,
+3,
+155,
+326
+]
+]
+},
+{
+"QuestNo": 215,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+100
+],
+"Places": [
+[
+100,
+3,
+155,
+326
+]
+]
+},
+{
+"QuestNo": 216,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+31
+],
+"Places": [
+[
+31,
+3,
+118,
+287
+]
+]
+},
+{
+"QuestNo": 217,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+31
+],
+"Places": [
+[
+31,
+3,
+118,
+287
+]
+]
+},
+{
+"QuestNo": 218,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 219,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+150
+],
+"Places": [
+[
+150,
+8,
+353,
+109
+]
+]
+},
+{
+"QuestNo": 220,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 221,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+147
+],
+"Places": [
+[
+147,
+8,
+101,
+379
+]
+]
+},
+{
+"QuestNo": 222,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+100
+],
+"Places": [
+[
+100,
+3,
+155,
+326
+]
+]
+},
+{
+"QuestNo": 223,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+100
+],
+"Places": [
+[
+100,
+3,
+155,
+326
+]
+]
+},
+{
+"QuestNo": 224,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+159
+],
+"Places": [
+[
+159,
+9,
+119,
+235
+]
+]
+},
+{
+"QuestNo": 225,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+101
+],
+"Places": [
+[
+101,
+3,
+111,
+395
+]
+]
+},
+{
+"QuestNo": 226,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 227,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+101
+],
+"Places": [
+[
+101,
+3,
+111,
+395
+]
+]
+},
+{
+"QuestNo": 228,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+158
+],
+"Places": [
+[
+158,
+9,
+372,
+487
+]
+]
+},
+{
+"QuestNo": 229,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+158
+],
+"Places": [
+[
+158,
+9,
+372,
+487
+]
+]
+},
+{
+"QuestNo": 230,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+158
+],
+"Places": [
+[
+158,
+9,
+372,
+487
+]
+]
+},
+{
+"QuestNo": 231,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+26
+],
+"Places": [
+[
+26,
+0,
+343,
+408
+]
+]
+},
+{
+"QuestNo": 232,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+26
+],
+"Places": [
+[
+26,
+0,
+343,
+408
+]
+]
+},
+{
+"QuestNo": 233,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+26
+],
+"Places": [
+[
+26,
+0,
+343,
+408
+]
+]
+},
+{
+"QuestNo": 234,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+5
+],
+"Places": [
+[
+5,
+0,
+352,
+377
+]
+]
+},
+{
+"QuestNo": 235,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+157
+],
+"Places": [
+[
+157,
+9,
+71,
+476
+]
+]
+},
+{
+"QuestNo": 236,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+5
+],
+"Places": [
+[
+5,
+0,
+352,
+377
+]
+]
+},
+{
+"QuestNo": 237,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+157
+],
+"Places": [
+[
+157,
+9,
+71,
+476
+]
+]
+},
+{
+"QuestNo": 238,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+154
+],
+"Places": [
+[
+154,
+9,
+56,
+295
+]
+]
+},
+{
+"QuestNo": 239,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+155
+],
+"Places": [
+[
+155,
+9,
+188,
+385
+]
+]
+},
+{
+"QuestNo": 240,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+156
+],
+"Places": [
+[
+156,
+9,
+111,
+29
+]
+]
+},
+{
+"QuestNo": 241,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+131
+],
+"Places": [
+[
+131,
+3,
+169,
+319
+]
+]
+},
+{
+"QuestNo": 242,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 243,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 244,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+131
+],
+"Places": [
+[
+131,
+3,
+169,
+319
+]
+]
+},
+{
+"QuestNo": 245,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+100
+],
+"Places": [
+[
+100,
+3,
+155,
+326
+]
+]
+},
+{
+"QuestNo": 246,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+132
+],
+"Places": [
+[
+132,
+3,
+158,
+319
+]
+]
+},
+{
+"QuestNo": 247,
+"Stage": 0,
+"ObjIds": [
+21385,
+21386
+],
+"ObjCounts": [
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+132
+],
+"Places": [
+[
+132,
+3,
+158,
+319
+]
+]
+},
+{
+"QuestNo": 248,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+132
+],
+"Places": [
+[
+132,
+3,
+158,
+319
+]
+]
+},
+{
+"QuestNo": 249,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 250,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 251,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+43
+],
+"Places": [
+[
+43,
+3,
+163,
+458
+]
+]
+},
+{
+"QuestNo": 252,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 253,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+91
+],
+"Places": [
+[
+91,
+3,
+189,
+332
+]
+]
+},
+{
+"QuestNo": 254,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 255,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+104
+],
+"Places": [
+[
+104,
+1,
+64,
+334
+]
+]
+},
+{
+"QuestNo": 256,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+103
+],
+"Places": [
+[
+103,
+1,
+296,
+254
+]
+]
+},
+{
+"QuestNo": 257,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 258,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 259,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 260,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 261,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+132
+],
+"Places": [
+[
+132,
+3,
+158,
+319
+]
+]
+},
+{
+"QuestNo": 262,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 263,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 264,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+145
+],
+"Places": [
+[
+145,
+3,
+188,
+360
+]
+]
+},
+{
+"QuestNo": 265,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 266,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 267,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+26
+],
+"Places": [
+[
+26,
+0,
+343,
+408
+]
+]
+},
+{
+"QuestNo": 268,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+75
+],
+"Places": [
+[
+75,
+0,
+333,
+292
+]
+]
+},
+{
+"QuestNo": 269,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 270,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+76
+],
+"Places": [
+[
+76,
+0,
+296,
+97
+]
+]
+},
+{
+"QuestNo": 271,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+76
+],
+"Places": [
+[
+76,
+0,
+296,
+97
+]
+]
+},
+{
+"QuestNo": 272,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 273,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 274,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+40
+],
+"Places": [
+[
+40,
+3,
+58,
+312
+]
+]
+},
+{
+"QuestNo": 275,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+40
+],
+"Places": [
+[
+40,
+3,
+58,
+312
+]
+]
+},
+{
+"QuestNo": 276,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 277,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 278,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+75
+],
+"Places": [
+[
+75,
+0,
+333,
+292
+]
+]
+},
+{
+"QuestNo": 279,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+75
+],
+"Places": [
+[
+75,
+0,
+333,
+292
+]
+]
+},
+{
+"QuestNo": 280,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+76
+],
+"Places": [
+[
+76,
+0,
+296,
+97
+]
+]
+},
+{
+"QuestNo": 281,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+76
+],
+"Places": [
+[
+76,
+0,
+296,
+97
+]
+]
+},
+{
+"QuestNo": 282,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+75
+],
+"Places": [
+[
+75,
+0,
+333,
+292
+]
+]
+},
+{
+"QuestNo": 283,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 284,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 285,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 286,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 287,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 288,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+77
+],
+"Places": [
+[
+77,
+2,
+237,
+135
+]
+]
+},
+{
+"QuestNo": 289,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+12
+],
+"Places": [
+[
+12,
+3,
+65,
+363
+]
+]
+},
+{
+"QuestNo": 290,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+77
+],
+"Places": [
+[
+77,
+2,
+237,
+135
+]
+]
+},
+{
+"QuestNo": 291,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+116
+],
+"Places": [
+[
+116,
+6,
+125,
+124
+]
+]
+},
+{
+"QuestNo": 301,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+18
+],
+"Places": [
+[
+18,
+0,
+402,
+396
+]
+]
+},
+{
+"QuestNo": 292,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+126
+],
+"Places": [
+[
+126,
+6,
+389,
+225
+]
+]
+},
+{
+"QuestNo": 293,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+126
+],
+"Places": [
+[
+126,
+6,
+389,
+225
+]
+]
+},
+{
+"QuestNo": 294,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+78
+],
+"Places": [
+[
+78,
+2,
+419,
+121
+]
+]
+},
+{
+"QuestNo": 295,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+116
+],
+"Places": [
+[
+116,
+6,
+125,
+124
+]
+]
+},
+{
+"QuestNo": 302,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+19
+],
+"Places": [
+[
+19,
+0,
+407,
+393
+]
+]
+},
+{
+"QuestNo": 296,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 297,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 298,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 299,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+117
+],
+"Places": [
+[
+117,
+6,
+110,
+43
+]
+]
+},
+{
+"QuestNo": 300,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+116
+],
+"Places": [
+[
+116,
+6,
+125,
+124
+]
+]
+},
+{
+"QuestNo": 303,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+20
+],
+"Places": [
+[
+20,
+0,
+398,
+393
+]
+]
+},
+{
+"QuestNo": 304,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+175
+],
+"Places": [
+[
+175,
+10,
+118,
+311
+]
+]
+},
+{
+"QuestNo": 305,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+175
+],
+"Places": [
+[
+175,
+10,
+118,
+311
+]
+]
+},
+{
+"QuestNo": 306,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+175
+],
+"Places": [
+[
+175,
+10,
+118,
+311
+]
+]
+},
+{
+"QuestNo": 307,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+174
+],
+"Places": [
+[
+174,
+6,
+368,
+120
+]
+]
+},
+{
+"QuestNo": 308,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+56
+],
+"Places": [
+[
+56,
+0,
+426,
+378
+]
+]
+},
+{
+"QuestNo": 309,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+27
+],
+"Places": [
+[
+27,
+0,
+383,
+360
+]
+]
+},
+{
+"QuestNo": 310,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+26
+],
+"Places": [
+[
+26,
+0,
+343,
+408
+]
+]
+},
+{
+"QuestNo": 311,
+"Stage": 0,
+"ObjIds": [
+31052,
+31053,
+31054
+],
+"ObjCounts": [
+1,
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 312,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+170
+],
+"Places": [
+[
+170,
+2,
+132,
+437
+]
+]
+},
+{
+"QuestNo": 313,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+170
+],
+"Places": [
+[
+170,
+2,
+132,
+437
+]
+]
+},
+{
+"QuestNo": 314,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+170
+],
+"Places": [
+[
+170,
+2,
+132,
+437
+]
+]
+},
+{
+"QuestNo": 315,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+54
+],
+"Places": [
+[
+54,
+3,
+172,
+446
+]
+]
+},
+{
+"QuestNo": 316,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 317,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 318,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 319,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+24
+],
+"Places": [
+[
+24,
+0,
+396,
+360
+]
+]
+},
+{
+"QuestNo": 320,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 321,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+117
+],
+"Places": [
+[
+117,
+6,
+110,
+43
+]
+]
+},
+{
+"QuestNo": 322,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 323,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 324,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 325,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+173
+],
+"Places": [
+[
+173,
+2,
+55,
+344
+]
+]
+},
+{
+"QuestNo": 326,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+173
+],
+"Places": [
+[
+173,
+2,
+55,
+344
+]
+]
+},
+{
+"QuestNo": 327,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 328,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+173
+],
+"Places": [
+[
+173,
+2,
+55,
+344
+]
+]
+},
+{
+"QuestNo": 329,
+"Stage": 0,
+"ObjIds": [
+31079,
+31080,
+31081
+],
+"ObjCounts": [
+1,
+1,
+1
+],
+"ClassId": -1,
+"Npcs": [
+48
+],
+"Places": [
+[
+48,
+3,
+139,
+462
+]
+]
+},
+{
+"QuestNo": 330,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 331,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 332,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 333,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+124
+],
+"Places": [
+[
+124,
+6,
+316,
+33
+]
+]
+},
+{
+"QuestNo": 334,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+125
+],
+"Places": [
+[
+125,
+6,
+384,
+31
+]
+]
+},
+{
+"QuestNo": 335,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+125
+],
+"Places": [
+[
+125,
+6,
+384,
+31
+]
+]
+},
+{
+"QuestNo": 336,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+125
+],
+"Places": [
+[
+125,
+6,
+384,
+31
+]
+]
+},
+{
+"QuestNo": 337,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+174
+],
+"Places": [
+[
+174,
+6,
+368,
+120
+]
+]
+},
+{
+"QuestNo": 338,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+171
+],
+"Places": [
+[
+171,
+2,
+159,
+239
+]
+]
+},
+{
+"QuestNo": 339,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+175
+],
+"Places": [
+[
+175,
+10,
+118,
+311
+]
+]
+},
+{
+"QuestNo": 340,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 341,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+28
+],
+"Places": [
+[
+28,
+3,
+246,
+402
+]
+]
+},
+{
+"QuestNo": 342,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+101
+],
+"Places": [
+[
+101,
+3,
+111,
+395
+]
+]
+},
+{
+"QuestNo": 343,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+174
+],
+"Places": [
+[
+174,
+6,
+368,
+120
+]
+]
+},
+{
+"QuestNo": 344,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 345,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+40
+],
+"Places": [
+[
+40,
+3,
+58,
+312
+]
+]
+},
+{
+"QuestNo": 346,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+182
+],
+"Places": [
+[
+182,
+0,
+355,
+474
+]
+]
+},
+{
+"QuestNo": 347,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+182
+],
+"Places": [
+[
+182,
+0,
+355,
+474
+]
+]
+},
+{
+"QuestNo": 348,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+100
+],
+"Places": [
+[
+100,
+3,
+155,
+326
+]
+]
+},
+{
+"QuestNo": 349,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+33
+],
+"Places": [
+[
+33,
+3,
+212,
+414
+]
+]
+},
+{
+"QuestNo": 350,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+172
+],
+"Places": [
+[
+172,
+2,
+316,
+304
+]
+]
+},
+{
+"QuestNo": 351,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+25
+],
+"Places": [
+[
+25,
+0,
+343,
+396
+]
+]
+},
+{
+"QuestNo": 352,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 353,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 354,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+45
+],
+"Places": [
+[
+45,
+0,
+362,
+369
+]
+]
+},
+{
+"QuestNo": 355,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 356,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+42
+],
+"Places": [
+[
+42,
+0,
+427,
+398
+]
+]
+},
+{
+"QuestNo": 357,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 358,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+27
+],
+"Places": [
+[
+27,
+0,
+383,
+360
+]
+]
+},
+{
+"QuestNo": 359,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+170
+],
+"Places": [
+[
+170,
+2,
+132,
+437
+]
+]
+},
+{
+"QuestNo": 360,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+5
+],
+"Places": [
+[
+5,
+0,
+352,
+377
+]
+]
+},
+{
+"QuestNo": 361,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+125
+],
+"Places": [
+[
+125,
+6,
+384,
+31
+]
+]
+},
+{
+"QuestNo": 362,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+125
+],
+"Places": [
+[
+125,
+6,
+384,
+31
+]
+]
+},
+{
+"QuestNo": 363,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+177
+],
+"Places": [
+[
+177,
+5,
+210,
+469
+]
+]
+},
+{
+"QuestNo": 364,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+177
+],
+"Places": [
+[
+177,
+5,
+210,
+469
+]
+]
+},
+{
+"QuestNo": 365,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+173
+],
+"Places": [
+[
+173,
+2,
+55,
+344
+]
+]
+},
+{
+"QuestNo": 366,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+8
+],
+"Places": [
+[
+8,
+0,
+418,
+369
+]
+]
+},
+{
+"QuestNo": 367,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+27
+],
+"Places": [
+[
+27,
+0,
+383,
+360
+]
+]
+},
+{
+"QuestNo": 368,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+19
+],
+"Places": [
+[
+19,
+0,
+407,
+393
+]
+]
+},
+{
+"QuestNo": 369,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+124
+],
+"Places": [
+[
+124,
+6,
+316,
+33
+]
+]
+},
+{
+"QuestNo": 370,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+117
+],
+"Places": [
+[
+117,
+6,
+110,
+43
+]
+]
+},
+{
+"QuestNo": 371,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+117
+],
+"Places": [
+[
+117,
+6,
+110,
+43
+]
+]
+},
+{
+"QuestNo": 372,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+117
+],
+"Places": [
+[
+117,
+6,
+110,
+43
+]
+]
+},
+{
+"QuestNo": 373,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 374,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+178
+],
+"Places": [
+[
+178,
+2,
+137,
+198
+]
+]
+},
+{
+"QuestNo": 375,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+178
+],
+"Places": [
+[
+178,
+2,
+137,
+198
+]
+]
+},
+{
+"QuestNo": 376,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 377,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+174
+],
+"Places": [
+[
+174,
+6,
+368,
+120
+]
+]
+},
+{
+"QuestNo": 378,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+128
+],
+"Places": [
+[
+128,
+6,
+381,
+238
+]
+]
+},
+{
+"QuestNo": 379,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+127
+],
+"Places": [
+[
+127,
+6,
+378,
+230
+]
+]
+},
+{
+"QuestNo": 380,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+172
+],
+"Places": [
+[
+172,
+2,
+316,
+304
+]
+]
+},
+{
+"QuestNo": 381,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+170
+],
+"Places": [
+[
+170,
+2,
+132,
+437
+]
+]
+},
+{
+"QuestNo": 382,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+115
+],
+"Places": [
+[
+115,
+5,
+280,
+449
+]
+]
+},
+{
+"QuestNo": 383,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+115
+],
+"Places": [
+[
+115,
+5,
+280,
+449
+]
+]
+},
+{
+"QuestNo": 384,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+115
+],
+"Places": [
+[
+115,
+5,
+280,
+449
+]
+]
+},
+{
+"QuestNo": 385,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+14
+],
+"Places": [
+[
+14,
+3,
+70,
+352
+]
+]
+},
+{
+"QuestNo": 386,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+172
+],
+"Places": [
+[
+172,
+2,
+316,
+304
+]
+]
+},
+{
+"QuestNo": 387,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+172
+],
+"Places": [
+[
+172,
+2,
+316,
+304
+]
+]
+},
+{
+"QuestNo": 388,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+178
+],
+"Places": [
+[
+178,
+2,
+137,
+198
+]
+]
+},
+{
+"QuestNo": 389,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+178
+],
+"Places": [
+[
+178,
+2,
+137,
+198
+]
+]
+},
+{
+"QuestNo": 390,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 391,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 392,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+180
+],
+"Places": [
+[
+180,
+3,
+85,
+439
+]
+]
+},
+{
+"QuestNo": 393,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+181
+],
+"Places": [
+[
+181,
+3,
+118,
+310
+]
+]
+},
+{
+"QuestNo": 394,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+180
+],
+"Places": [
+[
+180,
+3,
+85,
+439
+]
+]
+},
+{
+"QuestNo": 395,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 396,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+180
+],
+"Places": [
+[
+180,
+3,
+85,
+439
+]
+]
+},
+{
+"QuestNo": 397,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+181
+],
+"Places": [
+[
+181,
+3,
+118,
+310
+]
+]
+},
+{
+"QuestNo": 398,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 399,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+29
+],
+"Places": [
+[
+29,
+3,
+246,
+412
+]
+]
+},
+{
+"QuestNo": 400,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+3
+],
+"Places": [
+[
+3,
+3,
+148,
+462
+]
+]
+},
+{
+"QuestNo": 401,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+48
+],
+"Places": [
+[
+48,
+3,
+139,
+462
+]
+]
+},
+{
+"QuestNo": 402,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+28
+],
+"Places": [
+[
+28,
+3,
+246,
+402
+]
+]
+},
+{
+"QuestNo": 403,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+91
+],
+"Places": [
+[
+91,
+3,
+189,
+332
+]
+]
+},
+{
+"QuestNo": 404,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 405,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+47
+],
+"Places": [
+[
+47,
+3,
+82,
+351
+]
+]
+},
+{
+"QuestNo": 406,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+40
+],
+"Places": [
+[
+40,
+3,
+58,
+312
+]
+]
+},
+{
+"QuestNo": 407,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+181
+],
+"Places": [
+[
+181,
+3,
+118,
+310
+]
+]
+},
+{
+"QuestNo": 408,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 409,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 410,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 423,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 413,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 414,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 415,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 416,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 417,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 418,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 419,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 420,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 421,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+36
+],
+"Places": [
+[
+36,
+1,
+288,
+243
+]
+]
+},
+{
+"QuestNo": 422,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 424,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+34
+],
+"Places": [
+[
+34,
+3,
+119,
+244
+]
+]
+},
+{
+"QuestNo": 425,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+34
+],
+"Places": [
+[
+34,
+3,
+119,
+244
+]
+]
+},
+{
+"QuestNo": 426,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 427,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 428,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+127
+],
+"Places": [
+[
+127,
+6,
+378,
+230
+]
+]
+},
+{
+"QuestNo": 429,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+127
+],
+"Places": [
+[
+127,
+6,
+378,
+230
+]
+]
+},
+{
+"QuestNo": 430,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+127
+],
+"Places": [
+[
+127,
+6,
+378,
+230
+]
+]
+},
+{
+"QuestNo": 431,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+128
+],
+"Places": [
+[
+128,
+6,
+381,
+238
+]
+]
+},
+{
+"QuestNo": 432,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+128
+],
+"Places": [
+[
+128,
+6,
+381,
+238
+]
+]
+},
+{
+"QuestNo": 433,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+128
+],
+"Places": [
+[
+128,
+6,
+381,
+238
+]
+]
+},
+{
+"QuestNo": 434,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+126
+],
+"Places": [
+[
+126,
+6,
+389,
+225
+]
+]
+},
+{
+"QuestNo": 435,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+126
+],
+"Places": [
+[
+126,
+6,
+389,
+225
+]
+]
+},
+{
+"QuestNo": 436,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+119
+],
+"Places": [
+[
+119,
+6,
+232,
+176
+]
+]
+},
+{
+"QuestNo": 437,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+119
+],
+"Places": [
+[
+119,
+6,
+232,
+176
+]
+]
+},
+{
+"QuestNo": 438,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+119
+],
+"Places": [
+[
+119,
+6,
+232,
+176
+]
+]
+},
+{
+"QuestNo": 439,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 440,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+119
+],
+"Places": [
+[
+119,
+6,
+232,
+176
+]
+]
+},
+{
+"QuestNo": 441,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+130
+],
+"Places": [
+[
+130,
+6,
+369,
+127
+]
+]
+},
+{
+"QuestNo": 442,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 443,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 444,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 445,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 446,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 447,
+"Stage": 2,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 448,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 449,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 450,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 451,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 452,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 453,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 454,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 455,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 456,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 457,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 458,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [],
+"Places": []
+},
+{
+"QuestNo": 459,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+77
+],
+"Places": [
+[
+77,
+2,
+237,
+135
+]
+]
+},
+{
+"QuestNo": 460,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+77
+],
+"Places": [
+[
+77,
+2,
+237,
+135
+]
+]
+},
+{
+"QuestNo": 461,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+77
+],
+"Places": [
+[
+77,
+2,
+237,
+135
+]
+]
+},
+{
+"QuestNo": 462,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+78
+],
+"Places": [
+[
+78,
+2,
+419,
+121
+]
+]
+},
+{
+"QuestNo": 463,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+78
+],
+"Places": [
+[
+78,
+2,
+419,
+121
+]
+]
+},
+{
+"QuestNo": 464,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+78
+],
+"Places": [
+[
+78,
+2,
+419,
+121
+]
+]
+},
+{
+"QuestNo": 465,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 466,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 467,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+79
+],
+"Places": [
+[
+79,
+2,
+230,
+370
+]
+]
+},
+{
+"QuestNo": 566,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+107
+],
+"Places": [
+[
+107,
+3,
+81,
+431
+]
+]
+},
+{
+"QuestNo": 567,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 568,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+179
+],
+"Places": [
+[
+179,
+0,
+383,
+472
+]
+]
+},
+{
+"QuestNo": 569,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+126
+],
+"Places": [
+[
+126,
+6,
+389,
+225
+]
+]
+},
+{
+"QuestNo": 579,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+134
+],
+"Places": [
+[
+134,
+7,
+81,
+112
+]
+]
+},
+{
+"QuestNo": 582,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+136
+],
+"Places": [
+[
+136,
+7,
+111,
+131
+]
+]
+},
+{
+"QuestNo": 584,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+138
+],
+"Places": [
+[
+138,
+7,
+126,
+200
+]
+]
+},
+{
+"QuestNo": 589,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+136
+],
+"Places": [
+[
+136,
+7,
+111,
+131
+]
+]
+},
+{
+"QuestNo": 590,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 591,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 592,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+139
+],
+"Places": [
+[
+139,
+7,
+164,
+135
+]
+]
+},
+{
+"QuestNo": 598,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 604,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 605,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+139
+],
+"Places": [
+[
+139,
+7,
+164,
+135
+]
+]
+},
+{
+"QuestNo": 606,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+139
+],
+"Places": [
+[
+139,
+7,
+164,
+135
+]
+]
+},
+{
+"QuestNo": 607,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+140
+],
+"Places": [
+[
+140,
+7,
+162,
+96
+]
+]
+},
+{
+"QuestNo": 623,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+139
+],
+"Places": [
+[
+139,
+7,
+164,
+135
+]
+]
+},
+{
+"QuestNo": 624,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 626,
+"Stage": 1,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+133
+],
+"Places": [
+[
+133,
+7,
+74,
+56
+]
+]
+},
+{
+"QuestNo": 627,
+"Stage": 0,
+"ObjIds": [],
+"ObjCounts": [],
+"ClassId": -1,
+"Npcs": [
+139
+],
+"Places": [
+[
+139,
+7,
+164,
+135
+]
+]
+}
+]

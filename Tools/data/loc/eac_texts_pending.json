@@ -1,0 +1,261 @@
+{
+  "_comment": "ВЕДОМОСТЬ ТЕКСТОВ КЛИЕНТСКОГО EAC (Э1-Г, 16.10.2026). Ключи DT_GameText 991000–991040, константы — Source/AsdaAntiCheat/Public/AsdaEacTypes.h (AsdaEacLoc). ★ 16.10.2026 (agent-eac-texts): тексты утверждены владельцем (Reports/anticheat/eac/PLAYER_TEXTS.md) и ВНЕСЕНЫ штатным путём: RU — Tools/data/gametext_overrides.json → DT_GameText, EN — Tools/data/loc/en/GameText.json → DT_Loc_GameText_en; эта ведомость — справочная (генератор и аудит её не читают). 991001–991015 — локализация тулкита EAC 2.3.0 как есть. 991034 игроку не показывается; 991040 показывается текстом 991037. Показ: жёсткие — попап 8000 / окно кика логина (заголовок 991020/991000 + текст), мягкие 991031/991033/991038/991039 — одна строка в системном чате на смену состояния. Строки нет в таблице — нотис оригинала (1106/1099/12941/1098). Отчёт: Reports/anticheat/eac/CLIENT_REPORT.md, раздел «Тексты игроку (16.10)».",
+  "rows": [
+    {
+      "key": "991000",
+      "ru": "Easy Anti-Cheat: нарушение целостности",
+      "en": "Easy Anti-Cheat: integrity violation",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности клиента EAC, тип вне 1..15 (общая строка)",
+      "source": null
+    },
+    {
+      "key": "991001",
+      "ru": "Каталог EAC не найден",
+      "en": "Easy Anti-Cheat Hash Catalogue not found",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 1 EOS_ACCVT_IntegrityCatalogNotFound",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_catalogue_not_found (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991002",
+      "ru": "Каталог хэшей Easy Anti-Cheat повреждён",
+      "en": "Corrupt Easy Anti-Cheat Hash Catalogue",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 2 EOS_ACCVT_IntegrityCatalogError",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_catalogue_corrupted (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991003",
+      "ru": "Сертификат каталога EAC аннулирован",
+      "en": "EAC index certificate revoked",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 3 EOS_ACCVT_IntegrityCatalogCertificateRevoked",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_certificate_revoked (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991004",
+      "ru": "Не найден хэш исполняемого файла игры в каталоге хэшей.",
+      "en": "Could not locate game executable entry in the catalogue.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 4 EOS_ACCVT_IntegrityCatalogMissingMainExecutable",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.executable_not_hashed (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991005",
+      "ru": "Неизвестная версия файла",
+      "en": "Unknown file version",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 5 EOS_ACCVT_GameFileMismatch",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_file_version (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991006",
+      "ru": "Нет нужного файла",
+      "en": "Missing required file",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 6 EOS_ACCVT_RequiredGameFileNotFound",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_file_not_found (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991007",
+      "ru": "Неизвестный игровой файл",
+      "en": "Unknown game file",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 7 EOS_ACCVT_UnknownGameFileForbidden",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_file_forbidden (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991008",
+      "ru": "Подозрительный системный файл",
+      "en": "Untrusted system file",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 8 EOS_ACCVT_SystemFileUntrusted",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_system_version (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991009",
+      "ru": "Запрещенный модуль",
+      "en": "Forbidden module",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 9 EOS_ACCVT_ForbiddenModuleLoaded",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_module_forbidden (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991010",
+      "ru": "Память повреждена",
+      "en": "Corrupted memory",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 10 EOS_ACCVT_CorruptedMemory",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_corrupted_memory (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991011",
+      "ru": "Запрещенный инструмент",
+      "en": "Forbidden tool",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 11 EOS_ACCVT_ForbiddenToolDetected",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_tool_forbidden (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991012",
+      "ru": "Внутренняя ошибка программы",
+      "en": "Internal anti-cheat error",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 12 EOS_ACCVT_InternalAntiCheatViolation",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_violation (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991013",
+      "ru": "Нарушение обмена пакетами",
+      "en": "Corrupted packet flow",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 13 EOS_ACCVT_CorruptedNetworkMessageFlow",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_corrupted_network (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991014",
+      "ru": "Запрещён запуск на виртуальной машине.",
+      "en": "Cannot run under Virtual Machine.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 14 EOS_ACCVT_VirtualMachineNotAllowed",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_virtual (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991015",
+      "ru": "Недопустимая конфигурация системы",
+      "en": "Forbidden system configuration",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "нарушение целостности: EOS_EAntiCheatClientViolationType 15 EOS_ACCVT_ForbiddenSystemConfiguration",
+      "source": "EOS_AntiCheatTools-win32-x64-2.3.0.zip: dist/EasyAntiCheat/Localization/{ru_ru,en_us}.cfg, game_error.error_system_configuration (соответствие типа и ключа — по смыслу, вывод)"
+    },
+    {
+      "key": "991020",
+      "ru": "Отключено античитом",
+      "en": "Disconnected by anti-cheat",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK без распознанной причины (общая строка)",
+      "source": null
+    },
+    {
+      "key": "991021",
+      "ru": "Защита Easy Anti-Cheat не подтверждена. Запустите игру через Astory.exe и войдите снова.",
+      "en": "Easy Anti-Cheat protection was not confirmed. Start the game via Astory.exe and log in again.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK сайдкара, ourReason 1 (CONTRACT.md §5): нет EAC-сессии у учётки за BindTimeoutSec",
+      "source": null
+    },
+    {
+      "key": "991022",
+      "ru": "Вы отключены по решению Easy Anti-Cheat.",
+      "en": "You have been disconnected by Easy Anti-Cheat.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK сайдкара, ourReason 2 (CONTRACT.md §5): EAC потребовал удалить игрока (ClientActionRequired)",
+      "source": null
+    },
+    {
+      "key": "991023",
+      "ru": "Потеряна связь с сервером античита. Проверьте подключение и войдите снова.",
+      "en": "Connection to the anti-cheat server was lost. Check your connection and log in again.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK сайдкара, ourReason 3 (CONTRACT.md §5): канал 15901 потерян дольше GraceSec при живой игре",
+      "source": null
+    },
+    {
+      "key": "991024",
+      "ru": "Сервер античита отклонил подключение. Перезапустите игру через Astory.exe.",
+      "en": "The anti-cheat server rejected the connection. Restart the game via Astory.exe.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK сайдкара, ourReason 4 (CONTRACT.md §5): токен/регистрация отклонены",
+      "source": null
+    },
+    {
+      "key": "991025",
+      "ru": "С вашей учётной записью выполнен вход с другого компьютера.",
+      "en": "Your account has signed in from another computer.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK сайдкара, ourReason 5 (CONTRACT.md §5): вытеснен новой EAC-сессией той же учётки. Пока строки нет — нотис оригинала 1099 (дубль-сессия; нейтральный текст вытеснения, E1-07)",
+      "source": null
+    },
+    {
+      "key": "991026",
+      "ru": "Игровое подключение не подтверждено античитом. Войдите снова.",
+      "en": "Your game connection was not verified by the anti-cheat. Please log in again.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "KICK сайдкара, ourReason 6 (CONTRACT.md §8.1, ред. 3): игровое соединение не привязано к EAC-сессии (нулевой/не тот bind, BIND не пришёл). Пока строки нет — нотис оригинала 1106",
+      "source": null
+    },
+    {
+      "key": "991031",
+      "ru": "Не удалось подтвердить вход в античите. Повторная попытка…",
+      "en": "Could not verify your sign-in with the anti-cheat. Retrying…",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "REG_RESULT 1 (CONTRACT.md §3): токен не прошёл. Пока строки нет — нотис оригинала 12941",
+      "source": null
+    },
+    {
+      "key": "991032",
+      "ru": "Учётная запись не подтверждена сервером античита. Войдите снова.",
+      "en": "Your account was not verified by the anti-cheat server. Please log in again.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "REG_RESULT 2 (CONTRACT.md §3): учётка не совпала / не найдена. Пока строки нет — нотис оригинала 12941",
+      "source": null
+    },
+    {
+      "key": "991033",
+      "ru": "Сервер античита временно недоступен. Повторная попытка…",
+      "en": "The anti-cheat server is temporarily unavailable. Retrying…",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "REG_RESULT 3 (CONTRACT.md §3): внутренняя ошибка сайдкара",
+      "source": null
+    },
+    {
+      "key": "991034",
+      "ru": null,
+      "en": null,
+      "status": "не показывается игроку (решение владельца 16.10) — только журнал AsdaEac.log; строки в таблицах нет",
+      "meaning": "REG_RESULT 4 (CONTRACT.md §3): EAC выключен на сервере (Mode=0)",
+      "source": null
+    },
+    {
+      "key": "991036",
+      "ru": "Игра должна запускаться через Astory.exe. Если служба Easy Anti-Cheat не установлена — запустите install_eac.bat.",
+      "en": "The game must be started via Astory.exe. If the Easy Anti-Cheat service is not installed, run install_eac.bat.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "EAC недоступен: игра запущена не через Astory.exe / EOS SDK не поднялся",
+      "source": null
+    },
+    {
+      "key": "991037",
+      "ru": "Сессия входа истекла. Войдите снова.",
+      "en": "Your sign-in session has expired. Please log in again.",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "AsdaId отверг вход (HTTP 401). Пока строки нет — нотис оригинала 12941",
+      "source": null
+    },
+    {
+      "key": "991038",
+      "ru": "Сервис входа временно недоступен. Повторная попытка…",
+      "en": "The sign-in service is temporarily unavailable. Retrying…",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "AsdaId недоступен (сеть/5xx/429 после повторов). Пока строки нет — нотис оригинала 1098",
+      "source": null
+    },
+    {
+      "key": "991039",
+      "ru": "Не удалось запустить сессию античита. Повторная попытка…",
+      "en": "Could not start the anti-cheat session. Retrying…",
+      "status": "ВНЕСЕНО 16.10.2026: DT_GameText (gametext_overrides.json) + DT_Loc_GameText_en (loc/en/GameText.json)",
+      "meaning": "ошибка EOS Connect / BeginSession. Пока строки нет — нотис оригинала 1098",
+      "source": null
+    },
+    {
+      "key": "991040",
+      "ru": null,
+      "en": null,
+      "status": "своего текста нет (в PLAYER_TEXTS.md не выносился): показывается 991037 «Сессия входа истекла» — AsdaEacLoc::ForFatal",
+      "meaning": "AsdaId отверг обновление входа (/refresh → 401, CONTRACT.md §8.4): «войдите заново»; игрок возвращается на логин. Пока строки нет — нотис оригинала 12941 «ошибка авторизации»",
+      "source": null
+    }
+  ]
+}

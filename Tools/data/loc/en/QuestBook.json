@@ -1,0 +1,663 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_QuestBook_en (ключ — как в _gaps_QuestBook.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "114_Qst_104.Title",
+      "value": "The Rumble of The Rain River",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "114_Qst_104.Desc",
+      "value": "[The Rumble of The Rain River]\r\n\r\nOh, it's you?\r\nI was just looking for you. This morning a tremendous noise woke me up, and what did I see? A huge chunk of stone standing right there.\r\nI wondered who had brought it in the night, so I rubbed my eyes and took a closer look. It was a golem made of solid rock!\r\nAs it kept stomping around, the monsters nearby all fled in terror.\r\nA few passing adventurers joined forces and attacked it, but they were knocked down in no time.\r\n\r\nTo tell the truth, I haven't seen a golem in a very long time. What matters is why it suddenly appeared in the Rein River area. \r\nHmm, I'm really worried. Once before, not long after a golem appeared, a terrible disaster struck the Kingdom of Alpen.\r\n\r\nWould you go and see Clark, the warehouse keeper in Alpen?\r\nI think we should find out what Clark's books have to say.\r\n\r\nClark has been collecting old books for a long time, and a few of them describe in detail the monsters that appeared in the past.\r\n\r\nClark can probably tell you more about the golem.\r\n",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "114_Qst_104.Steps.0",
+      "value": "You must go and see Clark, the warehouse keeper in Alpen.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "115_Qst_47.Title",
+      "value": "Darkness Corps",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "115_Qst_47.Desc",
+      "value": "[Darkness Corps]\r\n\r\nIf so, the Darkness Corps... No, no.\r\nIn Alpen it is forbidden to even speak of the Darkness Corps. And as the warehouse keeper of Alpen, I must never say those words.\r\nInstead, I'll give you a book about the Darkness Corps. Take it to Ben.\r\n\r\nBen lives in the Rein River area, so he can talk about the Darkness Corps without breaking Alpen law.\r\n\r\n\r\n",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "115_Qst_47.Steps.0",
+      "value": "You must go and see Ben at the lower part of the Rein River.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "116_Qst_104.Title",
+      "value": "Punish Monalise",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "116_Qst_104.Desc",
+      "value": "[Punish Monalise]\r\n\r\n(Ben blows the dust off the old book, opens it with a tense face and starts reading.)\r\n\r\nHmm, just as I feared.\r\nMaking a golem is very hard work. The only ones who can make them are the Darkness Corps... the Deckron Army. \r\nIn other words, if a golem has appeared, the Deckron Army has begun to move......\r\n......\r\nSo the day has finally come... Heh heh heh...\r\nWell, an old man like me can die without regrets, but I worry about young folks like you...\r\n\r\nYes, yes......\r\nAs long as there are brave young people like you, what is there to fear, even if the Deckron Army - no, even Deckron's grandfather's army - comes. Heh~\r\n\r\nLuckily, if you can call it that, the golem made now is of the lowest rank.\r\nThat means the Deckron Army is still barely moving. \r\n\r\nI think you should give the Deckron Army a little welcome. Do you know what I mean? \r\nGo beyond the Penol Bridge, defeat the golem and bring me proof.\r\n\r\nBut there is one thing you must keep in mind.\r\nI know you are skilled, but a golem is never an opponent you can face alone.\r\nUnderstood?\r\nNever try to fight it alone. You must join forces with other adventurers.\r\n",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "116_Qst_104.Steps.0",
+      "value": "You must defeat the golem Monalise beyond the Penol Bridge and get the proof.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "116_Qst_104.Steps.1",
+      "value": "Once you have the proof, go see Ben at the lower part of the Rein River.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "117_Qst_56.Title",
+      "value": "Crucial Information",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "117_Qst_56.Desc",
+      "value": "[Crucial Information]\r\n\r\nWelcome. \r\nI was just looking for you. You are the only one who can do this.\r\n\r\nI have received urgent news that something terrible is happening in Conquest Land.\r\nBut honestly, I can't believe it.\r\nThose who could create them vanished from this world long ago.\r\n\r\nBut... if it is true, we must be ready to fight with everything we have built so far.\r\n\r\nAh!\r\nThere's no time to waste.\r\nI'll write a letter. Please deliver it to Radmil in Alpen. \r\n\r\nRadmil will know whether this news is true or not. Please hurry.\r\n",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "117_Qst_56.Steps.0",
+      "value": "Go see Radmil in Alpen.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "118_Qst_54.Title",
+      "value": "Dark Creation",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "118_Qst_54.Desc",
+      "value": "[Dark Creation]\r\n\r\n......\r\nSo it has finally come. I heard rumors that the same thing happened at the Rein River...\r\n\r\nHey. You!\r\nListen carefully to what I'm about to say.\r\nElosa says that dark creations have appeared in Conquest Land. And Elosa is asking me whether that is really possible.\r\nYes. Dark creations can appear in Conquest Land.\r\nThe signs have already shown up many times.\r\nBut the Kingdom must never find out about this. \r\n\r\nIf the Kingdom learns of it... the consequences would be beyond words.\r\nAnd if it ever reaches the ears of Knight Captain Ella, there will be a terrible battle.\r\n\r\nI want to handle this as quietly as possible.\r\nOf course, Elosa thinks the same. \r\nThe priests and soldiers, Ella included, have no idea how dangerous they are.\r\n\r\nThere's no time. I'll write you a letter. Deliver it to Elosa.\r\n\r\nThis must be done in strict secrecy. Remember that. Understood? \r\n",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "118_Qst_54.Steps.0",
+      "value": "You must go and see Elosa in Silaris.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "119_Qst_56.Title",
+      "value": "Punish Ocsodogs",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "119_Qst_56.Desc",
+      "value": "[Punish Ocsodogs]\r\n\r\nBefore you begin, there is something you should know.\r\nWhat has appeared in Conquest Land are creations of the Darkness Corps, the Deckron Army. In other words, the Deckron Army has started to move.\r\n\r\nBut Alpen must not learn of this yet.\r\nFacing them before we have built up our strength would be far too reckless. \r\n\r\nYes. The soldiers may find them. \r\nIf soldiers who find them report it to their superiors, the Kingdom will do something reckless and fight them. \r\n\r\nThat is why I need you.\r\nFortunately, those dark creations, the Ocsodog golems, are not yet at full strength.\r\n\r\nGo to Conquest Land now and destroy them before the Kingdom notices, then come back. Understood?\r\n",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "119_Qst_56.Steps.0",
+      "value": "You must find and defeat the golem Ocsodogs in Conquest Land and get the proof.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "119_Qst_56.Steps.1",
+      "value": "Once you have the proof, go see Elosa in Silaris.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "340_Qst_163.Title",
+      "value": "Offering Event Shovel",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "340_Qst_163.Desc",
+      "value": "[Offering Event Shovel]\r\n\r\nHello!\r\n\r\nAre you enjoying the game? Hoho.\r\n\r\nI'd like to tell you how to have even more fun in Asda Story.\r\n\r\nAre you interested?",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "340_Qst_163.Steps.0",
+      "value": "Talk to the Event NPC.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "417_Qst_36.Title",
+      "value": "How to Build Barracks?",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "417_Qst_36.Desc",
+      "value": "[How to Build Barracks?]\r\n\r\nHey [NAME]! If you're not busy, give me a hand! \r\nAlpen told me to build more barracks. Looks like they plan to set up a big forward base here. \r\nI've thought it over, \r\nand to build barracks you really need to use your head to place them right. \r\nBut I'm just a soldier, right? \r\nWe'll never manage to build barracks. Probably...\r\n\r\nOh! If you help me, I'll feel much better! \r\nFirst we have to move the barracks, so we need to pull out the big nails that hold them in place. \r\nBut I have no tool to pull the nails out. Could you borrow one from Ben? \r\nI'll hold the barracks ropes. If I let go, the wind might blow the barracks away. \r\nPlease!",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "417_Qst_36.Steps.0",
+      "value": "Go to Ben and borrow a tool for pulling out the nails.\r\n\r\n▶Ben -Rein River x: 58, y:339",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "417_Qst_36.Steps.1",
+      "value": "Ben gave you a hammer. Take the hammer back to Vasa.\r\n\r\n▶Vasa -Rein River x:288 y:243",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "426_Qst_34.Title",
+      "value": "Don't Hatch the Pet",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "426_Qst_34.Desc",
+      "value": "[Don't Hatch the Pet]\r\n\r\nOh! You've brought a really cute wolf cub! \r\nNow... we have to put this wolf cub into a Dream Crystal Egg to make it tamer. \r\nOtherwise it will become a wild Pet. \r\nUsually when you're hunting monsters, you'll find baby monsters like this inside Dream Crystal Eggs. \r\nAnd how do you hatch a baby monster that has become an egg? You hatch it with an Incubator.\r\nBut keep in mind that a Pet Egg can break.\r\n\r\nI'll put your Pet into the Dream Crystal Egg too, so try hatching it. \r\nOf course, I'll give you the Incubator for saving my Pet. Let's hatch them together.\r\n\r\nNow. Open the Pet Incubator I gave you, put the Pet Egg inside and hatch it, and the Pet will come out. \r\nAfter hatching the Pet, talk to me again. It's fine if you don't hatch the Pet, though.\r\n\r\nHm?\r\n\r\nHmm... \r\nIf you don't want to hatch the Pet, there's nothing I can do.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "426_Qst_34.Steps.0",
+      "value": "You can raise many Pets. So don't worry about which Pet to raise - just pick the one that suits you.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "200_Qst_28.Title",
+      "value": "Berserker Job Change",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "200_Qst_28.Desc",
+      "value": "Berserker job change.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "200_Qst_28.Steps.0",
+      "value": "Keep talking to Gilbert.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "201_Qst_29.Title",
+      "value": "Knight Job Change",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "201_Qst_29.Desc",
+      "value": "Knight job change.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "201_Qst_29.Steps.0",
+      "value": "Keep talking to Albert.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "202_Qst_34.Title",
+      "value": "Bow Master Job Change",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "202_Qst_34.Desc",
+      "value": "Bow Master job change.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "202_Qst_34.Steps.0",
+      "value": "Keep talking to Diju.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "203_Qst_35.Title",
+      "value": "Trapper Job Change",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "203_Qst_35.Desc",
+      "value": "Trapper job change.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "203_Qst_35.Steps.0",
+      "value": "Keep talking to Ukan.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "204_Qst_30.Title",
+      "value": "Warlock Job Change",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "204_Qst_30.Desc",
+      "value": "Warlock job change.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "204_Qst_30.Steps.0",
+      "value": "Keep talking to Morris.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "205_Qst_31.Title",
+      "value": "Prayer Job Change",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "205_Qst_31.Desc",
+      "value": "Prayer job change.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "205_Qst_31.Steps.0",
+      "value": "Keep talking to Corin.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "160Qst_13.Title",
+      "value": "Wendy’s Request",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); японский дубль файла 160_Qst_13 — EN оригинала того же квеста",
+      "source": "manual"
+    },
+    {
+      "key": "160Qst_13.Desc",
+      "value": "[Wendy’s Request]\r\n\r\nUmm, if you’re not busy, could you do me a favor?\r\n\r\nAlthough I cannot fight anymore, I used to fight in the battlefield.\r\nBut after I was seriously injured while helping Silaris, I couldn’t fight anymore.\r\nAnd my favorite magic bow was stolen by the monsters.\r\nI’ve heard that the arms/armor dealer Yajark in Silaris found some pieces of my magic bow.\r\nCould you find out about it?\r\n\r\nThank you. I’ll be waiting for you.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); японский дубль файла 160_Qst_13 — EN оригинала того же квеста",
+      "source": "manual"
+    },
+    {
+      "key": "160Qst_13.Steps.0",
+      "value": "Go ask Yajark in Silaris about \r\nthe pieces of the magic bow.",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual); японский дубль файла 160_Qst_13 — EN оригинала того же квеста",
+      "source": "manual"
+    },
+    {
+      "key": "566QST.Steps.1",
+      "value": "You've successfully defeated them all. Return to Knight Captain Ella  in Alpen.",
+      "was": "You?ve successfully defeated them all. Return to Knight Captain Ella  in Alpen.",
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "568QST.Steps.1",
+      "value": "You've successfully defeated them all. Return to Assault Captain Scud in Silaris.",
+      "was": "You?ve successfully defeated them all. Return to Assault Captain Scud in Silaris.",
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "568QST.Steps.0",
+      "value": "Go and defeat 10 Boss WikiBlows located in Silaris.",
+      "was": "Go and defeat 10 Boss Viologers located in Silaris.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "579QST.Steps.0",
+      "value": "Capture 35 Patrolling Metal Helmet Slimes who have been stealing jewels from Flammio.",
+      "was": "Capture 35 Steel Slime Bandits who have been stealing jewels from Flammio.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "584QST.Steps.0",
+      "value": "Collect 20 Junkman Symbols from Junkman Patrols so Hares can become human.",
+      "was": "Collect 20 Junkman Symbols from Deckron Junkmen so Hares can become human.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "589QST.Steps.0",
+      "value": "Destroy 50 Patrolling Metal Helmet Slimes to prove yourself to Atres.",
+      "was": "Destroy 50 Steel Slimes to prove yourself to Atres.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "590QST.Steps.0",
+      "value": "Find 30 Steel Stovepipes from the Bad MetalHelmetSlimes so Patton can make weapons.",
+      "was": "Find 30 Steel Stovepipes from the Steel Slimes so Patton can make weapons.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "591QST.Steps.0",
+      "value": "Find 30 Small Valves from the Bad MetalHelmetSlimes.",
+      "was": "Find 30 Small Valves from the Steel Slimes.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "592QST.Steps.0",
+      "value": "Retrieve Phailan's Sparkling Necklace from the Bad MetalHelmetSlimes.",
+      "was": "Retrieve Phailan's Sparkling Necklace from the Steel Slime Bandits.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "598QST.Steps.0",
+      "value": "Find 20 Large Valves from the MetalHelmetSlimes.",
+      "was": "Find 20 Large Valves from the Deckron Slimes.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "604QST.Steps.0",
+      "value": "Find 30 Pressure Gauges from the Junkman Patrols.",
+      "was": "Find 30 Pressure Gauges from the Junkmen.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "606QST.Steps.0",
+      "value": "Gather Steel Stovepipes and Pressure Gauges from MetalHelmetSlimes, and Large Valves from Junkman Patrols.",
+      "was": "Gather Steel Stovepipes from Steel Slimes, Pressure Gauges from Solid Steel Slimes, and Large Valves from Junkman Sentries.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "607QST.Steps.0",
+      "value": "Collect 35 Saw Blades from the Bad Junkmen as weapon materials.",
+      "was": "Collect 35 Saw Blades from the Junkman Warriors as weapon materials.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "623QST.Steps.0",
+      "value": "Retrieve 35 Food Packs from FlameGolem Gangs which were stolen from Phailan.",
+      "was": "Retrieve 35 Food Packs from Fire Golems which were stolen from Phailan.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "624QST.Steps.0",
+      "value": "Get 30 Embers from FlameGolem Gangs for the Chief's experiment.",
+      "was": "Get 30 Embers from Fire Golems for the Chief's experiment.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "626QST.Steps.0",
+      "value": "Destroy 30 Anti-BulletHelmetSlimes which are threatening Chief Retos.",
+      "was": "Destroy 30 Lava Golems which are threatening Chief Retos.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в стадии = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "254_Qst_47.Title",
+      "value": "What’s it for?",
+      "was": "What’s it for? ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "325_Qst_173.Title",
+      "value": "Local Patrol",
+      "was": "Local Patrol ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "347_Qst_182.Title",
+      "value": "Negotiation",
+      "was": "Negotiation ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "355_Qst_42.Title",
+      "value": "Stolen Settlement Account",
+      "was": "Stolen Settlement Account ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "362_Qst_125.Title",
+      "value": "Instinct of Chaser",
+      "was": "Instinct of Chaser ",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "413_Qst_36.Title",
+      "value": "The Story of Brave Vassa",
+      "was": " The Story of Brave Vassa",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "414_Qst_36.Title",
+      "value": "Something’s Wrong With Vassa!",
+      "was": " Something’s Wrong With Vassa!",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "415_Qst_36.Title",
+      "value": "Cleaning Up the Outpost 1",
+      "was": " Cleaning Up the Outpost 1",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "416_Qst_36.Title",
+      "value": "Cleaning Up the Outpost 2",
+      "was": " Cleaning Up the Outpost 2",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "421_Qst_36.Title",
+      "value": "While I’m Building the Barracks",
+      "was": " While I’m Building the Barracks",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "424_Qst_34.Title",
+      "value": "A Man’s Best Friend",
+      "was": " A Man’s Best Friend",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "425_Qst_34.Title",
+      "value": "Hatching the Pets",
+      "was": " Hatching the Pets",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "432_Qst_128.Title",
+      "value": "Another Match 2",
+      "was": " Another Match 2",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "435_Qst_126.Title",
+      "value": "After the Match 2",
+      "was": " After the Match 2",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "437_Qst_119.Title",
+      "value": "Love with paper plane 2",
+      "was": " Love with paper plane 2",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "438_Qst_119.Title",
+      "value": "Love with paper plane 3",
+      "was": " Love with paper plane 3",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "439_Qst_119.Title",
+      "value": "Love with paper plane 4",
+      "was": " Love with paper plane 4",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "440_Qst_130.Title",
+      "value": "Love with paper plane 5",
+      "was": " Love with paper plane 5",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "441_Qst_119.Title",
+      "value": "Love with paper plane 6",
+      "was": " Love with paper plane 6",
+      "why": "25.10.2026 quest-mobs: лишний пробел в начале/конце названия задания",
+      "source": "manual"
+    },
+    {
+      "key": "566QST.Desc",
+      "value": "[Defeat the Boss- Rein River]\t\r\n\t\r\nIn the past, the high rank monsters couln't penetrate into our village due to the protection by our warriors.  However with the warriors not in sight, the mighty monsters continue to be seen.\nCould you help us defeat the 10 boss monster Viologers that resides near the Rein River?",
+      "was": "[Defeat the Boss- Rein River]\t\r\n\t\r\nIn the past, the high rank monsters couln't penetrate into our village due to the protection by our warriors.  However with the warriors not in sight, the mighty monsters continue to be seen.\nCould you help us defeat the 10 boss monster Violongers that resides near the Rein River?",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "568QST.Desc",
+      "value": "[Defeat the Boss- Silaris]\t\r\n\t\r\nWikiBlow has infiltrated here in silaris. That creature has been attacking town forks continuously. Thus, go and defeat 10 WikiBlows.",
+      "was": "[Defeat the Boss- Silaris]\t\r\n\t\r\nWiki Blow has infiltrated here in silaris. That creature has been attacking town forks continuously. Thus, go and defeat 10 Wiki Blows.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "579QST.Desc",
+      "value": "[Iris's Request]\t\r\n\t\r\nPlease capture 35 of the jewel-stealing Patrolling Metal Helmet Slimes. I will reward you handsomely!",
+      "was": "[Iris's Request]\t\r\n\t\r\nPlease capture 35 of the jewel-stealing Steel Slime Bandits. I will reward you handsomely!",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "590QST.Desc",
+      "value": "[Pressure Outlet [1]]\t\r\n\t\r\nThe materials necessary to make a stovepipe can be obtained from the Bad MetalHelmetSlimes. Could you capture them and get me those materials?",
+      "was": "[Pressure Outlet [1]]\t\r\n\t\r\nThe materials necessary to make a stovepipe can be obtained from the Steel Slimes. Could you capture them and get me those materials?",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "592QST.Desc",
+      "value": "[Stolen Necklace]\t\r\n\t\r\nMy necklace...they've stolen my necklace! A darned Bad MetalHelmetSlime has taken my precious necklace away from me!\n\nIt ran to the northeast...maybe it has already returned to the Bad MetalHelmetSlime groups.... Please help!",
+      "was": "[Stolen Necklace]\t\r\n\t\r\nMy necklace...they've stolen my necklace! A darned Steel Slime has taken my precious necklace away from me!\n\nIt ran to the northeast...maybe it has already returned to the Steel Slime groups.... Please help!",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "598QST.Desc",
+      "value": "[Find Valve [2]]\t\r\n\t\r\nIs this really the valve you got from the Bad MetalHelmetSlimes? It's smaller than I expected. I need a slightly larger valve.",
+      "was": "[Find Valve [2]]\t\r\n\t\r\nIs this really the valve you got from the Steel Slimes? It's smaller than I expected. I need a slightly larger valve.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "607QST.Desc",
+      "value": "[Weapon Materials]\t\r\n\t\r\nI need some ingredients for making quality weapons. I've been informed that the blade of the Bad Junkmen can serve as quality weapons if polished. How about it? Are you interested?",
+      "was": "[Weapon Materials]\t\r\n\t\r\nI need some ingredients for making quality weapons. I've been informed that the blade of the Junkman Warriors can serve as quality weapons if polished. How about it? Are you interested?",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    },
+    {
+      "key": "623QST.Desc",
+      "value": "[Get My Food!]\t\r\n\t\r\nYou'll retrieve my stolen food? All right!\n\nPlease retrieve 35 packs of my food from the FlameGolem Gangs.",
+      "was": "[Get My Food!]\t\r\n\t\r\nYou'll retrieve my stolen food? All right!\n\nPlease retrieve 35 packs of my food from the Flame Golems.",
+      "why": "25.10.2026 quest-mobs, решение владельца: имя моба в описании = моб, которого засчитывает сервер (Monster.ai) и гид QDT",
+      "source": "manual"
+    }
+  ]
+}

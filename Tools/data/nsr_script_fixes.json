@@ -1,0 +1,1877 @@
+{
+ "_comment": "Ведомость Tools/asda_nsr_script_align.py (записи сценария NSR по серверному ConditionTable.Bin). Правится только генератором; применяется импортёром при каждом прогоне.",
+ "rows": [
+  {
+   "nsr": "108npc",
+   "rec": 11,
+   "page": 12,
+   "accept_page": 22,
+   "accept_step": 0,
+   "episode": 2151,
+   "quest": 150,
+   "mark": 1,
+   "npc": 108,
+   "give_slot": 0,
+   "server_cond": 386,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 386 (level)",
+   "was": {
+    "LevelMin": 0,
+    "LevelMax": 0
+   },
+   "set": {
+    "LevelMin": 49,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 49,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      149
+     ]
+    },
+    "neg": [
+     {
+      "level": 48,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       149
+      ],
+      "what": "уровень 48"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "123npc",
+   "rec": 19,
+   "page": 20,
+   "accept_page": 20,
+   "accept_step": 0,
+   "episode": 2195,
+   "quest": 194,
+   "mark": 1,
+   "npc": 123,
+   "give_slot": 0,
+   "server_cond": 480,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 480 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 25,
+    "ClassMode": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 25,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      193
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       193
+      ],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "126npc",
+   "rec": 1,
+   "page": 65,
+   "accept_page": 65,
+   "accept_step": 0,
+   "episode": 2569,
+   "quest": -1,
+   "mark": 1,
+   "npc": 126,
+   "give_slot": -1,
+   "why": "квест не выдаётся ни клиентом, ни сервером (эпизода 2569 нет в таблице эпизодов клиента) — метку и вход убрать",
+   "disable": true,
+   "was": {
+    "LevelMin": 50,
+    "LevelMax": 150,
+    "ClassId": -1,
+    "ClassMode": -1,
+    "QuestDone": 569,
+    "QuestFreeA": 570,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0,
+    "ReqItemIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ReqItemCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "HaveItemId": -1,
+    "BagTabA": -1,
+    "BagTabB": -1
+   }
+  },
+  {
+   "nsr": "131npc",
+   "rec": 13,
+   "page": 14,
+   "accept_page": 46,
+   "accept_step": 0,
+   "episode": 2246,
+   "quest": 245,
+   "mark": 1,
+   "npc": 131,
+   "give_slot": 1,
+   "server_cond": 577,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 577 (level)",
+   "was": {
+    "LevelMin": 145,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 140,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      244
+     ]
+    },
+    "neg": [
+     {
+      "level": 139,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       244
+      ],
+      "what": "уровень 139"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "131npc",
+   "rec": 25,
+   "page": 26,
+   "accept_page": 43,
+   "accept_step": 0,
+   "episode": 2243,
+   "quest": 242,
+   "mark": 1,
+   "npc": 131,
+   "give_slot": 0,
+   "server_cond": 571,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 571 (level)",
+   "was": {
+    "LevelMin": 145,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 140,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      241
+     ]
+    },
+    "neg": [
+     {
+      "level": 139,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       241
+      ],
+      "what": "уровень 139"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "133npc",
+   "rec": 3,
+   "page": 67,
+   "accept_page": 26,
+   "accept_step": 0,
+   "episode": 2624,
+   "quest": -1,
+   "mark": 1,
+   "npc": 133,
+   "give_slot": -1,
+   "why": "квест не выдаётся ни клиентом, ни сервером (эпизода 2624 нет в таблице эпизодов клиента) — метку и вход убрать",
+   "disable": true,
+   "was": {
+    "LevelMin": 54,
+    "LevelMax": 150,
+    "ClassId": -1,
+    "ClassMode": -1,
+    "QuestDone": 624,
+    "QuestFreeA": 625,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0,
+    "ReqItemIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ReqItemCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "HaveItemId": -1,
+    "BagTabA": -1,
+    "BagTabB": -1
+   }
+  },
+  {
+   "nsr": "133npc",
+   "rec": 19,
+   "page": 20,
+   "accept_page": 31,
+   "accept_step": 0,
+   "episode": 2177,
+   "quest": 176,
+   "mark": 1,
+   "npc": 133,
+   "give_slot": 0,
+   "server_cond": 441,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 441 (class)",
+   "was": {
+    "ClassId": 3,
+    "ClassMode": 0
+   },
+   "set": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      175
+     ]
+    },
+    "neg": []
+   }
+  },
+  {
+   "nsr": "133npc",
+   "rec": 20,
+   "page": 21,
+   "accept_page": 35,
+   "accept_step": 0,
+   "episode": 2184,
+   "quest": 183,
+   "mark": 1,
+   "npc": 133,
+   "give_slot": 1,
+   "server_cond": 456,
+   "groups": [
+    "class",
+    "quest"
+   ],
+   "why": "условие записи ≠ серверному условию 456 (class, quest)",
+   "was": {
+    "ClassId": 14,
+    "ClassMode": 0,
+    "QuestDone": 183,
+    "QuestFreeA": 184,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0
+   },
+   "set": {
+    "ClassId": -1,
+    "ClassMode": -1,
+    "QuestDone": 182,
+    "QuestFreeA": 183,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      182
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "квест 182 не сдан"
+     },
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       182,
+       183
+      ],
+      "what": "квест 183 уже сдан"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "133npc",
+   "rec": 21,
+   "page": 22,
+   "accept_page": 37,
+   "accept_step": 0,
+   "episode": 2185,
+   "quest": 184,
+   "mark": 1,
+   "npc": 133,
+   "give_slot": 2,
+   "server_cond": 458,
+   "groups": [
+    "class",
+    "quest"
+   ],
+   "why": "условие записи ≠ серверному условию 458 (class, quest)",
+   "was": {
+    "ClassId": 14,
+    "ClassMode": 0,
+    "QuestDone": 184,
+    "QuestFreeA": 185,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0
+   },
+   "set": {
+    "ClassId": -1,
+    "ClassMode": -1,
+    "QuestDone": 183,
+    "QuestFreeA": 184,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      183
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "квест 183 не сдан"
+     },
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       183,
+       184
+      ],
+      "what": "квест 184 уже сдан"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "139npc",
+   "rec": 9,
+   "page": 16,
+   "accept_page": 16,
+   "accept_step": 0,
+   "episode": 2621,
+   "quest": -1,
+   "mark": 1,
+   "npc": 139,
+   "give_slot": -1,
+   "why": "квест не выдаётся ни клиентом, ни сервером (эпизода 2621 нет в таблице эпизодов клиента) — метку и вход убрать",
+   "disable": true,
+   "was": {
+    "LevelMin": 53,
+    "LevelMax": 150,
+    "ClassId": -1,
+    "ClassMode": -1,
+    "QuestDone": 627,
+    "QuestFreeA": 622,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1,
+    "ObjIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ObjCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "ObjFlagNone": 0,
+    "ObjFlagAny": 0,
+    "ReqItemIds": [
+     -1,
+     -1,
+     -1,
+     -1,
+     -1
+    ],
+    "ReqItemCounts": [
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "HaveItemId": -1,
+    "BagTabA": -1,
+    "BagTabB": -1
+   }
+  },
+  {
+   "nsr": "152npc",
+   "rec": 20,
+   "page": 21,
+   "accept_page": 32,
+   "accept_step": 0,
+   "episode": 2226,
+   "quest": 225,
+   "mark": 0,
+   "npc": 152,
+   "give_slot": 0,
+   "server_cond": 536,
+   "groups": [
+    "mark"
+   ],
+   "why": "условие записи ≠ серверному условию 536 (mark)",
+   "was": {
+    "Mark": 0
+   },
+   "set": {
+    "Mark": 1
+   },
+   "check": {
+    "pos": {
+     "level": 24,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      222
+     ]
+    },
+    "neg": []
+   }
+  },
+  {
+   "nsr": "154npc",
+   "rec": 20,
+   "page": 21,
+   "accept_page": 21,
+   "accept_step": 0,
+   "episode": 2239,
+   "quest": 238,
+   "mark": 0,
+   "npc": 154,
+   "give_slot": 0,
+   "server_cond": 563,
+   "groups": [
+    "mark"
+   ],
+   "why": "условие записи ≠ серверному условию 563 (mark)",
+   "was": {
+    "Mark": 0
+   },
+   "set": {
+    "Mark": 1
+   },
+   "check": {
+    "pos": {
+     "level": 24,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      222
+     ]
+    },
+    "neg": []
+   }
+  },
+  {
+   "nsr": "155npc",
+   "rec": 20,
+   "page": 21,
+   "accept_page": 21,
+   "accept_step": 0,
+   "episode": 2240,
+   "quest": 239,
+   "mark": 0,
+   "npc": 155,
+   "give_slot": 0,
+   "server_cond": 565,
+   "groups": [
+    "mark"
+   ],
+   "why": "условие записи ≠ серверному условию 565 (mark)",
+   "was": {
+    "Mark": 0
+   },
+   "set": {
+    "Mark": 1
+   },
+   "check": {
+    "pos": {
+     "level": 24,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      222
+     ]
+    },
+    "neg": []
+   }
+  },
+  {
+   "nsr": "156npc",
+   "rec": 20,
+   "page": 21,
+   "accept_page": 21,
+   "accept_step": 0,
+   "episode": 2241,
+   "quest": 240,
+   "mark": 0,
+   "npc": 156,
+   "give_slot": 0,
+   "server_cond": 567,
+   "groups": [
+    "mark"
+   ],
+   "why": "условие записи ≠ серверному условию 567 (mark)",
+   "was": {
+    "Mark": 0
+   },
+   "set": {
+    "Mark": 1
+   },
+   "check": {
+    "pos": {
+     "level": 24,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      222
+     ]
+    },
+    "neg": []
+   }
+  },
+  {
+   "nsr": "170npc",
+   "rec": 35,
+   "page": 36,
+   "accept_page": 36,
+   "accept_step": 0,
+   "episode": 2361,
+   "quest": 360,
+   "mark": 1,
+   "npc": 170,
+   "give_slot": 4,
+   "server_cond": 830,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 830 (level)",
+   "was": {
+    "LevelMin": 34,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 35,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 35,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      359
+     ]
+    },
+    "neg": [
+     {
+      "level": 34,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       359
+      ],
+      "what": "уровень 34"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "172npc",
+   "rec": 13,
+   "page": 14,
+   "accept_page": 14,
+   "accept_step": 0,
+   "episode": 2386,
+   "quest": 385,
+   "mark": 1,
+   "npc": 172,
+   "give_slot": 2,
+   "server_cond": 880,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 880 (level)",
+   "was": {
+    "LevelMin": 32,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 33,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 33,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 32,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "уровень 32"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "77npc",
+   "rec": 14,
+   "page": 15,
+   "accept_page": 15,
+   "accept_step": 0,
+   "episode": 2459,
+   "quest": 460,
+   "mark": 1,
+   "npc": 77,
+   "give_slot": 3,
+   "server_cond": 1092,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 1092 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 3,
+    "ClassMode": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 3,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      459
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       459
+      ],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "77npc",
+   "rec": 15,
+   "page": 16,
+   "accept_page": 16,
+   "accept_step": 0,
+   "episode": 2460,
+   "quest": 461,
+   "mark": 1,
+   "npc": 77,
+   "give_slot": 4,
+   "server_cond": 1094,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 1094 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 3,
+    "ClassMode": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 3,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      460
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       460
+      ],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "ashley",
+   "rec": 25,
+   "page": 26,
+   "accept_page": 50,
+   "accept_step": 0,
+   "episode": 2242,
+   "quest": 241,
+   "mark": 0,
+   "npc": 100,
+   "give_slot": 4,
+   "server_cond": 569,
+   "groups": [
+    "level",
+    "class",
+    "mark"
+   ],
+   "why": "условие записи ≠ серверному условию 569 (level, class, mark)",
+   "was": {
+    "LevelMin": 145,
+    "LevelMax": 150,
+    "ClassId": 99,
+    "ClassMode": 1,
+    "Mark": 0
+   },
+   "set": {
+    "LevelMin": 140,
+    "LevelMax": 150,
+    "ClassId": -1,
+    "ClassMode": -1,
+    "Mark": 1
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 139,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "уровень 139"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "baby",
+   "rec": 11,
+   "page": 12,
+   "accept_page": 12,
+   "accept_step": 0,
+   "episode": 2006,
+   "quest": 5,
+   "mark": 1,
+   "npc": 102,
+   "give_slot": 0,
+   "server_cond": 46,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 46 (level)",
+   "was": {
+    "LevelMin": 4,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 5,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      4
+     ]
+    },
+    "neg": [
+     {
+      "level": 4,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       4
+      ],
+      "what": "уровень 4"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "baby",
+   "rec": 12,
+   "page": 13,
+   "accept_page": 13,
+   "accept_step": 0,
+   "episode": 2010,
+   "quest": 9,
+   "mark": 1,
+   "npc": 102,
+   "give_slot": 1,
+   "server_cond": 54,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 54 (level)",
+   "was": {
+    "LevelMin": 4,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 5,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      8
+     ]
+    },
+    "neg": [
+     {
+      "level": 4,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       8
+      ],
+      "what": "уровень 4"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "britz",
+   "rec": 12,
+   "page": 13,
+   "accept_page": 27,
+   "accept_step": 0,
+   "episode": 2158,
+   "quest": 157,
+   "mark": 1,
+   "npc": 32,
+   "give_slot": 1,
+   "server_cond": 400,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 400 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 99,
+    "ClassMode": 1
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      156,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 5,
+      "cls": 0,
+      "active": [
+       156,
+       0
+      ],
+      "done": [],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "clark",
+   "rec": 11,
+   "page": 12,
+   "accept_page": 24,
+   "accept_step": 0,
+   "episode": 2121,
+   "quest": 120,
+   "mark": 1,
+   "npc": 47,
+   "give_slot": 0,
+   "server_cond": 304,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 304 (level)",
+   "was": {
+    "LevelMin": 6,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 5,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      405
+     ]
+    },
+    "neg": [
+     {
+      "level": 4,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       405
+      ],
+      "what": "уровень 4"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "clark",
+   "rec": 12,
+   "page": 13,
+   "accept_page": 13,
+   "accept_step": 0,
+   "episode": 2122,
+   "quest": 121,
+   "mark": 1,
+   "npc": 47,
+   "give_slot": 1,
+   "server_cond": 307,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 307 (level)",
+   "was": {
+    "LevelMin": 6,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 5,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      120
+     ]
+    },
+    "neg": [
+     {
+      "level": 4,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       120
+      ],
+      "what": "уровень 4"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "fhashu",
+   "rec": 11,
+   "page": 12,
+   "accept_page": 22,
+   "accept_step": 0,
+   "episode": 2018,
+   "quest": 17,
+   "mark": 1,
+   "npc": 14,
+   "give_slot": 0,
+   "server_cond": 74,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 74 (level)",
+   "was": {
+    "LevelMin": 6,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 7,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 7,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      16
+     ]
+    },
+    "neg": [
+     {
+      "level": 6,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       16
+      ],
+      "what": "уровень 6"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "fhashu",
+   "rec": 38,
+   "page": 39,
+   "accept_page": 43,
+   "accept_step": 0,
+   "episode": 2387,
+   "quest": 386,
+   "mark": 0,
+   "npc": 14,
+   "give_slot": 8,
+   "server_cond": 882,
+   "groups": [
+    "level",
+    "mark"
+   ],
+   "why": "условие записи ≠ серверному условию 882 (level, mark)",
+   "was": {
+    "LevelMin": 32,
+    "LevelMax": 150,
+    "Mark": 0
+   },
+   "set": {
+    "LevelMin": 33,
+    "LevelMax": 150,
+    "Mark": 1
+   },
+   "check": {
+    "pos": {
+     "level": 33,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      385
+     ]
+    },
+    "neg": [
+     {
+      "level": 32,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       385
+      ],
+      "what": "уровень 32"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "ian",
+   "rec": 11,
+   "page": 12,
+   "accept_page": 12,
+   "accept_step": 0,
+   "episode": 2008,
+   "quest": 7,
+   "mark": 1,
+   "npc": 3,
+   "give_slot": 0,
+   "server_cond": 50,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 50 (level)",
+   "was": {
+    "LevelMin": 4,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 5,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      6
+     ]
+    },
+    "neg": [
+     {
+      "level": 4,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       6
+      ],
+      "what": "уровень 4"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "ian",
+   "rec": 12,
+   "page": 13,
+   "accept_page": 13,
+   "accept_step": 0,
+   "episode": 2009,
+   "quest": 8,
+   "mark": 1,
+   "npc": 3,
+   "give_slot": 1,
+   "server_cond": 52,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 52 (level)",
+   "was": {
+    "LevelMin": 4,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 5,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      7
+     ]
+    },
+    "neg": [
+     {
+      "level": 4,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       7
+      ],
+      "what": "уровень 4"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "ian",
+   "rec": 14,
+   "page": 15,
+   "accept_page": 30,
+   "accept_step": 0,
+   "episode": 2221,
+   "quest": 220,
+   "mark": 1,
+   "npc": 3,
+   "give_slot": 3,
+   "server_cond": 524,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 524 (level)",
+   "was": {
+    "LevelMin": 11,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 15,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 15,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      214
+     ]
+    },
+    "neg": [
+     {
+      "level": 14,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       214
+      ],
+      "what": "уровень 14"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "rachel",
+   "rec": 12,
+   "page": 13,
+   "accept_page": 27,
+   "accept_step": 0,
+   "episode": 2207,
+   "quest": 206,
+   "mark": 1,
+   "npc": 48,
+   "give_slot": 1,
+   "server_cond": 493,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 493 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 99,
+    "ClassMode": 1
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 5,
+      "cls": 0,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "soldier13",
+   "rec": 23,
+   "page": 24,
+   "accept_page": 25,
+   "accept_step": 0,
+   "episode": 2416,
+   "quest": 417,
+   "mark": 1,
+   "npc": 36,
+   "give_slot": 4,
+   "server_cond": 984,
+   "groups": [
+    "quest"
+   ],
+   "why": "условие записи ≠ серверному условию 984 (quest)",
+   "was": {
+    "QuestDone": 416,
+    "QuestFreeA": 417,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1
+   },
+   "set": {
+    "QuestDone": -1,
+    "QuestFreeA": 417,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 140,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       417
+      ],
+      "what": "квест 417 уже сдан"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "soldier13",
+   "rec": 26,
+   "page": 27,
+   "accept_page": 27,
+   "accept_step": 0,
+   "episode": 2417,
+   "quest": 418,
+   "mark": 1,
+   "npc": 36,
+   "give_slot": 5,
+   "server_cond": 987,
+   "groups": [
+    "quest"
+   ],
+   "why": "условие записи ≠ серверному условию 987 (quest)",
+   "was": {
+    "QuestDone": 417,
+    "QuestFreeA": 418,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1
+   },
+   "set": {
+    "QuestDone": -1,
+    "QuestFreeA": 418,
+    "QuestFreeB": -1,
+    "QuestActive": -1,
+    "QuestStage": -1
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 140,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       418
+      ],
+      "what": "квест 418 уже сдан"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "trimi",
+   "rec": 10,
+   "page": 11,
+   "accept_page": 34,
+   "accept_step": 0,
+   "episode": 2155,
+   "quest": 154,
+   "mark": 1,
+   "npc": 33,
+   "give_slot": 0,
+   "server_cond": 394,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 394 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 99,
+    "ClassMode": 1
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 5,
+      "cls": 0,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "trimi",
+   "rec": 11,
+   "page": 12,
+   "accept_page": 12,
+   "accept_step": 0,
+   "episode": 2157,
+   "quest": 156,
+   "mark": 1,
+   "npc": 33,
+   "give_slot": 1,
+   "server_cond": 398,
+   "groups": [
+    "class"
+   ],
+   "why": "условие записи ≠ серверному условию 398 (class)",
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 99,
+    "ClassMode": 1
+   },
+   "check": {
+    "pos": {
+     "level": 5,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      155
+     ]
+    },
+    "neg": [
+     {
+      "level": 5,
+      "cls": 0,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       155
+      ],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "yazark",
+   "rec": 49,
+   "page": 50,
+   "accept_page": 50,
+   "accept_step": 0,
+   "episode": 2164,
+   "quest": 163,
+   "mark": 1,
+   "npc": 92,
+   "give_slot": 7,
+   "server_cond": 413,
+   "groups": [
+    "level"
+   ],
+   "why": "условие записи ≠ серверному условию 413 (level)",
+   "was": {
+    "LevelMin": 23,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 22,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 22,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      162
+     ]
+    },
+    "neg": [
+     {
+      "level": 21,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       162
+      ],
+      "what": "уровень 21"
+     }
+    ]
+   }
+  }
+ ]
+}

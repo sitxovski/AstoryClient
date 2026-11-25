@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Asda Mob Browser",
+	"Description": "Редакторский обозреватель NPC и мобов AsdaStory: группы NPC/Mobs (имя, уровень), 3D-превью модели с выбором анимации и вращением мышью, поля игровых таблиц (только клиентские ассеты, перечитываются при открытии). Рантайм игры не затрагивает.",
+	"Category": "Asda",
+	"CreatedBy": "AsdaReborn",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "AsdaMobBrowser",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "AstoryTools",
+			"Enabled": true
+		}
+	]
+}

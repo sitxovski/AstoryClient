@@ -1,0 +1,390 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_skill_info_en (ключ — как в _gaps_skill_info.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "149.Name",
+      "value": "Magic resistance decrease",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "11.Name",
+      "value": "Freezing escape",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "217.Name",
+      "value": "Physical Conversion",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "218.Name",
+      "value": "Magical Conversion",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "219.Name",
+      "value": "Guardian Threat reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "220.Name",
+      "value": "Guardian Attack reflection",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "221.Name",
+      "value": "Guardian damage increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "222.Name",
+      "value": "Guardian Big shot",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "223.Name",
+      "value": "guardian Attack reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "224.Name",
+      "value": "Guardian Spear attack",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "225.Name",
+      "value": "Guardian Attack reflection",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "226.Name",
+      "value": "Guardian Spear Risk reduction'",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "227.Name",
+      "value": "Guardian Recovery",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "228.Name",
+      "value": "Guardian Dodge",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "229.Name",
+      "value": "Guardian Gold steal",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "230.Name",
+      "value": "Guardian Speed reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "231.Name",
+      "value": "Guardian Broad attack",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "232.Name",
+      "value": "Guardian Physical attack",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "233.Name",
+      "value": "Guardian Two-handed Sword",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "234.Name",
+      "value": "Guardian Physical Defense",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "235.Name",
+      "value": "Guardian Magic Defense",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "236.Name",
+      "value": "Guardian Silence",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "237.Name",
+      "value": "Guardian Target Attack",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "238.Name",
+      "value": "Guardian Critical hit",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "239.Name",
+      "value": "Guardian Hideout",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "240.Name",
+      "value": "Guardian Risk reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "241.Name",
+      "value": "Guardian Movement Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "242.Name",
+      "value": "Guardian Noose Reach Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "243.Name",
+      "value": "Guardian Trap Reach Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "244.Name",
+      "value": "Guardian Bomb reach Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "245.Name",
+      "value": "Guardian Noose Cool time reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "246.Name",
+      "value": "Guardian Bomb cool time Reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "247.Name",
+      "value": "Guardian Attack speed Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "248.Name",
+      "value": "Guardian Wide Broad attack",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "249.Name",
+      "value": "Guardian Wide Movement reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "250.Name",
+      "value": "Guardian Wide Attack Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "251.Name",
+      "value": "Guardian Healing reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "252.Name",
+      "value": "Guardian Healing Skills",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "253.Name",
+      "value": "Guardian Healing reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "254.Name",
+      "value": "Guardian Light Climate Attack increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "255.Name",
+      "value": "Guardian Earth Water Attack Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "256.Name",
+      "value": "Guardian Healing Recovery",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "257.Name",
+      "value": "Guardian Attack vs HP",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "258.Name",
+      "value": "Guardian Attack vs Threat",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "264.Name",
+      "value": "Guardian fire Darkness Attack Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "265.Name",
+      "value": "HP recovery",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "266.Name",
+      "value": "Guardian Fire Damage Healing reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "270.Name",
+      "value": "Guardian Darkness Damage Healing reducti",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "299.Name",
+      "value": "Guardian Protection Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "300.Name",
+      "value": "Guardian Protection Cool time reduction",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "303.Name",
+      "value": "Guardian Protection",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "304.Name",
+      "value": "Guardian Max HP Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "305.Name",
+      "value": "Guardian Physical Attack Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "306.Name",
+      "value": "Guardian Magic Attack Increase",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    },
+    {
+      "key": "341.Name",
+      "value": "Conditional Instantaneous Death",
+      "was": null,
+      "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (ORIG)",
+      "source": "orig_en_placeholder"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+ "version": 2,
+ "nodes": {
+  "/Game/AsdaAssets/UI/Player_UI/Chat/WBP_CHAT_NEW_SYSTEM": [
+   {
+    "name": "RESIZE",
+    "class": "Image",
+    "parent": "ROOT",
+    "index": 18,
+    "visibility": "<SlateVisibility.SELF_HIT_TEST_INVISIBLE: 4>",
+    "render_opacity": 1.0,
+    "slot": {
+     "anchors": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+     ],
+     "offsets": [
+      460.0,
+      -272.0,
+      14.204545974731445,
+      18.84090805053711
+     ],
+     "alignment": [
+      0.0,
+      0.0
+     ],
+     "auto_size": false,
+     "z_order": 0
+    },
+    "brush": {
+     "texture": "/Game/AsdaAssets/Textures/JUI/ne_booster_chimney80",
+     "image_size": [
+      0.0,
+      0.0
+     ],
+     "tint": [
+      1.0,
+      1.0,
+      1.0,
+      0.3921569883823395
+     ],
+     "draw_as": "<SlateBrushDrawType.IMAGE: 3>",
+     "tiling": "<SlateBrushTileType.NO_TILE: 0>",
+     "margin": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "uv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "text": null,
+    "clipping": "<WidgetClipping.INHERIT: 0>"
+   },
+   {
+    "name": "SCROLL_UP",
+    "class": "Image",
+    "parent": "ROOT",
+    "index": 16,
+    "visibility": "<SlateVisibility.COLLAPSED: 1>",
+    "render_opacity": 1.0,
+    "slot": {
+     "anchors": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+     ],
+     "offsets": [
+      5.5,
+      -256.0,
+      8.884614944458008,
+      11.0
+     ],
+     "alignment": [
+      0.0,
+      0.0
+     ],
+     "auto_size": false,
+     "z_order": 0
+    },
+    "brush": {
+     "texture": "/Game/AsdaAssets/Textures/JUI/n_01",
+     "image_size": [
+      0.0,
+      0.0
+     ],
+     "tint": [
+      1.0,
+      1.0,
+      1.0,
+      0.3921569883823395
+     ],
+     "draw_as": "<SlateBrushDrawType.IMAGE: 3>",
+     "tiling": "<SlateBrushTileType.NO_TILE: 0>",
+     "margin": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "uv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "text": null,
+    "clipping": "<WidgetClipping.INHERIT: 0>"
+   },
+   {
+    "name": "SCROLL_DOWN",
+    "class": "Image",
+    "parent": "ROOT",
+    "index": 14,
+    "visibility": "<SlateVisibility.COLLAPSED: 1>",
+    "render_opacity": 1.0,
+    "slot": {
+     "anchors": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+     ],
+     "offsets": [
+      5.5,
+      -204.0,
+      8.884614944458008,
+      11.0
+     ],
+     "alignment": [
+      0.0,
+      0.0
+     ],
+     "auto_size": false,
+     "z_order": 0
+    },
+    "brush": {
+     "texture": "/Game/AsdaAssets/Textures/JUI/n_01",
+     "image_size": [
+      0.0,
+      0.0
+     ],
+     "tint": [
+      1.0,
+      1.0,
+      1.0,
+      0.3921569883823395
+     ],
+     "draw_as": "<SlateBrushDrawType.IMAGE: 3>",
+     "tiling": "<SlateBrushTileType.NO_TILE: 0>",
+     "margin": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "uv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "text": null,
+    "clipping": "<WidgetClipping.INHERIT: 0>"
+   }
+  ]
+ },
+ "tweaks": {
+  "/Game/AsdaAssets/UI/Player_UI/Chat/WBP_CHAT_NEW_SYSTEM": [
+   {
+    "name": "CHAT_NEW_SERV_SYSbottn_3_0",
+    "class": "Image",
+    "parent": "ROOT",
+    "index": 4,
+    "visibility": "<SlateVisibility.COLLAPSED: 1>",
+    "render_opacity": 1.0,
+    "slot": {
+     "anchors": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+     ],
+     "offsets": [
+      8.0,
+      -284.0,
+      66.0,
+      25.0
+     ],
+     "alignment": [
+      0.0,
+      0.0
+     ],
+     "auto_size": false,
+     "z_order": 0
+    },
+    "brush": {
+     "texture": "/Game/AsdaAssets/Textures/JUI/ne_pvp2",
+     "image_size": [
+      0.0,
+      0.0
+     ],
+     "tint": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+     ],
+     "draw_as": "<SlateBrushDrawType.IMAGE: 3>",
+     "tiling": "<SlateBrushTileType.NO_TILE: 0>",
+     "margin": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "uv": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ]
+    },
+    "text": null,
+    "clipping": "<WidgetClipping.INHERIT: 0>",
+    "apply": [
+     "slot"
+    ]
+   },
+   {
+    "name": "CHAT_NEW_SERV_SYSbottn_OPT0",
+    "class": "Button",
+    "parent": "ROOT",
+    "index": 5,
+    "visibility": "<SlateVisibility.COLLAPSED: 1>",
+    "render_opacity": 1.0,
+    "slot": {
+     "anchors": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+     ],
+     "offsets": [
+      8.0,
+      -284.0,
+      66.0,
+      25.0
+     ],
+     "alignment": [
+      0.0,
+      0.0
+     ],
+     "auto_size": false,
+     "z_order": 0
+    },
+    "brush": null,
+    "text": null,
+    "clipping": "<WidgetClipping.INHERIT: 0>",
+    "apply": [
+     "slot"
+    ]
+   },
+   {
+    "name": "CHAT_NEW_SERV_SYSbottn_Text",
+    "class": "TextBlock",
+    "parent": "ROOT",
+    "index": 6,
+    "visibility": "<SlateVisibility.COLLAPSED: 1>",
+    "render_opacity": 1.0,
+    "slot": {
+     "anchors": [
+      0.0,
+      1.0,
+      0.0,
+      1.0
+     ],
+     "offsets": [
+      8.0,
+      -280.0,
+      66.0,
+      25.0
+     ],
+     "alignment": [
+      0.0,
+      0.0
+     ],
+     "auto_size": false,
+     "z_order": 0
+    },
+    "brush": null,
+    "text": {
+     "text": "Система",
+     "color": [
+      0.366252601146698,
+      0.6038273572921753,
+      0.7605245113372803,
+      1.0
+     ]
+    },
+    "clipping": "<WidgetClipping.INHERIT: 0>",
+    "apply": [
+     "slot"
+    ]
+   }
+  ]
+ }
+}

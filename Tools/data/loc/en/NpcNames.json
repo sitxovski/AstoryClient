@@ -1,0 +1,12 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_NpcNames_en (ключ = строка.колонка). Применяет Tools/extract_text_lang.py ПОСЛЕ извлечения: was = значение извлечения; не совпало (и не prev) — стоп. overhead-lag, 30.10.2026.",
+  "rows": [
+    {
+      "key": "102.Name",
+      "value": "Injured Baby Parasol",
+      "was": "Injured Baby Prasol",
+      "why": "30.10.2026 баг владельца: имя NPC «Раненый зонтик-малютка» в EN — опечатка английского клиента-источника (ORIG) «Prasol» (буквы переставлены); моб того же семейства в EN — Baby Parasol / Cursed Baby Parasol (DT_Loc_MobNames_en 2/3/233/234), квест 8_Qst_3 — «Injured BabyParasol»",
+      "source": "typo_fix"
+    }
+  ]
+}

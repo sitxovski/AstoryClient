@@ -1,0 +1,189 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_SNQInfo_en (ключ — как в _gaps_SNQInfo.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+  "rows": [
+    {
+      "key": "-439549782.name",
+      "value": "Unknown Scholar",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "-171048787.name",
+      "value": "Chaser Evenstrider",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "-356122439.name",
+      "value": "Pet Keeper Molly",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "-356122438.name",
+      "value": "Pet Keeper Byuok",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "-1397555193.name",
+      "value": "Fishing Merchant Anes",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "-288227320.name",
+      "value": "misc. Shop Elijah",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "-288423912.name",
+      "value": "Indicator Woody",
+      "was": null,
+      "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+      "source": "manual"
+    },
+    {
+      "key": "542048294.name",
+      "value": "NPC O",
+      "was": null,
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии; 14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation",
+      "prev": [
+        "O ?? NPC"
+      ]
+    },
+    {
+      "key": "542638119.name",
+      "value": "NPC X",
+      "was": null,
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии; 14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation",
+      "prev": [
+        "X ?? NPC"
+      ]
+    },
+    {
+      "key": "1061093431.name",
+      "value": "NPC",
+      "was": null,
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии; 14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation",
+      "prev": [
+        "?? ??? NPC"
+      ]
+    },
+    {
+      "key": "1951596744.name",
+      "value": "Statue of God",
+      "was": "Charlotte",
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1816199369.name",
+      "value": "Alpen Moving Crystal",
+      "was": "misc. Shop Horil",
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093551.name",
+      "value": "Dispatched Broker",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093553.name",
+      "value": "Chaser Manny",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093565.name",
+      "value": "Base 2",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093566.name",
+      "value": "Base 3",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093567.name",
+      "value": "Base 4",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093568.name",
+      "value": "Base 5",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093569.name",
+      "value": "Base 6",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093570.name",
+      "value": "Base 7",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093571.name",
+      "value": "Base 8",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093572.name",
+      "value": "Base 9",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093573.name",
+      "value": "Base 10",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093574.name",
+      "value": "Mercenary Mikamion",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "1061093575.name",
+      "value": "Mercenary Karas",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    }
+  ]
+}

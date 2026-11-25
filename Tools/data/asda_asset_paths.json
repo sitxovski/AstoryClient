@@ -1,0 +1,1860 @@
+{
+ "_comment": "РЕЕСТР ПУТЕЙ И ПРАВИЛ ИМЁН АССЕТОВ. Генератор и сверка — Tools/asda_asset_paths.py (шапка: как добавить правило). Генерирует Source/AsdaReborn/Public/Resources/AsdaAssetPaths.h и блок Tools/asda_ue_paths.py. Разбор: Reports/dedup_audit/wave2_asset_paths_design.md; реализация: wave2_asset_paths.md.",
+ "version": 1,
+ "paths": [
+  {
+   "id": "assets",
+   "kind": "dir",
+   "path": "/Game/AsdaAssets",
+   "py": "G_ASSETS",
+   "cpp": "kAssetsRoot",
+   "comment": "корень ассетов порта"
+  },
+  {
+   "id": "data",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Data",
+   "py": "G_DATA"
+  },
+  {
+   "id": "textures",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Textures",
+   "py": "G_TEXTURES"
+  },
+  {
+   "id": "models",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Models",
+   "py": "G_MODELS",
+   "cpp": "kModelsRoot"
+  },
+  {
+   "id": "effects",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Effects",
+   "py": "G_EFFECTS",
+   "cpp": "kFxRoot",
+   "comment": "эффект-BP BP_Fx_<jeb>"
+  },
+  {
+   "id": "ui",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "UI",
+   "py": "G_UI"
+  },
+  {
+   "id": "text",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Text",
+   "py": "G_TEXT"
+  },
+  {
+   "id": "sound",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Sound",
+   "py": "G_SOUND",
+   "cpp": "kSoundRoot",
+   "comment": "SFX + DT_SoundTable (дефолтная папка ResolveSound)",
+   "cpp_folder": "kSoundFolder"
+  },
+  {
+   "id": "sounds_alt",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Sounds",
+   "py": "G_SOUNDS_ALT"
+  },
+  {
+   "id": "sounds_music",
+   "kind": "dir",
+   "parent": "sounds_alt",
+   "rel": "Music",
+   "py": "G_SOUNDS_MUSIC",
+   "cpp": "kMusicRoot",
+   "comment": "МУЗЫКА (канон): PlayMusic читает отсюда",
+   "cpp_folder": "kMusicFolder"
+  },
+  {
+   "id": "sounds_ui",
+   "kind": "dir",
+   "parent": "sounds_alt",
+   "rel": "UI",
+   "py": "G_SOUNDS_UI",
+   "comment": "S_e_button09, используется генератором UMG"
+  },
+  {
+   "id": "models_char",
+   "kind": "dir",
+   "parent": "models",
+   "rel": "Char",
+   "py": "G_MODELS_CHAR",
+   "cpp": "kCharModelsRoot",
+   "comment": "жёсткие меши персонажа <m>/StaticMeshes/<m>",
+   "cpp_prefix": "kCharModelsPrefix"
+  },
+  {
+   "id": "models_items",
+   "kind": "dir",
+   "parent": "models",
+   "rel": "Items",
+   "py": "G_MODELS_ITEMS",
+   "cpp": "kItemModelsRoot",
+   "comment": "модели лута <m>/StaticMeshes/<m>",
+   "cpp_prefix": "kItemModelsPrefix"
+  },
+  {
+   "id": "models_npc",
+   "kind": "dir",
+   "parent": "models",
+   "rel": "NPC",
+   "py": "G_MODELS_NPC",
+   "cpp": "kSkelRootNpc",
+   "comment": "скелеталы NPC"
+  },
+  {
+   "id": "models_skeletal",
+   "kind": "dir",
+   "parent": "models",
+   "rel": "Skeletal",
+   "py": "G_MODELS_SKELETAL"
+  },
+  {
+   "id": "equip_parts",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "EquipParts",
+   "py": "G_MODELS_EQUIPPARTS",
+   "cpp": "kEquipPartsRoot",
+   "comment": "части экипировки <m>/<m> (без SkeletalMeshes/)",
+   "cpp_prefix": "kEquipPartsPrefix"
+  },
+  {
+   "id": "vehicle",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "Vehicle",
+   "py": "G_MODELS_VEHICLE",
+   "cpp": "kSkelRootVehicle",
+   "comment": "транспорт"
+  },
+  {
+   "id": "mobskel",
+   "kind": "dir",
+   "parent": "models",
+   "rel": "MobSkel",
+   "py": "G_MODELS_MOBSKEL",
+   "cpp": "kSkelRootMobSkel",
+   "comment": "скелеталы мобов"
+  },
+  {
+   "id": "mob",
+   "kind": "dir",
+   "parent": "models",
+   "rel": "Mob",
+   "py": "G_MODELS_MOB",
+   "cpp": "kMobModelsRoot",
+   "comment": "статик-модели мобов (фолбэк к MobSkel)"
+  },
+  {
+   "id": "pet",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "Pet",
+   "py": "G_MODELS_PET",
+   "cpp": "kSkelRootPet",
+   "comment": "питомцы"
+  },
+  {
+   "id": "soulguard",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "SoulGuard",
+   "py": "G_MODELS_SOULGUARD",
+   "cpp": "kSkelRootSoulGuard",
+   "comment": "хранитель: скиннутые sb_md_* (статик-двойники — в Models/Char)"
+  },
+  {
+   "id": "clanflag",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "ClanFlag",
+   "py": "G_MODELS_CLANFLAG",
+   "cpp": "kSkelRootClanFlag",
+   "comment": "флаг клана"
+  },
+  {
+   "id": "fishing",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "Fishing",
+   "py": "G_MODELS_FISHING",
+   "cpp": "kSkelRootFishing",
+   "comment": "рыбалка: зона fs_zone, удочки fird_*, рыбы fs_fsm_*/fs_stuff_00 (волна В5а 08.10.2026)"
+  },
+  {
+   "id": "characters",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "Characters",
+   "py": "G_MODELS_CHARACTERS",
+   "cpp": "kSkelRootCharacters",
+   "comment": "база персонажа ch1_<g>_cremmy_preview + клипы"
+  },
+  {
+   "id": "gachya",
+   "kind": "dir",
+   "parent": "models_skeletal",
+   "rel": "Gachya",
+   "py": "G_MODELS_GACHYA",
+   "comment": "автоматы премиум-гачи (новая константа, 14.09)",
+   "cpp": "kSkelRootGachya"
+  },
+  {
+   "id": "clanflag_mesh",
+   "kind": "asset",
+   "parent": "clanflag",
+   "rel": "small_flag/SkeletalMeshes/small_flag",
+   "cpp": "kClanFlagMesh",
+   "comment": "скелетал флага клана на транспорте"
+  },
+  {
+   "id": "char_preview_m",
+   "kind": "asset",
+   "parent": "characters",
+   "rel": "ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview",
+   "cpp": "kCharPreviewBaseM",
+   "comment": "база персонажа, мужской"
+  },
+  {
+   "id": "char_preview_f",
+   "kind": "asset",
+   "parent": "characters",
+   "rel": "ch1_f_cremmy_preview/SkeletalMeshes/ch1_f_cremmy_preview",
+   "cpp": "kCharPreviewBaseF",
+   "comment": "база персонажа, женский"
+  },
+  {
+   "id": "tex_jui",
+   "kind": "dir",
+   "parent": "textures",
+   "rel": "JUI",
+   "py": "G_TEX_JUI",
+   "cpp": "kJuiRoot",
+   "comment": "UI-атласы JUI",
+   "cpp_prefix": "kJuiPrefix"
+  },
+  {
+   "id": "tex_npc",
+   "kind": "dir",
+   "parent": "textures",
+   "rel": "NPC",
+   "py": "G_TEX_NPC"
+  },
+  {
+   "id": "tex_npc_tex",
+   "kind": "dir",
+   "parent": "tex_npc",
+   "rel": "Texture",
+   "py": "G_TEX_NPC_TEX"
+  },
+  {
+   "id": "tex_npc_image",
+   "kind": "dir",
+   "parent": "tex_npc",
+   "rel": "Image",
+   "py": "G_TEX_NPC_IMAGE",
+   "cpp": "kNpcImageRoot",
+   "comment": "текстуры названий локаций (эталон Data/NPC/Image)"
+  },
+  {
+   "id": "tex_npc_portrait",
+   "kind": "dir",
+   "parent": "tex_npc",
+   "rel": "Portrait",
+   "py": "G_TEX_NPC_PORTRAIT",
+   "cpp": "kNpcPortraitRoot",
+   "comment": "портреты NPC и текстуры названий",
+   "cpp_prefix": "kNpcPortraitPrefix"
+  },
+  {
+   "id": "tex_characters",
+   "kind": "dir",
+   "parent": "textures",
+   "rel": "Characters",
+   "py": "G_TEX_CHARACTERS"
+  },
+  {
+   "id": "tex_char_texture",
+   "kind": "dir",
+   "parent": "tex_characters",
+   "rel": "Texture",
+   "py": "G_TEX_CHAR_TEXTURE",
+   "cpp": "kCharTextureRoot",
+   "comment": "текстуры моделей персонажа",
+   "cpp_prefix": "kCharTexturePrefix"
+  },
+  {
+   "id": "tex_items",
+   "kind": "dir",
+   "parent": "textures",
+   "rel": "Items",
+   "py": "G_TEX_ITEMS"
+  },
+  {
+   "id": "tex_items_texture",
+   "kind": "dir",
+   "parent": "tex_items",
+   "rel": "Texture",
+   "py": "G_TEX_ITEMS_TEXTURE",
+   "cpp": "kItemTextureRoot",
+   "comment": "текстуры моделей предметов (лут)",
+   "cpp_prefix": "kItemTexturePrefix"
+  },
+  {
+   "id": "tex_maps",
+   "kind": "dir",
+   "parent": "textures",
+   "rel": "Maps",
+   "py": "G_TEX_MAPS",
+   "cpp": "kMapTexRoot",
+   "comment": "текстуры карт, метки мини-карты, картинки загрузки",
+   "cpp_prefix": "kMapTexPrefix"
+  },
+  {
+   "id": "tex_mapimage",
+   "kind": "dir",
+   "parent": "textures",
+   "rel": "MapImage",
+   "py": "G_TEX_MAPIMAGE",
+   "cpp": "kMapImageRoot",
+   "comment": "подложки мини-/большой карты",
+   "cpp_prefix": "kMapImagePrefix"
+  },
+  {
+   "id": "materials_models",
+   "kind": "dir",
+   "parent": "assets",
+   "rel": "Materials/Models",
+   "py": "G_MATERIALS_MODELS",
+   "comment": "MIC-и моделей (asda_assign_materials)",
+   "obsolete": "папка есть, ассетов 0 (сверка 14.09); пишет туда только asda_assign_materials.py"
+  },
+  {
+   "id": "materials",
+   "kind": "dir",
+   "path": "/Game/Materials",
+   "py": "G_MATERIALS",
+   "comment": "мастера материалов (вне AsdaAssets)"
+  },
+  {
+   "id": "m_object_lit",
+   "kind": "asset",
+   "parent": "materials",
+   "rel": "M_AsdaObjectLit",
+   "py": "M_OBJECT_LIT"
+  },
+  {
+   "id": "m_object",
+   "kind": "asset",
+   "parent": "materials",
+   "rel": "M_AsdaObject",
+   "py": "M_OBJECT",
+   "cpp": "kMaterialObject"
+  },
+  {
+   "id": "m_char_lit",
+   "kind": "asset",
+   "parent": "materials",
+   "rel": "M_AsdaCharLit",
+   "py": "M_CHAR_LIT"
+  },
+  {
+   "id": "m_glow_tint",
+   "kind": "asset",
+   "parent": "materials",
+   "rel": "M_AsdaMeshGlowTint",
+   "py": "M_GLOW_TINT",
+   "obsolete": "ассета нет в Content, потребителей константы нет (asda_build_questmark_glow.py:99 помечает OBSOLETE)"
+  },
+  {
+   "id": "fx",
+   "kind": "dir",
+   "path": "/Game/Effects",
+   "py": "G_FX",
+   "comment": "мастера эффектов"
+  },
+  {
+   "id": "m_fx_add",
+   "kind": "asset",
+   "parent": "fx",
+   "rel": "M_AsdaEffectAdd",
+   "py": "M_FX_ADD"
+  },
+  {
+   "id": "m_fx_alpha",
+   "kind": "asset",
+   "parent": "fx",
+   "rel": "M_AsdaEffectAlpha",
+   "py": "M_FX_ALPHA"
+  },
+  {
+   "id": "map",
+   "kind": "dir",
+   "path": "/Game/Map",
+   "py": "G_MAP",
+   "comment": "уровни карт"
+  },
+  {
+   "id": "map_login",
+   "kind": "asset",
+   "parent": "map",
+   "rel": "Login",
+   "py": "G_MAP_LOGIN",
+   "comment": "★ логин: уровень Login.umap — только константа, свет владельца не трогать"
+  }
+ ],
+ "rules": [
+  {
+   "id": "EquipPartMesh",
+   "cpp": "EquipPartMesh",
+   "py": "equip_part_mesh",
+   "doc": "Пакетный путь скелетной части экипировки: EquipParts/<m>/<m> (ключ менеджера моделей).",
+   "args": [
+    {
+     "name": "Mesh",
+     "py": "mesh",
+     "type": "str"
+    }
+   ],
+   "root": "equip_parts",
+   "pattern": "{Mesh}/{Mesh}",
+   "form": "package",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Characters/AsdaCharAssembly.cpp::UAsdaCharAssembly::EquipPartMeshPath"
+   ],
+   "py_consumers": [
+    "Tools/fix_glove_materials.py"
+   ]
+  },
+  {
+   "id": "CharStaticMeshObject",
+   "cpp": "CharStaticMeshObject",
+   "py": "char_static_mesh_object",
+   "doc": "Объектный путь жёсткого меша персонажа (причёска/оружие): Char/<m>/StaticMeshes/<m>.<m>.",
+   "args": [
+    {
+     "name": "Mesh",
+     "py": "mesh",
+     "type": "str"
+    }
+   ],
+   "root": "models_char",
+   "pattern": "{Mesh}/StaticMeshes/{Mesh}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Characters/AsdaCharAssembly.cpp::UAsdaCharAssembly::CharStaticMeshPath"
+   ]
+  },
+  {
+   "id": "CharTextureObject",
+   "cpp": "CharTextureObject",
+   "py": "char_texture_object",
+   "doc": "Объектный путь текстуры модели персонажа: Textures/Characters/Texture/<t>.<t>.",
+   "args": [
+    {
+     "name": "Tex",
+     "py": "tex",
+     "type": "str"
+    }
+   ],
+   "root": "tex_char_texture",
+   "pattern": "{Tex}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Characters/AsdaCharAssembly.cpp::UAsdaCharAssembly::CharTexturePath"
+   ]
+  },
+  {
+   "id": "FaceTextureName",
+   "cpp": "FaceTextureName",
+   "py": "face_texture_name",
+   "doc": "Имя текстуры лица (эталон SetParts_FaceTexture): ch1_<m|f>_00_face001_NN_00_0, NN — 2 знака.",
+   "args": [
+    {
+     "name": "bMale",
+     "py": "male",
+     "type": "bool"
+    },
+    {
+     "name": "FaceIndex",
+     "py": "face_index",
+     "type": "int"
+    }
+   ],
+   "pattern": "ch1_{bMale?m:f}_00_face001_{FaceIndex:02d}_00_0",
+   "form": "name",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Characters/AsdaCharAssembly.cpp::UAsdaCharAssembly::FaceTexturePath"
+   ]
+  },
+  {
+   "id": "SkelMesh",
+   "cpp": "SkelMesh",
+   "py": "skel_mesh",
+   "doc": "Пакетный путь скелетала/клипа: <корень>/<имя>/SkeletalMeshes/<имя><суффикс> (корень — k*SkelRoot*).",
+   "args": [
+    {
+     "name": "Root",
+     "py": "root",
+     "type": "str"
+    },
+    {
+     "name": "Name",
+     "py": "name",
+     "type": "str"
+    },
+    {
+     "name": "Suffix",
+     "py": "suffix",
+     "type": "str",
+     "default": ""
+    }
+   ],
+   "pattern": "{Root}/{Name}/SkeletalMeshes/{Name}{Suffix}",
+   "form": "package",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Resources/AsdaModelAnimSubsystem.cpp::UAsdaModelAnimSubsystem::BuildSkelPath"
+   ],
+   "py_consumers": [
+    "Tools/asda_diag_mob_materials.py"
+   ]
+  },
+  {
+   "id": "SkelAnimSuffix",
+   "cpp": "SkelAnimSuffix",
+   "py": "skel_anim_suffix",
+   "doc": "Суффикс клипа: anim_NN (NN — не меньше 2 знаков).",
+   "args": [
+    {
+     "name": "AnimIdx",
+     "py": "anim_idx",
+     "type": "int"
+    }
+   ],
+   "pattern": "anim_{AnimIdx:02d}",
+   "form": "name",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaLoadManagerSubsystem.cpp::StartFirstUsePreload"
+   ]
+  },
+  {
+   "id": "SkelAnim",
+   "cpp": "SkelAnim",
+   "py": "skel_anim",
+   "doc": "Пакетный путь клипа: <корень>/<имя>/SkeletalMeshes/<имя>anim_NN.",
+   "args": [
+    {
+     "name": "Root",
+     "py": "root",
+     "type": "str"
+    },
+    {
+     "name": "Name",
+     "py": "name",
+     "type": "str"
+    },
+    {
+     "name": "AnimIdx",
+     "py": "anim_idx",
+     "type": "int"
+    }
+   ],
+   "lets": [
+    {
+     "name": "Suffix",
+     "py": "suffix",
+     "rule": "SkelAnimSuffix",
+     "args": [
+      "AnimIdx"
+     ]
+    }
+   ],
+   "pattern": "{Root}/{Name}/SkeletalMeshes/{Name}{Suffix}",
+   "form": "package",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Resources/AsdaModelAnimSubsystem.cpp::UAsdaModelAnimSubsystem::BuildSkelAnimPath",
+    "Source/AsdaReborn/Private/Skill/AsdaSkillFxSubsystem.cpp::ClipAssetPath"
+   ]
+  },
+  {
+   "id": "CharPreviewName",
+   "cpp": "CharPreviewName",
+   "py": "char_preview_name",
+   "doc": "Имя базы персонажа: ch1_<m|f>_cremmy_preview.",
+   "args": [
+    {
+     "name": "bMale",
+     "py": "male",
+     "type": "bool"
+    }
+   ],
+   "pattern": "ch1_{bMale?m:f}_cremmy_preview",
+   "form": "name",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Skill/AsdaSkillFxSubsystem.cpp::ClipAssetPath"
+   ]
+  },
+  {
+   "id": "MobStaticMeshObject",
+   "cpp": "MobStaticMeshObject",
+   "py": "mob_static_mesh_object",
+   "doc": "Объектный путь статик-модели моба (фолбэк к скелеталу): Mob/<m>/StaticMeshes/<m>.<m>.",
+   "args": [
+    {
+     "name": "Model",
+     "py": "model",
+     "type": "str"
+    }
+   ],
+   "root": "mob",
+   "pattern": "{Model}/StaticMeshes/{Model}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaWorldSubsystem.cpp::SpawnNetMobDynamic"
+   ]
+  },
+  {
+   "id": "LootMeshObject",
+   "cpp": "LootMeshObject",
+   "py": "loot_mesh_object",
+   "doc": "Объектный путь модели лута: Items/<m>/StaticMeshes/<m>.<m>.",
+   "args": [
+    {
+     "name": "Name",
+     "py": "name",
+     "type": "str"
+    }
+   ],
+   "root": "models_items",
+   "pattern": "{Name}/StaticMeshes/{Name}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaLootActor.cpp::LoadDropMesh"
+   ]
+  },
+  {
+   "id": "LootTextureObject",
+   "cpp": "LootTextureObject",
+   "py": "loot_texture_object",
+   "doc": "Объектный путь текстуры лута: Textures/Items/Texture/<t>.<t>.",
+   "args": [
+    {
+     "name": "Tex",
+     "py": "tex",
+     "type": "str"
+    }
+   ],
+   "root": "tex_items_texture",
+   "pattern": "{Tex}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaLootActor.cpp::InitFromItemCode"
+   ]
+  },
+  {
+   "id": "FxBpName",
+   "cpp": "FxBpName",
+   "py": "fx_bp_name",
+   "doc": "Имя эффект-BP по базе .jeb: BP_Fx_<jeb с «-»→«_»> (дефис в имени .jeb на диске сохраняется).",
+   "args": [
+    {
+     "name": "Jeb",
+     "py": "jeb",
+     "type": "str"
+    }
+   ],
+   "lets": [
+    {
+     "name": "JebUs",
+     "py": "jeb_us",
+     "norm": "dash_to_us",
+     "arg": "Jeb"
+    }
+   ],
+   "pattern": "BP_Fx_{JebUs}",
+   "form": "name",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/AsdaEffectActor.cpp::AAsdaEffectActor::SpawnByJebName"
+   ],
+   "py_consumers": [
+    "Tools/asda_fx_common.py",
+    "Tools/asda_audit_skill_fx.py"
+   ]
+  },
+  {
+   "id": "FxClassPathFromBp",
+   "cpp": "FxClassPathFromBp",
+   "py": "fx_class_path_from_bp",
+   "doc": "Путь класса эффект-BP по готовому имени ассета: Effects/<bp>.<bp>_C.",
+   "args": [
+    {
+     "name": "Bp",
+     "py": "bp",
+     "type": "str"
+    }
+   ],
+   "root": "effects",
+   "pattern": "{Bp}",
+   "form": "class",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/AsdaEffectActor.cpp::AAsdaEffectActor::SpawnByBPName"
+   ]
+  },
+  {
+   "id": "FxPackageFromBp",
+   "cpp": "FxPackageFromBp",
+   "py": "fx_package_from_bp",
+   "doc": "Пакет эффект-BP по имени ассета: Effects/<bp>.",
+   "args": [
+    {
+     "name": "Bp",
+     "py": "bp",
+     "type": "str"
+    }
+   ],
+   "root": "effects",
+   "pattern": "{Bp}",
+   "form": "package",
+   "cpp_consumers": [
+    "Plugins/AsdaItemBrowser/Source/AsdaItemBrowser/Private/AsdaItemBrowserData.cpp::GlowBpObjectPath"
+   ]
+  },
+  {
+   "id": "FxClassPathFromJeb",
+   "cpp": "FxClassPathFromJeb",
+   "py": "fx_class_path_from_jeb",
+   "doc": "Путь класса эффект-BP по базе .jeb: Effects/BP_Fx_<jeb _>.BP_Fx_<jeb _>_C.",
+   "args": [
+    {
+     "name": "Jeb",
+     "py": "jeb",
+     "type": "str"
+    }
+   ],
+   "lets": [
+    {
+     "name": "Bp",
+     "py": "bp",
+     "rule": "FxBpName",
+     "args": [
+      "Jeb"
+     ]
+    }
+   ],
+   "root": "effects",
+   "pattern": "{Bp}",
+   "form": "class",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/AsdaEffectActor.cpp::AAsdaEffectActor::ResolveJebClass",
+    "Source/AsdaReborn/Private/World/AsdaLoadManagerSubsystem.cpp::StartFirstUsePreload",
+    "Plugins/AsdaItemBrowser/Source/AsdaItemBrowser/Private/AsdaFxGlowConfigModel.cpp::FxClassPath"
+   ]
+  },
+  {
+   "id": "JebFromFxClassName",
+   "cpp": "JebFromFxClassName",
+   "py": "jeb_from_fx_class_name",
+   "impl": "builtin",
+   "doc": "Имя класса BP_Fx_<x>_C → имя .jeb (★ ИСПРАВЛЕНИЕ D4: дефис по таблице реальных имён).",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaFxLightSubsystem.cpp::UAsdaFxLightSubsystem::ResolveJebName"
+   ],
+   "py_consumers": [
+    "Tools/asda_apply_fx_light_defaults.py"
+   ],
+   "args": [
+    {
+     "name": "ClassName",
+     "py": "class_name",
+     "type": "str"
+    }
+   ]
+  },
+  {
+   "id": "SoundObject",
+   "cpp": "SoundObject",
+   "py": "sound_object",
+   "doc": "Объектный путь звука: /Game/AsdaAssets/<Folder>/<N>.<N>, N = ToAssetName(имя) (пробел → «_»).",
+   "args": [
+    {
+     "name": "Folder",
+     "py": "folder",
+     "type": "tchar"
+    },
+    {
+     "name": "Name",
+     "py": "name",
+     "type": "str"
+    }
+   ],
+   "lets": [
+    {
+     "name": "N",
+     "py": "n",
+     "norm": "asset_name",
+     "arg": "Name"
+    }
+   ],
+   "root": "assets",
+   "pattern": "{Folder}/{N}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Resources/AsdaSoundSubsystem.cpp::UAsdaSoundSubsystem::ResolveSound",
+    "Source/AsdaReborn/Private/World/AsdaLoadManagerSubsystem.cpp::StartFirstUsePreload"
+   ]
+  },
+  {
+   "id": "JuiTextureObject",
+   "cpp": "JuiTextureObject",
+   "py": "jui_texture_object",
+   "doc": "Объектный путь UI-атласа JUI: Textures/JUI/<n>.<n> (имя без расширения — срезает вызывающий).",
+   "args": [
+    {
+     "name": "Name",
+     "py": "name",
+     "type": "str"
+    }
+   ],
+   "root": "tex_jui",
+   "pattern": "{Name}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Resources/AsdaTextureSubsystem.cpp::UAsdaTextureSubsystem::LoadUITexture",
+    "Source/AsdaReborn/Private/UI/AsdaHotbarSubsystem.cpp::Hotbar",
+    "Source/AsdaReborn/Private/UI/AsdaSkillWindowSubsystem.cpp::SkillIcon",
+    "Source/AsdaReborn/Private/UI/AsdaUiHelpers.cpp::ItemIcon",
+    "Source/AsdaReborn/Private/UI/AsdaUiWave1Probe.cpp::Probe"
+   ]
+  },
+  {
+   "id": "MapTexDir",
+   "cpp": "MapTexDir",
+   "py": "map_tex_dir",
+   "doc": "Каталог текстур карты: Textures/Maps/<ToAssetName(имя папки карты)> (★ ИСПРАВЛЕНИЕ D2: с приведением имени).",
+   "args": [
+    {
+     "name": "MapName",
+     "py": "map_name",
+     "type": "str"
+    }
+   ],
+   "lets": [
+    {
+     "name": "A",
+     "py": "a",
+     "norm": "asset_name",
+     "arg": "MapName"
+    }
+   ],
+   "root": "tex_maps",
+   "pattern": "{A}",
+   "form": "dir",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Resources/AsdaTextureSubsystem.cpp::UAsdaTextureSubsystem::LoadMapTexture"
+   ]
+  },
+  {
+   "id": "MapLoadDir",
+   "cpp": "MapLoadDir",
+   "py": "map_load_dir",
+   "doc": "Каталог картинок загрузки карты: Textures/Maps/<ToAssetName(DirName)>/load (★ ИСПРАВЛЕНИЕ D1: с приведением имени).",
+   "args": [
+    {
+     "name": "DirName",
+     "py": "dir_name",
+     "type": "str"
+    }
+   ],
+   "lets": [
+    {
+     "name": "A",
+     "py": "a",
+     "norm": "asset_name",
+     "arg": "DirName"
+    }
+   ],
+   "root": "tex_maps",
+   "pattern": "{A}/load",
+   "form": "dir",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaLoadManagerSubsystem.cpp::PickLoadingTexture"
+   ]
+  },
+  {
+   "id": "NpcPortraitObject",
+   "cpp": "NpcPortraitObject",
+   "py": "npc_portrait_object",
+   "doc": "Объектный путь портрета NPC: Textures/NPC/Portrait/<ModelName>.<ModelName>.",
+   "args": [
+    {
+     "name": "Model",
+     "py": "model",
+     "type": "str"
+    }
+   ],
+   "root": "tex_npc_portrait",
+   "pattern": "{Model}",
+   "form": "object",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Npc/AsdaNpcDialogSubsystem.cpp::Portrait"
+   ]
+  },
+  {
+   "id": "ObjectPathFromPackage",
+   "cpp": "ObjectPathFromPackage",
+   "py": "object_path_from_package",
+   "impl": "builtin",
+   "doc": "Пакет → объектный путь, если у листа нет «.».",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/Resources/AsdaTextureSubsystem.cpp::ResolveAndCache",
+    "Source/AsdaReborn/Private/Resources/AsdaModelAnimSubsystem.cpp::LoadOrCache"
+   ],
+   "args": [
+    {
+     "name": "Key",
+     "py": "key",
+     "type": "str"
+    }
+   ]
+  },
+  {
+   "id": "PackageObjectPath",
+   "cpp": "PackageObjectPath",
+   "py": "package_object_path",
+   "impl": "builtin",
+   "doc": "Пакет → «<пакет>.<короткое имя>» без условий.",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/World/AsdaLoadManagerSubsystem.cpp::StartFirstUsePreload",
+    "Plugins/AsdaItemBrowser/Source/AsdaItemBrowser/Private/AsdaItemBrowserData.cpp::ObjectPathOf"
+   ],
+   "args": [
+    {
+     "name": "Pkg",
+     "py": "pkg",
+     "type": "str"
+    }
+   ]
+  },
+  {
+   "id": "WidgetClassPath",
+   "cpp": "WidgetClassPath",
+   "py": "widget_class_path",
+   "impl": "builtin",
+   "doc": "Путь WBP → путь класса «…_C».",
+   "cpp_consumers": [
+    "Source/AsdaReborn/Private/UI/AsdaWindowSubsystem.cpp::UAsdaWindowSubsystem::OpenWindowByPath"
+   ],
+   "args": [
+    {
+     "name": "WidgetClassPathIn",
+     "py": "path",
+     "type": "str"
+    }
+   ]
+  }
+ ],
+ "vectors": [
+  {
+   "rule": "EquipPartMesh",
+   "in": {
+    "Mesh": "ch1_m_00_grov001_00_00_0"
+   },
+   "out": "/Game/AsdaAssets/Models/Skeletal/EquipParts/ch1_m_00_grov001_00_00_0/ch1_m_00_grov001_00_00_0",
+   "src": "AsdaCharAssembly.cpp:25"
+  },
+  {
+   "rule": "CharStaticMeshObject",
+   "in": {
+    "Mesh": "ch1_f_00_hair000_00_00_1"
+   },
+   "out": "/Game/AsdaAssets/Models/Char/ch1_f_00_hair000_00_00_1/StaticMeshes/ch1_f_00_hair000_00_00_1.ch1_f_00_hair000_00_00_1",
+   "src": "AsdaCharAssembly.cpp:30"
+  },
+  {
+   "rule": "CharTextureObject",
+   "in": {
+    "Tex": "ch1_m_00_face001_03_00_0"
+   },
+   "out": "/Game/AsdaAssets/Textures/Characters/Texture/ch1_m_00_face001_03_00_0.ch1_m_00_face001_03_00_0",
+   "src": "AsdaCharAssembly.cpp:36"
+  },
+  {
+   "rule": "FaceTextureName",
+   "in": {
+    "bMale": true,
+    "FaceIndex": 3
+   },
+   "out": "ch1_m_00_face001_03_00_0",
+   "src": "AsdaCharAssembly.cpp:42"
+  },
+  {
+   "rule": "FaceTextureName",
+   "in": {
+    "bMale": false,
+    "FaceIndex": 11
+   },
+   "out": "ch1_f_00_face001_11_00_0",
+   "src": "AsdaCharAssembly.cpp:42"
+  },
+  {
+   "rule": "SkelMesh",
+   "in": {
+    "Root": "/Game/AsdaAssets/Models/MobSkel",
+    "Name": "mon_a"
+   },
+   "out": "/Game/AsdaAssets/Models/MobSkel/mon_a/SkeletalMeshes/mon_a",
+   "src": "AsdaModelAnimSubsystem.cpp:29"
+  },
+  {
+   "rule": "SkelMesh",
+   "in": {
+    "Root": "/Game/AsdaAssets/Models/Skeletal/SoulGuard",
+    "Name": "sb_md_cb_01",
+    "Suffix": "_idle"
+   },
+   "out": "/Game/AsdaAssets/Models/Skeletal/SoulGuard/sb_md_cb_01/SkeletalMeshes/sb_md_cb_01_idle",
+   "src": "AsdaModelAnimSubsystem.cpp:29"
+  },
+  {
+   "rule": "SkelAnim",
+   "in": {
+    "Root": "/Game/AsdaAssets/Models/Skeletal/Vehicle",
+    "Name": "v01",
+    "AnimIdx": 2
+   },
+   "out": "/Game/AsdaAssets/Models/Skeletal/Vehicle/v01/SkeletalMeshes/v01anim_02",
+   "src": "AsdaModelAnimSubsystem.cpp:34"
+  },
+  {
+   "rule": "SkelAnim",
+   "in": {
+    "Root": "/Game/AsdaAssets/Models/Skeletal/Characters",
+    "Name": "ch1_f_cremmy_preview",
+    "AnimIdx": 100
+   },
+   "out": "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_f_cremmy_preview/SkeletalMeshes/ch1_f_cremmy_previewanim_100",
+   "src": "AsdaSkillFxSubsystem.cpp:83 (idx>=10 — %d == %02d)"
+  },
+  {
+   "rule": "SkelAnimSuffix",
+   "in": {
+    "AnimIdx": 12
+   },
+   "out": "anim_12",
+   "src": "AsdaLoadManagerSubsystem.cpp:444"
+  },
+  {
+   "rule": "CharPreviewName",
+   "in": {
+    "bMale": false
+   },
+   "out": "ch1_f_cremmy_preview",
+   "src": "AsdaSkillFxSubsystem.cpp:81-82"
+  },
+  {
+   "rule": "MobStaticMeshObject",
+   "in": {
+    "Model": "mon_b"
+   },
+   "out": "/Game/AsdaAssets/Models/Mob/mon_b/StaticMeshes/mon_b.mon_b",
+   "src": "AsdaWorldSubsystem.cpp:1572"
+  },
+  {
+   "rule": "LootMeshObject",
+   "in": {
+    "Name": "Itm1_n_00_hcap_00_00"
+   },
+   "out": "/Game/AsdaAssets/Models/Items/Itm1_n_00_hcap_00_00/StaticMeshes/Itm1_n_00_hcap_00_00.Itm1_n_00_hcap_00_00",
+   "src": "AsdaLootActor.cpp:69"
+  },
+  {
+   "rule": "LootTextureObject",
+   "in": {
+    "Tex": "itm1_n_00_mony001"
+   },
+   "out": "/Game/AsdaAssets/Textures/Items/Texture/itm1_n_00_mony001.itm1_n_00_mony001",
+   "src": "AsdaLootActor.cpp:195"
+  },
+  {
+   "rule": "FxBpName",
+   "in": {
+    "Jeb": "eff_0_char_99_cmchar01-a_00"
+   },
+   "out": "BP_Fx_eff_0_char_99_cmchar01_a_00",
+   "src": "AsdaEffectActor.cpp:307"
+  },
+  {
+   "rule": "FxClassPathFromJeb",
+   "in": {
+    "Jeb": "eff_0_char_99_cmchar01-a_00"
+   },
+   "out": "/Game/AsdaAssets/Effects/BP_Fx_eff_0_char_99_cmchar01_a_00.BP_Fx_eff_0_char_99_cmchar01_a_00_C",
+   "src": "AsdaEffectActor.cpp:284-285"
+  },
+  {
+   "rule": "FxClassPathFromBp",
+   "in": {
+    "Bp": "BP_ImpactMob"
+   },
+   "out": "/Game/AsdaAssets/Effects/BP_ImpactMob.BP_ImpactMob_C",
+   "src": "AsdaEffectActor.cpp:294"
+  },
+  {
+   "rule": "FxPackageFromBp",
+   "in": {
+    "Bp": "BP_Fx_ohs_m_ab_ma_01"
+   },
+   "out": "/Game/AsdaAssets/Effects/BP_Fx_ohs_m_ab_ma_01",
+   "src": "AsdaItemBrowserData.cpp:1021"
+  },
+  {
+   "rule": "JebFromFxClassName",
+   "in": {
+    "ClassName": "BP_Fx_eff_0_char_99_cmchar01_a_00_C"
+   },
+   "out": "eff_0_char_99_cmchar01-a_00",
+   "src": "★ D4 (было eff_0_char_99_cmchar01_a_00, AsdaFxLightSubsystem.cpp:787-789)"
+  },
+  {
+   "rule": "JebFromFxClassName",
+   "in": {
+    "ClassName": "BP_Fx_eff_chesslight_a_00_C"
+   },
+   "out": "eff_chesslight_a_00",
+   "src": "AsdaFxLightSubsystem.cpp:787-789 (jeb без дефиса — как было)"
+  },
+  {
+   "rule": "JebFromFxClassName",
+   "in": {
+    "ClassName": "BP_ImpactMob_C"
+   },
+   "out": "BP_ImpactMob",
+   "src": "AsdaFxLightSubsystem.cpp:787-789"
+  },
+  {
+   "rule": "SoundObject",
+   "in": {
+    "Folder": "Sound",
+    "Name": "S_c_M2Blood Invade0"
+   },
+   "out": "/Game/AsdaAssets/Sound/S_c_M2Blood_Invade0.S_c_M2Blood_Invade0",
+   "src": "AsdaSoundSubsystem.cpp:104-107"
+  },
+  {
+   "rule": "SoundObject",
+   "in": {
+    "Folder": "Sounds/Music",
+    "Name": "S_BGM_alpen"
+   },
+   "out": "/Game/AsdaAssets/Sounds/Music/S_BGM_alpen.S_BGM_alpen",
+   "src": "AsdaSoundSubsystem.cpp:289"
+  },
+  {
+   "rule": "JuiTextureObject",
+   "in": {
+    "Name": "n_02"
+   },
+   "out": "/Game/AsdaAssets/Textures/JUI/n_02.n_02",
+   "src": "AsdaTextureSubsystem.cpp:202"
+  },
+  {
+   "rule": "MapTexDir",
+   "in": {
+    "MapName": "Mountain Flamion"
+   },
+   "out": "/Game/AsdaAssets/Textures/Maps/Mountain_Flamion",
+   "src": "★ D2 (было …/Maps/Mountain Flamion, AsdaTextureSubsystem.cpp:220-224)"
+  },
+  {
+   "rule": "MapTexDir",
+   "in": {
+    "MapName": "alpen"
+   },
+   "out": "/Game/AsdaAssets/Textures/Maps/alpen",
+   "src": "AsdaTextureSubsystem.cpp:224"
+  },
+  {
+   "rule": "MapLoadDir",
+   "in": {
+    "DirName": "Mountain Flamion"
+   },
+   "out": "/Game/AsdaAssets/Textures/Maps/Mountain_Flamion/load",
+   "src": "★ D1 (было …/Maps/Mountain Flamion/load, AsdaLoadManagerSubsystem.cpp:230)"
+  },
+  {
+   "rule": "MapLoadDir",
+   "in": {
+    "DirName": "DragonLaiR"
+   },
+   "out": "/Game/AsdaAssets/Textures/Maps/DragonLaiR/load",
+   "src": "AsdaLoadManagerSubsystem.cpp:230"
+  },
+  {
+   "rule": "NpcPortraitObject",
+   "in": {
+    "Model": "npc_m_m_aaron-a_00"
+   },
+   "out": "/Game/AsdaAssets/Textures/NPC/Portrait/npc_m_m_aaron-a_00.npc_m_m_aaron-a_00",
+   "src": "AsdaNpcDialogSubsystem.cpp:883"
+  },
+  {
+   "rule": "ObjectPathFromPackage",
+   "in": {
+    "Key": "/Game/A/B/N"
+   },
+   "out": "/Game/A/B/N.N",
+   "src": "AsdaModelAnimSubsystem.cpp:63-72"
+  },
+  {
+   "rule": "ObjectPathFromPackage",
+   "in": {
+    "Key": "/Game/A/B/N.N"
+   },
+   "out": "/Game/A/B/N.N",
+   "src": "AsdaModelAnimSubsystem.cpp:63-72"
+  },
+  {
+   "rule": "ObjectPathFromPackage",
+   "in": {
+    "Key": "plain"
+   },
+   "out": "plain",
+   "src": "AsdaModelAnimSubsystem.cpp:63-72"
+  },
+  {
+   "rule": "PackageObjectPath",
+   "in": {
+    "Pkg": "/Game/A/B"
+   },
+   "out": "/Game/A/B.B",
+   "src": "AsdaItemBrowserData.cpp:121-125"
+  },
+  {
+   "rule": "WidgetClassPath",
+   "in": {
+    "WidgetClassPathIn": "/Game/UI/WBP_X"
+   },
+   "out": "/Game/UI/WBP_X.WBP_X_C",
+   "src": "AsdaWindowSubsystem.cpp:1696-1707"
+  },
+  {
+   "rule": "WidgetClassPath",
+   "in": {
+    "WidgetClassPathIn": "/Game/UI/WBP_X.WBP_X"
+   },
+   "out": "/Game/UI/WBP_X.WBP_X_C",
+   "src": "AsdaWindowSubsystem.cpp:1696-1707"
+  },
+  {
+   "rule": "WidgetClassPath",
+   "in": {
+    "WidgetClassPathIn": "/Game/UI/WBP_X.WBP_X_C"
+   },
+   "out": "/Game/UI/WBP_X.WBP_X_C",
+   "src": "AsdaWindowSubsystem.cpp:1696-1707"
+  }
+ ],
+ "cpp_forbidden_templates": [
+  "/Game/AsdaAssets/Effects/%s",
+  "Textures/JUI/%s",
+  "/SkeletalMeshes/%s%s",
+  "EquipParts/%s/%s",
+  "Models/Char/%s/StaticMeshes",
+  "Models/Mob/%s/StaticMeshes",
+  "Models/Items/%s/StaticMeshes",
+  "Textures/Maps/%s",
+  "Textures/Items/Texture/%s",
+  "Textures/Characters/Texture/%s",
+  "cremmy_previewanim_%",
+  "TEXT(\"BP_Fx_\")) +",
+  "TEXT(\"BP_Fx_\") +",
+  "Textures/NPC/Portrait/%s"
+ ],
+ "scan": {
+  "exclude_dirs": [
+   "_out",
+   "__pycache__",
+   "Intermediate",
+   "Binaries",
+   "ThirdParty"
+  ],
+  "probe_globs": [
+   "_*.py"
+  ],
+  "skip_files": [
+   "Source/AsdaReborn/Public/Resources/AsdaAssetPaths.h",
+   "Source/AsdaReborn/Public/World/AsdaMapRegistry.h",
+   "Tools/asda_asset_paths.py"
+  ]
+ },
+ "verify_known_gaps": [
+  "models_char:ch1_f_cremmy_preview",
+  "models_char:ch1_m_cremmy_preview"
+ ],
+ "singletons_policy": "scan_only: одиночные DT/WBP/мастера в реестр не переносятся, --scan проверяет существование",
+ "fx_jeb_dash_names": [
+  "eff_0_char_03_flyarr01-a_00",
+  "eff_0_char_99_battk02-a_00",
+  "eff_0_char_99_cmchar01-a_00",
+  "eff_0_char_99_lvup01-a_00",
+  "eff_0_char_99_pmarmo01-a_00",
+  "eff_0_othr_99_elptn01-a_00",
+  "eff_0_othr_99_hpptn01-a_00",
+  "eff_0_othr_99_mpptn01-a_00",
+  "eff_0_othr_99_pmalre01-a_00",
+  "eff_0_othr_99_pmalre01-a_01",
+  "eff_0_othr_99_pmalre01-a_02",
+  "eff_0_othr_99_pmhpre01-a_00",
+  "eff_0_othr_99_pmhpre01-a_01",
+  "eff_0_othr_99_pmhpre01-a_02",
+  "eff_0_othr_99_pmmpre01-a_00",
+  "eff_0_othr_99_pmmpre01-a_01",
+  "eff_0_othr_99_pmmpre01-a_02",
+  "eff_0_othr_99_pmskre01-a_00",
+  "eff_1_char_01_brethc01-a_00",
+  "eff_1_char_01_crashb02-a_00",
+  "eff_1_char_01_crashh01-a_00",
+  "eff_1_char_01_defpos01-a_00",
+  "eff_1_char_01_defsac01-a_00",
+  "eff_1_char_01_fdrile01-a_00",
+  "eff_1_char_01_hblowe01-a_00",
+  "eff_1_char_01_hexaa07-a_00",
+  "eff_1_char_01_hexaa08-a_00",
+  "eff_1_char_01_hexaa09-a_00",
+  "eff_1_char_01_hexab03-a_00",
+  "eff_1_char_01_hexah02-a_00",
+  "eff_1_char_01_oswinge01-a_00",
+  "eff_1_char_01_pbladee01-a_00",
+  "eff_1_char_01_roarug01-a_00",
+  "eff_1_char_01_ulistr01-a_00",
+  "eff_1_char_02_amorde01-a_00",
+  "eff_1_char_02_cmbengb03-a_00",
+  "eff_1_char_02_cmbengw01-a_00",
+  "eff_1_char_02_counta01-a_00",
+  "eff_1_char_02_counta01-a_01",
+  "eff_1_char_02_ctimor01-a_00",
+  "eff_1_char_02_ctimor02-a_00",
+  "eff_1_char_02_cyclb02-a_00",
+  "eff_1_char_02_cycle01-a_00",
+  "eff_1_char_02_dmgacc01-a_00",
+  "eff_1_char_02_drgflyb03-a_00",
+  "eff_1_char_02_drgflyb04-a_00",
+  "eff_1_char_02_drgflye02-a_00",
+  "eff_1_char_02_drgflyw01-a_00",
+  "eff_1_char_02_dridg501-a_00",
+  "eff_1_char_02_fatale01-a_00",
+  "eff_1_char_02_fatale02-a_00",
+  "eff_1_char_02_fatale03-a_00",
+  "eff_1_char_02_fooffu01-a_00",
+  "eff_1_char_02_parlac01-a_00",
+  "eff_1_char_02_parlac02-a_00",
+  "eff_1_char_02_rgeblwe01-a_00",
+  "eff_1_char_02_rgeblwe02-a_00",
+  "eff_1_char_02_rgeblwe03-a_00",
+  "eff_1_char_02_rgeblwe04-a_00",
+  "eff_1_char_02_scream01-a_00",
+  "eff_1_char_02_scream02-a_00",
+  "eff_1_char_02_supcry01-a_00",
+  "eff_1_char_03_aerob02-a_00",
+  "eff_1_char_03_aeroe01-a_00",
+  "eff_1_char_03_attrunb03-a_00",
+  "eff_1_char_03_attrune01-a_00",
+  "eff_1_char_03_attruns02-a_00",
+  "eff_1_char_03_ironbo01-a_00",
+  "eff_1_char_03_sfarw01-a_00",
+  "eff_1_char_03_trapth01-a_00",
+  "eff_1_char_03_trapth01-a_01",
+  "eff_1_char_03_trapth01-a_02",
+  "eff_1_char_04_adncw01-a_00",
+  "eff_1_char_04_bshotb03-a_00",
+  "eff_1_char_04_bshotw01-a_00",
+  "eff_1_char_04_devcnib02-a_00",
+  "eff_1_char_04_devcnie01-a_00",
+  "eff_1_char_04_devcnis03-a_00",
+  "eff_1_char_04_devcniw04-a_00",
+  "eff_1_char_04_drainw01-a_00",
+  "eff_1_char_04_mpsonw01-a_00",
+  "eff_1_char_04_rpolew01-a_00",
+  "eff_1_char_04_tshotw01-a_00",
+  "eff_1_char_04_vshotb02-a_00",
+  "eff_1_char_04_vshotw01-a_00",
+  "eff_1_char_04_wshotw01-a_00",
+  "eff_1_char_05_fatsta01-a_00",
+  "eff_1_char_05_fatsth01-a_00",
+  "eff_1_char_05_smashe01-a_00",
+  "eff_1_char_05_sspeb01-a_00",
+  "eff_1_char_05_sspee01-a_00",
+  "eff_1_char_05_strikee01-a_00",
+  "eff_1_char_05_wndslhb02-a_00",
+  "eff_1_char_05_wndslhe01-a_00",
+  "eff_1_char_06_bigmeob03-a_00",
+  "eff_1_char_06_bigmeog01-a_00",
+  "eff_1_char_06_bigmeow02-a_00",
+  "eff_1_char_06_brieg01-a_00",
+  "eff_1_char_06_bwaterg01-a_00",
+  "eff_1_char_06_bwaterw02-a_00",
+  "eff_1_char_06_cancelg01-a_00",
+  "eff_1_char_06_dakhlpb03-a_00",
+  "eff_1_char_06_dakhlpg01-a_00",
+  "eff_1_char_06_dakhlph02-a_00",
+  "eff_1_char_06_darbla01-a_00",
+  "eff_1_char_06_darbla01-a_01",
+  "eff_1_char_06_darbla01-a_02",
+  "eff_1_char_06_earthg01-a_00",
+  "eff_1_char_06_earthh02-a_00",
+  "eff_1_char_06_ebateg01-a_00",
+  "eff_1_char_06_ebatew02-a_00",
+  "eff_1_char_06_efireg01-a_00",
+  "eff_1_char_06_efireh02-a_00",
+  "eff_1_char_06_fballg01-a_00",
+  "eff_1_char_06_fballs04-a_00",
+  "eff_1_char_06_fballw02-a_00",
+  "eff_1_char_06_fballw03-a_00",
+  "eff_1_char_06_fbladg01-a_00",
+  "eff_1_char_06_firqukw01-a_00",
+  "eff_1_char_06_firqukw03-a_00",
+  "eff_1_char_06_hfireg01-a_00",
+  "eff_1_char_06_hfireh02-a_00",
+  "eff_1_char_06_lboltg01-a_00",
+  "eff_1_char_06_lbolth02-a_00",
+  "eff_1_char_06_lbolts04-a_00",
+  "eff_1_char_06_lboltw03-a_00",
+  "eff_1_char_06_lgtstmb03-a_00",
+  "eff_1_char_06_lgtstmc01-a_00",
+  "eff_1_char_06_lgtstmh02-a_00",
+  "eff_1_char_06_smlmeob03-a_00",
+  "eff_1_char_06_smlmeog01-a_00",
+  "eff_1_char_06_smlmeoh02-a_00",
+  "eff_1_char_06_stmtrpe03-a_00",
+  "eff_1_char_06_stmtrpg01-a_00",
+  "eff_1_char_06_stmtrpg02-a_00",
+  "eff_1_char_06_swdstme02-a_00",
+  "eff_1_char_06_swdstmg01-a_00",
+  "eff_1_char_06_swdstms03-a_00",
+  "eff_1_char_06_wbldg01-a_00",
+  "eff_1_char_06_wblds03-a_00",
+  "eff_1_char_06_wblds04-a_00",
+  "eff_1_char_06_wbldw02-a_00",
+  "eff_1_char_06_wholicg01-a_00",
+  "eff_1_char_06_wholich02-a_00",
+  "eff_1_char_06_wndstmb03-a_00",
+  "eff_1_char_06_wndstmg01-a_00",
+  "eff_1_char_06_wndstmw02-a_00",
+  "eff_1_char_07_dstarwe01-a_00",
+  "eff_1_char_07_fireragb03-a_00",
+  "eff_1_char_07_firerage01-a_00",
+  "eff_1_char_07_firerags02-a_00",
+  "eff_1_char_07_runfirb03-a_00",
+  "eff_1_char_07_runfirb04-a_00",
+  "eff_1_char_07_runfirb05-a_00",
+  "eff_1_char_07_runfire01-a_00",
+  "eff_1_char_07_runfire02-a_00",
+  "eff_1_char_99_adncb02-a_00",
+  "eff_1_char_99_attbomg-a_01",
+  "eff_1_char_99_attbomg-a_03",
+  "eff_1_char_99_attbomh-a_00",
+  "eff_1_char_99_attbomh-a_02",
+  "eff_1_char_99_attbomh-a_04",
+  "eff_1_char_99_attbomu-a_02",
+  "eff_1_char_99_bloarr01-a_00",
+  "eff_1_char_99_blosuc01-a_00",
+  "eff_1_char_99_briec01-a_00",
+  "eff_1_char_99_bshots02-a_00",
+  "eff_1_char_99_bstomb03-a_00",
+  "eff_1_char_99_bwaterb03-a_00",
+  "eff_1_char_99_crashb01-a_00",
+  "eff_1_char_99_crashb02-a_00",
+  "eff_1_char_99_damchgg-a_03",
+  "eff_1_char_99_defminb03-a_00",
+  "eff_1_char_99_defmine01-a_00",
+  "eff_1_char_99_defmine02-a_00",
+  "eff_1_char_99_defmine04-a_00",
+  "eff_1_char_99_drainb02-a_00",
+  "eff_1_char_99_drainb03-a_00",
+  "eff_1_char_99_drainc04-a_00",
+  "eff_1_char_99_drains02-a_00",
+  "eff_1_char_99_dswingb01-a_00",
+  "eff_1_char_99_dswingb02-a_00",
+  "eff_1_char_99_earthb03-a_00",
+  "eff_1_char_99_earthb04-a_00",
+  "eff_1_char_99_ebateb03-a_00",
+  "eff_1_char_99_efireb03-a_00",
+  "eff_1_char_99_evasionc-a_03",
+  "eff_1_char_99_evasionc-a_04",
+  "eff_1_char_99_evasiong-a_02",
+  "eff_1_char_99_exparr01-a_00",
+  "eff_1_char_99_expmovg-a_01",
+  "eff_1_char_99_fballb05-a_00",
+  "eff_1_char_99_fdrilb02-a_00",
+  "eff_1_char_99_fearg01-a_00",
+  "eff_1_char_99_focusg01-a_00",
+  "eff_1_char_99_grebom01-a_00",
+  "eff_1_char_99_grebom01-a_01",
+  "eff_1_char_99_grebom01-a_02",
+  "eff_1_char_99_grened01-a_00",
+  "eff_1_char_99_hblowb02-a_00",
+  "eff_1_char_99_hfireb03-a_00",
+  "eff_1_char_99_howlg01-a_00",
+  "eff_1_char_99_hpconc01-a_00",
+  "eff_1_char_99_hpconc02-a_00",
+  "eff_1_char_99_hpcong01-a_00",
+  "eff_1_char_99_impare01-a_00",
+  "eff_1_char_99_lboltb01-a_01",
+  "eff_1_char_99_lboltb01-a_02",
+  "eff_1_char_99_lboltb05-a_00",
+  "eff_1_char_99_move01-a_00",
+  "eff_1_char_99_move02-a_00",
+  "eff_1_char_99_mpsonb03-a_00",
+  "eff_1_char_99_mpsons02-a_00",
+  "eff_1_char_99_oswingb02-a_00",
+  "eff_1_char_99_pbladeb02-a_00",
+  "eff_1_char_99_pbladeb03-a_00",
+  "eff_1_char_99_perdmgg-a_02",
+  "eff_1_char_99_perdmgu-a_03",
+  "eff_1_char_99_poiarr01-a_00",
+  "eff_1_char_99_redmgc-a_02",
+  "eff_1_char_99_redmgu-a_01",
+  "eff_1_char_99_retdmg01-a_00",
+  "eff_1_char_99_roarug02-a_00",
+  "eff_1_char_99_rpoleb03-a_00",
+  "eff_1_char_99_rpoles02-a_00",
+  "eff_1_char_99_sfarb02-a_00",
+  "eff_1_char_99_skigurdc-a_04",
+  "eff_1_char_99_skigurdg-a_02",
+  "eff_1_char_99_skigurdu-a_03",
+  "eff_1_char_99_slpdus01-a_00",
+  "eff_1_char_99_smashb02-a_00",
+  "eff_1_char_99_soulcallh-a_00",
+  "eff_1_char_99_soullink01-a_00",
+  "eff_1_char_99_soullink02-a_00",
+  "eff_1_char_99_soullink03-a_00",
+  "eff_1_char_99_soulmatec-a_01",
+  "eff_1_char_99_soulritec-a_00",
+  "eff_1_char_99_soulritec-a_01",
+  "eff_1_char_99_soulritec-a_03",
+  "eff_1_char_99_soulritec-a_04",
+  "eff_1_char_99_sspeb02-a_00",
+  "eff_1_char_99_straim01-a_00",
+  "eff_1_char_99_straim01-a_01",
+  "eff_1_char_99_straim01-a_02",
+  "eff_1_char_99_strikeb02-a_00",
+  "eff_1_char_99_stydmg01-a_00",
+  "eff_1_char_99_tforeh01-a_00",
+  "eff_1_char_99_tshotb03-a_00",
+  "eff_1_char_99_tshots02-a_00",
+  "eff_1_char_99_wbldb05-a_00",
+  "eff_1_char_99_wblde01-a_00",
+  "eff_1_char_99_wholicb03-a_00",
+  "eff_1_char_99_wshotb03-a_00",
+  "eff_1_char_99_wshots02-a_00",
+  "eff_2_char_02_dridg501-a_00",
+  "eff_2_char_02_dridg501-a_01",
+  "eff_2_char_02_dridg501-a_02",
+  "eff_2_char_99_abdmge01-a_00",
+  "eff_2_char_99_abidw01-a_00",
+  "eff_2_char_99_abidw01-a_01",
+  "eff_2_char_99_abidw01-a_02",
+  "eff_2_char_99_absdf01-a_00",
+  "eff_2_char_99_absdf01-a_01",
+  "eff_2_char_99_absdf01-a_02",
+  "eff_2_char_99_adddg101-a_00",
+  "eff_2_char_99_adddg101-a_02",
+  "eff_2_char_99_adncc01-a_00",
+  "eff_2_char_99_alcrup01-a_00",
+  "eff_2_char_99_aldre01-a_00",
+  "eff_2_char_99_aldre01-a_01",
+  "eff_2_char_99_aldre01-a_02",
+  "eff_2_char_99_attdow01-a_00",
+  "eff_2_char_99_attdow01-a_01",
+  "eff_2_char_99_attdow01-a_02",
+  "eff_2_char_99_attdw101-a_00",
+  "eff_2_char_99_attdw101-a_01",
+  "eff_2_char_99_attdw101-a_02",
+  "eff_2_char_99_attdw301-a_00",
+  "eff_2_char_99_attdw301-a_01",
+  "eff_2_char_99_attdw301-a_02",
+  "eff_2_char_99_attsdw01-a_00",
+  "eff_2_char_99_attsdw01-a_01",
+  "eff_2_char_99_attsdw01-a_02",
+  "eff_2_char_99_attup101-a_00",
+  "eff_2_char_99_attup101-a_01",
+  "eff_2_char_99_attup101-a_02",
+  "eff_2_char_99_attup201-a_00",
+  "eff_2_char_99_attup201-a_01",
+  "eff_2_char_99_attup201-a_02",
+  "eff_2_char_99_balace01-a_00",
+  "eff_2_char_99_barier01-a_00",
+  "eff_2_char_99_basarr01-a_00",
+  "eff_2_char_99_bleedc01-a_00",
+  "eff_2_char_99_bleedc01-a_01",
+  "eff_2_char_99_bleedc01-a_02",
+  "eff_2_char_99_blefad01-a_00",
+  "eff_2_char_99_blefad01-a_01",
+  "eff_2_char_99_blefad01-a_02",
+  "eff_2_char_99_bloarr01-a_00",
+  "eff_2_char_99_blosuc01-a_00",
+  "eff_2_char_99_blosuc01-a_01",
+  "eff_2_char_99_blosuc01-a_02",
+  "eff_2_char_99_blosuc02-a_00",
+  "eff_2_char_99_blucup01-a_00",
+  "eff_2_char_99_briec01-a_00",
+  "eff_2_char_99_challe01-a_00",
+  "eff_2_char_99_challe01-a_01",
+  "eff_2_char_99_challe01-a_02",
+  "eff_2_char_99_chieff01-a_00",
+  "eff_2_char_99_conmas01-a_00",
+  "eff_2_char_99_cridn201-a_00",
+  "eff_2_char_99_cridn201-a_01",
+  "eff_2_char_99_cridn201-a_02",
+  "eff_2_char_99_criup201-a_00",
+  "eff_2_char_99_criup201-a_01",
+  "eff_2_char_99_criup201-a_02",
+  "eff_2_char_99_ctimdn01-a_00",
+  "eff_2_char_99_dash01-a_00",
+  "eff_2_char_99_deacur01-a_00",
+  "eff_2_char_99_deacur01-a_01",
+  "eff_2_char_99_deacur01-a_02",
+  "eff_2_char_99_defdw101-a_00",
+  "eff_2_char_99_defdw101-a_01",
+  "eff_2_char_99_defdw101-a_02",
+  "eff_2_char_99_defdw201-a_00",
+  "eff_2_char_99_defdw201-a_01",
+  "eff_2_char_99_defdw201-a_02",
+  "eff_2_char_99_defdw401-a_00",
+  "eff_2_char_99_defdw401-a_01",
+  "eff_2_char_99_defdw401-a_02",
+  "eff_2_char_99_defdwe01-a_00",
+  "eff_2_char_99_defenc01-a_00",
+  "eff_2_char_99_defenc01-a_01",
+  "eff_2_char_99_defenc01-a_02",
+  "eff_2_char_99_defmine01-a_00",
+  "eff_2_char_99_defmine02-a_00",
+  "eff_2_char_99_defmine03-a_00",
+  "eff_2_char_99_defmine04-a_00",
+  "eff_2_char_99_defmine05-a_00",
+  "eff_2_char_99_defsc101-a_00",
+  "eff_2_char_99_defsr101-a_00",
+  "eff_2_char_99_defsr101-a_01",
+  "eff_2_char_99_defsr101-a_02",
+  "eff_2_char_99_defup101-a_00",
+  "eff_2_char_99_defup101-a_01",
+  "eff_2_char_99_defup101-a_02",
+  "eff_2_char_99_defup201-a_00",
+  "eff_2_char_99_defup201-a_01",
+  "eff_2_char_99_defup201-a_02",
+  "eff_2_char_99_dfdnar01-a_00",
+  "eff_2_char_99_disarr01-a_00",
+  "eff_2_char_99_divarr01-a_00",
+  "eff_2_char_99_dmgbak01-a_00",
+  "eff_2_char_99_dmgbak01-a_01",
+  "eff_2_char_99_dmgbak01-a_02",
+  "eff_2_char_99_dot08t01-a_00",
+  "eff_2_char_99_dot08t01-a_01",
+  "eff_2_char_99_dot08t01-a_02",
+  "eff_2_char_99_dot301-a_00",
+  "eff_2_char_99_dot301-a_01",
+  "eff_2_char_99_dot301-a_02",
+  "eff_2_char_99_dousho01-a_00",
+  "eff_2_char_99_eleski01-a_00",
+  "eff_2_char_99_evadw201-a_00",
+  "eff_2_char_99_evadw201-a_01",
+  "eff_2_char_99_evadw201-a_02",
+  "eff_2_char_99_evaup201-a_00",
+  "eff_2_char_99_exparr01-a_00",
+  "eff_2_char_99_expplt01-a_00",
+  "eff_2_char_99_expplt01-a_01",
+  "eff_2_char_99_expplt01-a_02",
+  "eff_2_char_99_fatblo01-a_00",
+  "eff_2_char_99_fbladu01-a_00",
+  "eff_2_char_99_fbladu01-a_01",
+  "eff_2_char_99_fbladu01-a_02",
+  "eff_2_char_99_fearu01-a_00",
+  "eff_2_char_99_fearu01-a_01",
+  "eff_2_char_99_fearu01-a_02",
+  "eff_2_char_99_finhid01-a_00",
+  "eff_2_char_99_finhid01-a_01",
+  "eff_2_char_99_firtim01-a_00",
+  "eff_2_char_99_firtim01-a_01",
+  "eff_2_char_99_firtim01-a_02",
+  "eff_2_char_99_flamec01-a_00",
+  "eff_2_char_99_flamec01-a_01",
+  "eff_2_char_99_flamec01-a_02",
+  "eff_2_char_99_focusu01-a_00",
+  "eff_2_char_99_focusu01-a_01",
+  "eff_2_char_99_focusu01-a_02",
+  "eff_2_char_99_freez101-a_00",
+  "eff_2_char_99_freez101-a_01",
+  "eff_2_char_99_freez101-a_02",
+  "eff_2_char_99_freez201-a_00",
+  "eff_2_char_99_freez201-a_01",
+  "eff_2_char_99_freez201-a_02",
+  "eff_2_char_99_freez301-a_00",
+  "eff_2_char_99_freez301-a_01",
+  "eff_2_char_99_freez301-a_02",
+  "eff_2_char_99_harski01-a_00",
+  "eff_2_char_99_hatedw01-a_00",
+  "eff_2_char_99_hatedw01-a_01",
+  "eff_2_char_99_hatedw01-a_02",
+  "eff_2_char_99_hatedw02-a_00",
+  "eff_2_char_99_hblowc01-a_00",
+  "eff_2_char_99_hill01-a_00",
+  "eff_2_char_99_hill01-a_01",
+  "eff_2_char_99_hill01-a_02",
+  "eff_2_char_99_hitdwn01-a_00",
+  "eff_2_char_99_hitdwn01-a_01",
+  "eff_2_char_99_hitdwn01-a_02",
+  "eff_2_char_99_howlu01-a_00",
+  "eff_2_char_99_howlu01-a_01",
+  "eff_2_char_99_howlu01-a_02",
+  "eff_2_char_99_hpconu01-a_00",
+  "eff_2_char_99_hpconu01-a_01",
+  "eff_2_char_99_hpconu01-a_02",
+  "eff_2_char_99_hpcurs01-a_00",
+  "eff_2_char_99_hpcurs01-a_01",
+  "eff_2_char_99_hpcurs01-a_02",
+  "eff_2_char_99_hpmove02-a_00",
+  "eff_2_char_99_hpnwas01-a_00",
+  "eff_2_char_99_hpnwas01-a_01",
+  "eff_2_char_99_hpnwas01-a_02",
+  "eff_2_char_99_hprc201-a_00",
+  "eff_2_char_99_hprc201-a_01",
+  "eff_2_char_99_hprc201-a_02",
+  "eff_2_char_99_hpreco01-a_00",
+  "eff_2_char_99_ltningu01-a_01",
+  "eff_2_char_99_magat201-a_00",
+  "eff_2_char_99_magat201-a_01",
+  "eff_2_char_99_magat201-a_02",
+  "eff_2_char_99_magstr01-a_00",
+  "eff_2_char_99_manasu01-a_00",
+  "eff_2_char_99_manasu01-a_01",
+  "eff_2_char_99_manasu01-a_02",
+  "eff_2_char_99_manshi01-a_00",
+  "eff_2_char_99_manwas01-a_00",
+  "eff_2_char_99_manwas01-a_01",
+  "eff_2_char_99_manwas01-a_02",
+  "eff_2_char_99_mastu01-a_00",
+  "eff_2_char_99_mastu01-a_02",
+  "eff_2_char_99_melstr01-a_00",
+  "eff_2_char_99_morblw-a_00",
+  "eff_2_char_99_morblw-a_01",
+  "eff_2_char_99_morblw-a_02",
+  "eff_2_char_99_movdw01-a_00",
+  "eff_2_char_99_movdw01-a_01",
+  "eff_2_char_99_movdw01-a_02",
+  "eff_2_char_99_movup01-a_00",
+  "eff_2_char_99_mpcodw01-a_00",
+  "eff_2_char_99_mpcodw01-a_01",
+  "eff_2_char_99_mpcodw01-a_02",
+  "eff_2_char_99_mpcurs01-a_00",
+  "eff_2_char_99_mpcurs01-a_01",
+  "eff_2_char_99_mpcurs01-a_02",
+  "eff_2_char_99_mprec201-a_00",
+  "eff_2_char_99_mprec201-a_01",
+  "eff_2_char_99_mprec201-a_02",
+  "eff_2_char_99_poiarr01-a_00",
+  "eff_2_char_99_poiup101-a_00",
+  "eff_2_char_99_poiup101-a_01",
+  "eff_2_char_99_poiup101-a_02",
+  "eff_2_char_99_poiup201-a_00",
+  "eff_2_char_99_poiup201-a_01",
+  "eff_2_char_99_poiup201-a_02",
+  "eff_2_char_99_poiup301-a_00",
+  "eff_2_char_99_poiup301-a_01",
+  "eff_2_char_99_poiup301-a_02",
+  "eff_2_char_99_poiup401-a_00",
+  "eff_2_char_99_poiup401-a_01",
+  "eff_2_char_99_poiup401-a_02",
+  "eff_2_char_99_poiup501-a_00",
+  "eff_2_char_99_poiup501-a_01",
+  "eff_2_char_99_poiup501-a_02",
+  "eff_2_char_99_poiup601-a_00",
+  "eff_2_char_99_quickn01-a_00",
+  "eff_2_char_99_rangu01-a_00",
+  "eff_2_char_99_rangu01-a_01",
+  "eff_2_char_99_rangu01-a_02",
+  "eff_2_char_99_ranstr01-a_00",
+  "eff_2_char_99_regdwn01-a_00",
+  "eff_2_char_99_regdwn01-a_01",
+  "eff_2_char_99_regdwn01-a_02",
+  "eff_2_char_99_regdwn02-a_00",
+  "eff_2_char_99_regdwn02-a_01",
+  "eff_2_char_99_regdwn02-a_02",
+  "eff_2_char_99_regdwn03-a_00",
+  "eff_2_char_99_regdwn03-a_01",
+  "eff_2_char_99_regdwn03-a_02",
+  "eff_2_char_99_regdwn04-a_00",
+  "eff_2_char_99_regdwn04-a_01",
+  "eff_2_char_99_regdwn04-a_02",
+  "eff_2_char_99_regdwn05-a_00",
+  "eff_2_char_99_regdwn05-a_01",
+  "eff_2_char_99_regdwn05-a_02",
+  "eff_2_char_99_regdwn06-a_00",
+  "eff_2_char_99_regdwn06-a_01",
+  "eff_2_char_99_regdwn06-a_02",
+  "eff_2_char_99_resur201-a_00",
+  "eff_2_char_99_retdmg01-a_00",
+  "eff_2_char_99_retdmg01-a_01",
+  "eff_2_char_99_retdmg01-a_02",
+  "eff_2_char_99_rpoleu01-a_01",
+  "eff_2_char_99_savsou01-a_00",
+  "eff_2_char_99_sbact101-a_00",
+  "eff_2_char_99_sbact180-a_00",
+  "eff_2_char_99_sbact201-a_00",
+  "eff_2_char_99_scrup01-a_00",
+  "eff_2_char_99_shobom01-a_00",
+  "eff_2_char_99_shobom01-a_01",
+  "eff_2_char_99_shobom01-a_02",
+  "eff_2_char_99_shocku01-a_00",
+  "eff_2_char_99_shocku01-a_01",
+  "eff_2_char_99_shocku01-a_02",
+  "eff_2_char_99_silenc01-a_00",
+  "eff_2_char_99_silenc01-a_01",
+  "eff_2_char_99_silenc01-a_02",
+  "eff_2_char_99_skcriu01-a_00",
+  "eff_2_char_99_skcriu01-a_01",
+  "eff_2_char_99_skcriu01-a_02",
+  "eff_2_char_99_sleep01-a_00",
+  "eff_2_char_99_sleep01-a_01",
+  "eff_2_char_99_sleep01-a_02",
+  "eff_2_char_99_strikec01-a_00",
+  "eff_2_char_99_strup1-a_00",
+  "eff_2_char_99_strup1-a_01",
+  "eff_2_char_99_strup1-a_02",
+  "eff_2_char_99_telepo01-a_00",
+  "eff_2_char_99_timbom01-a_00",
+  "eff_2_char_99_timbom01-a_01",
+  "eff_2_char_99_timbom01-a_02",
+  "eff_2_char_99_timbom01-b_00",
+  "eff_2_char_99_timbom01-b_01",
+  "eff_2_char_99_timbom01-b_02",
+  "eff_2_char_99_wepead01-a_00",
+  "eff_2_char_99_wepead01-a_01",
+  "eff_2_char_99_wepead01-a_02",
+  "eff_2_hedfor01-a_00"
+ ],
+ "fx_jeb_dash_excluded": [
+  {
+   "jeb": "test-000",
+   "why": "семейство света на «_» = ui_markers, на «-» = other — прежнее совпадение сохранено"
+  }
+ ],
+ "verify_known_gaps_comment": "Models/Char/ch1_{f,m}_cremmy_preview — старый СКЕЛЕТНЫЙ импорт 06.07.2026 (SkeletalMeshes/, без StaticMeshes/); рабочая база персонажа — Models/Skeletal/Characters. Ассеты не трогать (только чтение)."
+}

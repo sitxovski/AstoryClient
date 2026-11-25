@@ -1,0 +1,838 @@
+{
+ "_comment": "Ведомость правок EN-оверлея DT_Loc_NpcNsrPage_en (ключ — как в _gaps_NpcNsrPage.tsv). Применяет Tools/extract_text_lang.py после извлечения; was = значение извлечения или null. Этап 6 (09.10.2026): ручной перевод строк без EN-источника, глоссарий — Reports/owner_1009/multilang/stage6/glossary.tsv.",
+ "rows": [
+  {
+   "key": "118npc_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "119npc_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "129npc_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "199npc_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_10.Text",
+   "value": "Shh! Keep it down. Hm? What do you want with me?\r\n\r\n",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_10.Steps.0.Caption",
+   "value": "I came to borrow the Bomb Bible.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_31.Text",
+   "value": "A patrolling Ruby Parrot tore it up a while ago, so only half of it is left. Grrr.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_31.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_32.Text",
+   "value": "The Bomb Bible? \r\nHmm... Even if I wanted to give you that book now... I can't... ",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_32.Steps.0.Caption",
+   "value": "Why not?",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_20.Text",
+   "value": "Well, if you bring back the pages of the book from those birds, I'll lend you the rest.\r\n",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_20.Steps.0.Caption",
+   "value": "I'll get them back.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_11.Text",
+   "value": "Hmm. Impressive. You brought back every single page. \r\nI had half given up. Thanks for finding them. Ha ha ha.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_11.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_33.Text",
+   "value": "Hm? You're really going after them? Take care! Grrr...",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_33.Steps.0.Caption",
+   "value": "End Conversation",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_21.Text",
+   "value": "You'll make a fine Trapper. I guarantee it.\r\nHere! As promised, the rest of the book.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_21.Steps.0.Caption",
+   "value": "Accept Quest",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_34.Text",
+   "value": "Shh! Hm? You. Did you really get them back? Grrr...",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_34.Steps.0.Caption",
+   "value": "Here you go.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_35.Text",
+   "value": "You're going to see Abrams, right? Off you go, then.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_35.Steps.0.Caption",
+   "value": "End Conversation",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "185npc_15.Text",
+   "value": "Welcome. How may I help you?",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "185npc_15.Steps.0.Caption",
+   "value": "End Conversation",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "185npc_63.Text",
+   "value": "Oh my, you seem very interested in pets. Hohoho.\r\n",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "185npc_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "186npc_15.Text",
+   "value": "Welcome. Meow. What can I do for you? Meow.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "186npc_15.Steps.0.Caption",
+   "value": "End Conversation",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "186npc_63.Text",
+   "value": "What is it? Meow.\r\n",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "186npc_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "38npc_15.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "39npc_15.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "55npc_15.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_64.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_13.Text",
+   "value": "There is a giant obelisk.\n\nA strange ancient language is written on the protruding jewel.\n",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_13.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_11.Text",
+   "value": "There is a giant obelisk.\n\nA strange ancient language is written on the protruding jewel.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_11.Steps.0.Caption",
+   "value": "Put the Compass on the surface.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_23.Text",
+   "value": "There is a giant obelisk.\n\nA strange ancient language is written on the protruding jewel.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_23.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "98npc_64.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "99npc_64.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "gllidio_16.Steps.0.Caption",
+   "value": "Yes",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "gllidio_16.Steps.1.Caption",
+   "value": "No",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "mogan_43.Text",
+   "value": "When you have some free time, bring me 30 red feathers and I'll give you proof that you've completed the training. Ha ha ha!",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_47.Text",
+   "value": "Barracks? Then all you need is a blueprint.\r\n\r\nI'll draw one for you, so tell Vasa to give me something worth about 1000 Gold.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_50.Text",
+   "value": "Even Vasa can pull nails out with a hammer. Sure he can.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_50.Steps.0.Caption",
+   "value": "R-right... I guess?",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_52.Text",
+   "value": "What? He hammered the nails in? \r\nWhat a mess! Typical Vasa.\r\n\r\nWhy doesn't he know what everybody knows?\r\nNow that they're driven in deep, they'll have to be pulled out with a good wrench, \r\nso tell him to go hunt some PatchLinks.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_52.Steps.0.Caption",
+   "value": "PatchLinks?",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_53.Text",
+   "value": "Tell Vasa to hunt them by himself.\r\nIf you do everything for him, it won't do him any good either.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_53.Steps.0.Caption",
+   "value": "Got it.",
+   "was": null,
+   "why": "09.10.2026 мультиязычность, этап 6: перевод без EN-источника (manual)",
+   "source": "manual"
+  },
+  {
+   "key": "touran_47.Steps.0.Caption",
+   "value": "Kids these days!",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "144npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "84npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "98npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "99npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "108npc_64.Text",
+   "value": "General dialogue",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "95npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "118npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "119npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "120npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "121npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "122npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "129npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "136npc_64.Text",
+   "value": "Loading the general dialogue table",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "198npc_64.Text",
+   "value": "Loaded.",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "199npc_64.Text",
+   "value": "Loaded.",
+   "was": null,
+   "why": "10.10.2026 полнота EN: строка без EN-источника (заглушка дизайнера оригинала, RU/корейская) — перевод вручную",
+   "source": "manual"
+  },
+  {
+   "key": "yazark_7.Text",
+   "value": "You found the sword! So it really was the Fang Mushroom Men.\nThank you. I knew I could count on you. Ha, ha, ha.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 70 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "yazark_7.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 70 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "yazark_6.Text",
+   "value": "Oh, is this the sword? It looks brand new!\nHa, ha. It belongs to Mr. Mogan — take it to him.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 72 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "yazark_6.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 72 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "mogan_11.Text",
+   "value": "That's my sword! It's as good as new.\nHa, ha, ha! Thank you.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 72 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "mogan_11.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 72 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ella_19.Text",
+   "value": "Roton sent you?\nAn unknown evil power controlling the monsters of Conquest Land... This is very important news. Thank you, [NAME].",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 75 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ella_19.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 75 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ella_18.Text",
+   "value": "Is this the diary?\nInformation about the Night Valley monsters... It will be a great help to the kingdom. Thank you, [NAME].",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 85 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ella_18.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 85 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "mogan_10.Text",
+   "value": "An order from Knight Captain Ella?\nMonsters in the Night Valley... I see. Tell her the order will be carried out.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 86 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "mogan_10.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 86 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "melve_10.Text",
+   "value": "This order again?\nUgh. Fine, if Gllidio sent it, hand it over.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 113 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "melve_10.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 113 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ellosa_15.Text",
+   "value": "Did you bring the leaves from the ScornPickles?\nThank you. I'll study them and try to find the source of the contamination.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 125 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ellosa_15.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 125 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ellosa_7.Text",
+   "value": "You took care of the PanicMushrooms and PunchRats?\nGreat job. Now the contamination won't spread so fast.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 126 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ellosa_7.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 126 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "tid_7.Text",
+   "value": "Sobbing on the Watch Hill?\nHmmm... Thank you for telling me about it.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 127 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "tid_7.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 127 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "tid_6.Text",
+   "value": "This letter... is for me?\n'To my loving daughter Tid'...\nThank you for bringing it.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 129 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "tid_6.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 129 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "kurian_5.Text",
+   "value": "A ring? Hmm... Let me take a look.\nYes, I know a thing or two about it.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 151 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "kurian_5.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 151 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_23.Text",
+   "value": "A bouquet? From Trimi?\nHow sweet. Tell him thank you.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 154 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_23.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 154 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_24.Text",
+   "value": "Golden fur? It's beautiful!\nTell Trimi I'm grateful.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 156 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_24.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 156 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_25.Text",
+   "value": "So much golden fur? And it's from Britz?\nOh, tell him thank you.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 157 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_25.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 157 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_10.Text",
+   "value": "Ashley wants to know about the special gift? Ha, ha.\nAll right, I'll tell you, and you pass it on to her.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 241 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "131npc_10.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 241 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ellosa_14.Text",
+   "value": "A letter for me?\nHmm... It's a suspicious letter. Thank you for bringing it. I'll try to find out the truth about it.",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 96 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "ellosa_14.Steps.0.Caption",
+   "value": "Receive Reward",
+   "was": null,
+   "why": "31.10.2026 bug-quest-follow: страница сдачи задания 96 (утверждено владельцем)",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_63.Text",
+   "value": "O fool who missed the hour of his death.\nBehind your back, you who survived,\nthere are only the screams of passion, pride and comrades.\n\nWhy did you not know that this world holds a life that crawls through darkness\nand a death as radiant as light?\nFor you who have lost your pride,\neven a grave is too good.\n",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_63.Steps.0.Caption",
+   "value": "Next",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_64.Text",
+   "value": "There is an old grave. Faded writing is carved on it.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_64.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_11.Text",
+   "value": "Hhhuuuh….. Hhhuuuh….",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_11.Steps.0.Caption",
+   "value": "Sobbing can be heard from the grave",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_24.Text",
+   "value": "Somehow you sense a restless spirit in the weeping.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_24.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_10.Text",
+   "value": "Hhhuuuh…. Hhhuuuh….",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_10.Steps.0.Caption",
+   "value": "Place the spoils on the grave.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_25.Text",
+   "value": "As you place the spoils, the weeping stops and only a chill wind circles the grave.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_25.Steps.0.Caption",
+   "value": "Quest Complete",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_12.Text",
+   "value": "A faded letter lying on the grave catches your eye.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_12.Steps.0.Caption",
+   "value": "Pick up the letter.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_26.Text",
+   "value": "The letter reads: 'To my loving daughter Tid'.",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "tomb1_26.Steps.0.Caption",
+   "value": "End",
+   "was": null,
+   "why": "04.11.2026 questmark-chmella: страница из донора (корейский оригинал), перевод",
+   "source": "manual"
+  },
+  {
+   "key": "gllidio_38.Steps.1.Caption",
+   "value": "No",
+   "was": null,
+   "why": "05.11.2026 (gold-boast): RU-заглушка «Нет» не переводилась извлечением (build_coverage._PH), EN показывал русское; текст = EN-оригинал (MINE)",
+   "source": "orig_en_placeholder"
+  }
+ ]
+}

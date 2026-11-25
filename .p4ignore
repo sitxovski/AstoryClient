@@ -1,0 +1,20 @@
+# .p4ignore UE-проекта (17.10.2026, решение владельца: ПОЛНАЯ копия в депо, включая Binaries, Intermediate, Saved,
+# DerivedDataCache и _backup). Исключается только мусор — тот же список, что в port\.p4ignore.
+**/__pycache__/
+*.pyc
+*.tmp
+*.stackdump
+Thumbs.db
+desktop.ini
+# 18.10.2026 (владелец): временные файлы редактора и сборок не нужны в депо
+Saved/Temp/
+Saved/Cooked/
+Intermediate/CachedAssetRegistry/
+Saved/Logs/
+Saved/StagedBuilds/
+# 18.10.2026 (владелец): Intermediate и Saved целиком убраны из депо (CL 61, p4 delete -k) — каждый ПК собирает их сам
+Intermediate/
+Saved/
+Plugins/*/Intermediate/
+# 18.10.2026 (владелец): логи порядка открытия файлов пересоздаются каждой сборкой (CL 62)
+Build/Windows/FileOpenOrder/

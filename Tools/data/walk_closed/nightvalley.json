@@ -1,0 +1,26 @@
+{
+"map": "nightvalley",
+"generator": "asda_portal_pockets.py (04.11.2026)",
+"server_sim_md5": "effed70ff7369ea17ab2081dc9b130d1",
+"pocket_reason": "тупик за зоной портала под геометрией объектов",
+"pocket_tiles": [],
+"parity_reason": "проходим по .TER, закрыт битом 0 .sim GameServer",
+"parity_tiles": [
+[
+388,
+58
+],
+[
+389,
+59
+],
+[
+390,
+60
+],
+[
+391,
+61
+]
+]
+}

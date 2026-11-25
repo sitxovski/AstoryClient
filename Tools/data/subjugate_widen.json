@@ -1,0 +1,5046 @@
+{
+ "_comment": "Расширение окна доски объявлений 75000 (Δ=186: левая панель +150, правая +36). Строит Tools/asda_ui_subjugate_widen.py --plan, применяет он же в UE.",
+ "delta": 186,
+ "nodes": {
+  "Black_11_0": {
+   "after": [
+    4.0,
+    3.0,
+    596.0,
+    432.0
+   ],
+   "before": [
+    4.0,
+    3.0,
+    446.0,
+    432.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Black_161_0": {
+   "after": [
+    0.0,
+    0.0,
+    362.0,
+    228.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    326.0,
+    228.0
+   ],
+   "parent": "Black_grp"
+  },
+  "Black_162_0": {
+   "after": [
+    0.0,
+    230.0,
+    362.0,
+    202.0
+   ],
+   "before": [
+    0.0,
+    230.0,
+    326.0,
+    202.0
+   ],
+   "parent": "Black_grp"
+  },
+  "Black_grp": {
+   "after": [
+    3.0,
+    3.0,
+    362.0,
+    432.0
+   ],
+   "before": [
+    3.0,
+    3.0,
+    326.0,
+    432.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Box_BlueOt20_104_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "Box_BlueOt20_111_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "Box_BlueOt20_118_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "Box_BlueOt20_125_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "Box_BlueOt20_132_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "Box_BlueOt20_139_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "Box_BlueOt20_146_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "Box_BlueOt20_153_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "Box_BlueOt20_20_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "Box_BlueOt20_27_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "Box_BlueOt20_34_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "Box_BlueOt20_41_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "Box_BlueOt20_48_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "Box_BlueOt20_55_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "Box_BlueOt20_62_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "Box_BlueOt20_69_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "Box_BlueOt20_76_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "Box_BlueOt20_83_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "Box_BlueOt20_90_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "Box_BlueOt20_97_0": {
+   "after": [
+    0.0,
+    0.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Box_Brown_8_0": {
+   "after": [
+    -494.0,
+    -237.0,
+    988.0,
+    508.0
+   ],
+   "before": [
+    -401.0,
+    -237.0,
+    802.0,
+    508.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Box_White1Stroke_grp": {
+   "after": [
+    20.0,
+    20.0,
+    151.0,
+    32.0
+   ],
+   "before": [
+    2.0,
+    20.0,
+    151.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T5_grp"
+  },
+  "Box_White1Stroke_grp_1": {
+   "after": [
+    20.0,
+    56.0,
+    151.0,
+    32.0
+   ],
+   "before": [
+    2.0,
+    56.0,
+    151.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T5_grp"
+  },
+  "Box_White1Stroke_grp_2": {
+   "after": [
+    180.0,
+    20.0,
+    151.0,
+    32.0
+   ],
+   "before": [
+    162.0,
+    20.0,
+    151.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T5_grp"
+  },
+  "Box_White1Stroke_grp_3": {
+   "after": [
+    180.0,
+    56.0,
+    151.0,
+    32.0
+   ],
+   "before": [
+    162.0,
+    56.0,
+    151.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T5_grp"
+  },
+  "Box_WhiteOt20_12_0": {
+   "after": [
+    6.0,
+    5.0,
+    592.0,
+    22.0
+   ],
+   "before": [
+    6.0,
+    5.0,
+    442.0,
+    22.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Box_WhiteOt20_164_0": {
+   "after": [
+    5.0,
+    5.0,
+    358.0,
+    22.0
+   ],
+   "before": [
+    5.0,
+    5.0,
+    322.0,
+    22.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Box_WhiteOt20_grp": {
+   "after": [
+    21.0,
+    22.0,
+    155.0,
+    32.0
+   ],
+   "before": [
+    3.0,
+    22.0,
+    155.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T8_grp"
+  },
+  "Box_WhiteOt20_grp_1": {
+   "after": [
+    180.0,
+    22.0,
+    155.0,
+    32.0
+   ],
+   "before": [
+    162.0,
+    22.0,
+    155.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T8_grp"
+  },
+  "Box_WhiteOt20_grp_2": {
+   "after": [
+    21.0,
+    61.0,
+    155.0,
+    32.0
+   ],
+   "before": [
+    3.0,
+    61.0,
+    155.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T8_grp"
+  },
+  "Box_WhiteOt20_grp_3": {
+   "after": [
+    180.0,
+    61.0,
+    155.0,
+    32.0
+   ],
+   "before": [
+    162.0,
+    61.0,
+    155.0,
+    32.0
+   ],
+   "parent": "Subjugate_R_T8_grp"
+  },
+  "NoImage_100_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "NoImage_101_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "NoImage_102_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "NoImage_105_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "NoImage_106_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "NoImage_107_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "NoImage_108_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "NoImage_109_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "NoImage_112_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "NoImage_113_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "NoImage_114_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "NoImage_115_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "NoImage_116_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "NoImage_119_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "NoImage_120_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "NoImage_121_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "NoImage_122_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "NoImage_123_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "NoImage_126_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "NoImage_127_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "NoImage_128_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "NoImage_129_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "NoImage_130_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "NoImage_133_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "NoImage_134_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "NoImage_135_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "NoImage_136_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "NoImage_137_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "NoImage_140_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "NoImage_141_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "NoImage_142_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "NoImage_143_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "NoImage_144_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "NoImage_147_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "NoImage_148_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "NoImage_149_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "NoImage_14_HIT": {
+   "after": [
+    0.0,
+    0.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "NoImage_150_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "NoImage_151_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "NoImage_154_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "NoImage_155_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "NoImage_156_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "NoImage_157_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "NoImage_158_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "NoImage_15_HIT": {
+   "after": [
+    135.0,
+    0.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    117.0,
+    0.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "NoImage_16_HIT": {
+   "after": [
+    175.0,
+    0.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    157.0,
+    0.0,
+    200.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "NoImage_17_HIT": {
+   "after": [
+    443.0,
+    0.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    357.0,
+    0.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "NoImage_18_HIT": {
+   "after": [
+    82.0,
+    0.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    64.0,
+    0.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "NoImage_21_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "NoImage_22_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "NoImage_23_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    200.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "NoImage_24_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    359.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "NoImage_25_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "NoImage_28_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "NoImage_29_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "NoImage_30_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "NoImage_31_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "NoImage_32_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "NoImage_35_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "NoImage_36_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "NoImage_37_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "NoImage_38_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "NoImage_39_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "NoImage_42_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "NoImage_43_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "NoImage_44_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "NoImage_45_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "NoImage_46_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "NoImage_49_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "NoImage_50_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "NoImage_51_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "NoImage_52_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "NoImage_53_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "NoImage_56_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "NoImage_57_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "NoImage_58_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "NoImage_59_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "NoImage_60_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "NoImage_63_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "NoImage_64_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "NoImage_65_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "NoImage_66_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "NoImage_67_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "NoImage_70_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "NoImage_71_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "NoImage_72_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "NoImage_73_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "NoImage_74_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "NoImage_77_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "NoImage_78_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "NoImage_79_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "NoImage_80_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "NoImage_81_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "NoImage_84_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "NoImage_85_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "NoImage_86_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "NoImage_87_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "NoImage_88_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "NoImage_91_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "NoImage_92_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "NoImage_93_HIT": {
+   "after": [
+    177.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    1.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "NoImage_94_HIT": {
+   "after": [
+    445.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "NoImage_95_HIT": {
+   "after": [
+    84.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "NoImage_98_HIT": {
+   "after": [
+    2.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "NoImage_99_HIT": {
+   "after": [
+    137.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Subjugate_BB1_0_TXT00": {
+   "after": [
+    0.0,
+    1.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    0.0,
+    1.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "Subjugate_BB1_0_TXT01": {
+   "after": [
+    135.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    117.0,
+    1.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "Subjugate_BB1_0_TXT02": {
+   "after": [
+    175.0,
+    1.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    157.0,
+    1.0,
+    200.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "Subjugate_BB1_0_TXT03": {
+   "after": [
+    443.0,
+    1.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    357.0,
+    1.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "Subjugate_BB1_0_TXT04": {
+   "after": [
+    82.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    64.0,
+    1.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_0_grp"
+  },
+  "Subjugate_BB1_0_grp": {
+   "after": [
+    8.0,
+    8.0,
+    587.0,
+    16.0
+   ],
+   "before": [
+    8.0,
+    8.0,
+    437.0,
+    16.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_10_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "Subjugate_BB1_10_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "Subjugate_BB1_10_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "Subjugate_BB1_10_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "Subjugate_BB1_10_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_10_grp"
+  },
+  "Subjugate_BB1_10_grp": {
+   "after": [
+    6.0,
+    212.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    212.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_11_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "Subjugate_BB1_11_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "Subjugate_BB1_11_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "Subjugate_BB1_11_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "Subjugate_BB1_11_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_11_grp"
+  },
+  "Subjugate_BB1_11_grp": {
+   "after": [
+    6.0,
+    232.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    232.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_12_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Subjugate_BB1_12_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Subjugate_BB1_12_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Subjugate_BB1_12_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Subjugate_BB1_12_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_12_grp"
+  },
+  "Subjugate_BB1_12_grp": {
+   "after": [
+    6.0,
+    252.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    252.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_13_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "Subjugate_BB1_13_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "Subjugate_BB1_13_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "Subjugate_BB1_13_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "Subjugate_BB1_13_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_13_grp"
+  },
+  "Subjugate_BB1_13_grp": {
+   "after": [
+    6.0,
+    272.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    272.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_14_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "Subjugate_BB1_14_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "Subjugate_BB1_14_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "Subjugate_BB1_14_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "Subjugate_BB1_14_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_14_grp"
+  },
+  "Subjugate_BB1_14_grp": {
+   "after": [
+    6.0,
+    292.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    292.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_15_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "Subjugate_BB1_15_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "Subjugate_BB1_15_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "Subjugate_BB1_15_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "Subjugate_BB1_15_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_15_grp"
+  },
+  "Subjugate_BB1_15_grp": {
+   "after": [
+    6.0,
+    312.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    312.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_16_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "Subjugate_BB1_16_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "Subjugate_BB1_16_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "Subjugate_BB1_16_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "Subjugate_BB1_16_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_16_grp"
+  },
+  "Subjugate_BB1_16_grp": {
+   "after": [
+    6.0,
+    332.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    332.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_17_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "Subjugate_BB1_17_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "Subjugate_BB1_17_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "Subjugate_BB1_17_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "Subjugate_BB1_17_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_17_grp"
+  },
+  "Subjugate_BB1_17_grp": {
+   "after": [
+    6.0,
+    352.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    352.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_18_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "Subjugate_BB1_18_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "Subjugate_BB1_18_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "Subjugate_BB1_18_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "Subjugate_BB1_18_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_18_grp"
+  },
+  "Subjugate_BB1_18_grp": {
+   "after": [
+    6.0,
+    372.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    372.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_19_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "Subjugate_BB1_19_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "Subjugate_BB1_19_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "Subjugate_BB1_19_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "Subjugate_BB1_19_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_19_grp"
+  },
+  "Subjugate_BB1_19_grp": {
+   "after": [
+    6.0,
+    392.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    392.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_1_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "Subjugate_BB1_1_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "Subjugate_BB1_1_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    200.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "Subjugate_BB1_1_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    359.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "Subjugate_BB1_1_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_1_grp"
+  },
+  "Subjugate_BB1_1_grp": {
+   "after": [
+    6.0,
+    32.0,
+    589.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    32.0,
+    439.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_20_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "Subjugate_BB1_20_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "Subjugate_BB1_20_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "Subjugate_BB1_20_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "Subjugate_BB1_20_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_20_grp"
+  },
+  "Subjugate_BB1_20_grp": {
+   "after": [
+    6.0,
+    412.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    412.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_2_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "Subjugate_BB1_2_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "Subjugate_BB1_2_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "Subjugate_BB1_2_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "Subjugate_BB1_2_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_2_grp"
+  },
+  "Subjugate_BB1_2_grp": {
+   "after": [
+    6.0,
+    52.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    52.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_3_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "Subjugate_BB1_3_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "Subjugate_BB1_3_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "Subjugate_BB1_3_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "Subjugate_BB1_3_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_3_grp"
+  },
+  "Subjugate_BB1_3_grp": {
+   "after": [
+    6.0,
+    72.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    72.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_4_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "Subjugate_BB1_4_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "Subjugate_BB1_4_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "Subjugate_BB1_4_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "Subjugate_BB1_4_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_4_grp"
+  },
+  "Subjugate_BB1_4_grp": {
+   "after": [
+    6.0,
+    92.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    92.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_5_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "Subjugate_BB1_5_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "Subjugate_BB1_5_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "Subjugate_BB1_5_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "Subjugate_BB1_5_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_5_grp"
+  },
+  "Subjugate_BB1_5_grp": {
+   "after": [
+    6.0,
+    112.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    112.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_6_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "Subjugate_BB1_6_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "Subjugate_BB1_6_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "Subjugate_BB1_6_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "Subjugate_BB1_6_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_6_grp"
+  },
+  "Subjugate_BB1_6_grp": {
+   "after": [
+    6.0,
+    132.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    132.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_7_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "Subjugate_BB1_7_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "Subjugate_BB1_7_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "Subjugate_BB1_7_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "Subjugate_BB1_7_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_7_grp"
+  },
+  "Subjugate_BB1_7_grp": {
+   "after": [
+    6.0,
+    152.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    152.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_8_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "Subjugate_BB1_8_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "Subjugate_BB1_8_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "Subjugate_BB1_8_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "Subjugate_BB1_8_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_8_grp"
+  },
+  "Subjugate_BB1_8_grp": {
+   "after": [
+    6.0,
+    172.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    172.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_9_TXT00": {
+   "after": [
+    2.0,
+    2.0,
+    82.0,
+    16.0
+   ],
+   "before": [
+    2.0,
+    2.0,
+    64.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "Subjugate_BB1_9_TXT01": {
+   "after": [
+    137.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "before": [
+    119.0,
+    2.0,
+    40.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "Subjugate_BB1_9_TXT02": {
+   "after": [
+    177.0,
+    2.0,
+    268.0,
+    16.0
+   ],
+   "before": [
+    159.0,
+    2.0,
+    180.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "Subjugate_BB1_9_TXT03": {
+   "after": [
+    445.0,
+    2.0,
+    124.0,
+    16.0
+   ],
+   "before": [
+    339.0,
+    2.0,
+    80.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "Subjugate_BB1_9_TXT04": {
+   "after": [
+    84.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    2.0,
+    55.0,
+    16.0
+   ],
+   "parent": "Subjugate_BB1_9_grp"
+  },
+  "Subjugate_BB1_9_grp": {
+   "after": [
+    6.0,
+    192.0,
+    572.0,
+    18.0
+   ],
+   "before": [
+    6.0,
+    192.0,
+    422.0,
+    18.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_CLICK_159_1": {
+   "after": [
+    10.0,
+    30.0,
+    564.0,
+    3.0
+   ],
+   "before": [
+    10.0,
+    30.0,
+    414.0,
+    3.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_CLICK_159_2": {
+   "after": [
+    574.0,
+    30.0,
+    3.0,
+    3.0
+   ],
+   "before": [
+    424.0,
+    30.0,
+    3.0,
+    3.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_CLICK_159_4": {
+   "after": [
+    574.0,
+    33.0,
+    3.0,
+    15.0
+   ],
+   "before": [
+    424.0,
+    33.0,
+    3.0,
+    15.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_CLICK_159_6": {
+   "after": [
+    10.0,
+    48.0,
+    564.0,
+    3.0
+   ],
+   "before": [
+    10.0,
+    48.0,
+    414.0,
+    3.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_BB1_CLICK_159_7": {
+   "after": [
+    574.0,
+    48.0,
+    3.0,
+    3.0
+   ],
+   "before": [
+    424.0,
+    48.0,
+    3.0,
+    3.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_LBOX_10_0": {
+   "after": [
+    0.0,
+    0.0,
+    602.0,
+    438.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    452.0,
+    438.0
+   ],
+   "parent": "Subjugate_LBOX_grp"
+  },
+  "Subjugate_LBOX_grp": {
+   "after": [
+    6.0,
+    6.0,
+    602.0,
+    438.0
+   ],
+   "before": [
+    6.0,
+    6.0,
+    452.0,
+    438.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Subjugate_RADIO_212_0": {
+   "after": [
+    -493.0,
+    -233.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -400.0,
+    -233.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -493.0,
+     -233.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_212_1": {
+   "after": [
+    -366.0,
+    -233.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -291.0,
+    -233.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -384.0,
+     -233.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_212_2": {
+   "after": [
+    -239.0,
+    -233.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -182.0,
+    -233.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -275.0,
+     -233.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_212_3": {
+   "after": [
+    -113.0,
+    -234.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -74.0,
+    -234.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -167.0,
+     -234.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_212_4": {
+   "after": [
+    13.0,
+    -234.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    34.0,
+    -234.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -59.0,
+     -234.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_OPT0": {
+   "after": [
+    -493.0,
+    -233.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -400.0,
+    -233.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -493.0,
+     -233.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_OPT1": {
+   "after": [
+    -366.0,
+    -233.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -291.0,
+    -233.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -384.0,
+     -233.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_OPT2": {
+   "after": [
+    -239.0,
+    -233.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -182.0,
+    -233.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -275.0,
+     -233.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_OPT3": {
+   "after": [
+    -113.0,
+    -234.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -74.0,
+    -234.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -167.0,
+     -234.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_OPT4": {
+   "after": [
+    13.0,
+    -234.0,
+    126.0,
+    23.0
+   ],
+   "before": [
+    34.0,
+    -234.0,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -59.0,
+     -234.0,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_Text": {
+   "after": [
+    -493.0,
+    -229.5,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -400.0,
+    -229.5,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -493.0,
+     -229.5,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_Text2": {
+   "after": [
+    -366.0,
+    -229.5,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -291.0,
+    -229.5,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -384.0,
+     -229.5,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_Text3": {
+   "after": [
+    -239.0,
+    -229.5,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -182.0,
+    -229.5,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -275.0,
+     -229.5,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_Text4": {
+   "after": [
+    -113.0,
+    -230.5,
+    126.0,
+    23.0
+   ],
+   "before": [
+    -74.0,
+    -230.5,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -167.0,
+     -230.5,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RADIO_Text5": {
+   "after": [
+    13.0,
+    -230.5,
+    126.0,
+    23.0
+   ],
+   "before": [
+    34.0,
+    -230.5,
+    108.0,
+    23.0
+   ],
+   "parent": "RootCanvas",
+   "prev": [
+    [
+     -59.0,
+     -230.5,
+     108.0,
+     23.0
+    ]
+   ]
+  },
+  "Subjugate_RBOX_160_0": {
+   "after": [
+    0.0,
+    0.0,
+    368.0,
+    438.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    332.0,
+    438.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_RBOX_grp": {
+   "after": [
+    611.0,
+    6.0,
+    368.0,
+    438.0
+   ],
+   "before": [
+    461.0,
+    6.0,
+    332.0,
+    438.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Subjugate_R_T1": {
+   "after": [
+    84.0,
+    9.0,
+    200.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    9.0,
+    200.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T10_1": {
+   "after": [
+    10.0,
+    213.0,
+    354.0,
+    16.0
+   ],
+   "before": [
+    10.0,
+    213.0,
+    318.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T10_200_HIT": {
+   "after": [
+    6.0,
+    212.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    6.0,
+    212.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T1_165_HIT": {
+   "after": [
+    84.0,
+    8.0,
+    200.0,
+    16.0
+   ],
+   "before": [
+    66.0,
+    8.0,
+    200.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T2": {
+   "after": [
+    6.0,
+    31.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    6.0,
+    31.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T2_166_HIT": {
+   "after": [
+    6.0,
+    30.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    6.0,
+    30.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T3": {
+   "after": [
+    10.0,
+    52.0,
+    354.0,
+    126.0
+   ],
+   "before": [
+    10.0,
+    52.0,
+    318.0,
+    126.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T3_167_HIT": {
+   "after": [
+    6.0,
+    48.0,
+    358.0,
+    126.0
+   ],
+   "before": [
+    6.0,
+    48.0,
+    322.0,
+    126.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T4": {
+   "after": [
+    10.0,
+    177.0,
+    354.0,
+    16.0
+   ],
+   "before": [
+    10.0,
+    177.0,
+    318.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T4_168_HIT": {
+   "after": [
+    6.0,
+    176.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    6.0,
+    176.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T5": {
+   "after": [
+    0.0,
+    1.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    0.0,
+    1.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_R_T5_grp"
+  },
+  "Subjugate_R_T5_grp": {
+   "after": [
+    6.0,
+    241.0,
+    358.0,
+    88.0
+   ],
+   "before": [
+    6.0,
+    241.0,
+    322.0,
+    88.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T8": {
+   "after": [
+    0.0,
+    1.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    0.0,
+    1.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_R_T8_grp"
+  },
+  "Subjugate_R_T8_182_HIT": {
+   "after": [
+    0.0,
+    0.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    0.0,
+    0.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_R_T8_grp"
+  },
+  "Subjugate_R_T8_grp": {
+   "after": [
+    6.0,
+    334.0,
+    358.0,
+    93.0
+   ],
+   "before": [
+    6.0,
+    334.0,
+    322.0,
+    93.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T9_1": {
+   "after": [
+    10.0,
+    195.0,
+    354.0,
+    16.0
+   ],
+   "before": [
+    10.0,
+    195.0,
+    318.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_R_T9_199_HIT": {
+   "after": [
+    6.0,
+    194.0,
+    358.0,
+    16.0
+   ],
+   "before": [
+    6.0,
+    194.0,
+    322.0,
+    16.0
+   ],
+   "parent": "Subjugate_RBOX_grp"
+  },
+  "Subjugate_WIN_0_0": {
+   "after": [
+    -498.0,
+    -276.0,
+    20.0,
+    20.0
+   ],
+   "before": [
+    -405.0,
+    -276.0,
+    20.0,
+    20.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_1": {
+   "after": [
+    -478.0,
+    -276.0,
+    956.0,
+    20.0
+   ],
+   "before": [
+    -385.0,
+    -276.0,
+    770.0,
+    20.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_2": {
+   "after": [
+    478.0,
+    -276.0,
+    20.0,
+    20.0
+   ],
+   "before": [
+    385.0,
+    -276.0,
+    20.0,
+    20.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_3": {
+   "after": [
+    -498.0,
+    -257.0,
+    20.0,
+    514.0
+   ],
+   "before": [
+    -405.0,
+    -257.0,
+    20.0,
+    514.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_4": {
+   "after": [
+    -479.0,
+    -257.0,
+    958.0,
+    514.0
+   ],
+   "before": [
+    -386.0,
+    -257.0,
+    772.0,
+    514.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_5": {
+   "after": [
+    478.0,
+    -257.0,
+    20.0,
+    514.0
+   ],
+   "before": [
+    385.0,
+    -257.0,
+    20.0,
+    514.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_6": {
+   "after": [
+    -498.0,
+    256.0,
+    20.0,
+    20.0
+   ],
+   "before": [
+    -405.0,
+    256.0,
+    20.0,
+    20.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_7": {
+   "after": [
+    -479.0,
+    256.0,
+    958.0,
+    20.0
+   ],
+   "before": [
+    -386.0,
+    256.0,
+    772.0,
+    20.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_WIN_0_8": {
+   "after": [
+    478.0,
+    256.0,
+    20.0,
+    20.0
+   ],
+   "before": [
+    385.0,
+    256.0,
+    20.0,
+    20.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_textmove": {
+   "after": [
+    -496.0,
+    -263.0,
+    968.0,
+    38.0
+   ],
+   "before": [
+    -403.0,
+    -263.0,
+    782.0,
+    38.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "Subjugate_textmove_201_HIT": {
+   "after": [
+    -496.0,
+    -275.0,
+    968.0,
+    38.0
+   ],
+   "before": [
+    -403.0,
+    -275.0,
+    782.0,
+    38.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "WinMd_CBar_1_0": {
+   "after": [
+    48.0,
+    0.0,
+    858.0,
+    37.0
+   ],
+   "before": [
+    48.0,
+    0.0,
+    672.0,
+    37.0
+   ],
+   "parent": "WinMd_CBar_grp"
+  },
+  "WinMd_CBar_grp": {
+   "after": [
+    -496.0,
+    -274.0,
+    992.0,
+    37.0
+   ],
+   "before": [
+    -403.0,
+    -274.0,
+    806.0,
+    37.0
+   ],
+   "parent": "RootCanvas"
+  },
+  "WinMd_RBar_grp": {
+   "after": [
+    906.0,
+    0.0,
+    86.0,
+    37.0
+   ],
+   "before": [
+    720.0,
+    0.0,
+    86.0,
+    37.0
+   ],
+   "parent": "WinMd_CBar_grp"
+  },
+  "Win_Tab_9_1": {
+   "after": [
+    10.0,
+    0.0,
+    966.0,
+    5.0
+   ],
+   "before": [
+    10.0,
+    0.0,
+    780.0,
+    5.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Win_Tab_9_2": {
+   "after": [
+    975.0,
+    0.0,
+    11.0,
+    5.0
+   ],
+   "before": [
+    789.0,
+    0.0,
+    11.0,
+    5.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Win_Tab_9_4": {
+   "after": [
+    10.0,
+    4.0,
+    966.0,
+    436.0
+   ],
+   "before": [
+    10.0,
+    4.0,
+    780.0,
+    436.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Win_Tab_9_5": {
+   "after": [
+    975.0,
+    4.0,
+    11.0,
+    436.0
+   ],
+   "before": [
+    789.0,
+    4.0,
+    11.0,
+    436.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Win_Tab_9_7": {
+   "after": [
+    10.0,
+    439.0,
+    966.0,
+    11.0
+   ],
+   "before": [
+    10.0,
+    439.0,
+    780.0,
+    11.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Win_Tab_9_8": {
+   "after": [
+    975.0,
+    439.0,
+    11.0,
+    11.0
+   ],
+   "before": [
+    789.0,
+    439.0,
+    11.0,
+    11.0
+   ],
+   "parent": "Win_Tab_grp"
+  },
+  "Win_Tab_grp": {
+   "after": [
+    -493.0,
+    -215.0,
+    986.0,
+    450.0
+   ],
+   "before": [
+    -400.0,
+    -215.0,
+    800.0,
+    450.0
+   ],
+   "parent": "RootCanvas"
+  }
+ }
+}

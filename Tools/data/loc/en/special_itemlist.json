@@ -1,0 +1,909 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_special_itemlist_en (ключ — _row.колонка). wave_DATA 13.10.2026: коды special_itemlist, приведённые к серверной линии (Function_Table), — EN-имя/подсказка серверного предмета вместо Interlude. Разбор: Reports/anticheat/wave_DATA_20261013.md §6.",
+  "rows": [
+    {
+      "key": "0.Name",
+      "value": "HP Elixir(10)",
+      "was": "Event Teleport Scroll(3)",
+      "why": "13.10.2026 wave_DATA: код 1 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "1.Name",
+      "value": "Зелье ОЗ (10)",
+      "was": "Event Teleport Scroll(5)",
+      "why": "13.10.2026 wave_DATA: код 2 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "ru_fallback"
+    },
+    {
+      "key": "5.Name",
+      "value": "Physical Attack Increase(1)",
+      "was": "Event Cyclone",
+      "why": "13.10.2026 wave_DATA: код 6 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "6.Name",
+      "value": "Magical Attack Increase(1)",
+      "was": "Event Blue Cyclone (7 days)",
+      "why": "13.10.2026 wave_DATA: код 7 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "7.Name",
+      "value": "Суперсвиток оживления (2)",
+      "was": "Event Pink Cyclone (7 days)",
+      "why": "13.10.2026 wave_DATA: код 8 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "ru_fallback"
+    },
+    {
+      "key": "8.Name",
+      "value": "HP 20% Increase potion",
+      "was": "Event Burning Cyclone (7 days)",
+      "why": "13.10.2026 wave_DATA: код 9 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "9.Name",
+      "value": "MP 20% Increase potion",
+      "was": "Event Nimbus(7 days)",
+      "why": "13.10.2026 wave_DATA: код 10 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "10.Name",
+      "value": "Additional Upgrades(2)",
+      "was": "CoCo Tube F-1 (1 years)",
+      "why": "13.10.2026 wave_DATA: код 11 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "11.Name",
+      "value": "Successful Upgrades",
+      "was": "Event Cyclone's eye (7 days)",
+      "why": "13.10.2026 wave_DATA: код 12 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "12.Name",
+      "value": "Teleport Scroll(5)",
+      "was": "Event Cyclone's eye (15 days)",
+      "why": "13.10.2026 wave_DATA: код 13 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "13.Name",
+      "value": "7 Day Level-Up Package",
+      "was": "Event Cyclone's eye (30 days)",
+      "why": "13.10.2026 wave_DATA: код 14 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "14.Name",
+      "value": "Extend Storage Slot",
+      "was": "Event Revival scroll(1)",
+      "why": "13.10.2026 wave_DATA: код 15 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "15.Name",
+      "value": "Warehouse recall Scroll(3)",
+      "was": "Premium Revival scroll(3)",
+      "why": "13.10.2026 wave_DATA: код 16 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "16.Name",
+      "value": "Диетикус [6 часов]",
+      "was": "Event Regeneration Potion(10)",
+      "why": "13.10.2026 wave_DATA: код 17 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "ru_fallback"
+    },
+    {
+      "key": "360.Name",
+      "value": "Event Teleport Scroll(2)",
+      "was": "Drop Rate Incr. Potion (1Hr * 5)",
+      "why": "13.10.2026 wave_DATA: код 361 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "2.Name",
+      "value": "Event Teleport Scroll(3)",
+      "was": "Event Teleport Scroll(10)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 3 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "3.Name",
+      "value": "Exp Potion (30 min)",
+      "was": "Event Exp Potion(1)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 4 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "4.Name",
+      "value": "Exp Potion (1)",
+      "was": "Event Exp Potion(3)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 5 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "17.Name",
+      "value": "Reg. Potion(10)",
+      "was": "Event Regeneration Potion(50)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 18 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "369.Name",
+      "value": "HP 20% Increase potion(5+1)",
+      "was": "HP 20% Increase potion(10)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 370 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст — количество в EN-имени Interlude заменено серверным (как ru_qty/en_qty рецепта)",
+      "source": "en_qty"
+    },
+    {
+      "key": "372.Name",
+      "value": "MP 20% Increase potion(5+1)",
+      "was": "MP 20% Increase potion(10)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 373 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст — количество в EN-имени Interlude заменено серверным (как ru_qty/en_qty рецепта)",
+      "source": "en_qty"
+    },
+    {
+      "key": "359.Name",
+      "value": "Key(10)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 360 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Pumpkin Bucket",
+        "열쇠(10)"
+      ]
+    },
+    {
+      "key": "378.Name",
+      "value": "Auto HP Refill Potion(50)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 379 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Drop Rate Incr. Potion (1Hr)",
+        "자동 HP보충물약(50개)"
+      ]
+    },
+    {
+      "key": "386.Name",
+      "value": "Empty Upgrade Stone(9+2)",
+      "was": "Account Faction Reset",
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 387 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Account Faction Reset",
+        "빈 강화석(9+2개)"
+      ]
+    },
+    {
+      "key": "388.Name",
+      "value": "Event Teleport Scroll(2)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 389 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Premium Revival scroll(5)",
+        "이벤트 이동 스크롤 (2개)"
+      ]
+    },
+    {
+      "key": "389.Name",
+      "value": "Event Recall Scroll(2)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 390 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "HP 20% Increase potion",
+        "이벤트 소환 스크롤(2개)"
+      ]
+    },
+    {
+      "key": "390.Name",
+      "value": "Event Exp Potion(60 min)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 391 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Physical Attack Increase(1)",
+        "이벤트 몰아의 영약 (60분)"
+      ]
+    },
+    {
+      "key": "391.Name",
+      "value": "Event Special HP Elixir(1)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 392 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Magical Attack Increase(1)",
+        "이벤트 고급 HP 즉시회복제(1개)"
+      ]
+    },
+    {
+      "key": "398.Name",
+      "value": "Pet Level Limit-Break Scroll",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 399 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Additional Upgrades (10)",
+        "펫 레벨 한계돌파 주문서"
+      ]
+    },
+    {
+      "key": "401.Name",
+      "value": "-",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 402 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»",
+      "source": "server"
+    },
+    {
+      "key": "405.Name",
+      "value": "Nimbus for Newbies (1 year)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 406 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Warehouse recall Scroll(3)",
+        "신규전용 근두운(1년)"
+      ]
+    },
+    {
+      "key": "406.Name",
+      "value": "Piled Exp Potion(50)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 407 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Physical Attack Increase(3)",
+        "중첩형 경험치 물약(50개)"
+      ]
+    },
+    {
+      "key": "399.Name",
+      "value": "Weapon-Empty Upgrade Stone(10)",
+      "was": null,
+      "why": "14.10.2026 перевод корейского серверного текста (names11, этап 1); 14.10.2026 ревизия L10N: термины порта (имя не длиннее 31 знака)",
+      "source": "owner_translation",
+      "prev": [
+        "Weapon - Empty Upgrade Stone(10)"
+      ]
+    },
+    {
+      "key": "491.Name",
+      "value": "Additional Upgrades(5)",
+      "was": null,
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "492.Name",
+      "value": "Additional Upgrades(10)",
+      "was": null,
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "349.Name",
+      "value": "Event Exp Potion(1)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "350.Name",
+      "value": "Event Teleport Scroll(2)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "351.Name",
+      "value": "Event Reg. Potion(1)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "352.Name",
+      "value": "[Event] Premium Revival scroll(3)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "407.Name",
+      "value": "Physical Attack Potion (50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "408.Name",
+      "value": "Magic Attack Potion (50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "409.Name",
+      "value": "HP Elixir(50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "410.Name",
+      "value": "HP 20% Increase potion(50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "411.Name",
+      "value": "All Skill Reset Scroll",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "558.Name",
+      "value": "Pink Hoverboard(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "559.Name",
+      "value": "Black Cat Balloon(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "560.Name",
+      "value": "Black Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "561.Name",
+      "value": "Black Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "562.Name",
+      "value": "Black Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "563.Name",
+      "value": "Black Nimbus(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "564.Name",
+      "value": "Black Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "565.Name",
+      "value": "Black Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "566.Name",
+      "value": "Black Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "567.Name",
+      "value": "Green Rudolph Sled(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "568.Name",
+      "value": "Green Rudolph Sled(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "569.Name",
+      "value": "Green Rudolph Sled(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "570.Name",
+      "value": "Blue Rudolph Sled(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "571.Name",
+      "value": "Blue Rudolph Sled(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "572.Name",
+      "value": "Blue Rudolph Sled(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "573.Name",
+      "value": "Black Rudolph Sled(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "574.Name",
+      "value": "Black Rudolph Sled(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "575.Name",
+      "value": "Black Rudolph Sled(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "576.Name",
+      "value": "Pink Love Bunny(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "577.Name",
+      "value": "Pink Love Bunny(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "578.Name",
+      "value": "Pink Love Bunny(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "579.Name",
+      "value": "Pink Hatchling(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "580.Name",
+      "value": "Pink Hatchling(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "581.Name",
+      "value": "Pink Hatchling(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "582.Name",
+      "value": "Pink Cito(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "583.Name",
+      "value": "Pink Cito(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "584.Name",
+      "value": "Pink Mustang(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "585.Name",
+      "value": "Pink Mustang(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "586.Name",
+      "value": "Pink Circle Bike(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "587.Name",
+      "value": "Pink Circle Bike(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "588.Name",
+      "value": "Pink Flame Wheels(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "589.Name",
+      "value": "Pink Flame Wheels(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "590.Name",
+      "value": "Pink Magic Carpet(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "591.Name",
+      "value": "Pink Magic Carpet(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "592.Name",
+      "value": "Black Broomstick(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "593.Name",
+      "value": "Black Broomstick(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "594.Name",
+      "value": "Black Broomstick(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "595.Name",
+      "value": "Halloween Carpet(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "596.Name",
+      "value": "Halloween Carpet(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "597.Name",
+      "value": "Halloween Carpet(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "598.Name",
+      "value": "Black Dragon Doll(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "599.Name",
+      "value": "Black Dragon Doll(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "600.Name",
+      "value": "Black Dragon Doll(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "601.Name",
+      "value": "Black Hatchling(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "602.Name",
+      "value": "Black Hatchling(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "603.Name",
+      "value": "Black Hatchling(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "604.Name",
+      "value": "Dark Blood Wheels(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "605.Name",
+      "value": "Dark Blood Wheels(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "606.Name",
+      "value": "Dark Blood Wheels(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "607.Name",
+      "value": "Black Mustang(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "608.Name",
+      "value": "Black Mustang(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "609.Name",
+      "value": "Black Mustang(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "610.Name",
+      "value": "Black Cito(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "611.Name",
+      "value": "Black Cito(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "612.Name",
+      "value": "Black Cito(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "613.Name",
+      "value": "Lucky Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "614.Name",
+      "value": "Lucky Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "615.Name",
+      "value": "Lucky Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "616.Name",
+      "value": "Lovable Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "617.Name",
+      "value": "Lovable Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "618.Name",
+      "value": "Lovable Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "619.Name",
+      "value": "Green Hatchling(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "620.Name",
+      "value": "Green Hatchling(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "621.Name",
+      "value": "Green Hatchling(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "622.Name",
+      "value": "Golden Lucky Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "623.Name",
+      "value": "Golden Lucky Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "624.Name",
+      "value": "Golden Lucky Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "625.Name",
+      "value": "Blazing Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "626.Name",
+      "value": "Blazing Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "627.Name",
+      "value": "Blazing Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "628.Name",
+      "value": "Stormy Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "629.Name",
+      "value": "Stormy Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "630.Name",
+      "value": "Stormy Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "631.Name",
+      "value": "Red Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "632.Name",
+      "value": "Red Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "633.Name",
+      "value": "Red Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "634.Name",
+      "value": "Sea Breeze Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "635.Name",
+      "value": "Sea Breeze Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "636.Name",
+      "value": "Sea Breeze Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic (Reports/fable_mounts)",
+      "source": "fable_mounts"
+    }
+  ]
+}

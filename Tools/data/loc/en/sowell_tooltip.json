@@ -1,0 +1,19 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_sowell_tooltip_en (ключ = _row.колонка). Применяет Tools/extract_text_lang.py ПОСЛЕ извлечения: was = значение извлечения или null; не совпало (и не prev) - стоп. names11, 14.10.2026.",
+  "rows": [
+    {
+      "key": "2020.Text",
+      "value": "A ultra sowel that Ian presented to his daughter Gabe, It is written as \"To my beloved daughter Gabe.from dad Ian..\"",
+      "was": "A ultra sowel that Ian presented to his daughter Gabe, It is written as \"To my beloved daughter Gabe…from dad Ian..\"",
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии",
+      "source": "owner_translation"
+    },
+    {
+      "key": "2475.Text",
+      "value": "Seldiren.Sheldiren..i will protect you.",
+      "was": "Seldiren…Sheldiren..i will protect you.",
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии",
+      "source": "owner_translation"
+    }
+  ]
+}

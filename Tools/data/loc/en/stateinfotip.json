@@ -1,0 +1,96 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_stateinfotip_en (ключ = _row.колонка). Применяет Tools/extract_text_lang.py ПОСЛЕ извлечения: was = значение извлечения или null; не совпало (и не prev) - стоп. names11, 14.10.2026.",
+  "rows": [
+    {
+      "key": "23.Name",
+      "value": "Concentration of phsical strength",
+      "was": "Concentration of phsical strengt",
+      "why": "14.10.2026 имя обрезано лимитом char[32] EN-клиента; полное - из skill_info (char[40])",
+      "source": "owner_translation"
+    },
+    {
+      "key": "245.Name",
+      "value": "Guardian Noose Cool time reduction",
+      "was": "Guardian Noose Cool time reducti",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "246.Name",
+      "value": "Guardian Bomb cool time Reduction",
+      "was": "Guardian Bomb cool time Reductio",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "254.Name",
+      "value": "Guardian Light Climate Attack Increase",
+      "was": "Guardian Light Climate Attack in",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "255.Name",
+      "value": "Guardian Earth Water Attack Increase",
+      "was": "Guardian Earth Water Attack Incr",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "264.Name",
+      "value": "Guardian fire Darkness Attack Increase",
+      "was": "Guardian fire Darkness Attack In",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "266.Name",
+      "value": "Guardian Fire Damage Healing reduction",
+      "was": "Guardian Fire Damage Healing red",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "270.Name",
+      "value": "Guardian Darkness Damage Healing reduction",
+      "was": "Guardian Darkness Damage Healing",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "300.Name",
+      "value": "Guardian Protection Cool time reduction",
+      "was": "Guardian Protection Cool time re",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "305.Name",
+      "value": "Guardian Physical Attack Increase",
+      "was": "Guardian Physical Attack Increas",
+      "why": "14.10.2026 имя обрезано лимитом char[32] посреди слова; дописано окончание",
+      "source": "owner_translation"
+    },
+    {
+      "key": "261.Name",
+      "value": "Refuge perception",
+      "was": "Detect Hide",
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "262.Name",
+      "value": "Sleep Removal",
+      "was": "Remove Stun and Frighten",
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "263.Name",
+      "value": "Removal",
+      "was": "Immune Debuff Skills",
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    }
+  ]
+}

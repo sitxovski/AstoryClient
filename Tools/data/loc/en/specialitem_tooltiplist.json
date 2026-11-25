@@ -1,0 +1,2353 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_specialitem_tooltiplist_en (ключ — _row.колонка). wave_DATA 13.10.2026: коды special_itemlist, приведённые к серверной линии (Function_Table), — EN-имя/подсказка серверного предмета вместо Interlude. Разбор: Reports/anticheat/wave_DATA_20261013.md §6.",
+  "rows": [
+    {
+      "key": "0.Name",
+      "value": "HP Elixir(10)",
+      "was": "Event Teleport Scroll(3)",
+      "why": "13.10.2026 wave_DATA: код 1 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "0.Tooltip",
+      "value": "[Cooldown 30sec] Instantly recover consumed HP. But the cooldown time is separate from common potions.",
+      "was": "[Unavilable] Teleport Scroll specially given as an Event Prize and can teleport you to a specific character.",
+      "why": "13.10.2026 wave_DATA: код 1 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "1.Name",
+      "value": "Зелье ОЗ (10)",
+      "was": "Event Teleport Scroll(5)",
+      "why": "13.10.2026 wave_DATA: код 2 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "ru_fallback"
+    },
+    {
+      "key": "1.Tooltip",
+      "value": "The Improved HP Potion will allow you to get 90% of your maximum HP over 27 seconds after 10 periodical heals of 9% each.",
+      "was": "[Unavilable] Teleport Scroll specially given as an Event Prize and can teleport you to a specific character.",
+      "why": "13.10.2026 wave_DATA: код 2 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "5.Name",
+      "value": "Physical Attack Increase(1)",
+      "was": "Event Cyclone",
+      "why": "13.10.2026 wave_DATA: код 6 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "5.Tooltip",
+      "value": "Increase physical attack power by 15% for an hour, and time will not be counted when logged off(one-time use only)",
+      "was": "[Moving speed 40% increase] Vehicle offered as an event gift Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 6 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "6.Name",
+      "value": "Magical Attack Increase(1)",
+      "was": "Event Blue Cyclone (7 days)",
+      "why": "13.10.2026 wave_DATA: код 7 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "6.Tooltip",
+      "value": "Increase magical attack power by 15% for an hour, and time will not be counted when logged off(one-time use only)",
+      "was": "[Moving speed 60% increase] Vehicle offered as an event gift , Blue Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 7 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "7.Name",
+      "value": "Суперсвиток оживления (2)",
+      "was": "Event Pink Cyclone (7 days)",
+      "why": "13.10.2026 wave_DATA: код 8 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "ru_fallback"
+    },
+    {
+      "key": "7.Tooltip",
+      "value": "A scroll that revives you on the spot without any loss of experience points.",
+      "was": "[Moving speed 60% increase] Vehicle offered as an event gift Pink Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 8 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "8.Name",
+      "value": "HP 20% Increase potion",
+      "was": "Event Burning Cyclone (7 days)",
+      "why": "13.10.2026 wave_DATA: код 9 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "8.Tooltip",
+      "value": "HP Increase potion. HP increases by 20% for 1 hour",
+      "was": "[Moving speed 80% increase] Vehicle offered as an event gift Burning Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 9 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "9.Name",
+      "value": "MP 20% Increase potion",
+      "was": "Event Nimbus(7 days)",
+      "why": "13.10.2026 wave_DATA: код 10 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "9.Tooltip",
+      "value": "MP Increase potion. MP increases by 20% for 1 hour",
+      "was": "[Moving speed 40% increase] Vehicle offered as an event gift, Nimbus,",
+      "why": "13.10.2026 wave_DATA: код 10 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "10.Name",
+      "value": "Additional Upgrades(2)",
+      "was": "CoCo Tube F-1 (1 years)",
+      "why": "13.10.2026 wave_DATA: код 11 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "10.Tooltip",
+      "value": "Special item that increases the capacity bonus of a successful upgrade. [for lvl 0~99, Common for weapons and armor, Capacity increases an extra 5%]",
+      "was": "[Moving speed 80% increase] Follow me if you can.",
+      "why": "13.10.2026 wave_DATA: код 11 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "11.Name",
+      "value": "Successful Upgrades",
+      "was": "Event Cyclone's eye (7 days)",
+      "why": "13.10.2026 wave_DATA: код 12 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "11.Tooltip",
+      "value": "Special item that increases the success rate of an upgrade. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate]",
+      "was": "[Moving speed 80% increase] Vehicle offered as an event gift, Eye of Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 12 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "12.Name",
+      "value": "Teleport Scroll(5)",
+      "was": "Event Cyclone's eye (15 days)",
+      "why": "13.10.2026 wave_DATA: код 13 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "12.Tooltip",
+      "value": "A teleport scroll that instantly moves you to a certain character.",
+      "was": "[Moving speed 80% increase] Vehicle offered as an event gift, Eye of Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 13 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "13.Name",
+      "value": "7 Day Level-Up Package",
+      "was": "Event Cyclone's eye (30 days)",
+      "why": "13.10.2026 wave_DATA: код 14 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "13.Tooltip",
+      "value": "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 7 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 7 days from the time of use.",
+      "was": "[Moving speed 80% increase] Vehicle offered as an event gift, Eye of Cyclone,",
+      "why": "13.10.2026 wave_DATA: код 14 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст; 14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation",
+      "prev": [
+        "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 7 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 7 days from the time"
+      ]
+    },
+    {
+      "key": "14.Name",
+      "value": "Extend Storage Slot",
+      "was": "Event Revival scroll(1)",
+      "why": "13.10.2026 wave_DATA: код 15 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "14.Tooltip",
+      "value": "Extend Storage Space.",
+      "was": "[Unavailable to trade] A scroll offered as an event gift, which allows you to resurrect without losing EXP. ",
+      "why": "13.10.2026 wave_DATA: код 15 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "15.Name",
+      "value": "Warehouse recall Scroll(3)",
+      "was": "Premium Revival scroll(3)",
+      "why": "13.10.2026 wave_DATA: код 16 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "15.Tooltip",
+      "value": "A scroll that allows you to open your warehouse anywhere. It is not recommended to use this scroll in dangerous areas.",
+      "was": "A scroll that revives you on the spot without any loss of experience points.",
+      "why": "13.10.2026 wave_DATA: код 16 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "16.Name",
+      "value": "Диетикус [6 часов]",
+      "was": "Event Regeneration Potion(10)",
+      "why": "13.10.2026 wave_DATA: код 17 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "ru_fallback"
+    },
+    {
+      "key": "16.Tooltip",
+      "value": "It allows all pets summoned by the user to not need food for 6 hour. The item's time duration will be reduced only when the user is online.(12 times)",
+      "was": "[Unavailable to trade] A reg. potion offered as an event gift. It will recover 65% of your spent HP and MP. ",
+      "why": "13.10.2026 wave_DATA: код 17 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "360.Name",
+      "value": "Event Teleport Scroll(2)",
+      "was": "Drop Rate Incr. Potion (1Hr * 5)",
+      "why": "13.10.2026 wave_DATA: код 361 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "360.Tooltip",
+      "value": "[Unavilable to trade - Exclusive to closed beta] A teleport scroll given as an event gift. It instantly moves you to a certain character.",
+      "was": "[Premium Item] A potion which gives a 50% increase in drop rates. While in a party, this potion only applies if you deal the most damage. This potion does not affect digging, minin",
+      "why": "13.10.2026 wave_DATA: код 361 приведён к серверной линии (Function_Table); EN по функциональному близнецу / одинаковому RU-тексту в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "2.Name",
+      "value": "Event Teleport Scroll(3)",
+      "was": "Event Teleport Scroll(10)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 3 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "2.Tooltip",
+      "value": "A teleport scroll that instantly moves you to a certain character.",
+      "was": "[Unavilable] Teleport Scroll specially given as an Event Prize and can teleport you to a specific character.",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 3 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "3.Name",
+      "value": "Exp Potion (30 min)",
+      "was": "Event Exp Potion(1)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 4 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "3.Tooltip",
+      "value": "Use this potion to gain 50% more exp for 30 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 30% more exp for 5 hours (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the durati",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 4 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст; 14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation",
+      "prev": [
+        "Use this potion to gain 50% more exp for 10 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the dur"
+      ]
+    },
+    {
+      "key": "4.Name",
+      "value": "Exp Potion (1)",
+      "was": "Event Exp Potion(3)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 5 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "4.Tooltip",
+      "value": "Use this potion to gain 50% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the durati",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 5 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст; 14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation",
+      "prev": [
+        "Use this potion to gain 50% more exp for 10 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the dur"
+      ]
+    },
+    {
+      "key": "17.Name",
+      "value": "Reg. Potion(10)",
+      "was": "Event Regeneration Potion(50)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 18 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "17.Tooltip",
+      "value": "[Cooldown 30sec] Instantly recover consumed HP/MP. But the cooldown time is separate from common potions.",
+      "was": "[Unavailable to trade] A reg. potion offered as an event gift. It will recover 65% of your spent HP and MP. ",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 18 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст",
+      "source": "interlude_twin"
+    },
+    {
+      "key": "369.Name",
+      "value": "HP 20% Increase potion(5+1)",
+      "was": "HP 20% Increase potion(10)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 370 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст — количество в EN-имени Interlude заменено серверным (как ru_qty/en_qty рецепта)",
+      "source": "en_qty"
+    },
+    {
+      "key": "372.Name",
+      "value": "MP 20% Increase potion(5+1)",
+      "was": "MP 20% Increase potion(10)",
+      "why": "13.10.2026 wave_DATA (вопрос 4): значения кода 373 приведены к серверу (Function_Table); EN по одинаковому RU-тексту / функциональному близнецу в Interlude, иначе RU-текст — количество в EN-имени Interlude заменено серверным (как ru_qty/en_qty рецепта)",
+      "source": "en_qty"
+    },
+    {
+      "key": "78.Tooltip",
+      "value": "[Moving speed 40% increase] Follow me if you can.",
+      "was": "[Moving speed 80% increase] Follow me if you can.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 79 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "79.Tooltip",
+      "value": "[Moving speed 60% increase] Follow me if you can.",
+      "was": "[Moving speed 80% increase] Follow me if you can.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 80 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "90.Tooltip",
+      "value": "[Moving speed 40% increase] It has amazing speed due to the devil's contract. ",
+      "was": "[Moving speed 80% increase] It has amazing speed due to the devil's contract. ",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 91 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "91.Tooltip",
+      "value": "[Moving speed 60% increase] It has amazing speed due to the devil's contract. ",
+      "was": "[Moving speed 80% increase] It has amazing speed due to the devil's contract. ",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 92 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "102.Tooltip",
+      "value": "[Moving speed 40% increase] It's decorated with neon and equiped Max turbo engine on a consumerized Cito. It's a priceless motorcycle which is produced limitedly.",
+      "was": "[Moving speed 80% increase] It's decorated with neon and equiped Max turbo engine on a consumerized Cito. It's a priceless motorcycle which is produced limitedly.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 103 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "103.Tooltip",
+      "value": "[Moving speed 60% increase] It's decorated with neon and equiped Max turbo engine on a consumerized Cito. It's a priceless motorcycle which is produced limitedly.",
+      "was": "[Moving speed 80% increase] It's decorated with neon and equiped Max turbo engine on a consumerized Cito. It's a priceless motorcycle which is produced limitedly.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 104 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "117.Tooltip",
+      "value": "[Moving speed 60% increase] This is for people like you who always try their best. The burning cyclone that's as cool as your will power! ",
+      "was": "[Moving speed 80% increase] This is for people like you who always try their best. The burning cyclone that's as cool as your will power! ",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 118 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "118.Tooltip",
+      "value": "[Moving speed 60% increase] This is for people like you who always try their best. The burning cyclone that's as cool as your will power! ",
+      "was": "[Moving speed 80% increase] This is for people like you who always try their best. The burning cyclone that's as cool as your will power! ",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 119 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "142.Tooltip",
+      "value": "[Moving speed 40% increase] Adorable Bunny. Once anybody rides it they can't help falling in love with it.",
+      "was": "[Moving speed 80% increase] Adorable Bunny. Once anybody rides it they can't help falling in love with it.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 143 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "143.Tooltip",
+      "value": "[Moving speed 60% increase] Adorable Bunny. Once anybody rides it they can't help falling in love with it.",
+      "was": "[Moving speed 80% increase] Adorable Bunny. Once anybody rides it they can't help falling in love with it.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 144 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "156.Tooltip",
+      "value": "[Moving speed 40% increase] A broom made of the tree from the lava of Flamio. It feels like a warm ride.",
+      "was": "[Moving speed 80% increase] A broom made of the tree from the lava of Flamio. It feels like a warm ride.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 157 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "157.Tooltip",
+      "value": "[Moving speed 60% increase] A broom made of the tree from the lava of Flamio. It feels like a warm ride.",
+      "was": "[Moving speed 80% increase] A broom made of the tree from the lava of Flamio. It feels like a warm ride.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 158 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "168.Tooltip",
+      "value": "[Moving speed 40% increase] A Flame Mustang Series that looks like it can pass through even the lava of Flamio in a heartbeat.",
+      "was": "[Moving speed 80% increase] A Flame Mustang Series that looks like it can pass through even the lava of Flamio in a heartbeat.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 169 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "169.Tooltip",
+      "value": "[Moving speed 60% increase] A Flame Mustang Series that looks like it can pass through even the lava of Flamio in a heartbeat.",
+      "was": "[Moving speed 80% increase] A Flame Mustang Series that looks like it can pass through even the lava of Flamio in a heartbeat.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 170 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "180.Tooltip",
+      "value": "[Moving speed 40% increase] A golden hatchling so rare that you can't even see one in hundred years. It's considered as a mysterious animal that brings you luck.",
+      "was": "[Moving speed 80% increase] A golden hatchling so rare that you can't even see one in hundred years. It's considered as a mysterious animal that brings you luck.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 181 +9 = 40; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "181.Tooltip",
+      "value": "[Moving speed 60% increase] A golden hatchling so rare that you can't even see one in hundred years. It's considered as a mysterious animal that brings you luck.",
+      "was": "[Moving speed 80% increase] A golden hatchling so rare that you can't even see one in hundred years. It's considered as a mysterious animal that brings you luck.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 182 +9 = 60; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "284.Tooltip",
+      "value": "[Moving speed 30% increase] Vehicle offered as an event gift, Nimbus.",
+      "was": "[Moving speed 40% increase] Vehicle offered as an event gift, Nimbus.",
+      "source": "en_value",
+      "why": "13.10.2026 wave_DATA (вопрос 4): скорость транспорта в EN-подсказке = серверной (Function_Table код 285 +9 = 30; RU-подсказка уже с этим числом)"
+    },
+    {
+      "key": "359.Name",
+      "value": "Key(10)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 360 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Pumpkin Bucket",
+        "열쇠(10)"
+      ]
+    },
+    {
+      "key": "359.Tooltip",
+      "value": "Key(10)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 360 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "“A bucket which allows you to gain daily Trick or Treat items from the Event NPC! Bucket must be in your inventory to obtain the items. Item will disappear after the event ends.\"",
+        "열쇠(10)"
+      ]
+    },
+    {
+      "key": "378.Name",
+      "value": "Auto HP Refill Potion(50)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 379 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Drop Rate Incr. Potion (1Hr)",
+        "자동 HP보충물약(50개)"
+      ]
+    },
+    {
+      "key": "378.Tooltip",
+      "value": "[Test] While an auto potion is in use, if total HP drops to 30% or below, it is instantly restored to 70% of total HP.",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 379 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "[Non-party use] 50% greater chance to get items from monsters. If in a party and deal the most damage for a kill the increased drop chance will apply. Does not affect digging items",
+        "[Test] 자동 물약을 사용 중인 상태에서 전체 체력이 30%이하로 떨어지면 전체 체력의 70%인 상태로 즉시 회복 된다."
+      ]
+    },
+    {
+      "key": "386.Name",
+      "value": "Empty Upgrade Stone(9+2)",
+      "was": "Account Faction Reset",
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 387 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Account Faction Reset",
+        "빈 강화석(9+2개)"
+      ]
+    },
+    {
+      "key": "386.Tooltip",
+      "value": "Empty Upgrade Stone test",
+      "was": "[Premium Item] Resets the faction for your entire account. Please note that if a faction is full (40%), you will not be able to join after resetting. This item cannot be traded.",
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 387 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "[Premium Item] Resets the faction for your entire account. Please note that if a faction is full (40%), you will not be able to join after resetting. This item cannot be traded.",
+        "빈 강화석 테스트"
+      ]
+    },
+    {
+      "key": "388.Name",
+      "value": "Event Teleport Scroll(2)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 389 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Premium Revival scroll(5)",
+        "이벤트 이동 스크롤 (2개)"
+      ]
+    },
+    {
+      "key": "388.Tooltip",
+      "value": "[Event] A teleport scroll that instantly moves you to a certain character. [All items will be deleted after May 25.]",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 389 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "A scroll that revives you on the spot without any loss of experience points.",
+        "[이벤트] 특정 캐릭터의 근처로 순간 이동 할 수 있는 스크롤 [5월 25일 이후 일괄 삭제 됩니다.]"
+      ]
+    },
+    {
+      "key": "389.Name",
+      "value": "Event Recall Scroll(2)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 390 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "HP 20% Increase potion",
+        "이벤트 소환 스크롤(2개)"
+      ]
+    },
+    {
+      "key": "389.Tooltip",
+      "value": "[Event] Summons the character whose name you enter to your location. Not usable in Instant Dungeons; the target must accept. [All items will be deleted after May 26.]",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 390 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "HP Increase potion. HP increases by 20% for 1 hour",
+        "[이벤트] 상대방 이름을 입력해서 그 대상 캐릭터를 자신의 위치로 소환할 수 있는 스크롤. (인던에서는 사용 할 수 없으며 소환 대상 캐릭터가 소환을 수락해야만 상대방이 소환됩니다.)[5월 26일 이후 일괄 삭제]"
+      ]
+    },
+    {
+      "key": "390.Name",
+      "value": "Event Exp Potion(60 min)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 391 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Physical Attack Increase(1)",
+        "이벤트 몰아의 영약 (60분)"
+      ]
+    },
+    {
+      "key": "390.Tooltip",
+      "value": "[Event] A mysterious elixir: you lose yourself in focus, and usual actions earn 50% more exp. Lasts 1 hour per use. [All items will be deleted after May 26.]",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 391 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Increase physical attack power by 15% for an hour, and time will not be counted when logged off(one-time use only)",
+        "[이벤트] 복용하면 자신을 잊을만큼 고도의 집중력을 발휘하여 평소의 행동을 행하여도 50% 더 많은 경험치를 축적하게 되는 신비스러운 영약. 1회 사용에 1시간 동안 효과가 지속된다.[5월 26일 이후 일괄 삭제]"
+      ]
+    },
+    {
+      "key": "391.Name",
+      "value": "Event Special HP Elixir(1)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 392 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Magical Attack Increase(1)",
+        "이벤트 고급 HP 즉시회복제(1개)"
+      ]
+    },
+    {
+      "key": "391.Tooltip",
+      "value": "[Event][Cooldown 25sec] Instantly recover consumed HP. But the cooldown time is separate from common potions. [All items will be deleted after May 26.]",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 392 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Increase magical attack power by 15% for an hour, and time will not be counted when logged off(one-time use only)",
+        "[이벤트][대기시간 25초] 소비된 HP를 즉시 회복시켜 준다. 단, 일반 물약과는 대기시간이 별개이다. [5월 26일 이후 일괄 삭제 됩니다.]"
+      ]
+    },
+    {
+      "key": "398.Name",
+      "value": "Pet Level Limit-Break Scroll",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 399 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Additional Upgrades (10)",
+        "펫 레벨 한계돌파 주문서"
+      ]
+    },
+    {
+      "key": "398.Tooltip",
+      "value": "-",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 399 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»",
+      "source": "server"
+    },
+    {
+      "key": "401.Name",
+      "value": "-",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 402 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»",
+      "source": "server"
+    },
+    {
+      "key": "401.Tooltip",
+      "value": "-",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 402 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»",
+      "source": "server"
+    },
+    {
+      "key": "405.Name",
+      "value": "Nimbus for Newbies (1 year)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 406 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Warehouse recall Scroll(3)",
+        "신규전용 근두운(1년)"
+      ]
+    },
+    {
+      "key": "405.Tooltip",
+      "value": "-",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 406 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»",
+      "source": "server"
+    },
+    {
+      "key": "406.Name",
+      "value": "Piled Exp Potion(50)",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 407 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»; 14.10.2026 перевод по решению владельца («переведи»), names11_translation.md",
+      "source": "owner_translation",
+      "prev": [
+        "Physical Attack Increase(3)",
+        "중첩형 경험치 물약(50개)"
+      ]
+    },
+    {
+      "key": "406.Tooltip",
+      "value": "-",
+      "was": null,
+      "why": "13.10.2026 wave_DATA §9, решение владельца: имя/подсказка кода 407 = серверные (Special_ItemList.txt / SpecialItem_TooltipList.txt сервера, корейские) или «-»",
+      "source": "server"
+    },
+    {
+      "key": "57.Tooltip",
+      "value": "Use this potion to gain 50% more exp for 30 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 50% more exp for 30 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the dur",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "58.Tooltip",
+      "value": "Use this potion to gain 50% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 50% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the durati",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "207.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "208.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "209.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "210.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "211.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "212.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "226.Tooltip",
+      "value": "Use this potion to gain 50% more exp for 10 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 50% more exp for 10 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the dur",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "240.Tooltip",
+      "value": "Use this potion to gain 50% more exp for 10 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 50% more exp for 10 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the dur",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "248.Tooltip",
+      "value": "Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the duration!",
+      "was": "Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the durati",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "249.Tooltip",
+      "value": "Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the duration!",
+      "was": "Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the durati",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "258.Tooltip",
+      "value": "[Can`t trade]Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the duration!",
+      "was": null,
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "262.Tooltip",
+      "value": "[Can`t trade]Use this potion to gain 20% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 120% Experience for the duration!",
+      "was": "[Can`t trade]Use this potion to gain 20% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 120% Experience f",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "265.Tooltip",
+      "value": "[Can`t trade]Use this potion to gain 20% more exp for 5 hours (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 120% Experience for the duration!",
+      "was": "[Can`t trade]Use this potion to gain 20% more exp for 5 hours (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 120% Experience f",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "267.Tooltip",
+      "value": "[Can`t trade]Use this potion to gain 30% more exp for 7 hours (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the duration!",
+      "was": "[Can`t trade]Use this potion to gain 30% more exp for 7 hours (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience f",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "268.Tooltip",
+      "value": "[Can`t trade]Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the duration!",
+      "was": "[Can`t trade]Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience f",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "281.Tooltip",
+      "value": "Use this potion to gain 30% more exp for an hour (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 130% Experience for the duration!",
+      "was": "Use this potion to gain 50% more exp for an hour (limit 1 at a time).? Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the durat",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "288.Tooltip",
+      "value": "Special item that increases the success rate of an option transfer. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate]",
+      "was": "Special item that increases the success rate of an option transfer. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "289.Tooltip",
+      "value": "Special item that increases the success rate of an option transfer. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate]",
+      "was": "Special item that increases the success rate of an option transfer. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "290.Tooltip",
+      "value": "Special item that increases the success rate of an option transfer. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate]",
+      "was": "Special item that increases the success rate of an option transfer. [for lvl 0~99, Common for weapons and armor, success rate grows by 30% of the used upgrade scroll's success rate",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "297.Tooltip",
+      "value": "An item which increase the probability of hatching of an egg. 1 supplementary item will be used every time 1 incubator is used.[Pet hatching probability + 30% additional probability]",
+      "was": "An item which increase the probability of hatching of an egg. 1 supplementary item will be used every time 1 incubator is used.[Pet hatching probability + 30% additional probabilit",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "299.Tooltip",
+      "value": "Use this potion to gain 50% more exp for 30 minutes (limit 1 at a time). Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the duration!",
+      "was": "Use this potion to gain 50% more exp for 30 minutes (limit 1 at a time).? Using 3 Stackable Exp Potions alongside a regular Exp Potion will get you up to 150% Experience for the du",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "301.Tooltip",
+      "value": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item(4)",
+      "was": "Scroll to restore failed upgrades (using Blacksmith NPC- Restore Failed Upgrade Number). Scrolls needed to reset 1 failure: Lvl 1~19 item(1), 20~39 item(2), 40~59 item(3), 60+ item",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "344.Tooltip",
+      "value": "[Unavailable to trade] Get 25% extra Exp by using 1 potion, 60% when using 2 at the same time, 100% when using 3. The stacked effect can be used w/ Regular Exp Potions for a 150% bonus for 1 Hr.",
+      "was": "[Unavailable to trade] Get 25% extra Exp by using 1 potion, 60% when using 2 at the same time, 100% when using 3. The stacked effect can be used w/ Regular Exp Potions for a 150% b",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "353.Tooltip",
+      "value": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeons.",
+      "was": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeon",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "354.Tooltip",
+      "value": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeons.",
+      "was": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeon",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "355.Tooltip",
+      "value": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeons.",
+      "was": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeon",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "363.Tooltip",
+      "value": "A scroll that allows you to randomly change the option types of equipment. Please be aware that an option added by option transfer may not be able to reapply. (using Blacksmith NPC)",
+      "was": "A scroll that allows you to randomly change the option types of equipment. Please be aware that an option added by option transfer may not be able to reapply. (using Blacksmith NPC",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "364.Tooltip",
+      "value": "A scroll that allows you to randomly change the option types of equipment. Please be aware that an option added by option transfer may not be able to reapply. (using Blacksmith NPC)",
+      "was": "A scroll that allows you to randomly change the option types of equipment. Please be aware that an option added by option transfer may not be able to reapply. (using Blacksmith NPC",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "365.Tooltip",
+      "value": "A scroll that allows you to randomly change the option types of equipment. Please be aware that an option added by option transfer may not be able to reapply. (using Blacksmith NPC)",
+      "was": "A scroll that allows you to randomly change the option types of equipment. Please be aware that an option added by option transfer may not be able to reapply. (using Blacksmith NPC",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "377.Tooltip",
+      "value": "[Non-party use] 50% greater chance to get items from monsters. If in a party and deal the most damage for a kill the increased drop chance will apply. Does not affect digging items or Gold amounts.",
+      "was": "[Non-party use] 50% greater chance to get items from monsters. If in a party and deal the most damage for a kill the increased drop chance will apply. Does not affect digging items",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "381.Tooltip",
+      "value": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recommended.",
+      "was": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recomme",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "382.Tooltip",
+      "value": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recommended.",
+      "was": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recomme",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "383.Tooltip",
+      "value": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recommended.",
+      "was": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recomme",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "403.Tooltip",
+      "value": "Charm that keeps pet level and limit the same on a Failure, and keeps pet limit the same and only one level lost on a Great Fail result. Caution, item will be used on a successful attempt too.",
+      "was": "Charm that keeps pet level and limit the same on a Failure, and keeps pet limit the same and only one level lost on a Great Fail result. Caution, item will be used on a successful ",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "404.Tooltip",
+      "value": "EXP earned by a pet will increase 100%. However, Pet EXP potions cannot be applied, and it cannot be used with other items. The time duration will be reduced only when the user is online.",
+      "was": "EXP earned by a pet will increase 100%. However, Pet EXP potions cannot be applied, and it cannot be used with other items. The time duration will be reduced only when the user is ",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "454.Tooltip",
+      "value": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeons.",
+      "was": "A scroll that allows you to summon another player to where you are by entering in their name, and only if the other player accepts the offer. Not allowed for use in Instant Dungeon",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "455.Tooltip",
+      "value": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recommended.",
+      "was": "A scroll that allows you to recall your warehouse. Limitation will apply to the movement, battle and trade. Use of this scroll in the place where monsters are abound is not recomme",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "475.Tooltip",
+      "value": "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 30 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 30 days from the time of use.",
+      "was": "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 30 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 30 days from the ti",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "488.Tooltip",
+      "value": "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 7 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 7 days from the time of use.",
+      "was": "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 7 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 7 days from the time",
+      "why": "14.10.2026 достроена подсказка, оборванная лимитом 180 знаков / неверным сроком (Function_Table, серверный текст)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "384.Tooltip",
+      "value": "Empty Upgrade Stone test",
+      "was": null,
+      "why": "14.10.2026 перевод корейского серверного текста (names11, этап 1)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "385.Tooltip",
+      "value": "Empty Upgrade Stone test",
+      "was": null,
+      "why": "14.10.2026 перевод корейского серверного текста (names11, этап 1)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "399.Name",
+      "value": "Weapon-Empty Upgrade Stone(10)",
+      "was": null,
+      "why": "14.10.2026 перевод корейского серверного имени кода 400; 14.10.2026 ревизия L10N: термины порта (имя не длиннее 31 знака)",
+      "source": "owner_translation",
+      "prev": [
+        "Weapon - Empty Upgrade Stone(10)"
+      ]
+    },
+    {
+      "key": "489.Tooltip",
+      "value": "[Increase EXP/Drops 20%,Speed 25%,HP/MP 10%] Receive 7 days of enhanced game play by boosting all the stats you need to level up! Package will be effective for 7 days from the time of use.",
+      "was": "Special item that increases the capacity bonus of a successful upgrade. [for lvl 0~99, Common for weapons and armor, Capacity increases an extra 5%]",
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "491.Name",
+      "value": "Additional Upgrades(5)",
+      "was": null,
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "492.Name",
+      "value": "Additional Upgrades(10)",
+      "was": null,
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "491.Tooltip",
+      "value": "Special item that increases the capacity bonus of a successful upgrade. [for lvl 0~99, Common for weapons and armor, Capacity increases an extra 5%]",
+      "was": null,
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "492.Tooltip",
+      "value": "Special item that increases the capacity bonus of a successful upgrade. [for lvl 0~99, Common for weapons and armor, Capacity increases an extra 5%]",
+      "was": null,
+      "why": "14.10.2026 ревизия, замеченное: 490/492/493 по серверной функции (Function_Table 120 и 97)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "547.Tooltip",
+      "value": "Uif!Jnqspwfe!IQ!Qpujpo!xjmm!bmmpx!zpv!up!hfu!231&!pg!zpvs!nbyjnvn!IQ!pwfs!38!tfdpoet!bgufs!21!qfsjpejdbm!ifbmt!pg!23&!fbdi/",
+      "was": "The Improved HP Potion will allow you to get 120% of your maximum HP over 27 seconds after 10 periodical heals of 12% each.",
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии",
+      "source": "owner_translation"
+    },
+    {
+      "key": "548.Tooltip",
+      "value": "Uif!Jnqspwfe!IQ!Qpujpo!xjmm!bmmpx!zpv!up!hfu!231&!pg!zpvs!nbyjnvn!IQ!pwfs!38!tfdpoet!bgufs!21!qfsjpejdbm!ifbmt!pg!23&!fbdi/",
+      "was": "The Improved HP Potion will allow you to get 120% of your maximum HP over 27 seconds after 10 periodical heals of 12% each.",
+      "why": "14.10.2026 names11 этап 4: русский текст ячейки переведён, прежний английский текст сохранён для EN-сессии",
+      "source": "owner_translation"
+    },
+    {
+      "key": "349.Name",
+      "value": "Event Exp Potion(1)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "350.Name",
+      "value": "Event Teleport Scroll(2)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "351.Name",
+      "value": "Event Reg. Potion(1)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "352.Name",
+      "value": "[Event] Premium Revival scroll(3)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "407.Name",
+      "value": "Physical Attack Potion (50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "408.Name",
+      "value": "Magic Attack Potion (50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "409.Name",
+      "value": "HP Elixir(50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "410.Name",
+      "value": "HP 20% Increase potion(50)",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "411.Name",
+      "value": "All Skill Reset Scroll",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "349.Tooltip",
+      "value": "[Unavailable to trade] Exp increase potion: gain 50% more exp for 1 hour after use. [Automatically deleted after the event.]",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "350.Tooltip",
+      "value": "[Unavailable to trade] Teleport scroll: enter a character's name to instantly move near them. [Automatically deleted after the event.]",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "351.Tooltip",
+      "value": "[Unavailable to trade] A top-quality potion that fully restores consumed HP and MP. [Automatically deleted after the event.]",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "352.Tooltip",
+      "value": "[Unavailable to trade] Lets you revive on the spot without losing experience. Usable only on yourself; you can use it when your character dies.",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "407.Tooltip",
+      "value": "[Unavailable to trade] For characters of level 1-40. Physical attack power Up by 15% for an hour. Deleted after August 20.",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "408.Tooltip",
+      "value": "[Unavailable to trade] For characters of level 1-40. Magical attack power Up by 15% for an hour. Deleted after August 20.",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "409.Tooltip",
+      "value": "[Unavailable to trade] For characters of level 1-40. Instantly recover consumed HP. Deleted after August 20.",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "410.Tooltip",
+      "value": "[Unavailable to trade] For characters of level 1-40. HP increases by 20% for 1 hour. Deleted after August 20.",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "411.Tooltip",
+      "value": "[Unavailable to trade, deleted after July 23.] Resets all skill levels so you can redistribute your skill points.",
+      "was": null,
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    },
+    {
+      "key": "558.Name",
+      "value": "Pink Hoverboard(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "558.Tooltip",
+      "value": "[60% Moving speed increase] A pink hoverboard for young adventurers. Levels 1-23 only!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "559.Name",
+      "value": "Black Cat Balloon(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "559.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "560.Name",
+      "value": "Black Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "560.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "561.Name",
+      "value": "Black Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "561.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "562.Name",
+      "value": "Black Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "562.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "563.Name",
+      "value": "Black Nimbus(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "563.Tooltip",
+      "value": "[60% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "564.Name",
+      "value": "Black Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "564.Tooltip",
+      "value": "[60% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "565.Name",
+      "value": "Black Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "565.Tooltip",
+      "value": "[60% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "566.Name",
+      "value": "Black Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "566.Tooltip",
+      "value": "[60% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "567.Name",
+      "value": "Green Rudolph Sled(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "567.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "568.Name",
+      "value": "Green Rudolph Sled(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "568.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "569.Name",
+      "value": "Green Rudolph Sled(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "569.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "570.Name",
+      "value": "Blue Rudolph Sled(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "570.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "571.Name",
+      "value": "Blue Rudolph Sled(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "571.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "572.Name",
+      "value": "Blue Rudolph Sled(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "572.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "573.Name",
+      "value": "Black Rudolph Sled(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "573.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "574.Name",
+      "value": "Black Rudolph Sled(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "574.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "575.Name",
+      "value": "Black Rudolph Sled(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "575.Tooltip",
+      "value": "[60% Moving speed increase] A festive sled that glides over the snows of Alpen on holiday nights. Its bells ring on their own.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "576.Name",
+      "value": "Pink Love Bunny(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "576.Tooltip",
+      "value": "[80% Moving speed increase] An inflatable bunny nobody can help but love. Soft, bouncy and endlessly loyal.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "577.Name",
+      "value": "Pink Love Bunny(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "577.Tooltip",
+      "value": "[80% Moving speed increase] An inflatable bunny nobody can help but love. Soft, bouncy and endlessly loyal.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "578.Name",
+      "value": "Pink Love Bunny(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "578.Tooltip",
+      "value": "[80% Moving speed increase] An inflatable bunny nobody can help but love. Soft, bouncy and endlessly loyal.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "579.Name",
+      "value": "Pink Hatchling(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "579.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "580.Name",
+      "value": "Pink Hatchling(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "580.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "581.Name",
+      "value": "Pink Hatchling(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "581.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "582.Name",
+      "value": "Pink Cito(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "582.Tooltip",
+      "value": "[60% Moving speed increase] The legendary Cito motorcycle from the mechanics' guild workshops. Its engine roars across the land.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "583.Name",
+      "value": "Pink Cito(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "583.Tooltip",
+      "value": "[60% Moving speed increase] The legendary Cito motorcycle from the mechanics' guild workshops. Its engine roars across the land.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "584.Name",
+      "value": "Pink Mustang(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "584.Tooltip",
+      "value": "[60% Moving speed increase] A four-wheeled Mustang that goes where the trails end. Raw power you can rely on.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "585.Name",
+      "value": "Pink Mustang(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "585.Tooltip",
+      "value": "[60% Moving speed increase] A four-wheeled Mustang that goes where the trails end. Raw power you can rely on.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "586.Name",
+      "value": "Pink Circle Bike(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "586.Tooltip",
+      "value": "[60% Moving speed increase] The Circle Bike, a triumph of balance and a new word in wheeled engineering.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "587.Name",
+      "value": "Pink Circle Bike(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "587.Tooltip",
+      "value": "[60% Moving speed increase] The Circle Bike, a triumph of balance and a new word in wheeled engineering.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "588.Name",
+      "value": "Pink Flame Wheels(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "588.Tooltip",
+      "value": "[60% Moving speed increase] A mysterious blazing wheel that leaves a trail of fire behind it.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "589.Name",
+      "value": "Pink Flame Wheels(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "589.Tooltip",
+      "value": "[60% Moving speed increase] A mysterious blazing wheel that leaves a trail of fire behind it.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "590.Name",
+      "value": "Pink Magic Carpet(1day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "590.Tooltip",
+      "value": "[60% Moving speed increase] A magic flying carpet that glides softly through the air above any road.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "591.Name",
+      "value": "Pink Magic Carpet(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "591.Tooltip",
+      "value": "[60% Moving speed increase] A magic flying carpet that glides softly through the air above any road.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "592.Name",
+      "value": "Black Broomstick(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "592.Tooltip",
+      "value": "[60% Moving speed increase] This broom is not for sweeping but for flying. The witches of Alpen prize it above gold.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "593.Name",
+      "value": "Black Broomstick(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "593.Tooltip",
+      "value": "[60% Moving speed increase] This broom is not for sweeping but for flying. The witches of Alpen prize it above gold.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "594.Name",
+      "value": "Black Broomstick(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "594.Tooltip",
+      "value": "[60% Moving speed increase] This broom is not for sweeping but for flying. The witches of Alpen prize it above gold.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "595.Name",
+      "value": "Halloween Carpet(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "595.Tooltip",
+      "value": "[80% Moving speed increase] A magic flying carpet that glides softly through the air above any road.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "596.Name",
+      "value": "Halloween Carpet(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "596.Tooltip",
+      "value": "[80% Moving speed increase] A magic flying carpet that glides softly through the air above any road.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "597.Name",
+      "value": "Halloween Carpet(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "597.Tooltip",
+      "value": "[80% Moving speed increase] A magic flying carpet that glides softly through the air above any road.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "598.Name",
+      "value": "Black Dragon Doll(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "598.Tooltip",
+      "value": "[80% Moving speed increase] An astonishingly comfortable stuffed dragon. Softer than a cloud, sturdier than armour.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "599.Name",
+      "value": "Black Dragon Doll(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "599.Tooltip",
+      "value": "[80% Moving speed increase] An astonishingly comfortable stuffed dragon. Softer than a cloud, sturdier than armour.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "600.Name",
+      "value": "Black Dragon Doll(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "600.Tooltip",
+      "value": "[80% Moving speed increase] An astonishingly comfortable stuffed dragon. Softer than a cloud, sturdier than armour.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "601.Name",
+      "value": "Black Hatchling(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "601.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "602.Name",
+      "value": "Black Hatchling(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "602.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "603.Name",
+      "value": "Black Hatchling(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "603.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "604.Name",
+      "value": "Dark Blood Wheels(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "604.Tooltip",
+      "value": "[80% Moving speed increase] A mysterious blazing wheel that leaves a trail of fire behind it.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "605.Name",
+      "value": "Dark Blood Wheels(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "605.Tooltip",
+      "value": "[80% Moving speed increase] A mysterious blazing wheel that leaves a trail of fire behind it.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "606.Name",
+      "value": "Dark Blood Wheels(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "606.Tooltip",
+      "value": "[80% Moving speed increase] A mysterious blazing wheel that leaves a trail of fire behind it.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "607.Name",
+      "value": "Black Mustang(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "607.Tooltip",
+      "value": "[60% Moving speed increase] A four-wheeled Mustang that goes where the trails end. Raw power you can rely on.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "608.Name",
+      "value": "Black Mustang(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "608.Tooltip",
+      "value": "[60% Moving speed increase] A four-wheeled Mustang that goes where the trails end. Raw power you can rely on.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "609.Name",
+      "value": "Black Mustang(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "609.Tooltip",
+      "value": "[60% Moving speed increase] A four-wheeled Mustang that goes where the trails end. Raw power you can rely on.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "610.Name",
+      "value": "Black Cito(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "610.Tooltip",
+      "value": "[60% Moving speed increase] The legendary Cito motorcycle from the mechanics' guild workshops. Its engine roars across the land.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "611.Name",
+      "value": "Black Cito(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "611.Tooltip",
+      "value": "[60% Moving speed increase] The legendary Cito motorcycle from the mechanics' guild workshops. Its engine roars across the land.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "612.Name",
+      "value": "Black Cito(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "612.Tooltip",
+      "value": "[60% Moving speed increase] The legendary Cito motorcycle from the mechanics' guild workshops. Its engine roars across the land.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "613.Name",
+      "value": "Lucky Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "613.Tooltip",
+      "value": "[80% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "614.Name",
+      "value": "Lucky Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "614.Tooltip",
+      "value": "[80% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "615.Name",
+      "value": "Lucky Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "615.Tooltip",
+      "value": "[80% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "616.Name",
+      "value": "Lovable Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "616.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "617.Name",
+      "value": "Lovable Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "617.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "618.Name",
+      "value": "Lovable Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "618.Tooltip",
+      "value": "[60% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "619.Name",
+      "value": "Green Hatchling(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "619.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "620.Name",
+      "value": "Green Hatchling(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "620.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "621.Name",
+      "value": "Green Hatchling(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "621.Tooltip",
+      "value": "[60% Moving speed increase] A young hatchling from the fields of Alpen. Rare and wilful, yet loyal to its rider.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "622.Name",
+      "value": "Golden Lucky Cat Balloon(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "622.Tooltip",
+      "value": "[80% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "623.Name",
+      "value": "Golden Lucky Cat Balloon(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "623.Tooltip",
+      "value": "[80% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "624.Name",
+      "value": "Golden Lucky Cat Balloon(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "624.Tooltip",
+      "value": "[80% Moving speed increase] A balloon shaped like a cat's face. It won't fly high, but it is a joy to behold!",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "625.Name",
+      "value": "Blazing Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "625.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "626.Name",
+      "value": "Blazing Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "626.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "627.Name",
+      "value": "Blazing Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "627.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "628.Name",
+      "value": "Stormy Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "628.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "629.Name",
+      "value": "Stormy Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "629.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "630.Name",
+      "value": "Stormy Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "630.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "631.Name",
+      "value": "Red Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "631.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "632.Name",
+      "value": "Red Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "632.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "633.Name",
+      "value": "Red Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "633.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "634.Name",
+      "value": "Sea Breeze Nimbus(7day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "634.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "635.Name",
+      "value": "Sea Breeze Nimbus(30day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "635.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "636.Name",
+      "value": "Sea Breeze Nimbus(90day)",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "636.Tooltip",
+      "value": "[80% Moving speed increase] A nimbus. A cloud obedient to its rider that drifts over the land faster than the wind.",
+      "was": null,
+      "why": "23.10.2026 новые маунты донора AsdaFableClassic",
+      "source": "fable_mounts"
+    },
+    {
+      "key": "124.Tooltip",
+      "value": "[Moving speed 40% increase] Look around with mild speed.",
+      "was": "Look around with mild speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "125.Tooltip",
+      "value": "[Moving speed 60% increase] The second Nimbus. Nimbus has been remodeled for comfort and speed.",
+      "was": "The second Nimbus. Nimbus has been remodeled for comfort and speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "126.Tooltip",
+      "value": "[Moving speed 80% increase] The eve of the storm. When you start moving the world looks different.",
+      "was": "The eve of the storm. When you start moving the world looks different.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "127.Tooltip",
+      "value": "[Moving speed 40% increase] Look around with mild speed.",
+      "was": "Look around with mild speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "128.Tooltip",
+      "value": "[Moving speed 60% increase] The second Nimbus. Nimbus has been remodeled for comfort and speed.",
+      "was": "The second Nimbus. Nimbus has been remodeled for comfort and speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "129.Tooltip",
+      "value": "[Moving speed 80% increase] The eve of the storm. When you start moving the world looks different.",
+      "was": "The eve of the storm. When you start moving the world looks different.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "130.Tooltip",
+      "value": "[Moving speed 40% increase] Look around with mild speed.",
+      "was": "Look around with mild speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "131.Tooltip",
+      "value": "[Moving speed 60% increase] The second Nimbus. Nimbus has been remodeled for comfort and speed.",
+      "was": "The second Nimbus. Nimbus has been remodeled for comfort and speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "132.Tooltip",
+      "value": "[Moving speed 80% increase] The eve of the storm. When you start moving the world looks different.",
+      "was": "The eve of the storm. When you start moving the world looks different.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "133.Tooltip",
+      "value": "[Moving speed 40% increase] You can look around while cruising around at a low speed.",
+      "was": "You can look around while cruising around at a low speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "134.Tooltip",
+      "value": "[Moving speed 60% increase] The second version of Nimbus. The Nimbus was modified to enhance comfort and speed.",
+      "was": "The second version of Nimbus. The Nimbus was modified to enhance comfort and speed.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "135.Tooltip",
+      "value": "[Moving speed 80% increase] Silence before the storm. The world will look different once it starts flying.",
+      "was": "Silence before the storm. The world will look different once it starts flying.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "189.Tooltip",
+      "value": "[Moving speed 40% increase] Magic tube developed for delivery. First time release at the Alpen festival!",
+      "was": "Magic tube developed for delivery. First time release at the Alpen festival!",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "271.Tooltip",
+      "value": "[Moving speed 80% increase] Follow me if you can.",
+      "was": "Follow me if you can.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "273.Tooltip",
+      "value": "[Moving speed 40% increase] Enjoy the leisurely life of Tales Kingdom through the Cyclone.",
+      "was": "Enjoy the leisurely life of Tales Kingdom through the Cyclone.",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "274.Tooltip",
+      "value": "[Moving speed 60% increase] A happy choice. Run with the Pink Cyclone side by side. ",
+      "was": "A happy choice. Run with the Pink Cyclone side by side. ",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "275.Tooltip",
+      "value": "[Moving speed 60% increase] A happy choice. Run with the Blue Cyclone side by side. ",
+      "was": "A happy choice. Run with the Blue Cyclone side by side. ",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    },
+    {
+      "key": "276.Tooltip",
+      "value": "[Moving speed 80% increase] This is for people like you who always try their best. The burning cyclone that's as cool as your will power! ",
+      "was": "This is for people like you who always try their best. The burning cyclone that's as cool as your will power! ",
+      "why": "07.11.2026 mount-speed: процент скорости в описании транспорта по Function_Table (столбец 6)",
+      "source": "mount_speed"
+    }
+  ]
+}

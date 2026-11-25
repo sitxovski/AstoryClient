@@ -1,0 +1,20 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Astory Tools",
+	"Description": "Общий РЕДАКТОРСКИЙ набор инструментов AsdaStory: раздел меню Tools ▸ Astory_Tools. Сюда добавляются редакторы игровых таблиц (звания/достижения, магазины и пр.). Рантайм игры не затрагивает — модуль редакторный и в упакованный билд не попадает.",
+	"Category": "Asda",
+	"CreatedBy": "AsdaReborn",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "AstoryTools",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}

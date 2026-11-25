@@ -1,0 +1,34 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Asda Item Browser",
+	"Description": "Редакторский браузер предметов AsdaStory: дерево категорий с иконками (иконка : ID : название) + 3D-превью модели с эффектами заточки. Рантайм игры не затрагивает.",
+	"Category": "Asda",
+	"CreatedBy": "AsdaReborn",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"Modules": [
+		{
+			"Name": "AsdaItemBrowser",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "AstoryTools",
+			"Enabled": true
+		}
+	]
+}

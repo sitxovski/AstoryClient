@@ -1,0 +1,12 @@
+# Copyright (c) 2026 @sitxovski (Discord)
+# Astory Client - Python packages for the tools in AstoryClient\Tools, DEPLOY and Launcher\tools
+# (scripts that run INSIDE the Unreal Editor use the editor's own Python and its "unreal" module - nothing to install for them)
+numpy>=1.26          # mesh / texture / animation converters
+Pillow>=10.0         # textures, icons, installer branding
+cryptography>=42     # pak keys (gen_build_crypto.py), release signing (asda_release.py), LogSeal
+pygltflib>=1.16      # glTF import / export helpers
+scipy>=1.11          # geometry and fitting helpers
+zstandard>=0.22      # update packs (asda_release.py)
+fonttools>=4.47      # font tools
+scikit-image>=0.22   # texture analysis helpers
+capstone>=5.0        # disassembler (Tools\Translate\tools: finding string sites in the original client)

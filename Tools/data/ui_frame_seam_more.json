@@ -1,0 +1,1216 @@
+{
+ "frames": [
+  {
+   "path": "/Game/AsdaAssets/UI/Login/WBP_2nd_ID_Warnning_Win",
+   "win": "WBP_2nd_ID_Warnning_Win",
+   "frame": "2nd_ID_Warnning_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "2nd_ID_Warnning_Win_0_1": {
+     "old": [
+      -174.0,
+      -100.0,
+      348.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -174.0,
+      -100.0,
+      349.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/CampWar/WBP_CAMPWAR_ATTACK",
+   "win": "WBP_CAMPWAR_ATTACK",
+   "frame": "CAMPWAR_ATTACK_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CAMPWAR_ATTACK_0_1": {
+     "old": [
+      -402.0,
+      -239.0,
+      804.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -402.0,
+      -239.0,
+      805.0,
+      16.0
+     ],
+     "z_new": -1
+    },
+    "CAMPWAR_ATTACK_0_4": {
+     "old": [
+      -402.0,
+      -223.0,
+      804.0,
+      446.0
+     ],
+     "z_old": 0,
+     "new": [
+      -402.0,
+      -223.0,
+      805.0,
+      446.0
+     ],
+     "z_new": -2
+    },
+    "CAMPWAR_ATTACK_0_7": {
+     "old": [
+      -402.0,
+      222.99996948242188,
+      804.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -402.0,
+      222.99996948242188,
+      805.0,
+      16.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/CampWar/WBP_CAMPWAR_End",
+   "win": "WBP_CAMPWAR_End",
+   "frame": "CAMPWAR_End_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CAMPWAR_End_0_1": {
+     "old": [
+      -95.0,
+      -281.0,
+      368.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -96.0,
+      -281.0,
+      370.0,
+      16.0
+     ],
+     "z_new": -1
+    },
+    "CAMPWAR_End_0_4": {
+     "old": [
+      -95.0,
+      -265.0,
+      368.0,
+      518.0
+     ],
+     "z_old": 0,
+     "new": [
+      -96.0,
+      -265.0,
+      370.0,
+      518.0
+     ],
+     "z_new": -2
+    },
+    "CAMPWAR_End_0_7": {
+     "old": [
+      -95.0,
+      252.99996948242188,
+      368.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -96.0,
+      252.99996948242188,
+      370.0,
+      16.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/CampWar/WBP_CAMPWAR_JOIN_LOGIN",
+   "win": "WBP_CAMPWAR_JOIN_LOGIN",
+   "frame": "CAMPWAR_JOIN_LOGIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CAMPWAR_JOIN_LOGIN_0_1": {
+     "old": [
+      -181.0,
+      -70.0,
+      362.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -181.0,
+      -70.0,
+      363.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/CampWar/WBP_CAMPWAR_select",
+   "win": "WBP_CAMPWAR_select",
+   "frame": "CAMPWAR_select_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CAMPWAR_select_0_1": {
+     "old": [
+      -154.0,
+      -110.0,
+      308.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -154.0,
+      -110.0,
+      309.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_CLAN_DELETE_BOX",
+   "win": "WBP_CLAN_DELETE_BOX",
+   "frame": "CLAN_DELETE_BOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CLAN_DELETE_BOX_0_1": {
+     "old": [
+      -124.0,
+      -70.0,
+      248.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -124.0,
+      -70.0,
+      249.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_CLAN_INCREASE_BOX",
+   "win": "WBP_CLAN_INCREASE_BOX",
+   "frame": "CLAN_INCREASE_BOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CLAN_INCREASE_BOX_0_1": {
+     "old": [
+      -169.0,
+      -110.0,
+      338.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -169.0,
+      -110.0,
+      339.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_CLAN_JION",
+   "win": "WBP_CLAN_JION",
+   "frame": "CLAN_JION_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CLAN_JION_0_1": {
+     "old": [
+      -170.0,
+      -70.0,
+      340.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -170.0,
+      -70.0,
+      341.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_CLAN_MAKING_WIN",
+   "win": "WBP_CLAN_MAKING_WIN",
+   "frame": "CLAN_MAKING_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CLAN_MAKING_WIN_0_1": {
+     "old": [
+      -132.0,
+      -90.0,
+      264.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -132.0,
+      -90.0,
+      265.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Common/WBP_COMMONWIN_MSGBOX",
+   "win": "WBP_COMMONWIN_MSGBOX",
+   "frame": "COMMONWIN_MSGBOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "COMMONWIN_MSGBOX_0_1": {
+     "old": [
+      -119.0,
+      -85.0,
+      238.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -119.0,
+      -85.0,
+      239.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/CommonWin/WBP_COMMONWIN_MSGBOX_CommonWin",
+   "win": "WBP_COMMONWIN_MSGBOX_CommonWin",
+   "frame": "COMMONWIN_MSGBOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "COMMONWIN_MSGBOX_0_1": {
+     "old": [
+      -114.0,
+      -57.0,
+      228.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -114.0,
+      -57.0,
+      229.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Login/WBP_CharName_Change_Win",
+   "win": "WBP_CharName_Change_Win",
+   "frame": "CharName_Change_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "CharName_Change_Win_0_1": {
+     "old": [
+      -174.0,
+      -120.0,
+      348.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -174.0,
+      -120.0,
+      349.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_Find_Party_WIn",
+   "win": "WBP_Find_Party_WIn",
+   "frame": "Find_Party_WIn_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Find_Party_WIn_0_1": {
+     "old": [
+      -437.5,
+      -239.0,
+      875.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -437.5,
+      -239.0,
+      876.0,
+      16.0
+     ],
+     "z_new": -1
+    },
+    "Find_Party_WIn_0_4": {
+     "old": [
+      -437.5,
+      -223.0,
+      875.0,
+      446.0
+     ],
+     "z_old": 0,
+     "new": [
+      -437.5,
+      -223.0,
+      876.0,
+      446.0
+     ],
+     "z_new": -2
+    },
+    "Find_Party_WIn_0_7": {
+     "old": [
+      -437.5,
+      223.0,
+      875.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -437.5,
+      223.0,
+      876.0,
+      16.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Soulmate/WBP_Find_Soulmate_Win",
+   "win": "WBP_Find_Soulmate_Win",
+   "frame": "Find_Soulmate_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Find_Soulmate_Win_0_1": {
+     "old": [
+      -367.5,
+      -274.0,
+      735.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -367.5,
+      -274.0,
+      736.0,
+      16.0
+     ],
+     "z_new": -1
+    },
+    "Find_Soulmate_Win_0_4": {
+     "old": [
+      -367.5,
+      -258.0,
+      735.0,
+      516.0
+     ],
+     "z_old": 0,
+     "new": [
+      -367.5,
+      -258.0,
+      736.0,
+      516.0
+     ],
+     "z_new": -2
+    },
+    "Find_Soulmate_Win_0_7": {
+     "old": [
+      -367.5,
+      258.0,
+      735.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -367.5,
+      258.0,
+      736.0,
+      16.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Craft/WBP_Get_UpgradeOtion",
+   "win": "WBP_Get_UpgradeOtion",
+   "frame": "Get_UpgradeOtion_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Get_UpgradeOtion_0_1": {
+     "old": [
+      -174.0,
+      -115.0,
+      348.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -174.0,
+      -115.0,
+      349.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/HUD/WBP_HERO_NOTICE_WIN",
+   "win": "WBP_HERO_NOTICE_WIN",
+   "frame": "HERO_NOTICE_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "HERO_NOTICE_WIN_0_4": {
+     "old": [
+      -231.0,
+      -18.000001907348633,
+      462.0,
+      36.0
+     ],
+     "z_old": 0,
+     "new": [
+      -231.0,
+      -18.000001907348633,
+      463.0,
+      36.0
+     ],
+     "z_new": -2
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Common/WBP_ICON_mssage_timeBOX",
+   "win": "WBP_ICON_mssage_timeBOX",
+   "frame": "ICON_mssage_timeBOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "ICON_mssage_timeBOX_0_1": {
+     "old": [
+      -189.0,
+      -80.0,
+      378.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -189.0,
+      -80.0,
+      379.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Dungeon/WBP_INSDUNGEON_CONDITION_WIN",
+   "win": "WBP_INSDUNGEON_CONDITION_WIN",
+   "frame": "INSDUNGEON_CONDITION_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "INSDUNGEON_CONDITION_WIN_0_1": {
+     "old": [
+      -94.0,
+      -77.5,
+      188.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -94.0,
+      -77.5,
+      189.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Dungeon/WBP_INSDUNGEON_ENTRY_WIN",
+   "win": "WBP_INSDUNGEON_ENTRY_WIN",
+   "frame": "INSDUNGEON_ENTRY_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "INSDUNGEON_ENTRY_WIN_0_1": {
+     "old": [
+      -129.0,
+      -77.5,
+      258.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -129.0,
+      -77.5,
+      259.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Dungeon/WBP_INSDUNGEON_MSGY_WIN",
+   "win": "WBP_INSDUNGEON_MSGY_WIN",
+   "frame": "INSDUNGEON_MSGY_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "INSDUNGEON_MSGY_WIN_0_1": {
+     "old": [
+      -94.0,
+      -77.5,
+      188.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -94.0,
+      -77.5,
+      189.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Tutorial/WBP_Job_Guide_Win",
+   "win": "WBP_Job_Guide_Win",
+   "frame": "Job_Guide_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Job_Guide_Win_0_1": {
+     "old": [
+      -129.0,
+      -283.0,
+      588.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -130.0,
+      -283.0,
+      589.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Temp/WBP_Job_Guide_Win_Temp",
+   "win": "WBP_Job_Guide_Win_Temp",
+   "frame": "Job_Guide_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Job_Guide_Win_0_1": {
+     "old": [
+      -294.0,
+      -290.0,
+      588.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -294.0,
+      -290.0,
+      589.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Craft/WBP_Lockopen_massageBOX",
+   "win": "WBP_Lockopen_massageBOX",
+   "frame": "Lockopen_massageBOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Lockopen_massageBOX_0_1": {
+     "old": [
+      -134.0,
+      -80.0,
+      268.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -134.0,
+      -80.0,
+      269.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/CampWar/WBP_Mine_team_WIN",
+   "win": "WBP_Mine_team_WIN",
+   "frame": "Mine_team_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Mine_team_WIN_0_1": {
+     "old": [
+      -95.0,
+      -170.0,
+      368.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -96.0,
+      -170.0,
+      370.0,
+      16.0
+     ],
+     "z_new": -1
+    },
+    "Mine_team_WIN_0_4": {
+     "old": [
+      -95.0,
+      -154.0,
+      368.0,
+      296.0
+     ],
+     "z_old": 0,
+     "new": [
+      -96.0,
+      -154.0,
+      370.0,
+      296.0
+     ],
+     "z_new": -2
+    },
+    "Mine_team_WIN_0_7": {
+     "old": [
+      -95.0,
+      142.0,
+      368.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -96.0,
+      142.0,
+      370.0,
+      16.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Character/WBP_My_Introduction_Win",
+   "win": "WBP_My_Introduction_Win",
+   "frame": "My_Introduction_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "My_Introduction_Win_0_1": {
+     "old": [
+      -134.0,
+      -87.50000762939453,
+      268.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -134.0,
+      -87.50000762939453,
+      269.0,
+      16.0
+     ],
+     "z_new": -1
+    },
+    "My_Introduction_Win_0_4": {
+     "old": [
+      -134.0,
+      -71.50000762939453,
+      268.0,
+      143.0
+     ],
+     "z_old": 0,
+     "new": [
+      -134.0,
+      -71.50000762939453,
+      269.0,
+      143.0
+     ],
+     "z_new": -2
+    },
+    "My_Introduction_Win_0_7": {
+     "old": [
+      -134.0,
+      71.5000228881836,
+      268.0,
+      16.0
+     ],
+     "z_old": 0,
+     "new": [
+      -134.0,
+      71.5000228881836,
+      269.0,
+      16.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/HUD/WBP_NOTICE_WIN",
+   "win": "WBP_NOTICE_WIN",
+   "frame": "NOTICE_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "NOTICE_WIN_0_4": {
+     "old": [
+      -231.0,
+      -18.000003814697266,
+      462.0,
+      36.0
+     ],
+     "z_old": 0,
+     "new": [
+      -231.0,
+      -18.000003814697266,
+      463.0,
+      36.0
+     ],
+     "z_new": -2
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Dungeon/WBP_OneBtn_Event_Win",
+   "win": "WBP_OneBtn_Event_Win",
+   "frame": "OneBtn_Event_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "OneBtn_Event_Win_0_1": {
+     "old": [
+      -154.0,
+      -100.0,
+      308.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -154.0,
+      -100.0,
+      309.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_PARTYBOX_WIN",
+   "win": "WBP_PARTYBOX_WIN",
+   "frame": "PARTYBOX_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "PARTYBOX_WIN_0_1": {
+     "old": [
+      -94.0,
+      -72.5,
+      188.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -94.0,
+      -72.5,
+      189.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_PARTYDISPERSION",
+   "win": "WBP_PARTYDISPERSION",
+   "frame": "PARTYDISPERSION_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "PARTYDISPERSION_0_1": {
+     "old": [
+      -94.0,
+      -72.5,
+      188.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -94.0,
+      -72.5,
+      189.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_PARTYTAKE_WIN",
+   "win": "WBP_PARTYTAKE_WIN",
+   "frame": "PARTYTAKE_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "PARTYTAKE_WIN_0_1": {
+     "old": [
+      -94.0,
+      -72.5,
+      188.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -94.0,
+      -72.5,
+      189.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Premium/WBP_Premium_Pick_mssageBOX",
+   "win": "WBP_Premium_Pick_mssageBOX",
+   "frame": "Premium_Pick_mssageBOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Premium_Pick_mssageBOX_0_1": {
+     "old": [
+      -189.0,
+      -70.0,
+      378.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -189.0,
+      -70.0,
+      379.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Premium/WBP_Premium_Pick_select",
+   "win": "WBP_Premium_Pick_select",
+   "frame": "Premium_Pick_select_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Premium_Pick_select_0_1": {
+     "old": [
+      -149.0,
+      -90.0,
+      298.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -149.0,
+      -90.0,
+      299.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Unused/Premium/WBP_Premium_Pick_select_RU",
+   "win": "WBP_Premium_Pick_select_RU",
+   "frame": "Premium_Pick_select_RU_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Premium_Pick_select_RU_0_1": {
+     "old": [
+      -149.0,
+      -90.0,
+      298.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -149.0,
+      -90.0,
+      299.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Login/WBP_SERVER_SELECT_WIN",
+   "win": "WBP_SERVER_SELECT_WIN",
+   "frame": "SERVER_SELECT_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "SERVER_SELECT_WIN_0_1": {
+     "old": [
+      -97.0,
+      -164.99998474121094,
+      194.0,
+      21.0
+     ],
+     "z_old": 0,
+     "new": [
+      -97.0,
+      -164.99998474121094,
+      195.0,
+      21.0
+     ],
+     "z_new": -1
+    },
+    "SERVER_SELECT_WIN_0_4": {
+     "old": [
+      -97.0,
+      -143.99998474121094,
+      194.0,
+      288.0
+     ],
+     "z_old": 0,
+     "new": [
+      -97.0,
+      -143.99998474121094,
+      195.0,
+      288.0
+     ],
+     "z_new": -2
+    },
+    "SERVER_SELECT_WIN_0_7": {
+     "old": [
+      -97.0,
+      144.00001525878906,
+      194.0,
+      21.0
+     ],
+     "z_old": 0,
+     "new": [
+      -97.0,
+      144.00001525878906,
+      195.0,
+      21.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Social/WBP_SHOUTING_WIN",
+   "win": "WBP_SHOUTING_WIN",
+   "frame": "SHOUTING_WIN_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "SHOUTING_WIN_0_1": {
+     "old": [
+      -176.0,
+      -68.0,
+      352.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -176.0,
+      -68.0,
+      353.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Soulmate/WBP_SMate_ReqAnsr_Win",
+   "win": "WBP_SMate_ReqAnsr_Win",
+   "frame": "SMate_ReqAnsr_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "SMate_ReqAnsr_Win_0_1": {
+     "old": [
+      -186.0,
+      -95.0,
+      372.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -186.0,
+      -95.0,
+      373.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Character/WBP_Skill_OneTree_Reset_Win",
+   "win": "WBP_Skill_OneTree_Reset_Win",
+   "frame": "Skill_OneTree_Reset_Win_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Skill_OneTree_Reset_Win_0_1": {
+     "old": [
+      -154.0,
+      -128.0,
+      308.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -154.0,
+      -128.0,
+      309.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  },
+  {
+   "path": "/Game/AsdaAssets/UI/Player_UI/Unused/Craft/WBP_Strength_icon_massageBOX",
+   "win": "WBP_Strength_icon_massageBOX",
+   "frame": "Strength_icon_massageBOX_0",
+   "kind": 9,
+   "orient": "",
+   "tex": "",
+   "pieces": {
+    "Strength_icon_massageBOX_0_1": {
+     "old": [
+      -124.0,
+      -85.0,
+      248.0,
+      38.0
+     ],
+     "z_old": -1,
+     "new": [
+      -124.0,
+      -85.0,
+      249.0,
+      38.0
+     ],
+     "z_new": -1
+    }
+   }
+  }
+ ]
+}

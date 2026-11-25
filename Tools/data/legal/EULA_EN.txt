@@ -1,0 +1,99 @@
+AStory Remake — END USER LICENSE AGREEMENT
+Version 1.0 (Alpha), effective October 16, 2026
+
+PLEASE READ THIS END USER LICENSE AGREEMENT ("AGREEMENT") CAREFULLY BEFORE INSTALLING OR USING THE SOFTWARE.
+BY INSTALLING, COPYING, OR OTHERWISE USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT.
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT INSTALL OR USE THE SOFTWARE.
+
+1. DEFINITIONS
+"Software" means the AStory Remake game client, including all executable files, data files, updates, patches,
+documentation and any related services provided by us. "We", "us" and "our" mean the AStory Remake team, the
+licensor of the Software. "You" means the individual who installs or uses the Software. "Epic Materials" means the
+Epic Online Services software development kit, the Easy Anti-Cheat software and any other materials provided by
+Epic Games, Inc. or its affiliates ("Epic") that are distributed with or used by the Software.
+
+2. LICENSE GRANT
+Subject to your compliance with this Agreement, we grant you a limited, non-exclusive, non-transferable,
+non-sublicensable, revocable license to install and use one copy of the Software on a computer you own or control,
+solely for your personal, non-commercial entertainment purposes. The Software is licensed, not sold. We and our
+licensors retain all right, title and interest in and to the Software.
+
+3. ALPHA TEST
+The Software is provided as a pre-release (alpha) version for testing purposes. It may contain errors, may be
+incomplete, may change at any time and may cause loss of game progress or data. Game progress, characters and items
+created during the alpha test may be reset or deleted without notice. Access to the alpha test may be suspended or
+terminated at any time.
+
+4. RESTRICTIONS
+You agree that you will not, and will not permit any third party to:
+ (a) copy, sell, rent, lease, sublicense, distribute or otherwise transfer the Software or any part of it;
+ (b) modify, adapt, translate, decompile, disassemble or reverse engineer the Software, except to the extent such
+     restriction is expressly prohibited by applicable law;
+ (c) create, use, distribute or promote cheats, bots, automation software, hacks, mods or any other unauthorized
+     third-party software designed to modify or interfere with the Software or the game experience;
+ (d) circumvent, disable, tamper with or otherwise interfere with the anti-cheat system, the integrity checks,
+     the encryption or any other security or technical protection measure of the Software or of our servers;
+ (e) intercept, emulate, redirect or modify the communication between the Software and our servers, or access our
+     servers by any means other than the unmodified Software;
+ (f) exploit any bug, error or unintended feature of the Software or the servers, and you agree to report any such
+     issue to us promptly;
+ (g) use the Software in any manner that violates applicable law or the rights of others.
+
+5. ANTI-CHEAT
+The Software uses Easy Anti-Cheat, an anti-cheat service provided by Epic. Easy Anti-Cheat is installed together
+with the Software and runs while the Software is running. To detect and prevent cheating, Easy Anti-Cheat may
+collect and process information about your computer, operating system, running processes, loaded modules, memory
+of the game process and files related to the Software, and may transmit this information to Epic and to us.
+The Software cannot be played without Easy Anti-Cheat. If cheating or tampering is detected, or if the anti-cheat
+protection cannot be confirmed, you may be disconnected from the game servers, and your account may be suspended or
+permanently banned. You may uninstall Easy Anti-Cheat at any time by uninstalling the Software or by running
+uninstall_eac.bat; the Software will then no longer be playable.
+
+6. ACCOUNTS AND ONLINE SERVICES
+Use of the online features of the Software requires an account. You are responsible for keeping your login
+credentials confidential and for all activity under your account. Online services are provided at our discretion
+and may be modified, suspended or discontinued at any time. We may suspend or terminate your account and your
+access to the online services if you breach this Agreement.
+
+7. EPIC MATERIALS
+The Software includes and uses Epic Materials. EPIC MATERIALS ARE PROVIDED "AS IS". WE AND EPIC EXPRESSLY DISCLAIM
+ANY AND ALL REPRESENTATIONS, WARRANTIES, CONDITIONS AND LIABILITIES OF ANY KIND, WHETHER EXPRESS, IMPLIED OR
+STATUTORY, RELATED TO THE EPIC MATERIALS, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE AND NON-INFRINGEMENT. EPIC IS NOT A PARTY TO THIS AGREEMENT AND HAS NO OBLIGATION TO YOU WITH RESPECT
+TO THE SOFTWARE OR THE EPIC MATERIALS. Your use of Epic services is also subject to Epic's own terms and privacy
+policy where applicable.
+
+8. PRIVACY
+In connection with your use of the Software we process your account data, IP address, game activity and the
+anti-cheat information described in Section 5 for the purposes of providing the game, securing the game servers,
+preventing cheating and fraud, and enforcing this Agreement.
+
+9. TERMINATION
+This Agreement is effective until terminated. Your rights under this Agreement terminate automatically without
+notice if you fail to comply with any of its terms. Upon termination you must stop using the Software and delete
+all copies of it. Sections 4, 7, 10, 11 and 12 survive termination.
+
+10. DISCLAIMER OF WARRANTIES
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL
+FAULTS AND WITHOUT WARRANTY OF ANY KIND. WE DISCLAIM ALL WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY,
+INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, QUIET ENJOYMENT AND
+NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SOFTWARE OR THE ONLINE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE,
+SECURE OR FREE OF HARMFUL COMPONENTS.
+
+11. LIMITATION OF LIABILITY
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL WE OR OUR LICENSORS BE LIABLE FOR ANY INDIRECT,
+INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, GAME PROGRESS, PROFITS OR GOODWILL,
+ARISING OUT OF OR IN CONNECTION WITH THIS AGREEMENT OR THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES,
+SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+
+12. GENERAL
+This Agreement constitutes the entire agreement between you and us regarding the Software and supersedes all prior
+agreements. If any provision of this Agreement is held invalid or unenforceable, the remaining provisions remain in
+full force and effect. Our failure to enforce any right or provision is not a waiver of that right or provision.
+We may update this Agreement from time to time; continued use of the Software after an update constitutes
+acceptance of the updated Agreement. This Agreement is governed by the laws of [JURISDICTION], without regard to its
+conflict of law rules.
+
+13. CONTACT
+Questions about this Agreement: [CONTACT E-MAIL] — https://@@ASTORY_DOMAIN@@

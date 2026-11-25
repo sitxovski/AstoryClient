@@ -1,0 +1,1921 @@
+{
+ "note": "Места NPC класса 0/2/4 по серверному спавну (копия GameServer; 31.10.2026, [ИСПРАВЛЕНИЕ]); строит Tools/asda_npc_list_sync.py, применяет Tools/asda_import_npc_quest_data.py (откат ASDA_NPCLIST_FIXES=0).",
+ "rows": [
+  {
+   "npc": 1,
+   "nsr": "lua",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 18000.0,
+    "WorldY": 32400.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 18050.0,
+    "WorldY": 32450.0
+   },
+   "extra": [],
+   "src": "3:180,324"
+  },
+  {
+   "npc": 3,
+   "nsr": "ian",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 14800.0,
+    "WorldY": 46200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 14850.0,
+    "WorldY": 46250.0
+   },
+   "extra": [],
+   "src": "3:148,462"
+  },
+  {
+   "npc": 4,
+   "nsr": "john",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 18800.0,
+    "WorldY": 34700.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 18850.0,
+    "WorldY": 34750.0
+   },
+   "extra": [],
+   "src": "3:188,347"
+  },
+  {
+   "npc": 5,
+   "nsr": "viana",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 35200.0,
+    "WorldY": 37700.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 35250.0,
+    "WorldY": 37750.0
+   },
+   "extra": [],
+   "src": "0:352,377"
+  },
+  {
+   "npc": 8,
+   "nsr": "elijah",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 41800.0,
+    "WorldY": 36900.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 41850.0,
+    "WorldY": 36950.0
+   },
+   "extra": [],
+   "src": "0:418,369"
+  },
+  {
+   "npc": 12,
+   "nsr": "gllidio",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 6500.0,
+    "WorldY": 36300.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 6550.0,
+    "WorldY": 36350.0
+   },
+   "extra": [],
+   "src": "3:65,363"
+  },
+  {
+   "npc": 13,
+   "nsr": "wendy",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 5800.0,
+    "WorldY": 35200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 5850.0,
+    "WorldY": 35250.0
+   },
+   "extra": [],
+   "src": "3:58,352"
+  },
+  {
+   "npc": 14,
+   "nsr": "fhashu",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 7000.0,
+    "WorldY": 35200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 7050.0,
+    "WorldY": 35250.0
+   },
+   "extra": [],
+   "src": "3:70,352"
+  },
+  {
+   "npc": 15,
+   "nsr": "200npc",
+   "cls": 0,
+   "was": {
+    "MapId": 16,
+    "WorldX": 6800.0,
+    "WorldY": 6700.0
+   },
+   "set": {
+    "MapId": 16,
+    "WorldX": 6850.0,
+    "WorldY": 6750.0
+   },
+   "extra": [],
+   "src": "16:68,67"
+  },
+  {
+   "npc": 16,
+   "nsr": "201npc",
+   "cls": 0,
+   "was": {
+    "MapId": 16,
+    "WorldX": 6700.0,
+    "WorldY": 6500.0
+   },
+   "set": {
+    "MapId": 16,
+    "WorldX": 6750.0,
+    "WorldY": 6550.0
+   },
+   "extra": [],
+   "src": "16:67,65"
+  },
+  {
+   "npc": 17,
+   "nsr": "202npc",
+   "cls": 0,
+   "was": {
+    "MapId": 16,
+    "WorldX": 6600.0,
+    "WorldY": 6300.0
+   },
+   "set": {
+    "MapId": 16,
+    "WorldX": 6650.0,
+    "WorldY": 6350.0
+   },
+   "extra": [],
+   "src": "16:66,63"
+  },
+  {
+   "npc": 18,
+   "nsr": "joel",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 40200.0,
+    "WorldY": 39600.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 40250.0,
+    "WorldY": 39650.0
+   },
+   "extra": [],
+   "src": "0:402,396"
+  },
+  {
+   "npc": 19,
+   "nsr": "kurian",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 40700.0,
+    "WorldY": 39300.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 40750.0,
+    "WorldY": 39350.0
+   },
+   "extra": [],
+   "src": "0:407,393"
+  },
+  {
+   "npc": 20,
+   "nsr": "chmella",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 39800.0,
+    "WorldY": 39300.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 39850.0,
+    "WorldY": 39350.0
+   },
+   "extra": [],
+   "src": "0:398,393"
+  },
+  {
+   "npc": 24,
+   "nsr": "woody",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 39600.0,
+    "WorldY": 36000.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 39650.0,
+    "WorldY": 36050.0
+   },
+   "extra": [],
+   "src": "0:396,360"
+  },
+  {
+   "npc": 25,
+   "nsr": "robby",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 34300.0,
+    "WorldY": 39600.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 34350.0,
+    "WorldY": 39650.0
+   },
+   "extra": [],
+   "src": "0:343,396"
+  },
+  {
+   "npc": 26,
+   "nsr": "melve",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 34300.0,
+    "WorldY": 40800.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 34350.0,
+    "WorldY": 40850.0
+   },
+   "extra": [],
+   "src": "0:343,408"
+  },
+  {
+   "npc": 27,
+   "nsr": "mogan",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 38300.0,
+    "WorldY": 36000.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 38350.0,
+    "WorldY": 36050.0
+   },
+   "extra": [],
+   "src": "0:383,360"
+  },
+  {
+   "npc": 28,
+   "nsr": "gilbert",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 24600.0,
+    "WorldY": 40200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 24650.0,
+    "WorldY": 40250.0
+   },
+   "extra": [],
+   "src": "3:246,402"
+  },
+  {
+   "npc": 29,
+   "nsr": "albert",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 24600.0,
+    "WorldY": 41200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 24650.0,
+    "WorldY": 41250.0
+   },
+   "extra": [],
+   "src": "3:246,412"
+  },
+  {
+   "npc": 30,
+   "nsr": "hurin",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 10800.0,
+    "WorldY": 28700.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 10850.0,
+    "WorldY": 28750.0
+   },
+   "extra": [],
+   "src": "3:108,287"
+  },
+  {
+   "npc": 31,
+   "nsr": "corin",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 11800.0,
+    "WorldY": 28700.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 11850.0,
+    "WorldY": 28750.0
+   },
+   "extra": [],
+   "src": "3:118,287"
+  },
+  {
+   "npc": 32,
+   "nsr": "britz",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 21200.0,
+    "WorldY": 40100.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 21250.0,
+    "WorldY": 40150.0
+   },
+   "extra": [],
+   "src": "3:212,401"
+  },
+  {
+   "npc": 33,
+   "nsr": "trimi",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 21200.0,
+    "WorldY": 41400.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 21250.0,
+    "WorldY": 41450.0
+   },
+   "extra": [],
+   "src": "3:212,414"
+  },
+  {
+   "npc": 34,
+   "nsr": "diju",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 11900.0,
+    "WorldY": 24400.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 11950.0,
+    "WorldY": 24450.0
+   },
+   "extra": [],
+   "src": "3:119,244"
+  },
+  {
+   "npc": 35,
+   "nsr": "ukan",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 10700.0,
+    "WorldY": 24400.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 10750.0,
+    "WorldY": 24450.0
+   },
+   "extra": [],
+   "src": "3:107,244"
+  },
+  {
+   "npc": 36,
+   "nsr": "soldier13",
+   "cls": 0,
+   "was": {
+    "MapId": 1,
+    "WorldX": 7300.0,
+    "WorldY": 37700.0
+   },
+   "set": {
+    "MapId": 1,
+    "WorldX": 28850.0,
+    "WorldY": 24350.0
+   },
+   "extra": [],
+   "src": "1:288,243"
+  },
+  {
+   "npc": 37,
+   "nsr": "37npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 7400.0,
+    "WorldY": 37200.0
+   },
+   "set": {
+    "MapId": 1,
+    "WorldX": 7450.0,
+    "WorldY": 37250.0
+   },
+   "extra": [],
+   "src": "1:74,372"
+  },
+  {
+   "npc": 38,
+   "nsr": "soldier15",
+   "cls": 0,
+   "was": {
+    "MapId": -1,
+    "WorldX": -1.0,
+    "WorldY": -1.0
+   },
+   "set": {
+    "MapId": 22,
+    "WorldX": 26550.0,
+    "WorldY": 22050.0
+   },
+   "extra": [],
+   "src": "22:265,220"
+  },
+  {
+   "npc": 39,
+   "nsr": "soldier16",
+   "cls": 0,
+   "was": {
+    "MapId": -1,
+    "WorldX": -1.0,
+    "WorldY": -1.0
+   },
+   "set": {
+    "MapId": 22,
+    "WorldX": 24650.0,
+    "WorldY": 22050.0
+   },
+   "extra": [],
+   "src": "22:246,220"
+  },
+  {
+   "npc": 40,
+   "nsr": "cave",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 5800.0,
+    "WorldY": 31200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 5850.0,
+    "WorldY": 31250.0
+   },
+   "extra": [],
+   "src": "3:58,312"
+  },
+  {
+   "npc": 42,
+   "nsr": "zebian",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 42700.0,
+    "WorldY": 39800.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 42750.0,
+    "WorldY": 39850.0
+   },
+   "extra": [],
+   "src": "0:427,398"
+  },
+  {
+   "npc": 43,
+   "nsr": "alford",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 16300.0,
+    "WorldY": 45800.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 16350.0,
+    "WorldY": 45850.0
+   },
+   "extra": [],
+   "src": "3:163,458"
+  },
+  {
+   "npc": 45,
+   "nsr": "tid",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 36200.0,
+    "WorldY": 36900.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 36250.0,
+    "WorldY": 36950.0
+   },
+   "extra": [],
+   "src": "0:362,369"
+  },
+  {
+   "npc": 46,
+   "nsr": "46npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 15800.0,
+    "WorldY": 35600.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 15850.0,
+    "WorldY": 35650.0
+   },
+   "extra": [],
+   "src": "3:158,356"
+  },
+  {
+   "npc": 47,
+   "nsr": "clark",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 8200.0,
+    "WorldY": 35100.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 8250.0,
+    "WorldY": 35150.0
+   },
+   "extra": [],
+   "src": "3:82,351"
+  },
+  {
+   "npc": 48,
+   "nsr": "rachel",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 13900.0,
+    "WorldY": 46200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 13950.0,
+    "WorldY": 46250.0
+   },
+   "extra": [],
+   "src": "3:139,462"
+  },
+  {
+   "npc": 49,
+   "nsr": "49npc",
+   "cls": 0,
+   "was": {
+    "MapId": 1,
+    "WorldX": 34400.0,
+    "WorldY": 40700.0
+   },
+   "set": {
+    "MapId": 1,
+    "WorldX": 29550.0,
+    "WorldY": 24350.0
+   },
+   "extra": [],
+   "src": "1:295,243"
+  },
+  {
+   "npc": 50,
+   "nsr": "50npc",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 38800.0,
+    "WorldY": 39700.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 38850.0,
+    "WorldY": 39750.0
+   },
+   "extra": [],
+   "src": "0:388,397"
+  },
+  {
+   "npc": 51,
+   "nsr": "51npc",
+   "cls": 0,
+   "was": {
+    "MapId": 2,
+    "WorldX": 30100.0,
+    "WorldY": 30400.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 30150.0,
+    "WorldY": 30450.0
+   },
+   "extra": [],
+   "src": "2:301,304"
+  },
+  {
+   "npc": 52,
+   "nsr": "52npc",
+   "cls": 0,
+   "was": {
+    "MapId": 6,
+    "WorldX": 12600.0,
+    "WorldY": 8700.0
+   },
+   "set": {
+    "MapId": 6,
+    "WorldX": 12650.0,
+    "WorldY": 8750.0
+   },
+   "extra": [],
+   "src": "6:126,87"
+  },
+  {
+   "npc": 53,
+   "nsr": "53npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 13500.0,
+    "WorldY": 19200.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 13550.0,
+    "WorldY": 19250.0
+   },
+   "extra": [],
+   "src": "7:135,192"
+  },
+  {
+   "npc": 54,
+   "nsr": "radmil",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 17200.0,
+    "WorldY": 44600.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 17250.0,
+    "WorldY": 44650.0
+   },
+   "extra": [],
+   "src": "3:172,446"
+  },
+  {
+   "npc": 55,
+   "nsr": "55npc",
+   "cls": 0,
+   "was": {
+    "MapId": -1,
+    "WorldX": -1.0,
+    "WorldY": -1.0
+   },
+   "set": {
+    "MapId": 22,
+    "WorldX": 19950.0,
+    "WorldY": 15450.0
+   },
+   "extra": [
+    {
+     "MapId": 21,
+     "WorldX": 35750.0,
+     "WorldY": 35750.0
+    }
+   ],
+   "src": "21:357,357;22:199,154"
+  },
+  {
+   "npc": 56,
+   "nsr": "ellosa",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 42600.0,
+    "WorldY": 37800.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 42650.0,
+    "WorldY": 37850.0
+   },
+   "extra": [],
+   "src": "0:426,378"
+  },
+  {
+   "npc": 74,
+   "nsr": "worker",
+   "cls": 2,
+   "was": {
+    "MapId": 0,
+    "WorldX": -1.0,
+    "WorldY": -1.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 29050.0,
+    "WorldY": 13350.0
+   },
+   "extra": [
+    {
+     "MapId": 0,
+     "WorldX": 45850.0,
+     "WorldY": 38350.0
+    }
+   ],
+   "src": "0:290,133;0:458,383"
+  },
+  {
+   "npc": 75,
+   "nsr": "ludivine",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 33300.0,
+    "WorldY": 29200.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 33350.0,
+    "WorldY": 29250.0
+   },
+   "extra": [],
+   "src": "0:333,292"
+  },
+  {
+   "npc": 76,
+   "nsr": "lord",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 29600.0,
+    "WorldY": 9700.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 29650.0,
+    "WorldY": 9750.0
+   },
+   "extra": [],
+   "src": "0:296,97"
+  },
+  {
+   "npc": 77,
+   "nsr": "77npc",
+   "cls": 4,
+   "was": {
+    "MapId": 2,
+    "WorldX": 23710.0,
+    "WorldY": 13514.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 23750.0,
+    "WorldY": 13550.0
+   },
+   "extra": [],
+   "src": "2:237,135"
+  },
+  {
+   "npc": 78,
+   "nsr": "78npc",
+   "cls": 4,
+   "was": {
+    "MapId": 2,
+    "WorldX": 41968.0,
+    "WorldY": 12147.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 41950.0,
+    "WorldY": 12150.0
+   },
+   "extra": [],
+   "src": "2:419,121"
+  },
+  {
+   "npc": 79,
+   "nsr": "79npc",
+   "cls": 4,
+   "was": {
+    "MapId": 2,
+    "WorldX": 23091.0,
+    "WorldY": 37046.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 23050.0,
+    "WorldY": 37050.0
+   },
+   "extra": [],
+   "src": "2:230,370"
+  },
+  {
+   "npc": 90,
+   "nsr": "saurus",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 12000.0,
+    "WorldY": 38300.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 12050.0,
+    "WorldY": 38350.0
+   },
+   "extra": [],
+   "src": "3:120,383"
+  },
+  {
+   "npc": 91,
+   "nsr": "shuren",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 18900.0,
+    "WorldY": 33200.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 18950.0,
+    "WorldY": 33250.0
+   },
+   "extra": [],
+   "src": "3:189,332"
+  },
+  {
+   "npc": 100,
+   "nsr": "ashley",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 15500.0,
+    "WorldY": 32600.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 15550.0,
+    "WorldY": 32650.0
+   },
+   "extra": [],
+   "src": "3:155,326"
+  },
+  {
+   "npc": 101,
+   "nsr": "eco",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 11100.0,
+    "WorldY": 39500.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 11150.0,
+    "WorldY": 39550.0
+   },
+   "extra": [],
+   "src": "3:111,395"
+  },
+  {
+   "npc": 102,
+   "nsr": "baby",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 12500.0,
+    "WorldY": 23400.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 12550.0,
+    "WorldY": 23450.0
+   },
+   "extra": [],
+   "src": "3:125,234"
+  },
+  {
+   "npc": 103,
+   "nsr": "touran",
+   "cls": 0,
+   "was": {
+    "MapId": 1,
+    "WorldX": 29600.0,
+    "WorldY": 25400.0
+   },
+   "set": {
+    "MapId": 1,
+    "WorldX": 29650.0,
+    "WorldY": 25450.0
+   },
+   "extra": [],
+   "src": "1:296,254"
+  },
+  {
+   "npc": 104,
+   "nsr": "ben",
+   "cls": 0,
+   "was": {
+    "MapId": 1,
+    "WorldX": 5800.0,
+    "WorldY": 33900.0
+   },
+   "set": {
+    "MapId": 1,
+    "WorldX": 6450.0,
+    "WorldY": 33450.0
+   },
+   "extra": [],
+   "src": "1:64,334"
+  },
+  {
+   "npc": 107,
+   "nsr": "ella",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 8100.0,
+    "WorldY": 43100.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 8150.0,
+    "WorldY": 43150.0
+   },
+   "extra": [],
+   "src": "3:81,431"
+  },
+  {
+   "npc": 114,
+   "nsr": "114npc",
+   "cls": 0,
+   "was": {
+    "MapId": 5,
+    "WorldX": 27352.0,
+    "WorldY": 44956.0
+   },
+   "set": {
+    "MapId": 5,
+    "WorldX": 27350.0,
+    "WorldY": 44950.0
+   },
+   "extra": [],
+   "src": "5:273,449"
+  },
+  {
+   "npc": 115,
+   "nsr": "115npc",
+   "cls": 0,
+   "was": {
+    "MapId": 5,
+    "WorldX": 28051.0,
+    "WorldY": 44954.0
+   },
+   "set": {
+    "MapId": 5,
+    "WorldX": 28050.0,
+    "WorldY": 44950.0
+   },
+   "extra": [],
+   "src": "5:280,449"
+  },
+  {
+   "npc": 117,
+   "nsr": "117npc",
+   "cls": 0,
+   "was": {
+    "MapId": 6,
+    "WorldX": 11000.0,
+    "WorldY": 4300.0
+   },
+   "set": {
+    "MapId": 6,
+    "WorldX": 11050.0,
+    "WorldY": 4350.0
+   },
+   "extra": [],
+   "src": "6:110,43"
+  },
+  {
+   "npc": 125,
+   "nsr": "125npc",
+   "cls": 0,
+   "was": {
+    "MapId": 6,
+    "WorldX": 38400.0,
+    "WorldY": 3100.0
+   },
+   "set": {
+    "MapId": 6,
+    "WorldX": 38450.0,
+    "WorldY": 3150.0
+   },
+   "extra": [],
+   "src": "6:384,31"
+  },
+  {
+   "npc": 128,
+   "nsr": "128npc",
+   "cls": 0,
+   "was": {
+    "MapId": 6,
+    "WorldX": 38100.0,
+    "WorldY": 23800.0
+   },
+   "set": {
+    "MapId": 6,
+    "WorldX": 38150.0,
+    "WorldY": 23850.0
+   },
+   "extra": [],
+   "src": "6:381,238"
+  },
+  {
+   "npc": 130,
+   "nsr": "130npc",
+   "cls": 0,
+   "was": {
+    "MapId": 6,
+    "WorldX": 36900.0,
+    "WorldY": 12750.0
+   },
+   "set": {
+    "MapId": 6,
+    "WorldX": 36950.0,
+    "WorldY": 12750.0
+   },
+   "extra": [],
+   "src": "6:369,127"
+  },
+  {
+   "npc": 131,
+   "nsr": "131npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 16900.0,
+    "WorldY": 31900.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 16950.0,
+    "WorldY": 31950.0
+   },
+   "extra": [],
+   "src": "3:169,319"
+  },
+  {
+   "npc": 132,
+   "nsr": "132npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 15800.0,
+    "WorldY": 31900.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 15850.0,
+    "WorldY": 31950.0
+   },
+   "extra": [],
+   "src": "3:158,319"
+  },
+  {
+   "npc": 133,
+   "nsr": "133npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 7460.0,
+    "WorldY": 5660.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 7450.0,
+    "WorldY": 5650.0
+   },
+   "extra": [],
+   "src": "7:74,56"
+  },
+  {
+   "npc": 134,
+   "nsr": "134npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 8170.0,
+    "WorldY": 11250.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 8150.0,
+    "WorldY": 11250.0
+   },
+   "extra": [],
+   "src": "7:81,112"
+  },
+  {
+   "npc": 135,
+   "nsr": "135npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 12920.0,
+    "WorldY": 8230.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 12950.0,
+    "WorldY": 8250.0
+   },
+   "extra": [],
+   "src": "7:129,82"
+  },
+  {
+   "npc": 136,
+   "nsr": "136npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 11140.0,
+    "WorldY": 13150.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 11150.0,
+    "WorldY": 13150.0
+   },
+   "extra": [],
+   "src": "7:111,131"
+  },
+  {
+   "npc": 137,
+   "nsr": "137npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 8750.0,
+    "WorldY": 18160.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 8750.0,
+    "WorldY": 18150.0
+   },
+   "extra": [],
+   "src": "7:87,181"
+  },
+  {
+   "npc": 138,
+   "nsr": "138npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 12650.0,
+    "WorldY": 20030.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 12650.0,
+    "WorldY": 20050.0
+   },
+   "extra": [],
+   "src": "7:126,200"
+  },
+  {
+   "npc": 139,
+   "nsr": "139npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 16644.0,
+    "WorldY": 13550.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 16450.0,
+    "WorldY": 13550.0
+   },
+   "extra": [],
+   "src": "7:164,135"
+  },
+  {
+   "npc": 140,
+   "nsr": "140npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 16250.0,
+    "WorldY": 9640.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 16250.0,
+    "WorldY": 9650.0
+   },
+   "extra": [],
+   "src": "7:162,96"
+  },
+  {
+   "npc": 141,
+   "nsr": "141npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 17360.0,
+    "WorldY": 5550.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 17350.0,
+    "WorldY": 5550.0
+   },
+   "extra": [],
+   "src": "7:173,55"
+  },
+  {
+   "npc": 142,
+   "nsr": "142npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 12430.0,
+    "WorldY": 33450.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 12450.0,
+    "WorldY": 33450.0
+   },
+   "extra": [],
+   "src": "7:124,334"
+  },
+  {
+   "npc": 143,
+   "nsr": "143npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 35650.0,
+    "WorldY": 39000.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 35650.0,
+    "WorldY": 39050.0
+   },
+   "extra": [],
+   "src": "7:356,390"
+  },
+  {
+   "npc": 144,
+   "nsr": "144npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 35560.0,
+    "WorldY": 11560.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 35550.0,
+    "WorldY": 11550.0
+   },
+   "extra": [],
+   "src": "7:355,115"
+  },
+  {
+   "npc": 145,
+   "nsr": "145npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 18800.0,
+    "WorldY": 36000.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 18850.0,
+    "WorldY": 36050.0
+   },
+   "extra": [],
+   "src": "3:188,360"
+  },
+  {
+   "npc": 146,
+   "nsr": "146npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 16700.0,
+    "WorldY": 31900.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 16750.0,
+    "WorldY": 31950.0
+   },
+   "extra": [],
+   "src": "3:167,319"
+  },
+  {
+   "npc": 147,
+   "nsr": "147npc",
+   "cls": 0,
+   "was": {
+    "MapId": 8,
+    "WorldX": 10100.0,
+    "WorldY": 37900.0
+   },
+   "set": {
+    "MapId": 8,
+    "WorldX": 10150.0,
+    "WorldY": 37950.0
+   },
+   "extra": [],
+   "src": "8:101,379"
+  },
+  {
+   "npc": 157,
+   "nsr": "157npc",
+   "cls": 0,
+   "was": {
+    "MapId": 9,
+    "WorldX": 7100.0,
+    "WorldY": 47600.0
+   },
+   "set": {
+    "MapId": 9,
+    "WorldX": 7150.0,
+    "WorldY": 47650.0
+   },
+   "extra": [],
+   "src": "9:71,476"
+  },
+  {
+   "npc": 158,
+   "nsr": "158npc",
+   "cls": 0,
+   "was": {
+    "MapId": 9,
+    "WorldX": 37200.0,
+    "WorldY": 48700.0
+   },
+   "set": {
+    "MapId": 9,
+    "WorldX": 37250.0,
+    "WorldY": 48750.0
+   },
+   "extra": [],
+   "src": "9:372,487"
+  },
+  {
+   "npc": 159,
+   "nsr": "159npc",
+   "cls": 0,
+   "was": {
+    "MapId": 9,
+    "WorldX": 11900.0,
+    "WorldY": 23500.0
+   },
+   "set": {
+    "MapId": 9,
+    "WorldX": 11950.0,
+    "WorldY": 23550.0
+   },
+   "extra": [],
+   "src": "9:119,235"
+  },
+  {
+   "npc": 163,
+   "nsr": "163npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 17000.0,
+    "WorldY": 37500.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 17050.0,
+    "WorldY": 37550.0
+   },
+   "extra": [],
+   "src": "3:170,375"
+  },
+  {
+   "npc": 170,
+   "nsr": "170npc",
+   "cls": 0,
+   "was": {
+    "MapId": 2,
+    "WorldX": 13200.0,
+    "WorldY": 43700.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 13250.0,
+    "WorldY": 43750.0
+   },
+   "extra": [],
+   "src": "2:132,437"
+  },
+  {
+   "npc": 171,
+   "nsr": "171npc",
+   "cls": 0,
+   "was": {
+    "MapId": 2,
+    "WorldX": 15900.0,
+    "WorldY": 23900.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 15950.0,
+    "WorldY": 23950.0
+   },
+   "extra": [],
+   "src": "2:159,239"
+  },
+  {
+   "npc": 172,
+   "nsr": "172npc",
+   "cls": 0,
+   "was": {
+    "MapId": 2,
+    "WorldX": 31600.0,
+    "WorldY": 30400.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 31650.0,
+    "WorldY": 30450.0
+   },
+   "extra": [],
+   "src": "2:316,304"
+  },
+  {
+   "npc": 173,
+   "nsr": "173npc",
+   "cls": 0,
+   "was": {
+    "MapId": 2,
+    "WorldX": 5500.0,
+    "WorldY": 34400.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 5550.0,
+    "WorldY": 34450.0
+   },
+   "extra": [],
+   "src": "2:55,344"
+  },
+  {
+   "npc": 174,
+   "nsr": "174npc",
+   "cls": 0,
+   "was": {
+    "MapId": 6,
+    "WorldX": 36800.0,
+    "WorldY": 12000.0
+   },
+   "set": {
+    "MapId": 6,
+    "WorldX": 36850.0,
+    "WorldY": 12050.0
+   },
+   "extra": [],
+   "src": "6:368,120"
+  },
+  {
+   "npc": 175,
+   "nsr": "175npc",
+   "cls": 0,
+   "was": {
+    "MapId": 10,
+    "WorldX": 11800.0,
+    "WorldY": 31100.0
+   },
+   "set": {
+    "MapId": 10,
+    "WorldX": 11850.0,
+    "WorldY": 31150.0
+   },
+   "extra": [],
+   "src": "10:118,311"
+  },
+  {
+   "npc": 177,
+   "nsr": "177npc",
+   "cls": 0,
+   "was": {
+    "MapId": 5,
+    "WorldX": 21000.0,
+    "WorldY": 46900.0
+   },
+   "set": {
+    "MapId": 5,
+    "WorldX": 21050.0,
+    "WorldY": 46950.0
+   },
+   "extra": [],
+   "src": "5:210,469"
+  },
+  {
+   "npc": 178,
+   "nsr": "178npc",
+   "cls": 0,
+   "was": {
+    "MapId": 2,
+    "WorldX": 13700.0,
+    "WorldY": 19800.0
+   },
+   "set": {
+    "MapId": 2,
+    "WorldX": 13750.0,
+    "WorldY": 19850.0
+   },
+   "extra": [],
+   "src": "2:137,198"
+  },
+  {
+   "npc": 179,
+   "nsr": "179npc",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 38300.0,
+    "WorldY": 47200.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 38350.0,
+    "WorldY": 47250.0
+   },
+   "extra": [],
+   "src": "0:383,472"
+  },
+  {
+   "npc": 180,
+   "nsr": "180npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 8500.0,
+    "WorldY": 43900.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 8550.0,
+    "WorldY": 43950.0
+   },
+   "extra": [],
+   "src": "3:85,439"
+  },
+  {
+   "npc": 181,
+   "nsr": "181npc",
+   "cls": 0,
+   "was": {
+    "MapId": 3,
+    "WorldX": 11800.0,
+    "WorldY": 31000.0
+   },
+   "set": {
+    "MapId": 3,
+    "WorldX": 11850.0,
+    "WorldY": 31050.0
+   },
+   "extra": [],
+   "src": "3:118,310"
+  },
+  {
+   "npc": 182,
+   "nsr": "182npc",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 35200.0,
+    "WorldY": 47600.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 35550.0,
+    "WorldY": 47450.0
+   },
+   "extra": [],
+   "src": "0:355,474"
+  },
+  {
+   "npc": 183,
+   "nsr": "183npc",
+   "cls": 0,
+   "was": {
+    "MapId": 0,
+    "WorldX": 39000.0,
+    "WorldY": 40600.0
+   },
+   "set": {
+    "MapId": 0,
+    "WorldX": 39050.0,
+    "WorldY": 40650.0
+   },
+   "extra": [],
+   "src": "0:390,406"
+  },
+  {
+   "npc": 184,
+   "nsr": "184npc",
+   "cls": 0,
+   "was": {
+    "MapId": 7,
+    "WorldX": 12900.0,
+    "WorldY": 19800.0
+   },
+   "set": {
+    "MapId": 7,
+    "WorldX": 12950.0,
+    "WorldY": 19850.0
+   },
+   "extra": [],
+   "src": "7:129,198"
+  },
+  {
+   "npc": 188,
+   "nsr": "188npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 26600.0,
+    "WorldY": 14800.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 26650.0,
+    "WorldY": 14850.0
+   },
+   "extra": [],
+   "src": "19:266,148"
+  },
+  {
+   "npc": 189,
+   "nsr": "189npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 15700.0,
+    "WorldY": 21200.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 15750.0,
+    "WorldY": 21250.0
+   },
+   "extra": [],
+   "src": "19:157,212"
+  },
+  {
+   "npc": 190,
+   "nsr": "190npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 39000.0,
+    "WorldY": 21900.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 39050.0,
+    "WorldY": 21950.0
+   },
+   "extra": [],
+   "src": "19:390,219"
+  },
+  {
+   "npc": 191,
+   "nsr": "191npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 21600.0,
+    "WorldY": 24300.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 21650.0,
+    "WorldY": 24350.0
+   },
+   "extra": [],
+   "src": "19:216,243"
+  },
+  {
+   "npc": 192,
+   "nsr": "192npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 32300.0,
+    "WorldY": 24400.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 32350.0,
+    "WorldY": 24450.0
+   },
+   "extra": [],
+   "src": "19:323,244"
+  },
+  {
+   "npc": 193,
+   "nsr": "193npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 26500.0,
+    "WorldY": 27400.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 26550.0,
+    "WorldY": 27450.0
+   },
+   "extra": [],
+   "src": "19:265,274"
+  },
+  {
+   "npc": 194,
+   "nsr": "194npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 15500.0,
+    "WorldY": 33700.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 15550.0,
+    "WorldY": 33750.0
+   },
+   "extra": [],
+   "src": "19:155,337"
+  },
+  {
+   "npc": 195,
+   "nsr": "195npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 26600.0,
+    "WorldY": 34500.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 26650.0,
+    "WorldY": 34550.0
+   },
+   "extra": [],
+   "src": "19:266,345"
+  },
+  {
+   "npc": 196,
+   "nsr": "196npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 38400.0,
+    "WorldY": 34600.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 38450.0,
+    "WorldY": 34650.0
+   },
+   "extra": [],
+   "src": "19:384,346"
+  },
+  {
+   "npc": 197,
+   "nsr": "197npc",
+   "cls": 0,
+   "was": {
+    "MapId": 19,
+    "WorldX": 27700.0,
+    "WorldY": 41300.0
+   },
+   "set": {
+    "MapId": 19,
+    "WorldX": 27750.0,
+    "WorldY": 41350.0
+   },
+   "extra": [],
+   "src": "19:277,413"
+  },
+  {
+   "npc": 198,
+   "nsr": "198npc",
+   "cls": 0,
+   "was": {
+    "MapId": 16,
+    "WorldX": 5900.0,
+    "WorldY": 6800.0
+   },
+   "set": {
+    "MapId": 16,
+    "WorldX": 5950.0,
+    "WorldY": 6850.0
+   },
+   "extra": [],
+   "src": "16:59,68"
+  },
+  {
+   "npc": 199,
+   "nsr": "199npc",
+   "cls": 0,
+   "was": {
+    "MapId": 16,
+    "WorldX": 6200.0,
+    "WorldY": 7000.0
+   },
+   "set": {
+    "MapId": 16,
+    "WorldX": 6250.0,
+    "WorldY": 7050.0
+   },
+   "extra": [],
+   "src": "16:62,70"
+  }
+ ]
+}

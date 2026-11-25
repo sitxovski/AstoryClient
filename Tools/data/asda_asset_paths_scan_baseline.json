@@ -1,0 +1,1100 @@
+{
+ "_comment": "База --scan (Tools/asda_asset_paths.py): шаблоны и копии корней /Game, существовавшие на момент принятия. Новые сверх базы — ошибка. Обновлять только после разбора.",
+ "date": "2026-09-15",
+ "files": {
+  "Source/AsdaReborn/Private/Login/AsdaLoginGameMode.cpp": {
+   "/Game/AsdaAssets/Models/Char/cre_creation01-a_00/SkeletalMeshes/cre_creation01-a_00anim_%02d": 3,
+   "/Game/AsdaAssets/UI/Login/%s": 1
+  },
+  "Source/AsdaReborn/Private/Login/AsdaText.cpp": {
+   "/Game/AsdaAssets/Text/%s/DT_%s.DT_%s": 1
+  },
+  "Source/AsdaReborn/Private/UI/AsdaPremiumGachaSubsystem.cpp": {
+   "/Game/AsdaAssets/UI/Player_UI/Premium/": 1
+  },
+  "Source/AsdaReborn/Private/World/AsdaZoneSubsystem.cpp": {
+   "/Game/Audio/BGM/": 1
+  },
+  "Tools/_control_map_fx_untouched.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_control_quad_pivot_scope.py": {
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_dump_fx_actors.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_dump_wing_bp.py": {
+   "/Game/AsdaAssets/Effects/%s.%s_C": 1
+  },
+  "Tools/_fix_backdrop_mesh_slots.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_import_new_field_bgm.py": {
+   "/Game/AsdaAssets/Sounds/Music": 1
+  },
+  "Tools/_patch_map_fx_seed.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_probe_alpha_assets.py": {
+   "/Game/AsdaAssets/Textures/Items/Texture": 1
+  },
+  "Tools/_probe_backdrop_masktree.py": {
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/_probe_backdrop_materials.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_probe_backdrop_propdiff.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_probe_backdrop_sections.py": {
+   "/Game/AsdaAssets/Models": 1
+  },
+  "Tools/_probe_backdrop_shadows.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_probe_baked_entities.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_probe_banner.py": {
+   "/Game/AsdaAssets/UI/Player_UI/Dungeon/%s.%s": 1
+  },
+  "Tools/_probe_connect_names.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/_probe_equip_skel_bones.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1,
+   "/Game/AsdaAssets/Models/Skeletal/EquipParts": 1
+  },
+  "Tools/_probe_exch_tabs.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/_probe_followercomp.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/_probe_footsteps.py": {
+   "/Game/AsdaAssets/Effects/%s.%s": 1,
+   "/Game/AsdaAssets/Sound/%s.%s": 1,
+   "/Game/Map/%s/DA_WalkGrid.DA_WalkGrid": 1
+  },
+  "Tools/_probe_fx_flags.py": {
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/AsdaAssets/Effects/": 3
+  },
+  "Tools/_probe_fx_master_stats.py": {
+   "/Game/Effects/%s": 1
+  },
+  "Tools/_probe_fx_rollout_scope.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_probe_fx_runtime_verts.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1
+  },
+  "Tools/_probe_fxb_variant.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_probe_glow_cdo.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1
+  },
+  "Tools/_probe_glow_runtime.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s.BP_Fx_%s_C": 1
+  },
+  "Tools/_probe_glowmat_state.py": {
+   "/Game/AsdaAssets/Textures/NPC/Texture/eff_0_npc_99_exclam-a_%02d": 1,
+   "/Game/Materials/M_AsdaMeshGlowTint": 1
+  },
+  "Tools/_probe_hit_fx_char_scale.py": {
+   "/Game/AsdaAssets/Effects/%s": 1
+  },
+  "Tools/_probe_hud_widgets.py": {
+   "/Game/AsdaAssets/UI/Player_UI/HUD/%s": 1
+  },
+  "Tools/_probe_item_mesh_props.py": {
+   "/Game/AsdaAssets/Models/Items": 1
+  },
+  "Tools/_probe_login_actors_full.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_probe_login_flight_seq.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_probe_login_scale.py": {
+   "/Game/AsdaAssets": 1,
+   "/Game/Map/%s/%s": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/_probe_mat_usage.py": {
+   "/Game/Materials/M_AsdaMeshGlowTint": 1,
+   "/Game/Materials/M_AsdaObject": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/_probe_mic_rebind.py": {
+   "/Game/Materials/M_AsdaMeshGlowTint": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1,
+   "/Game/Temp/%s": 1
+  },
+  "Tools/_probe_mirror_mismatch.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/_probe_mob_tex_state.py": {
+   "/Game/AsdaAssets/Models/Mob": 1,
+   "/Game/AsdaAssets/Models/MobSkel": 1
+  },
+  "Tools/_probe_mount_phase_ue.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_%s_cremmy_preview/SkeletalMeshes/ch1_%s_cremmy_previewsit_%s_%s": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Vehicle/%s/SkeletalMeshes/%sanim_%02d": 1
+  },
+  "Tools/_probe_nameplate_colors.py": {
+   "/Game/AsdaAssets/UI/GameMain/%s": 1
+  },
+  "Tools/_probe_nsr_tables.py": {
+   "/Game/AsdaAssets/Textures/NPC/Portrait/%s": 1
+  },
+  "Tools/_probe_object_lit_master.py": {
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/_probe_objectlit_opacity.py": {
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/_probe_ore_mat.py": {
+   "/Game/AsdaAssets/Models/Items/%s/StaticMeshes/%s": 1,
+   "/Game/AsdaAssets/Textures/Items/Texture/%s": 1
+  },
+  "Tools/_probe_pet_bounds.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Pet": 1
+  },
+  "Tools/_probe_player_ui_layout.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/_probe_possess_assets.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1
+  },
+  "Tools/_probe_qmark_final.py": {
+   "/Game/AsdaAssets/Models/NPC/eff_0_npc_99_exclam-a_%02d/Materials/eff_0_npc_99_exclam-a_%02d": 1,
+   "/Game/Materials/M_AsdaMeshGlowTint": 1
+  },
+  "Tools/_probe_qmark_height.py": {
+   "/Game/AsdaAssets/UI/GameMain/%s": 1
+  },
+  "Tools/_probe_qmark_slots.py": {
+   "/Game/AsdaAssets/Models/NPC/eff_0_npc_99_exclam-a_%02d/SkeletalMeshes/eff_0_npc_99_exclam-a_%02d": 1,
+   "/Game/Materials/M_AsdaMeshGlowTint": 1
+  },
+  "Tools/_probe_questmark_mat.py": {
+   "/Game/AsdaAssets/Models/NPC/eff_0_npc_99_exclam-a_%02d/Materials/eff_0_npc_99_exclam-a_%02d": 1,
+   "/Game/Materials/M_AsdaObject": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/_probe_raw_bounds.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1,
+   "/Game/AsdaAssets/Models/Char/%s/StaticMeshes/%s": 1
+  },
+  "Tools/_probe_reimport_questdir.py": {
+   "/Game/AsdaAssets/Textures/Maps": 1
+  },
+  "Tools/_probe_ring_motion.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_probe_ring_offset.py": {
+   "/Game/AsdaAssets/Effects/%s": 1
+  },
+  "Tools/_probe_runtime_data_assets.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1,
+   "/Game/AsdaAssets/Sound/%s": 1
+  },
+  "Tools/_probe_skill707_fx_scale.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1
+  },
+  "Tools/_probe_skill_fx_baked.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_probe_soul_bones.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1
+  },
+  "Tools/_probe_soul_hitbox.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1
+  },
+  "Tools/_probe_soul_look.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1
+  },
+  "Tools/_probe_soulguard_fx_blend.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1
+  },
+  "Tools/_probe_step_sounds.py": {
+   "/Game/AsdaAssets/Sound/%s.%s": 2
+  },
+  "Tools/_probe_stow_space.py": {
+   "/Game/AsdaAssets/Models/Char": 1
+  },
+  "Tools/_probe_target_ring_height.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_probe_target_rings.py": {
+   "/Game/AsdaAssets/Effects/%s.%s": 1
+  },
+  "Tools/_probe_vehicle_check.py": {
+   "/Game/AsdaAssets/Models/Skeletal/ClanFlag": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Vehicle": 1
+  },
+  "Tools/_probe_verify.py": {
+   "/Game/AsdaAssets/Models/Skeletal/EquipParts": 1
+  },
+  "Tools/_probe_weapon_fx_panels.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1,
+   "/Game/AsdaAssets/Models/Char/%s/StaticMeshes/%s": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/_probe_weapon_fx_seam.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_probe_weapon_fx_world.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1,
+   "/Game/AsdaAssets/Models/Char/%s/StaticMeshes/%s": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/_probe_weapon_glow_attach.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1,
+   "/Game/AsdaAssets/Models/Char/%s/StaticMeshes/%s": 1
+  },
+  "Tools/_restore_skydome_mesh.py": {
+   "/Game/Map/": 1
+  },
+  "Tools/_shot_backdrop_shadows.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_shot_gacha_bars5.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_shot_login_camflight.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_shot_login_scale.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/_smoke_weapon_glow.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_snapshot_ui_state.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/_verify_buff_fx.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_verify_fx_ground_truth.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 2
+  },
+  "Tools/_verify_fx_kf_end_seed.py": {
+   "/Game/AsdaAssets/Effects/BP_Fx_%s": 1
+  },
+  "Tools/_verify_fx_runtime_vs_baked.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_verify_fx_scale_timing.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_verify_fx_seed_nodes.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_verify_item_use_fx.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/_verify_itemdb_union_lookup.py": {
+   "/Game/AsdaAssets/Data/ItemDB/": 1
+  },
+  "Tools/_verify_map_fx_seed.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_verify_premium_gatya_slots.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/_verify_ring_no_chiral_scope.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_verify_ring_offset_fix.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/_verify_skill_clips.py": {
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1
+  },
+  "Tools/_wing_particle_probe.py": {
+   "/Game/AsdaAssets/Effects/%s.%s_C": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_add_ambient_floor.py": {
+   "/Game/Materials/": 1
+  },
+  "Tools/asda_add_cloud_shadows.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_add_fadein_param.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Effects/M_AsdaEffectAlpha": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_add_fx_glow_params.py": {
+   "/Game/Effects": 1
+  },
+  "Tools/asda_add_toon_rim.py": {
+   "/Game/Materials/": 1
+  },
+  "Tools/asda_add_uvscroll.py": {
+   "/Game/Map/%s/ScrollMat": 1
+  },
+  "Tools/asda_add_vertexcolor_effects.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Effects/M_AsdaEffectAlpha": 1
+  },
+  "Tools/asda_add_volumetric_clouds.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_apply_fx_boost.py": {
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_apply_fx_light_defaults.py": {
+   "/Game/": 1,
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/Map": 1
+  },
+  "Tools/asda_audit_import_sources.py": {
+   "/Game/": 1,
+   "/Game/AsdaAssets/": 1
+  },
+  "Tools/asda_audit_item_textures.py": {
+   "/Game/AsdaAssets/Models": 1,
+   "/Game/AsdaAssets/Models/%s/%s/StaticMeshes/%s": 1,
+   "/Game/AsdaAssets/Textures/Items/Texture": 1,
+   "/Game/AsdaAssets/Textures/JUI/%s": 1
+  },
+  "Tools/asda_audit_local_lights.py": {
+   "/Game/": 1,
+   "/Game/Map/": 2,
+   "/Game/Map/%s/%s": 2
+  },
+  "Tools/asda_audit_material_phantoms.py": {
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/Effects": 1,
+   "/Game/Materials": 1
+  },
+  "Tools/asda_audit_orphans_brokenrefs.py": {
+   "/Game/": 1
+  },
+  "Tools/asda_backdrop_anim_live_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_bake_sky_material_params.py": {
+   "/Game/Map/%s/Materials": 1
+  },
+  "Tools/asda_bake_thumbnails.py": {
+   "/Game/AsdaAssets": 1
+  },
+  "Tools/asda_bloom_rollout.py": {
+   "/Game/": 1,
+   "/Game/Map": 1
+  },
+  "Tools/asda_bloom_verify_all.py": {
+   "/Game/": 1,
+   "/Game/Map": 1
+  },
+  "Tools/asda_build_backdrop_anim.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_build_backdrop_elements.py": {
+   "/Game/Map/Login": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_build_buff_fx_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_charlit_soul_mat.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_constellation_match_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_effect_mod_masters.py": {
+   "/Game/Effects": 1
+  },
+  "Tools/asda_build_extra_menu_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_gacha_machine_material.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_gacha_ui_material.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_login_flight_sequence.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_build_map_anim.py": {
+   "/Game/Map/": 1
+  },
+  "Tools/asda_build_map_level.py": {
+   "/Game/AsdaAssets/Textures/Maps/": 1,
+   "/Game/Map/": 1
+  },
+  "Tools/asda_build_materials.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_materials2.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_materials_lit.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_nameplates.py": {
+   "/Game/AsdaAssets/Textures/JUI/%s.%s": 2
+  },
+  "Tools/asda_build_npc_spawn.py": {
+   "/Game/Map/": 1
+  },
+  "Tools/asda_build_pet_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_plus_package_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_preview_fade_mat.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_questmark_glow.py": {
+   "/Game/AsdaAssets/Models/NPC/eff_0_npc_99_exclam-a_%02d/Materials/eff_0_npc_99_exclam-a_%02d": 1,
+   "/Game/AsdaAssets/Textures/NPC/Texture/eff_0_npc_99_exclam-a_%02d": 1
+  },
+  "Tools/asda_build_ride_effect_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_scroll_lit.py": {
+   "/Game/Map": 1,
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_server_list_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_skill_clip_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_skillfx_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_skinlit_mat.py": {
+   "/Game/AsdaAssets/Models": 1,
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_sky_dome.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_build_soul_aura_mat.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_soul_silhouette_mat.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1,
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_soulguard_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_soulmate_roulette_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_startup_ad_dt.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_build_target_highlight_mat.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_build_toon_shaders.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_check_propagate_alpha.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_cleanup_textures.py": {
+   "/Game/AsdaAssets/Textures": 1
+  },
+  "Tools/asda_clear_decor_physics_assets.py": {
+   "/Game/Map": 1
+  },
+  "Tools/asda_compile_check_mod.py": {
+   "/Game/Effects/%s": 1
+  },
+  "Tools/asda_convert_chars_lit.py": {
+   "/Game/AsdaAssets/Models/%s": 1,
+   "/Game/Map": 1,
+   "/Game/Map/Login": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_convert_map_lit.py": {
+   "/Game/": 2,
+   "/Game/Map/%s": 9,
+   "/Game/Map/%s/%s": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_df_build_settings.py": {
+   "/Game/Map/%s/%s": 1,
+   "/Game/Map/%s/Models|Terrain": 1
+  },
+  "Tools/asda_diag_backdrop.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_diag_charselect_fx.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_diag_effectmat.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1
+  },
+  "Tools/asda_diag_face_overbright.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_f_cremmy_preview/SkeletalMeshes/ch1_f_cremmy_preview": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1,
+   "/Game/AsdaAssets/Textures/Characters/Texture": 1
+  },
+  "Tools/asda_diag_wing_bone.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/asda_disable_nanite.py": {
+   "/Game/": 2
+  },
+  "Tools/asda_dump_material_diff.py": {
+   "/Game/Materials/": 1
+  },
+  "Tools/asda_dump_mesh_textures.py": {
+   "/Game/AsdaAssets/Models/Char": 1,
+   "/Game/AsdaAssets/Models/Mob": 1,
+   "/Game/AsdaAssets/Models/MobSkel": 1,
+   "/Game/AsdaAssets/Models/NPC": 1
+  },
+  "Tools/asda_dump_sun_shadows.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_effect_mob_tables.py": {
+   "/Game/AsdaAssets/Data": 3
+  },
+  "Tools/asda_export_walkgrid.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_fix_char_lit_reparent.py": {
+   "/Game/AsdaAssets/Models/%s": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_fix_char_material_blend.py": {
+   "/Game/AsdaAssets/Models/Char": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1,
+   "/Game/AsdaAssets/Models/Skeletal/EquipParts": 1,
+   "/Game/Materials/M_AsdaObject": 1
+  },
+  "Tools/asda_fix_charlit_lighting.py": {
+   "/Game/Materials/M_AsdaCharLit": 1
+  },
+  "Tools/asda_fix_cloudfield_meshes.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_fix_forge_textures.py": {
+   "/Game/AsdaAssets/Textures/Effects/%s": 1
+  },
+  "Tools/asda_fix_fx_textures.py": {
+   "/Game/Map": 1
+  },
+  "Tools/asda_fix_gltf_default_mats.py": {
+   "/Game/AsdaAssets/Models/%s": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_fix_items_loot_tex.py": {
+   "/Game/AsdaAssets/Models/Items": 1,
+   "/Game/AsdaAssets/Textures/Items/Texture": 1
+  },
+  "Tools/asda_fix_lit_ambient_floor.py": {
+   "/Game/Materials": 1
+  },
+  "Tools/asda_fix_login_sun_mobility.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_fix_map_skylights.py": {
+   "/Game/Map": 1
+  },
+  "Tools/asda_fix_material_usages.py": {
+   "/Game/Materials/": 1
+  },
+  "Tools/asda_fix_mob_static_scale.py": {
+   "/Game/Map": 1
+  },
+  "Tools/asda_fix_name_textures_pixelexact.py": {
+   "/Game/AsdaAssets/Textures/NPC/Image": 1,
+   "/Game/AsdaAssets/Textures/NPC/Portrait": 1
+  },
+  "Tools/asda_fix_objectlit_graph.py": {
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_fix_terrain_details.py": {
+   "/Game/AsdaAssets/Textures/Maps/%s/%s": 1,
+   "/Game/AsdaAssets/Textures/Maps/%s/Texture/%s": 1,
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_fix_worldmap_ui.py": {
+   "/Game/AsdaAssets/Textures/JUI": 1
+  },
+  "Tools/asda_fog_srgb.py": {
+   "/Game/Map/%s/Materials/%s": 1
+  },
+  "Tools/asda_fx_dump_masters.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Effects/M_AsdaEffectAlpha": 1
+  },
+  "Tools/asda_fx_f1_shot.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_fx_glow_dump.py": {
+   "/Game/AsdaAssets/Effects": 1
+  },
+  "Tools/asda_fx_orient_check.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/asda_fx_softfade_switch.py": {
+   "/Game/Effects": 1
+  },
+  "Tools/asda_fx_verify_masters.py": {
+   "/Game/Effects": 1
+  },
+  "Tools/asda_gacha_anim_probe.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_audit_materials.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1,
+   "/Game/Materials/M_AsdaObject": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_gacha_color_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_gacha_glass_sweep.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_grey_probe.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_light_check2.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_gacha_live_composite.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_gacha_probe_master.py": {
+   "/Game/AsdaAssets/Models/NPC": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_gacha_probe_materials.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_probe_models.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_render_check.py": {
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_gacha_shadow_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_gacha_shadow_dump.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_state_dump.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1
+  },
+  "Tools/asda_gacha_texture_check.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1,
+   "/Game/AsdaAssets/Textures/Characters/Texture/": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_glow_check.py": {
+   "/Game/": 1
+  },
+  "Tools/asda_import_all_sounds.py": {
+   "/Game/AsdaAssets/Sound": 1
+  },
+  "Tools/asda_import_combat_font.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_import_event_schedule.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_import_message_routes.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/asda_import_minimap_textures.py": {
+   "/Game/AsdaAssets/Textures/MapImage": 1
+  },
+  "Tools/asda_import_models.py": {
+   "/Game/AsdaAssets/Models": 1
+  },
+  "Tools/asda_import_textures.py": {
+   "/Game/AsdaAssets": 1
+  },
+  "Tools/asda_inven_use_fix_live_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_jui_generic_umg.py": {
+   "/Game/AsdaAssets/Textures/JUI": 1,
+   "/Game/AsdaAssets/UI": 2,
+   "/Game/AsdaAssets/UI/%s": 2
+  },
+  "Tools/asda_jui_parse.py": {
+   "/Game/AsdaAssets/Textures/JUI/%s.%s": 1
+  },
+  "Tools/asda_jui_to_umg.py": {
+   "/Game/AsdaAssets/Textures/JUI/%s.%s": 3
+  },
+  "Tools/asda_login_guard.py": {
+   "[LOGIN-GUARD] %s ОСТАНОВЛЕН: инструмент пишет в /Game/Map/Login, где стоит свет владельца. ": 1
+  },
+  "Tools/asda_map_registry.py": {
+   "%s: DirName %r ≠ папке уровня %r (путь /Game/Map/<DirName>/DA_WalkGrid спасает только ": 1,
+   "/Game/Map/": 1,
+   "/Game/Map/%s/%s": 1,
+   "/Game/Map/%s/%s.%s": 1,
+   "\\t\\treturn FString::Printf(TEXT(\"/Game/Map/%s/DA_WalkGrid.DA_WalkGrid\"), *ToAssetName(FPaths::MakeValidFileName(DirName)));": 1,
+   "уровень вне реестра: /Game/Map/%s": 1
+  },
+  "Tools/asda_material_policy.py": {
+   "/Game/Materials/M_AsdaCharLit": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_measure_wing_body.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_%s_cremmy_preview/SkeletalMeshes/ch1_%s_cremmy_previewanim_%02d": 1
+  },
+  "Tools/asda_percloud_mics.py": {
+   "/Game/AsdaAssets/Clouds/cloudblob_%s/StaticMeshes/cloudblob_%s": 1,
+   "/Game/Map/%s": 2
+  },
+  "Tools/asda_place_charselect_effect.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Effects/M_AsdaEffectAlpha": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_place_charselect_glyph.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Effects/M_AsdaEffectAlpha": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_place_cloud_shadow_actors.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_place_effects.py": {
+   "/Game/Effects/M_AsdaEffectAdd": 1,
+   "/Game/Effects/M_AsdaEffectAlpha": 1,
+   "/Game/Map/%s/EffectMat": 1,
+   "/Game/Map/%s/EffectTex": 1
+  },
+  "Tools/asda_place_effects_all.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/asda_place_sounds.py": {
+   "/Game/Map/%s/Sounds": 1
+  },
+  "Tools/asda_post_click_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_post_live_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_post_order_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_post_seen_live_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_probe_editbox_colors.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_probe_material_light.py": {
+   "/Game/Materials/M_AsdaCharLit": 2,
+   "/Game/Materials/M_AsdaObjectLit": 1,
+   "/Game/Temp/": 1,
+   "/Game/Temp/L_MatProbe_": 2,
+   "/Game/Temp/MIC_probe_%s_%s": 1
+  },
+  "Tools/asda_probe_sky_params.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_query_charselect_geom.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_query_login_grouping.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_query_login_scene.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_rebake_entity_heights.py": {
+   "/Game/Map/%s/DA_WalkGrid": 1
+  },
+  "Tools/asda_reimport_icon_atlases.py": {
+   "/Game/AsdaAssets/Textures/JUI": 1
+  },
+  "Tools/asda_reimport_multitex.py": {
+   "/Game/AsdaAssets/Models": 1
+  },
+  "Tools/asda_reimport_normals.py": {
+   "/Game/AsdaAssets": 1,
+   "/Game/AsdaAssets/": 1,
+   "/Game/AsdaAssets/Models": 1
+  },
+  "Tools/asda_remove_legacy_map_bgm.py": {
+   "/Game/AsdaAssets/Sounds/Music через UAsdaSoundSubsystem ===": 1,
+   "/Game/Map": 1
+  },
+  "Tools/asda_rename_korean_mics.py": {
+   "/Game/AsdaAssets/Models": 7
+  },
+  "Tools/asda_rescale_login_scene.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_restyle_ui_font.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_revert_fx_boost.py": {
+   "/Game/AsdaAssets/Effects": 1,
+   "/Game/Map/%s/EffectMat": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_revert_map_lit.py": {
+   "/Game/Map/%s": 1,
+   "/Game/Materials/M_AsdaObject": 1
+  },
+  "Tools/asda_rollback_blend.py": {
+   "/Game/AsdaAssets": 1,
+   "/Game/AsdaAssets/Models/Char": 1,
+   "/Game/AsdaAssets/Models/Items": 1,
+   "/Game/AsdaAssets/Models/Mob": 1,
+   "/Game/AsdaAssets/Models/MobSkel": 1,
+   "/Game/AsdaAssets/Models/NPC": 1,
+   "/Game/AsdaAssets/Models/Skeletal/Gachya": 1,
+   "/Game/Map": 1,
+   "/Game/Map/": 1,
+   "/Game/Materials": 1
+  },
+  "Tools/asda_rollout_sky_full.py": {
+   "/Game/Map/%s": 1
+  },
+  "Tools/asda_scan_level_transforms.py": {
+   "/Game": 1
+  },
+  "Tools/asda_set_foliage_switch.py": {
+   "/Game/": 2,
+   "/Game/Materials/%s": 1
+  },
+  "Tools/asda_set_login_lighting.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_set_map_lighting.py": {
+   "/Game/Map/%s/%s": 1,
+   "/Game/Materials/M_AsdaObject": 1
+  },
+  "Tools/asda_set_shadow_physics_assets.py": {
+   "/Game/": 2,
+   "/Game/AsdaAssets/Models/Skeletal/Characters": 1
+  },
+  "Tools/asda_setup_backdrop_flight.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_setup_zone_assets.py": {
+   "/Game/AsdaAssets/Data": 1,
+   "/Game/AsdaAssets/Sounds/Music": 1,
+   "/Game/AsdaAssets/Textures/NPC/Image": 1,
+   "/Game/AsdaAssets/Textures/NPC/Portrait": 1
+  },
+  "Tools/asda_shot_alpha_fix.py": {
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_shot_blend_models.py": {
+   "/Game/AsdaAssets/Models": 1,
+   "/Game/Materials": 1
+  },
+  "Tools/asda_shot_level.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/asda_shot_login_text.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_shot_npc.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/asda_shot_npc_mob_masters.py": {
+   "/Game/Materials": 1,
+   "/Game/Materials/M_AsdaObjectLit": 1
+  },
+  "Tools/asda_shot_target_highlight.py": {
+   "/Game/Map/%s/%s": 1
+  },
+  "Tools/asda_sky_inventory_dump.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_terrain_patches.py": {
+   "/Game/Map/": 1
+  },
+  "Tools/asda_tune_pp.py": {
+   "/Game/Map": 1
+  },
+  "Tools/asda_ui_caption_states_live_check.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_dump_all.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_dump_window.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_editbox_colors.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_fix_text_colors.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_missing_interactive.py": {
+   "/Game/AsdaAssets/Textures/JUI": 1
+  },
+  "Tools/asda_ui_missing_text_nodes.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_name_diff.py": {
+   "/Game/": 2
+  },
+  "Tools/asda_ui_text_style926.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_ui_title_tab_cover_z.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/asda_verify_backdrop_bbox.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_verify_blend_groups.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/asda_verify_char_materials.py": {
+   "/Game/AsdaAssets/Models": 1
+  },
+  "Tools/asda_verify_ground_height.py": {
+   "/Game/Map/%s/DA_WalkGrid.DA_WalkGrid": 1
+  },
+  "Tools/asda_verify_lighting.py": {
+   "/Game/Map/Login": 1,
+   "/Game/Materials/": 1
+  },
+  "Tools/asda_verify_mesh_normals.py": {
+   "/Game/Map/": 1
+  },
+  "Tools/asda_verify_pathfinding.py": {
+   "/Game/Map/%s/DA_WalkGrid": 1
+  },
+  "Tools/asda_verify_zone_data.py": {
+   "/Game/AsdaAssets/Sounds/Music": 1,
+   "/Game/AsdaAssets/Textures/NPC/Image": 1,
+   "/Game/AsdaAssets/Textures/NPC/Portrait": 1
+  },
+  "Tools/asda_wire_model_materials.py": {
+   "/Game/AsdaAssets/Models": 1,
+   "/Game/AsdaAssets/Textures": 1,
+   "/Game/Materials/M_AsdaObject": 1
+  },
+  "Tools/check_tex.py": {
+   "/Game/AsdaAssets/Textures/JUI/%s": 1
+  },
+  "Tools/create_blackscreen_material.py": {
+   "/Game/Effects": 1
+  },
+  "Tools/dump_cremmy_bones.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/dump_nameplate_brushes.py": {
+   "/Game/AsdaAssets/UI/GameMain/%s.%s": 1
+  },
+  "Tools/export_tex.py": {
+   "/Game/AsdaAssets/Textures/JUI/%s": 1
+  },
+  "Tools/fix_preview_body_materials.py": {
+   "/Game/AsdaAssets/Models": 1
+  },
+  "Tools/gen_itemdb_structs.py": {
+   "/Game/AsdaAssets/Data/ItemDB/DT_{base}": 1
+  },
+  "Tools/import_casket.py": {
+   "/Game/AsdaAssets/Models/Char": 1,
+   "/Game/AsdaAssets/Textures/Characters/Texture": 1
+  },
+  "Tools/import_char_possess.py": {
+   "/Game/AsdaAssets/Textures": 1
+  },
+  "Tools/import_creback.py": {
+   "/Game/AsdaAssets/Models/Char": 1
+  },
+  "Tools/import_equip_parts.py": {
+   "/Game/AsdaAssets/Models/Skeletal/EquipParts": 1,
+   "/Game/AsdaAssets/Textures": 1,
+   "/Game/AsdaAssets/Textures/Characters/Texture": 1,
+   "/Game/Materials/M_AsdaCharLit": 1
+  },
+  "Tools/import_gametext.py": {
+   "/Game/AsdaAssets/Text": 1
+  },
+  "Tools/import_jui_textures.py": {
+   "/Game/AsdaAssets/Textures/JUI": 1
+  },
+  "Tools/import_login_helper.py": {
+   "/Game/AsdaAssets/Text": 1
+  },
+  "Tools/import_login_music.py": {
+   "/Game/AsdaAssets/Sounds/Music": 1
+  },
+  "Tools/import_sound_table.py": {
+   "/Game/AsdaAssets/Sound": 1
+  },
+  "Tools/import_text_tables.py": {
+   "/Game/AsdaAssets/Text": 1
+  },
+  "Tools/import_ui_sound.py": {
+   "/Game/AsdaAssets/Sounds/UI": 1
+  },
+  "Tools/make_load_assets.py": {
+   "/Game/AsdaAssets/Data": 1
+  },
+  "Tools/make_login_level.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/make_richtext_style.py": {
+   "/Game/AsdaAssets/UI": 1
+  },
+  "Tools/patch_login_camera_169.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/set0_dump_light_actors.py": {
+   "/Game/Map/%s/%s": 1,
+   "/Game/Map/Login": 1
+  },
+  "Tools/shot_login.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/shot_shadow_check.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/ue_probe_creback_bones.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/verify_char_cremmy.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_m_cremmy_preview/SkeletalMeshes/ch1_m_cremmy_preview": 1
+  },
+  "Tools/verify_login_level.py": {
+   "/Game/Map/Login": 1
+  },
+  "Tools/verify_move35.py": {
+   "/Game/AsdaAssets/Models/Skeletal/Characters/ch1_%s_cremmy_preview/SkeletalMeshes/ch1_%s_cremmy_previewanim_35": 1
+  },
+  "Tools/verify_text.py": {
+   "/Game/AsdaAssets/Text/%s": 1
+  }
+ }
+}

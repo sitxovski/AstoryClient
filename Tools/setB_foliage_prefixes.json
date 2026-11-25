@@ -1,0 +1,39 @@
+{
+  "_comment": [
+    "Сет B (05.09.2026): префиксы имён МОДЕЛЕЙ карт (.mapraw), которые считаются ЛИСТВОЙ/карточками — у их ISM-компонентов",
+    "`I_<model>` режим `ASDA_LIT_MODE=shadow ASDA_ISM_CONTACT=off` снимает cast_contact_shadow (контакт-тень на плоских",
+    "карточках даёт полосы). Сравнение без регистра, startswith. Источники: список владельца (tree_/gru_/flower_/natu_/grass)",
+    "+ Reports/render_sets_2026-09-05/e5b_billboards.md (модели без нормалей: flower_002_*, GLASS_002_*, tree_gru_012_*).",
+    "НЕ входят по решению developer_round2.md §2.2: ip_ (13 без нормалей — не листва), shop_ (2). Дополнительно (можно убрать):",
+    "burntree_ (обгорелые деревья, 18 инстансов), mushroom (8) — по имени явно растительность; остальные префиксы .mapraw",
+    "(mdel_/sos_/ston_/flabis_/ches_/wu_/g_/crystal*/fire_/egung/garo/gusin/…) — архитектура/камни/кристаллы, не листва.",
+    "Перечень всех префиксов 23 карт снят офлайн 05.09 (asda_e5_billboards.read_models): natu 7768, tree 1518, flower 235,",
+    "glass 29, grass 10, burntree 18, mushroom 8 инстансов-моделей.",
+    "★ Ревизия 05.09 (review_setB_prep.md ВАЖНО-2/М-4): `natu_` захватывал КАМНИ/УТЁСЫ/ГАЗОНЫ/ВОДОПАД (natu_tworock 16, natu_cliffrock* 60,",
+    "natu_decocliff* 25, natu_dunerock* 3, natu_stone* 6, natu_waterfall 10, natu_lawn03..09 ≈155 — инвентарь 23 .mapraw 05.09) — это не карточки,",
+    "контакт-тень у их подножий как раз нужна. Поэтому `exclude`: модель, имя которой СОДЕРЖИТ любую подстроку, листвой НЕ считается",
+    "(проверяется в asda_convert_map_lit.is_foliage_model после префикса). `gru_` убран — 0 совпадений на 23 картах (gru есть только внутри tree_gru_).",
+    "Остаток natu_ = деревья/листья/кусты/трава: awtree 1342, poplar 2693, bigtree03 916, leaf01/02 629, willowtree 400, firtree 349, mhorsetail 316,",
+    "maple01 248, whitebirch 192, deadtree 148, socollny/bsocollny/dk* 64, littletree 38, mushroom01..03 70, grove03 21, grassweed 16, cosmos/dandelion/creeper/ereed/poisonpt/banditbul 49.",
+    "★ Доводка 05.09 (review_setB_apply.md ВАЖНО-2): `lawn` из exclude УБРАН — natu_lawn03/06/07 по e5b_billboards.md:111-125 это многокарточные билборды без нормалей (2 и 8 карточек, высота 37–188, кусты-кресты), а не плоские газоны; 155 ISM на alpen_dungeon/conquester/silalis/rein/sunnycoast оставались с контакт-тенью. Повторный `shadow` только на этих 5 картах (setB_fix_report.md)."
+  ],
+  "prefixes": [
+    "tree_",
+    "tree",
+    "flower_",
+    "flower",
+    "natu_",
+    "grass",
+    "glass_",
+    "glass",
+    "burntree_",
+    "mushroom"
+  ],
+  "exclude": [
+    "rock",
+    "cliff",
+    "waterfall",
+    "stone",
+    "tunnel"
+  ]
+}

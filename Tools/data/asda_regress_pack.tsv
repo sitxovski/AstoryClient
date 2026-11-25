@@ -1,0 +1,389 @@
+# asda_regress_pack.tsv — ведомость регрессионного набора самотестов клиента (Tools/asda_regress_pack.py).
+# Столбцы: id | группа (login, world, map:<карта>; «!» в конце — одиночная игра) | команда с аргументами |
+#   потолок_с (пусто = --timeout) | языки (ru или ru,en — сверяет текст) | вкл (0 = в набор не входит, причина в примечании) | примечание | файл регистрации.
+# Собрана 10.11.2026 по исходникам alpha-7.6.0 и сборке Dev 2026-11-10_1806 (R0-a рефакторинга).
+id	группа	команда	потолок_с	языки	вкл	примечание	файл
+asda.Action.SelfTest	world	asda.Action.SelfTest		ru	1		AsdaReborn/Private/AsdaActionStateSelfTest.cpp:253
+asda.Admin.SelfTestGmBlock6094	world	asda.Admin.SelfTestGmBlock6094		ru,en	1		AsdaReborn/Private/World/AsdaAdminSubsystem.cpp:1264
+asda.Admin.SelfTestOperatorGate	world	asda.Admin.SelfTestOperatorGate		ru,en	1		AsdaReborn/Private/World/AsdaAdminSubsystem.cpp:1122
+asda.Anim.SelfTestSmooth	world	asda.Anim.SelfTestSmooth		ru	1		AsdaReborn/Private/AsdaAnimSmoothSelfTest.cpp:567
+asda.Bench.SelfTest	world	asda.Bench.SelfTest		ru,en	1		AsdaReborn/Private/Resources/AsdaBenchSubsystem.cpp:851
+asda.Bow.SelfTestNockSwap	world	asda.Bow.SelfTestNockSwap		ru	1		AsdaReborn/Private/AsdaNockArrowSelfTest.cpp:499
+asda.Buff.SelfTestExpiry	world	asda.Buff.SelfTestExpiry		ru,en	1		AsdaReborn/Private/AsdaStatusFxExpirySelfTest.cpp:592
+asda.Buff.SelfTestMobStates	world	asda.Buff.SelfTestMobStates		ru	1		AsdaReborn/Private/AsdaMobStateListSelfTest.cpp:308
+asda.Camera.SelfTestMelee	world	asda.Camera.SelfTestMelee	240	ru	1		AsdaReborn/Private/World/AsdaCameraMeleeSelfTest.cpp:621
+asda.Camera.SelfTestOcclusion	world	asda.Camera.SelfTestOcclusion		ru	1		AsdaReborn/Private/AsdaCameraOcclusionSelfTest.cpp:870
+asda.Camera.SelfTestOrbitCursor	world	asda.Camera.SelfTestOrbitCursor		ru	1		AsdaReborn/Private/World/AsdaOrbitCursorSelfTest.cpp:547
+asda.CashGift.GmRefuseSelfTest	world	asda.CashGift.GmRefuseSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaCashGiftGmSelfTest.cpp:346
+asda.Char.SelfTestHitFlinch	world	asda.Char.SelfTestHitFlinch		ru,en	1		AsdaReborn/Private/AsdaCombat3SelfTest.cpp:1060
+asda.CharInfo.Batch16SelfTest	world	asda.CharInfo.Batch16SelfTest		ru,en	1		AsdaReborn/Private/AsdaCharInfoBatch16SelfTest.cpp:395
+asda.CharInfo.FishSkillSelfTest	world	asda.CharInfo.FishSkillSelfTest delay=12		ru	1		AsdaReborn/Private/AsdaCharInfoFishSkillSelfTest.cpp:237
+asda.CharInfo.HonorCraftSelfTest	world	asda.CharInfo.HonorCraftSelfTest		ru,en	1		AsdaReborn/Private/AsdaCharInfoHonorCraftSelfTest.cpp:297
+asda.Chat.BalloonSelfTest	world	asda.Chat.BalloonSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaChatBalloonSelfTest.cpp:400
+asda.Chat.ChannelGateSelfTest	world	asda.Chat.ChannelGateSelfTest		ru	1		AsdaReborn/Private/AsdaChatChannelGateSelfTest.cpp:351
+asda.Clan.BtnSelfTest	world	asda.Clan.BtnSelfTest delay=12		ru,en	1		AsdaReborn/Private/AsdaClanBtn6099SelfTest.cpp:543
+asda.Clan.FriendGateSelfTest	world	asda.Clan.FriendGateSelfTest delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaClanSubsystem.cpp:2321
+asda.Clan.IncreaseSelfTest	world	asda.Clan.IncreaseSelfTest delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaClanSubsystem.cpp:1783
+asda.Clan.NoClanSelfTest	world	asda.Clan.NoClanSelfTest		ru,en	1		AsdaReborn/Private/AsdaClanNoClanSelfTest.cpp:241
+asda.Clan.TabSelfTest	world	asda.Clan.TabSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaClanTabSelfTest.cpp:904
+asda.Clouds.SelfTestShadowSetting	world	asda.Clouds.SelfTestShadowSetting		ru,en	1		AsdaReborn/Private/World/AsdaCloudShadowSettingSelfTest.cpp:236
+asda.Combat.SelfTestHitFrame	world	asda.Combat.SelfTestHitFrame	480	ru	1		AsdaReborn/Private/AsdaCombatHitFrameSelfTest.cpp:1351
+asda.Combat.SelfTestObserverSync	world!	asda.Combat.SelfTestObserverSync	600	ru	1	разведка: не уложился в 240 с	AsdaReborn/Private/AsdaCombatObserverSyncSelfTest.cpp:1980
+asda.Combat.SelfTestPvp	world!	asda.Combat.SelfTestPvp	600	ru	1	разведка: не уложился в 240 с	AsdaReborn/Private/AsdaCombatPvpSelfTest.cpp:1583
+asda.Combat.SelfTestRhythm	world	asda.Combat.SelfTestRhythm	540	ru	1		AsdaReborn/Private/AsdaAttackRhythmSelfTest.cpp:945
+asda.Combat.SelfTestStunAttack	world	asda.Combat.SelfTestStunAttack		ru	1		AsdaReborn/Private/AsdaStunAttackSelfTest.cpp:473
+asda.Constellation.SelfTestFramePlanes	world	asda.Constellation.SelfTestFramePlanes		ru	1	13.11.2026 R5-fix-b (К1): окно знака зодиака 74500 офлайн — планы рамки CollectByIdc = независимый перебор дерева, 9 планов рамки	AsdaReborn/Private/UI/AsdaConstellationSubsystem.cpp:943
+asda.Community.FriendRows7SelfTest	world	asda.Community.FriendRows7SelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaFriendRows7SelfTest.cpp:340
+asda.Community.OnlineSelfTest	world	asda.Community.OnlineSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaCommunityOnlineSelfTest.cpp:291
+asda.Craft.SelfTest	world!	asda.Craft.SelfTest delay=12		ru	1	D4 11.11: ожидания подписей только русские (AsdaCraftWindowSubsystem.cpp:1265-1272) — на EN не гнать	AsdaReborn/Private/UI/AsdaCraftWindowSubsystem.cpp:1156
+asda.Craft.SelfTestDisassembly	world	asda.Craft.SelfTestDisassembly delay=12		ru	1		AsdaReborn/Private/UI/AsdaDisassemblySelfTest.cpp:778
+asda.Craft.SelfTestMake	world	asda.Craft.SelfTestMake delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaCraftMakeWindowSubsystem.cpp:1271
+asda.Craft.SelfTestRecipe	world	asda.Craft.SelfTestRecipe delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaCraftRecipeWindowSubsystem.cpp:1217
+asda.Craft.SelfTestSnapshot	world	asda.Craft.SelfTestSnapshot delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaCraftMakeWindowSubsystem.cpp:1807
+asda.Craft.SelfTestW5	world	asda.Craft.SelfTestW5 delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaCraftMakeWindowSubsystem.cpp:1976
+asda.Craft.SelfTestW8	world!	asda.Craft.SelfTestW8 delay=12		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaCraftMakeWindowSubsystem.cpp:2234
+asda.Dedup.W1ASelfTest	world	asda.Dedup.W1ASelfTest 2000		ru	1		AsdaReborn/Private/UI/AsdaDedupW1ASelfTest.cpp:718
+asda.Dedup.W1BSelfTest	world	asda.Dedup.W1BSelfTest 2000		ru	1		AsdaReborn/Private/UI/AsdaDedupW1BSelfTest.cpp:711
+asda.Dedup.W1CSelfTest	world	asda.Dedup.W1CSelfTest 100		ru	1		AsdaReborn/Private/AsdaDedupW1CSelfTest.cpp:605
+asda.DevMenu.SelfTest	world	asda.DevMenu.SelfTest 8 slider		ru,en	1		AsdaReborn/Private/UI/AsdaDevMenuSubsystem.cpp:1943
+asda.EliteMail.RowsSelfTest	world	asda.EliteMail.RowsSelfTest		ru	1		AsdaReborn/Private/UI/AsdaPremiumPostSubsystem.cpp:2695
+asda.Exchange.MarketSelfTest	world!	asda.Exchange.MarketSelfTest		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaExchangeMarketSelfTest.cpp:574
+asda.Exchange.SelfTest	world	asda.Exchange.SelfTest 4		ru,en	1		AsdaReborn/Private/UI/AsdaExchangeSubsystem.cpp:371
+asda.ExtraMenu.DragSelfTest	world	asda.ExtraMenu.DragSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaExtraMenuSubsystem.cpp:1443
+asda.Fish.AnimSelfTest	world	asda.Fish.AnimSelfTest delay=12	720	ru	1		AsdaReborn/Private/AsdaFishAnimSelfTest.cpp:2232
+asda.Fish.SelfTest	world	asda.Fish.SelfTest delay=12		ru	1		AsdaReborn/Private/AsdaFishingSelfTest.cpp:897
+asda.Fish.WinSelfTest	world	asda.Fish.WinSelfTest delay=12		ru,en	1		AsdaReborn/Private/AsdaFishWinSelfTest.cpp:650
+asda.Fish.ZoneSelfTest	world!	asda.Fish.ZoneSelfTest		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaFishZoneSelfTest.cpp:1836
+asda.FishBook.SelfTest	world	asda.FishBook.SelfTest delay=12		ru,en	1		AsdaReborn/Private/AsdaFishBookSelfTest.cpp:1877
+asda.Fx.AlphaClampSelfTest	world	asda.Fx.AlphaClampSelfTest		ru	1		AsdaReborn/Private/AsdaEffectActor.cpp:4724
+asda.Fx.Glow.SelfTest	world	asda.Fx.Glow.SelfTest		ru	0	нет в Dev-сборке (редактор/гвард)	AsdaReborn/Private/AsdaEffectActor.cpp:5296
+asda.Fx.StatusSelfTest	world	asda.Fx.StatusSelfTest		ru	1		AsdaReborn/Private/AsdaFxStatusSelfTest.cpp:350
+asda.HairShop.SelfTest	world	asda.HairShop.SelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaHairShopSubsystem.cpp:1893
+asda.HighRefine.SelfTest	world!	asda.HighRefine.SelfTest delay=12		ru,en	1	разведка: игра завершилась посреди самотеста — в одиночной игре	AsdaReborn/Private/UI/AsdaHighRefineSubsystem.cpp:1822
+asda.Input.SelfTestClickQueue	world!	asda.Input.SelfTestClickQueue		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaClickQueueSelfTest.cpp:385
+asda.Item.LevelGateSelfTest	world!	asda.Item.LevelGateSelfTest		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Items/AsdaItemLevelGateSelfTest.cpp:44
+asda.Lang.SelfTest	login	asda.Lang.SelfTest		ru,en	1		AsdaReborn/Private/Text/AsdaLangSelfTest.cpp:111
+asda.Lang.SelfTestCaptions	login	asda.Lang.SelfTestCaptions		ru,en	1		AsdaReborn/Private/UI/AsdaLangSelectSubsystem.cpp:300
+asda.Lang.SelfTestLive	world!	asda.Lang.SelfTestLive		ru,en	0	D4 11.11: стенд — вторая половина сценария «окно первого выбора языка → применение на лету»; без выбора в окне профиль пуст (4 провала). В набор не входит	AsdaReborn/Private/UI/AsdaLangSelectSubsystem.cpp:438
+asda.Lang.SelfTestPie	world	asda.Lang.SelfTestPie		ru,en	0	нет в Dev-сборке (редактор/гвард)	AsdaReborn/Private/UI/AsdaLangSelectSubsystem.cpp:664
+asda.Lang.SelfTestPieAssets	world	asda.Lang.SelfTestPieAssets		ru,en	0	нет в Dev-сборке (редактор/гвард)	AsdaReborn/Private/UI/AsdaLangSelectSubsystem.cpp:853
+asda.Lang.SelfTestWindow	login	asda.Lang.SelfTestWindow ru		ru,en	1		AsdaReborn/Private/UI/AsdaLangSelectSubsystem.cpp:213
+asda.Load.FadeSelfTest	world	asda.Load.FadeSelfTest		ru,en	1		AsdaReborn/Private/World/AsdaLoadFadeSelfTest.cpp:371
+asda.Load.PictureSelfTest	world	asda.Load.PictureSelfTest	420	ru,en	1		AsdaReborn/Private/World/AsdaLoadPictureSelfTest.cpp:200
+asda.Load.WarpShotsSelfTest	world	asda.Load.WarpShotsSelfTest		ru,en	1		AsdaReborn/Private/World/AsdaWarpShotsSelfTest.cpp:307
+asda.Login.SelfTestCreateClicks	login	asda.Login.SelfTestCreateClicks		ru,en	1		AsdaReborn/Private/Login/AsdaCreateClicksSelfTest.cpp:375
+asda.Login.SelfTestCreateDim	login	asda.Login.SelfTestCreateDim		ru	1		AsdaReborn/Private/Login/AsdaCreateDimSelfTest.cpp:328
+asda.Login.SelfTestSoulInfoTip	login	asda.Login.SelfTestSoulInfoTip	300	ru	1		AsdaReborn/Private/Login/AsdaSoulInfoTipSelfTest.cpp:276
+asda.Login.SoulmateStatusSelfTest	login!	asda.Login.SoulmateStatusSelfTest		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Login/AsdaSoulmateStatusSelfTest.cpp:234
+asda.LoginGuard.SelfTestCmdLine	world	asda.LoginGuard.SelfTestCmdLine		ru	0	нет в Dev-сборке (редактор/гвард)	AsdaImporters/Private/Editor/AsdaLoginSaveGuard.cpp:1282
+asda.LoginGuard.SelfTestFilePaths	world	asda.LoginGuard.SelfTestFilePaths		ru	0	нет в Dev-сборке (редактор/гвард)	AsdaImporters/Private/Editor/AsdaLoginFileGuard.cpp:1790
+asda.LoginGuard.SelfTestPackageList	world	asda.LoginGuard.SelfTestPackageList		ru	0	нет в Dev-сборке (редактор/гвард)	AsdaImporters/Private/Editor/AsdaLoginSaveGuard.cpp:1287
+asda.Mine.TravelSelfTest	world	asda.Mine.TravelSelfTest		ru,en	1		AsdaReborn/Private/World/AsdaMineTravelSelfTest.cpp:360
+asda.Mob.SelfTestBatchSpawn	world	asda.Mob.SelfTestBatchSpawn		ru	1		AsdaReborn/Private/AsdaMobBatchSpawnSelfTest.cpp:451
+asda.Mob.SelfTestLivePos	world	asda.Mob.SelfTestLivePos		ru	1		AsdaReborn/Private/AsdaMobLivePosSelfTest.cpp:755
+asda.Mob.SelfTestSegment	world	asda.Mob.SelfTestSegment	240	ru	1		AsdaReborn/Private/AsdaMobSegmentSelfTest.cpp:464
+asda.Mob.SelfTestSkill	world	asda.Mob.SelfTestSkill	300	ru	1		AsdaReborn/Private/AsdaMobSkillSelfTest.cpp:747
+asda.Mount.FxSelfTest	world!	asda.Mount.FxSelfTest	600	ru	1	разведка: не уложился в 240 с	AsdaReborn/Private/World/AsdaMountFxSelfTest.cpp:739
+asda.Move.SelfTest4007	world	asda.Move.SelfTest4007 delay=12		ru	1		AsdaReborn/Private/AsdaMove4007SelfTest.cpp:3270
+asda.Move.SelfTestKeyboard	world!	asda.Move.SelfTestKeyboard delay=12	600	ru	1	разведка: не уложился в 240 с	AsdaReborn/Private/AsdaMove4007SelfTest.cpp:3258
+asda.MsgBox.SelfTest	world	asda.MsgBox.SelfTest delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaMsgBoxQueueSelfTest.cpp:63
+asda.Net.CharIdSendersSelfTest	world	asda.Net.CharIdSendersSelfTest delay=12		ru	1		AsdaReborn/Private/AsdaCharIdSendersSelfTest.cpp:644
+asda.Net.SelfTest4024	world!	asda.Net.SelfTest4024 delay=12		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaPkt4024SelfTest.cpp:347
+asda.Net.SelfTest5055	world	asda.Net.SelfTest5055 delay=12		ru,en	1		AsdaReborn/Private/AsdaPortal5055SelfTest.cpp:293
+asda.Net.SelfTest5058Slots	world	asda.Net.SelfTest5058Slots		ru,en	1		AsdaReborn/Private/AsdaNetSubsystem_Session.cpp:1350
+asda.Net.SelfTestHeartbeat	world	asda.Net.SelfTestHeartbeat		ru	1		AsdaReborn/Private/AsdaNetHeartbeatSelfTest.cpp:69
+asda.Net.SelfTestSitStand	world!	asda.Net.SelfTestSitStand delay=12	420	ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaPkt4024SelfTest.cpp:1021
+asda.Net.SelfTestStop4008	world	asda.Net.SelfTestStop4008 delay=12		ru	1		AsdaReborn/Private/AsdaStop4008SelfTest.cpp:313
+asda.Npc.SelfTestWave2B	world	asda.Npc.SelfTestWave2B delay=12		ru,en	1		AsdaReborn/Private/AsdaNpcWave2BSelfTest.cpp:590
+asda.OtherChara.EnchantTextSelfTest	world	asda.OtherChara.EnchantTextSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaInspectEnchantSelfTest.cpp:268
+asda.Overhead.SelfTestFarNames	world	asda.Overhead.SelfTestFarNames		ru	1		AsdaReborn/Private/World/AsdaOverheadFarNamesSelfTest.cpp:395
+asda.Overhead.SelfTestLag	world	asda.Overhead.SelfTestLag		ru	1		AsdaReborn/Private/World/AsdaOverheadOcclusionSelfTest.cpp:823
+asda.Overhead.SelfTestMount	world	asda.Overhead.SelfTestMount		ru	1		AsdaReborn/Private/World/AsdaOverheadMountSelfTest.cpp:414
+asda.Overhead.SelfTestOcclude	world	asda.Overhead.SelfTestOcclude		ru	1		AsdaReborn/Private/World/AsdaOverheadOcclusionSelfTest.cpp:796
+asda.Overhead.SelfTestRelog	world	asda.Overhead.SelfTestRelog		ru,en	1		AsdaReborn/Private/World/AsdaOverheadRelogSelfTest.cpp:302
+asda.Overhead.SelfTestTrees	world	asda.Overhead.SelfTestTrees		ru	1		AsdaReborn/Private/World/AsdaOverheadTreesSelfTest.cpp:326
+asda.Party.ChatSelfTest	world	asda.Party.ChatSelfTest		ru	1		AsdaReborn/Private/AsdaPartyChatSelfTest.cpp:262
+asda.Party.SelfTestBuff	world	asda.Party.SelfTestBuff		ru	1		AsdaReborn/Private/AsdaPartyBuffSelfTest.cpp:313
+asda.PartyFind.SelfTest	world	asda.PartyFind.SelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaPartyFindSubsystem.cpp:1851
+asda.Perf.TravelSelfTest	world!	asda.Perf.TravelSelfTest	540	ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaPerfTravelSelfTest.cpp:496
+asda.Pet.SelfTest	world	asda.Pet.SelfTest		ru,en	1		AsdaReborn/Private/Pet/AsdaPetSubsystem.cpp:2701
+asda.Pet.SelfTestCallPaths	world	asda.Pet.SelfTestCallPaths		ru	1		AsdaReborn/Private/Pet/AsdaPetCallPathsSelfTest.cpp:466
+asda.Pet.SelfTestGround	world	asda.Pet.SelfTestGround		ru	1		AsdaReborn/Private/Pet/AsdaPetGroundSelfTest.cpp:393
+asda.Pet.SelfTestLimitBreak	world!	asda.Pet.SelfTestLimitBreak		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Pet/AsdaPetLimitBreakSelfTest.cpp:404
+asda.Pet.SelfTestNameRule	world	asda.Pet.SelfTestNameRule		ru,en	1		AsdaReborn/Private/UI/AsdaPetCageSubsystem.cpp:3922
+asda.Pet.SelfTestRelease	world	asda.Pet.SelfTestRelease		ru	1		AsdaReborn/Private/Pet/AsdaPetReleaseSelfTest.cpp:345
+asda.Pet.SelfTestSelfRestore	world!	asda.Pet.SelfTestSelfRestore		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Pet/AsdaPetSelfRestoreSelfTest.cpp:288
+asda.Pet.SelfTestStatusTravel	world	asda.Pet.SelfTestStatusTravel		ru	1		AsdaReborn/Private/Pet/AsdaPetStatusTravelSelfTest.cpp:273
+asda.PremiumMall.BoosterLayoutSelfTest	world	asda.PremiumMall.BoosterLayoutSelfTest		ru,en	0	нужен файл дерева проекта, в собранной игре его нет (ОТКАЗ: нет файла)	AsdaReborn/Private/UI/AsdaBoosterShopLayoutSelfTest.cpp:151
+asda.PremiumMall.BoosterNamesSelfTest	world	asda.PremiumMall.BoosterNamesSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:3843
+asda.PremiumMall.BoosterTabsSelfTest	world	asda.PremiumMall.BoosterTabsSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaBoosterShopTabsSelfTest.cpp:74
+asda.PremiumMall.BoosterZonesSelfTest	world	asda.PremiumMall.BoosterZonesSelfTest	240	ru	1		AsdaReborn/Private/UI/AsdaBoosterZonesSelfTest.cpp:284
+asda.PremiumMall.BoxAddSelfTest	world	asda.PremiumMall.BoxAddSelfTest		ru,en	0	нужна спецификация из Tools/data дерева проекта, из сборки путь не находится	AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:4305
+asda.PremiumMall.BoxNamesSelfTest	world	asda.PremiumMall.BoxNamesSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:4015
+asda.PremiumMall.CartSelfTest	world	asda.PremiumMall.CartSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:4597
+asda.PremiumMall.FailBalanceSelfTest	world	asda.PremiumMall.FailBalanceSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:3731
+asda.PremiumMall.Code0ESelfTest	world	asda.PremiumMall.Code0ESelfTest		ru,en	1	13.11.2026 строка 12961 (решение владельца): код 0x0E ответа 5071 в окне 6000 и магазине бустеров 15300 → «Не продаётся» / «Not For Sale»	AsdaReborn/Private/UI/AsdaPremiumShopSubsystem_Debug.cpp:639
+asda.PremiumMall.PendingSelfTest	world	asda.PremiumMall.PendingSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:3634
+asda.PremiumMall.SelfTest	world	asda.PremiumMall.SelfTest 8		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumShopSubsystem.cpp:3488
+asda.Quest.RouteSelfTest	world	asda.Quest.RouteSelfTest		ru	1		AsdaReborn/Private/Quest/AsdaQuestTracker.cpp:1337
+asda.Quest.SelfTestJob4	world!	asda.Quest.SelfTestJob4		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Quest/AsdaQuestJobChangeSelfTest.cpp:1576
+asda.Quest.SelfTestJobChange	world	asda.Quest.SelfTestJobChange		ru,en	1		AsdaReborn/Private/Quest/AsdaQuestJobChangeSelfTest.cpp:1441
+asda.Quest.SelfTestJobChangeSkills	world	asda.Quest.SelfTestJobChangeSkills		ru,en	1		AsdaReborn/Private/Quest/AsdaQuestJobChangeSelfTest.cpp:1529
+asda.Quest.SelfTestRewardLines	world	asda.Quest.SelfTestRewardLines		ru,en	1		AsdaReborn/Private/Quest/AsdaQuestJobChangeSelfTest.cpp:1485
+asda.Quick.SelfTestEmoteIcons	world	asda.Quick.SelfTestEmoteIcons		ru,en	1		AsdaReborn/Private/UI/AsdaHotbarSubsystem.cpp:4012
+asda.SelfTest.AmbientVolume	world	asda.SelfTest.AmbientVolume	240	ru	1		AsdaReborn/Private/AsdaAmbientVolumeSelfTest.cpp:483
+asda.SelfTest.BagBoosterTip	world	asda.SelfTest.BagBoosterTip		ru,en	1		AsdaReborn/Private/UI/AsdaBagBoosterTipSelfTest.cpp:346
+asda.SelfTest.Batch	world	asda.SelfTest.Batch		ru	0	сам пакетный прогон, не самотест обязательные аргументы по справке: file=<путь> list=<к1>	AsdaReborn/Private/AsdaSelfTestBatch.cpp:337
+asda.SelfTest.BoardQuest	world	asda.SelfTest.BoardQuest		ru,en	1		AsdaReborn/Private/Quest/AsdaBoardQuestSelfTest.cpp:676
+asda.SelfTest.BoardZone	map:silalis!	asda.SelfTest.BoardZone map=0		ru	1	D4 11.11: на Альпене (map=3) досок объявлений нет; карта 0	AsdaReborn/Private/Npc/AsdaBoardZoneSelfTest.cpp:659
+asda.SelfTest.BoosterBusy	world	asda.SelfTest.BoosterBusy		ru,en	1		AsdaReborn/Private/UI/AsdaBoosterBusySelfTest.cpp:342
+asda.SelfTest.BoosterLoot	world	asda.SelfTest.BoosterLoot		ru,en	1		AsdaReborn/Private/UI/AsdaBoosterLootSelfTest.cpp:500
+asda.SelfTest.BoosterView	world	asda.SelfTest.BoosterView		ru,en	1		AsdaReborn/Private/UI/AsdaBoosterViewSelfTest.cpp:571
+asda.SelfTest.BoxClass	world	asda.SelfTest.BoxClass		ru,en	1		AsdaReborn/Private/UI/AsdaBoxClassSelfTest.cpp:436
+asda.SelfTest.BuffEnterWorld	world	asda.SelfTest.BuffEnterWorld		ru,en	1		AsdaReborn/Private/AsdaBuffEnterWorldSelfTest.cpp:209
+asda.SelfTest.CVarGuard	world	asda.SelfTest.CVarGuard		ru	1		AsdaReborn/Private/AsdaCVarGuardSelfTest.cpp:96
+asda.SelfTest.CashGift	world	asda.SelfTest.CashGift		ru	1		AsdaReborn/Private/UI/AsdaCashGiftSelfTest.cpp:658
+asda.SelfTest.ChannelMove	world!	asda.SelfTest.ChannelMove		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaChannelMoveSelfTest.cpp:459
+asda.SelfTest.ChannelMoveStop	world	asda.SelfTest.ChannelMoveStop		ru,en	1		AsdaReborn/Private/AsdaChannelMoveStopSelfTest.cpp:494
+asda.SelfTest.CharCreateButtons	login	asda.SelfTest.CharCreateButtons		ru,en	1		AsdaReborn/Private/UI/AsdaPurchaseBoxLayoutSelfTest.cpp:428
+asda.SelfTest.ChargeStackReserve	world	asda.SelfTest.ChargeStackReserve		ru	1		AsdaReborn/Private/UI/AsdaChargeStackSelfTest.cpp:470
+asda.SelfTest.CityTaxSave	world	asda.SelfTest.CityTaxSave		ru,en	1		AsdaReborn/Private/UI/AsdaCityTaxSaveSelfTest.cpp:228
+asda.SelfTest.CityWarFlags	map:silalis	asda.SelfTest.CityWarFlags		ru	1		AsdaReborn/Private/AsdaCityWarFlagsSelfTest.cpp:161
+asda.SelfTest.CityWarFloor	world	asda.SelfTest.CityWarFloor	360	ru,en	1		AsdaReborn/Private/AsdaCityWarFloorSelfTest.cpp:574
+asda.SelfTest.CityWarOwner	world	asda.SelfTest.CityWarOwner	300	ru,en	1		AsdaReborn/Private/AsdaCityWarOwnerSelfTest.cpp:356
+asda.SelfTest.ClosedTiles	world	asda.SelfTest.ClosedTiles		ru,en	1		AsdaReborn/Private/World/AsdaClosedTilesSelfTest.cpp:1182
+asda.SelfTest.CooldownReadyIcon	world	asda.SelfTest.CooldownReadyIcon		ru	1		AsdaReborn/Private/AsdaCooldownReadyIconSelfTest.cpp:33
+asda.SelfTest.Cooldowns	world	asda.SelfTest.Cooldowns		ru	1		AsdaReborn/Private/AsdaCooldownSelfTest.cpp:449
+asda.SelfTest.CountPlace	world!	asda.SelfTest.CountPlace		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaCountPlaceSelfTest.cpp:379
+asda.SelfTest.CraftMoveStop	world	asda.SelfTest.CraftMoveStop		ru,en	1		AsdaReborn/Private/UI/AsdaCraftMakeWindowSubsystem.cpp:2880
+asda.SelfTest.Crouch	world	asda.SelfTest.Crouch		ru	1		AsdaReborn/Private/World/AsdaCrouchSelfTest.cpp:673
+asda.SelfTest.CrouchHold	world	asda.SelfTest.CrouchHold	660	ru	1		AsdaReborn/Private/World/AsdaCrouchHoldSelfTest.cpp:443
+asda.SelfTest.CrouchMode	world	asda.SelfTest.CrouchMode		ru	1		AsdaReborn/Private/World/AsdaCrouchModeSelfTest.cpp:533
+asda.SelfTest.CrouchStand	world	asda.SelfTest.CrouchStand		ru	1		AsdaReborn/Private/World/AsdaCrouchStandSelfTest.cpp:411
+asda.SelfTest.CrouchStray	world	asda.SelfTest.CrouchStray		ru	1		AsdaReborn/Private/World/AsdaCrouchStraySelfTest.cpp:237
+asda.SelfTest.CursorClip	world	asda.SelfTest.CursorClip		ru	1		AsdaReborn/Private/AsdaCursorClipSelfTest.cpp:32
+asda.SelfTest.DeathChat	world!	asda.SelfTest.DeathChat		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaDeathChatSelfTest.cpp:313
+asda.SelfTest.DeathHp	world	asda.SelfTest.DeathHp		ru,en	1		AsdaReborn/Private/UI/AsdaDeathHpSelfTest.cpp:453
+asda.SelfTest.DeathLock	world	asda.SelfTest.DeathLock		ru,en	1		AsdaReborn/Private/UI/AsdaDeathLockSelfTest.cpp:477
+asda.SelfTest.DisconnectOk	world!	asda.SelfTest.DisconnectOk		ru	1	R5-fix6-c 13.11: одиночная игра — самотест по замыслу уводит игру на сцену входа (/Game/Map/Login); в пачке мира следующие за ним EquipJobNotice, FaceExpr, FlatQuadUv отказывали («запускать в мире», «пол -1», «павн НЕТ»)	AsdaReborn/Private/AsdaDisconnectOkSelfTest.cpp:140
+asda.SelfTest.DragDelete	world!	asda.SelfTest.DragDelete		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaDragDeleteSelfTest.cpp:599
+asda.SelfTest.DragRelayout	world	asda.SelfTest.DragRelayout		ru	0	стенд: нужны win= open= a= b= (без них ОТКАЗ)	AsdaReborn/Private/UI/AsdaDragRelayoutSelfTest.cpp:591
+asda.SelfTest.Eac	world	asda.SelfTest.Eac		ru	1		AsdaAntiCheat/Private/AsdaEacSelfTest.cpp:1014
+asda.SelfTest.EacTexts	world	asda.SelfTest.EacTexts		ru,en	1		AsdaReborn/Private/AsdaEacTextsSelfTest.cpp:182
+asda.SelfTest.EmoteProps	world!	asda.SelfTest.EmoteProps		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaEmotePropsSelfTest.cpp:164
+asda.SelfTest.EnterConfirm	world!	asda.SelfTest.EnterConfirm		ru	1	D4 11.11: карта мира (шапка самотеста «Запускать в мире»); был ошибочно в группе login	AsdaReborn/Private/UI/AsdaEnterConfirmSelfTest.cpp:697
+asda.SelfTest.EnterConfirmLogin	login!	asda.SelfTest.EnterConfirmLogin		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaEnterConfirmSelfTest.cpp:706
+asda.SelfTest.EntryWindows	world	asda.SelfTest.EntryWindows		ru	1		AsdaReborn/Private/UI/AsdaEntryWindowsSelfTest.cpp:256
+asda.SelfTest.EntryWindowsPortal	world	asda.SelfTest.EntryWindowsPortal		ru	1		AsdaReborn/Private/UI/AsdaEntryWindowsSelfTest.cpp:384
+asda.SelfTest.EntryWindowsTravel	world!	asda.SelfTest.EntryWindowsTravel		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaEntryWindowsSelfTest.cpp:334
+asda.SelfTest.EquipCellText	world!	asda.SelfTest.EquipCellText		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaEquipCellTextSelfTest.cpp:426
+asda.SelfTest.EquipJobNotice	world	asda.SelfTest.EquipJobNotice		ru	1		AsdaReborn/Private/UI/AsdaEquipJobNoticeSelfTest.cpp:254
+asda.SelfTest.EscChain	world!	asda.SelfTest.EscChain		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaEscChainSelfTest.cpp:628
+asda.SelfTest.FaceExpr	world	asda.SelfTest.FaceExpr	240	ru	1		AsdaReborn/Private/World/AsdaFaceExpressionSelfTest.cpp:332
+asda.SelfTest.FlabisCenter	map:flabis!	asda.SelfTest.FlabisCenter		ru,en	1	D4 11.11: игра на уровне flabis (шапка самотеста)	AsdaReborn/Private/World/AsdaClosedTilesSelfTest.cpp:1164
+asda.SelfTest.FlatQuadUv	world	asda.SelfTest.FlatQuadUv		ru	1		AsdaReborn/Private/World/AsdaFlatQuadUvSelfTest.cpp:288
+asda.SelfTest.FortOption	world	asda.SelfTest.FortOption		ru,en	1		AsdaReborn/Private/Items/AsdaFortOptionSelfTest.cpp:313
+asda.SelfTest.FriendAccept	world	asda.SelfTest.FriendAccept		ru	1		AsdaReborn/Private/UI/AsdaFriendAcceptSelfTest.cpp:277
+asda.SelfTest.GachaOverlap	world	asda.SelfTest.GachaOverlap		ru,en	1		AsdaReborn/Private/UI/AsdaGachaOverlapSelfTest.cpp:311
+asda.SelfTest.GachaPrizeLock	world	asda.SelfTest.GachaPrizeLock	300	ru,en	1		AsdaReborn/Private/UI/AsdaGachaPrizeLockSelfTest.cpp:406
+asda.SelfTest.GearClassB	world	asda.SelfTest.GearClassB	540	ru,en	1		AsdaReborn/Private/UI/AsdaGearClassBSelfTest.cpp:382
+asda.SelfTest.GenderIcon	world	asda.SelfTest.GenderIcon		ru,en	1		AsdaReborn/Private/UI/AsdaGenderIconSelfTest.cpp:305
+asda.SelfTest.GlowGrade	world	asda.SelfTest.GlowGrade	660	ru	1		AsdaReborn/Private/World/AsdaGlowGradeSelfTest.cpp:407
+asda.SelfTest.GmMapTeleport	world	asda.SelfTest.GmMapTeleport		ru,en	1		AsdaReborn/Private/UI/AsdaGmMapTeleportSelfTest.cpp:469
+asda.SelfTest.GmOriginal	world	asda.SelfTest.GmOriginal		ru,en	1		AsdaReborn/Private/AsdaGmOriginalSelfTest.cpp:80
+asda.SelfTest.GoldBoastTip	world	asda.SelfTest.GoldBoastTip		ru,en	1		AsdaReborn/Private/UI/AsdaGoldBoastTipSelfTest.cpp:331
+asda.SelfTest.HelmetShow	world	asda.SelfTest.HelmetShow		ru	1		AsdaReborn/Private/World/AsdaHelmetShowSelfTest.cpp:163
+asda.SelfTest.HiddenHandleDrag	world	asda.SelfTest.HiddenHandleDrag		ru	1		AsdaReborn/Private/UI/AsdaDragRelayoutSelfTest.cpp:760
+asda.SelfTest.HideUi	world	asda.SelfTest.HideUi		ru	1		AsdaReborn/Private/AsdaHideUiSelfTest.cpp:95
+asda.SelfTest.HoverNoSelect	world	asda.SelfTest.HoverNoSelect		ru,en	1		AsdaReborn/Private/UI/AsdaHoverNoSelectSelfTest.cpp:797
+asda.SelfTest.IconsAfterTravel	world!	asda.SelfTest.IconsAfterTravel		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaIconsAfterTravelSelfTest.cpp:362
+asda.SelfTest.InvArrow	world	asda.SelfTest.InvArrow		ru,en	1		AsdaReborn/Private/UI/AsdaInvArrowSelfTest.cpp:394
+asda.SelfTest.InvRelog	world	asda.SelfTest.InvRelog		ru	1		AsdaReborn/Private/UI/AsdaInvRelogSelfTest.cpp:632
+asda.SelfTest.InvTab	world	asda.SelfTest.InvTab		ru,en	1		AsdaReborn/Private/UI/AsdaInvTabSelfTest.cpp:402
+asda.SelfTest.InvX2	world	asda.SelfTest.InvX2		ru	1		AsdaReborn/Private/UI/AsdaInvX2SelfTest.cpp:635
+asda.SelfTest.ItemAlpha	world!	asda.SelfTest.ItemAlpha		ru	1	разведка: игра завершилась посреди самотеста — в одиночной игре	AsdaReborn/Private/World/AsdaItemAlphaSelfTest.cpp:429
+asda.SelfTest.ItemAlphaWear	world!	asda.SelfTest.ItemAlphaWear items=0:74394,1:74395,2:74397,3:74398,4:74396,9:62309:10		ru	1	D4 11.11: стенд с обязательным items= — комплект из жалобы владельца (баг 8 bug_chest_invisible)	AsdaReborn/Private/World/AsdaItemAlphaWearSelfTest.cpp:320
+asda.SelfTest.ItemCount	world	asda.SelfTest.ItemCount		ru,en	1		AsdaReborn/Private/UI/AsdaItemCountSelfTest.cpp:586
+asda.SelfTest.ItemReset	world	asda.SelfTest.ItemReset		ru	1		AsdaReborn/Private/UI/AsdaItemResetSelfTest.cpp:334
+asda.SelfTest.ItemStateLock	world!	asda.SelfTest.ItemStateLock		ru,en	1	D4 11.11: одиночная игра — берёт свой userIdx без подготовки; после самотеста, оставившего номер «неизвестным», 34 провала	AsdaReborn/Private/Items/AsdaItemUseStateGateSelfTest.cpp:257
+asda.SelfTest.JumpOverhead	world	asda.SelfTest.JumpOverhead		ru	1		AsdaReborn/Private/World/AsdaJumpSwimSelfTest.cpp:649
+asda.SelfTest.JumpSwim	world!	asda.SelfTest.JumpSwim		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaJumpSwimSelfTest.cpp:391
+asda.SelfTest.KeybindActions	world!	asda.SelfTest.KeybindActions		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaKeybindActionsSelfTest.cpp:877
+asda.SelfTest.LogSeal	world	asda.SelfTest.LogSeal		ru	1	обязательные аргументы по справке: dir=<папка>	AsdaNet/Private/LogSeal/AsdaLogSealSelfTest.cpp:448
+asda.SelfTest.LogSealRotate	world	asda.SelfTest.LogSealRotate		ru	1	обязательные аргументы по справке: dir=<папка>	AsdaNet/Private/LogSeal/AsdaLogSealSelfTest.cpp:443
+asda.SelfTest.LootObtainQty	world	asda.SelfTest.LootObtainQty		ru,en	1		AsdaReborn/Private/World/AsdaLootObtainQtySelfTest.cpp:387
+asda.SelfTest.MapNameLang	world!	asda.SelfTest.MapNameLang		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaMapNameLangSelfTest.cpp:200
+asda.SelfTest.MinimapCursor	world!	asda.SelfTest.MinimapCursor		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaMinimapCursorSelfTest.cpp:109
+asda.SelfTest.MissingNpcs	world	asda.SelfTest.MissingNpcs map=3		ru,en	1	карта 3 = alpen; остальные карты — отдельными строками при надобности	AsdaReborn/Private/Npc/AsdaMissingNpcsSelfTest.cpp:411
+asda.SelfTest.MobClipBones	world	asda.SelfTest.MobClipBones		ru	1		AsdaReborn/Private/Npc/AsdaMobClipBonesSelfTest.cpp:196
+asda.SelfTest.MobFx	world!	asda.SelfTest.MobFx ids=806,832		ru	1	D4 11.11: стенд с обязательным ids= — типы мобов из прежних отчётов (806, 832)	AsdaReborn/Private/World/AsdaMobFxSelfTest.cpp:451
+asda.SelfTest.MobRangedFx	world	asda.SelfTest.MobRangedFx	240	ru	1		AsdaReborn/Private/AsdaMobRangedFxSelfTest.cpp:335
+asda.SelfTest.MountAttack	world	asda.SelfTest.MountAttack		ru,en	1		AsdaReborn/Private/World/AsdaMountAttackSelfTest.cpp:752
+asda.SelfTest.MountDaysBusy	world!	asda.SelfTest.MountDaysBusy		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaMountDaysBusySelfTest.cpp:487
+asda.SelfTest.MountHitSpeed	world	asda.SelfTest.MountHitSpeed		ru	1		AsdaReborn/Private/World/AsdaMountHitSpeedSelfTest.cpp:578
+asda.SelfTest.MountTip	world	asda.SelfTest.MountTip		ru,en	1		AsdaReborn/Private/Items/AsdaMountTipSelfTest.cpp:53
+asda.SelfTest.MountTipFrame	world	asda.SelfTest.MountTipFrame		ru,en	1		AsdaReborn/Private/Items/AsdaMountTipSelfTest.cpp:152
+asda.SelfTest.MountTravel	world	asda.SelfTest.MountTravel		ru	1		AsdaReborn/Private/World/AsdaMountTravelSelfTest.cpp:404
+asda.SelfTest.NpcClickPick	map:quizstage	asda.SelfTest.NpcClickPick map=22		ru,en	0	нет в Dev-сборке (редактор/гвард) варианты spec: asda.SelfTest.NpcClickPick map=0 || asda.SelfTest.NpcClickPick map=1 || asda.SelfTest.NpcClickPick map=10 || asda.SelfTest.NpcClickPick map=12 || asda.SelfTest.NpcClickPick map=14 || asda.SelfTest.NpcClickPick map=15 || asda.SelfTest.NpcClickPick map=16 || asda.SelfTest.NpcClickPick map=17 || asda.S	AsdaReborn/Private/Npc/AsdaNpcClickPickSelfTest.cpp:699
+asda.SelfTest.NpcPlace	world	asda.SelfTest.NpcPlace map=3		ru	1	карта 3 = alpen; остальные карты — отдельными строками при надобности	AsdaReborn/Private/Npc/AsdaNpcPlaceSelfTest.cpp:347
+asda.SelfTest.NpcTalkAll	world	asda.SelfTest.NpcTalkAll map=3		ru	1	карта 3 = alpen; остальные карты — отдельными строками при надобности	AsdaReborn/Private/Npc/AsdaNpcTalkAllSelfTest.cpp:348
+asda.SelfTest.NpcTalkAnim	world!	asda.SelfTest.NpcTalkAnim map=3		ru	1	D4 11.11: одиночная игра — берёт только NPC, ещё не принятых 4067; после NpcTalkAll/NpcPlace в той же игре их 0	AsdaReborn/Private/Npc/AsdaNpcTalkAnimSelfTest.cpp:398
+asda.SelfTest.NumPadFocus	world	asda.SelfTest.NumPadFocus		ru,en	1		AsdaReborn/Private/UI/AsdaNumPadFocusSelfTest.cpp:823
+asda.SelfTest.PackageIcons	world!	asda.SelfTest.PackageIcons		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaPackageIconsSelfTest.cpp:199
+asda.SelfTest.PartFx	world	asda.SelfTest.PartFx	420	ru	1		AsdaReborn/Private/World/AsdaPartFxSelfTest.cpp:682
+asda.SelfTest.PartyHud	world	asda.SelfTest.PartyHud		ru,en	1		AsdaReborn/Private/UI/AsdaPartyHudSelfTest.cpp:321
+asda.SelfTest.PlusPackOnce	world	asda.SelfTest.PlusPackOnce		ru	1		AsdaReborn/Private/UI/AsdaPlusPackOnceSelfTest.cpp:79
+asda.SelfTest.PortalClicks	world	asda.SelfTest.PortalClicks map=3		ru,en	1	карта 3 = alpen; остальные карты — отдельными строками при надобности	AsdaReborn/Private/World/AsdaClosedTilesSelfTest.cpp:1173
+asda.SelfTest.PortalPending	world	asda.SelfTest.PortalPending		ru,en	1		AsdaReborn/Private/AsdaPortalPendingSelfTest.cpp:450
+asda.SelfTest.PossessMountPortal	world	asda.SelfTest.PossessMountPortal		ru	1		AsdaReborn/Private/World/AsdaPossessMountPortalSelfTest.cpp:356
+asda.SelfTest.PostWithdraw	world	asda.SelfTest.PostWithdraw		ru,en	1		AsdaReborn/Private/UI/AsdaPostWithdrawSelfTest.cpp:938
+asda.SelfTest.PremiumBuyVariant	world	asda.SelfTest.PremiumBuyVariant		ru,en	1		AsdaReborn/Private/UI/AsdaPremiumBuyVariantSelfTest.cpp:154
+asda.SelfTest.PremiumCardQty	world!	asda.SelfTest.PremiumCardQty		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaPremiumCardQtySelfTest.cpp:300
+asda.SelfTest.ProbeRootParents	world	asda.SelfTest.ProbeRootParents		ru	0	зонд: без имени окна не пишет ИТОГ (потолок)	AsdaReborn/Private/UI/AsdaDragRelayoutSelfTest.cpp:559
+asda.SelfTest.PurchaseBoxButtons	world	asda.SelfTest.PurchaseBoxButtons		ru,en	1		AsdaReborn/Private/UI/AsdaPurchaseBoxLayoutSelfTest.cpp:437
+asda.SelfTest.QuestAbandon	world	asda.SelfTest.QuestAbandon		ru	1		AsdaReborn/Private/Quest/AsdaQuestAbandonSelfTest.cpp:398
+asda.SelfTest.QuestDialogReward	world!	asda.SelfTest.QuestDialogReward		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Quest/AsdaQuestDialogRewardSelfTest.cpp:1148
+asda.SelfTest.QuestFollow	world!	asda.SelfTest.QuestFollow		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/Quest/AsdaQuestFollowSelfTest.cpp:990
+asda.SelfTest.QuestGuideMobNames	world	asda.SelfTest.QuestGuideMobNames		ru,en	1		AsdaReborn/Private/Quest/AsdaQuestGuideMobSelfTest.cpp:418
+asda.SelfTest.QuestMarkArshes	map:rein!	asda.SelfTest.QuestMarkArshes		ru,en	1	D4 11.11: Аршес стоит на Рейне (справка команды)	AsdaReborn/Private/Quest/AsdaQuestMarkerSubsystem.cpp:3249
+asda.SelfTest.QuestMarkMelve	map:silalis!	asda.SelfTest.QuestMarkMelve		ru,en	1	D4 11.11: Мелве и Джоэл стоят на Силарисе (справка команды)	AsdaReborn/Private/Quest/AsdaQuestMarkerSubsystem.cpp:3398
+asda.SelfTest.QuestMarkPage	world	asda.SelfTest.QuestMarkPage		ru,en	1		AsdaReborn/Private/Quest/AsdaQuestMarkerSubsystem.cpp:3093
+asda.SelfTest.QuestRetake	world	asda.SelfTest.QuestRetake		ru,en	1		AsdaReborn/Private/Quest/AsdaQuestRetakeSelfTest.cpp:346
+asda.SelfTest.QuestSlotMove	world	asda.SelfTest.QuestSlotMove		ru	1		AsdaReborn/Private/Quest/AsdaQuestSlotMoveSelfTest.cpp:394
+asda.SelfTest.QuickSlotFollowMove	world	asda.SelfTest.QuickSlotFollowMove		ru	1		AsdaReborn/Private/UI/AsdaQuickSlotFollowMoveSelfTest.cpp:329
+asda.SelfTest.QuickSlotItemIcon	world	asda.SelfTest.QuickSlotItemIcon		ru	1		AsdaReborn/Private/UI/AsdaQuickSlotItemIconSelfTest.cpp:639
+asda.SelfTest.QuiverCount	world	asda.SelfTest.QuiverCount		ru,en	1		AsdaReborn/Private/UI/AsdaQuiverCountSelfTest.cpp:443
+asda.SelfTest.RelayAnchors	world	asda.SelfTest.RelayAnchors		ru	1		AsdaReborn/Private/UI/AsdaRelayAnchorSelfTest.cpp:425
+asda.SelfTest.RelogArmorWorld	world!	asda.SelfTest.RelogArmorWorld		ru,en	1	D4 11.11: карта мира (шапка: «карта мира»); был ошибочно в группе login	AsdaReborn/Private/Login/AsdaRelogArmorSelfTest.cpp:583
+asda.SelfTest.RelogKickScene	login	asda.SelfTest.RelogKickScene		ru,en	1		AsdaReborn/Private/Login/AsdaRelogArmorSelfTest.cpp:589
+asda.SelfTest.Rename	world	asda.SelfTest.Rename		ru,en	1		AsdaReborn/Private/UI/AsdaCharRenameSelfTest.cpp:130
+asda.SelfTest.Rings	world!	asda.SelfTest.Rings		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaRingSlotsSelfTest.cpp:378
+asda.SelfTest.RodNotices	world	asda.SelfTest.RodNotices		ru,en	1		AsdaReborn/Private/UI/AsdaRodNoticesSelfTest.cpp:264
+asda.SelfTest.SavePoint	world	asda.SelfTest.SavePoint		ru,en	1		AsdaReborn/Private/Npc/AsdaSavePointSelfTest.cpp:273
+asda.SelfTest.ServerAddr	login	asda.SelfTest.ServerAddr		ru,en	1		AsdaReborn/Private/Login/AsdaServerAddrSelfTest.cpp:192
+asda.SelfTest.ShieldShow	world	asda.SelfTest.ShieldShow		ru	1		AsdaReborn/Private/World/AsdaShieldShowSelfTest.cpp:548
+asda.SelfTest.ShieldTown	world	asda.SelfTest.ShieldTown	300	ru	1		AsdaReborn/Private/World/AsdaShieldTownSelfTest.cpp:534
+asda.SelfTest.ShopSound	world	asda.SelfTest.ShopSound		ru	1		AsdaReborn/Private/UI/AsdaShopSoundSelfTest.cpp:281
+asda.SelfTest.SkillCooldowns	world	asda.SelfTest.SkillCooldowns		ru	1		AsdaReborn/Private/AsdaSkillCooldownSelfTest.cpp:436
+asda.SelfTest.SkillFailPlank	world	asda.SelfTest.SkillFailPlank		ru,en	1		AsdaReborn/Private/UI/AsdaSkillFailPlankSelfTest.cpp:232
+asda.SelfTest.SkillJob4Points	world	asda.SelfTest.SkillJob4Points		ru,en	1		AsdaReborn/Private/UI/AsdaSkillJob4PointsSelfTest.cpp:403
+asda.SelfTest.SkillResetHotbar	world	asda.SelfTest.SkillResetHotbar		ru	1		AsdaReborn/Private/UI/AsdaSkillResetHotbarSelfTest.cpp:365
+asda.SelfTest.SkillTreeReset	world	asda.SelfTest.SkillTreeReset		ru,en	1		AsdaReborn/Private/UI/AsdaSkillTreeResetSelfTest.cpp:410
+asda.SelfTest.SoulmateGlow	world	asda.SelfTest.SoulmateGlow		ru	1		AsdaReborn/Private/Skill/AsdaSoulmateGlowSelfTest.cpp:339
+asda.SelfTest.Sound3D	world	asda.SelfTest.Sound3D		ru	1		AsdaReborn/Private/AsdaSound3DSelfTest.cpp:58
+asda.SelfTest.SoundLoop	world	asda.SelfTest.SoundLoop		ru	0	нужно звуковое устройство, набор идёт с -nosound	AsdaReborn/Private/AsdaSoundLoopSelfTest.cpp:221
+asda.SelfTest.Sowel	world	asda.SelfTest.Sowel		ru,en	1		AsdaReborn/Private/UI/AsdaSowelSelfTest.cpp:708
+asda.SelfTest.SowelIcon	world	asda.SelfTest.SowelIcon		ru,en	1		AsdaReborn/Private/UI/AsdaSowelIconSelfTest.cpp:211
+asda.SelfTest.SowelLevel	world	asda.SelfTest.SowelLevel	240	ru,en	1		AsdaReborn/Private/UI/AsdaSowelLevelSelfTest.cpp:788
+asda.SelfTest.StaticNpcPlate	world	asda.SelfTest.StaticNpcPlate		ru	1		AsdaReborn/Private/Npc/AsdaStaticNpcPlateSelfTest.cpp:465
+asda.SelfTest.SwimBack	world	asda.SelfTest.SwimBack		ru,en	1		AsdaReborn/Private/World/AsdaSwimBackSelfTest.cpp:486
+asda.SelfTest.SwimOpenWater	world	asda.SelfTest.SwimOpenWater		ru	1		AsdaReborn/Private/World/AsdaSwimOpenWaterSelfTest.cpp:793
+asda.SelfTest.SwimWalls	world	asda.SelfTest.SwimWalls		ru,en	1		AsdaReborn/Private/World/AsdaSwimWallsSelfTest.cpp:452
+asda.SelfTest.TalkMarkupMallWarn	world	asda.SelfTest.TalkMarkupMallWarn		ru	1		AsdaReborn/Private/UI/AsdaTalkMarkupMallWarnSelfTest.cpp:100
+asda.SelfTest.TexShots	world	asda.SelfTest.TexShots		ru	0	стенд съёмки: нужны dir= и find=/swatch=	AsdaReborn/Private/World/AsdaTexShotsSelfTest.cpp:335
+asda.SelfTest.TipClose	world	asda.SelfTest.TipClose		ru	1		AsdaReborn/Private/UI/AsdaTipCloseSelfTest.cpp:404
+asda.SelfTest.Toggles	world!	asda.SelfTest.Toggles	900	ru	1	D4 11.11: самотест длинный (380 шагов), в 240 с не укладывался — потолок 900	AsdaReborn/Private/UI/AsdaToggleSelfTest.cpp:529
+asda.SelfTest.TrafficSecure	world	asda.SelfTest.TrafficSecure		ru	1		AsdaNet/Private/Secure/AsdaTrafficSecureSelfTest.cpp:475
+asda.SelfTest.TravelKeys	world	asda.SelfTest.TravelKeys	480	ru	1		AsdaReborn/Private/UI/AsdaTravelKeysSelfTest.cpp:498
+asda.SelfTest.Tutorial	world	asda.SelfTest.Tutorial		ru,en	1		AsdaReborn/Private/UI/AsdaTutorialSelfTest.cpp:416
+asda.SelfTest.UpdateCheck	world!	asda.SelfTest.UpdateCheck		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaUpdateCheckSelfTest.cpp:341
+asda.SelfTest.UpgradeScrollKinds	world!	asda.SelfTest.UpgradeScrollKinds		ru,en	1	разведка: игра завершилась посреди самотеста — в одиночной игре	AsdaReborn/Private/UI/AsdaUpgradeScrollKindsSelfTest.cpp:501
+asda.SelfTest.UpgradeSplit	world	asda.SelfTest.UpgradeSplit		ru,en	1		AsdaReborn/Private/UI/AsdaUpgradeSplitSelfTest.cpp:409
+asda.SelfTest.UpgradeStone	world	asda.SelfTest.UpgradeStone		ru	1		AsdaReborn/Private/UI/AsdaUpgradeStoneSelfTest.cpp:433
+asda.SelfTest.WareStoreCombo	world	asda.SelfTest.WareStoreCombo	240	ru,en	1		AsdaReborn/Private/UI/AsdaWareStoreComboSelfTest.cpp:779
+asda.SelfTest.WeaponGlowFit	world!	asda.SelfTest.WeaponGlowFit 46337 59806		ru	1	D4 11.11: стенд — без кодов пар модель+.jeb 0; `all` не укладывается в 600 с, берутся два кода прежних прогонов	AsdaReborn/Private/World/AsdaWeaponGlowFitSelfTest.cpp:373
+asda.SelfTest.WeaponGlowPersist	world	asda.SelfTest.WeaponGlowPersist		ru	1		AsdaReborn/Private/World/AsdaWeaponGlowPersistSelfTest.cpp:896
+asda.SelfTest.WhisperReply	world	asda.SelfTest.WhisperReply		ru,en	1		AsdaReborn/Private/UI/AsdaChatWhisperReplySelfTest.cpp:541
+asda.SelfTest.WorldMapMarks	world	asda.SelfTest.WorldMapMarks	240	ru	1		AsdaReborn/Private/Quest/AsdaQuestDialogRewardSelfTest.cpp:1157
+asda.Shop.ModalProbeSelfTest	world	asda.Shop.ModalProbeSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaShopModalProbeSelfTest.cpp:442
+asda.Shop.PremiumGapSelfTest	world	asda.Shop.PremiumGapSelfTest	480	ru,en	1		AsdaReborn/Private/UI/AsdaPremiumGapSelfTest.cpp:117
+asda.Shop.SelFrameSelfTest	world!	asda.Shop.SelFrameSelfTest		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaShopSelFrameSelfTest.cpp:332
+asda.Shop.SelfTestDblClick	world	asda.Shop.SelfTestDblClick delay=12		ru	1		AsdaReborn/Private/UI/AsdaShopDblClickSelfTest.cpp:993
+asda.Skill.SelfTestAnimAudit	world!	asda.Skill.SelfTestAnimAudit	600	ru	1	разведка: не уложился в 240 с	AsdaReborn/Private/Skill/AsdaSkillAnimAuditSelfTest.cpp:1018
+asda.Skill.SelfTestBowFx	world	asda.Skill.SelfTestBowFx		ru	1		AsdaReborn/Private/AsdaBowFxSelfTest.cpp:610
+asda.Skill.SelfTestBuffTip	world	asda.Skill.SelfTestBuffTip		ru,en	1		AsdaReborn/Private/Skill/AsdaBuffTipSelfTest.cpp:247
+asda.Skill.SelfTestCastCharge	world	asda.Skill.SelfTestCastCharge		ru	1		AsdaReborn/Private/Skill/AsdaCastChargeSelfTest.cpp:235
+asda.Skill.SelfTestCastLock	world!	asda.Skill.SelfTestCastLock		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/World/AsdaSkillCastLockSelfTest.cpp:679
+asda.Skill.SelfTestCharge	world	asda.Skill.SelfTestCharge		ru,en	1		AsdaReborn/Private/AsdaCombat3SelfTest.cpp:912
+asda.Skill.SelfTestDamageText	world!	asda.Skill.SelfTestDamageText	420	ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaSkillDmgTextSelfTest.cpp:890
+asda.Skill.SelfTestFaceTarget	world	asda.Skill.SelfTestFaceTarget		ru,en	1		AsdaReborn/Private/AsdaCombat3SelfTest.cpp:1050
+asda.Skill.SelfTestGrenade	world	asda.Skill.SelfTestGrenade	420	ru,en	1		AsdaReborn/Private/AsdaCombat3SelfTest.cpp:1800
+asda.Skill.SelfTestHide	world	asda.Skill.SelfTestHide		ru	1		AsdaReborn/Private/World/AsdaHideSkillSelfTest.cpp:464
+asda.Skill.SelfTestLatch	world!	asda.Skill.SelfTestLatch	300	ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaSkillLatchSelfTest.cpp:609
+asda.Skill.SelfTestNoneLines	world	asda.Skill.SelfTestNoneLines		ru,en	1		AsdaReborn/Private/Skill/AsdaSkillNoneLinesSelfTest.cpp:362
+asda.Skill.SelfTestParryTip	world	asda.Skill.SelfTestParryTip		ru,en	1		AsdaReborn/Private/Skill/AsdaParryTipSelfTest.cpp:211
+asda.Skill.SelfTestProcDot	world!	asda.Skill.SelfTestProcDot		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaProcDotSelfTest.cpp:305
+asda.Skill.SelfTestSelfHit	world	asda.Skill.SelfTestSelfHit		ru	1		AsdaReborn/Private/Skill/AsdaSkillSelfHitSelfTest.cpp:340
+asda.Soul.SelfTestInfoShareMark	world	asda.Soul.SelfTestInfoShareMark		ru,en	1		AsdaReborn/Private/UI/AsdaSoulInfoShareSelfTest.cpp:455
+asda.Soul.SelfTestOfflineInfo	world	asda.Soul.SelfTestOfflineInfo		ru,en	1		AsdaReborn/Private/UI/AsdaSoulOfflineInfoSelfTest.cpp:582
+asda.Soul.SelfTestWave1A	world	asda.Soul.SelfTestWave1A		ru,en	1	варианты spec: asda.Soul.SelfTestWave1A || asda.Soul.SelfTestWave1A delay=12	AsdaReborn/Private/AsdaSoulWave1ASelfTest.cpp:1103
+asda.Soul.SlotSelfTest	world	asda.Soul.SlotSelfTest		ru	1		AsdaReborn/Private/UI/AsdaSoulSlotSelfTest.cpp:526
+asda.Soul.StoneSelfTest	world	asda.Soul.StoneSelfTest		ru	1		AsdaReborn/Private/UI/AsdaSoulStoneSelfTest.cpp:547
+asda.Soulmate.BarSelfTest	world	asda.Soulmate.BarSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaSoulmateBarSelfTest.cpp:750
+asda.Soulmate.NoteSelfTest	world	asda.Soulmate.NoteSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaSoulmateNoteSelfTest.cpp:499
+asda.Soulmate.OfflineGateSelfTest	world	asda.Soulmate.OfflineGateSelfTest		ru	1		AsdaReborn/Private/UI/AsdaSoulmateOfflineGateSelfTest.cpp:300
+asda.Soulmate.SelfEchoSelfTest	world	asda.Soulmate.SelfEchoSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaSoulmateBarSelfTest.cpp:743
+asda.Soulmate.TraySelfTest	world	asda.Soulmate.TraySelfTest		ru	1		AsdaReborn/Private/UI/AsdaSoulTraySelfTest.cpp:416
+asda.SysOpt.SelfTest	world	asda.SysOpt.SelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaSystemOptionSubsystem.cpp:599
+asda.SysOpt.SelfTestCrouch	world	asda.SysOpt.SelfTestCrouch		ru,en	1		AsdaReborn/Private/UI/AsdaSystemOptionSubsystem.cpp:619
+asda.SysOpt.SelfTestDmgText	world	asda.SysOpt.SelfTestDmgText		ru,en	1		AsdaReborn/Private/UI/AsdaSystemOptionSubsystem.cpp:605
+asda.SysOpt.SelfTestMouse	world	asda.SysOpt.SelfTestMouse		ru,en	1		AsdaReborn/Private/UI/AsdaSystemOptionSubsystem.cpp:612
+asda.Target.SelfTest	world	asda.Target.SelfTest 12		ru,en	1	варианты spec: asda.Target.SelfTest || asda.Target.SelfTest 12	AsdaReborn/Private/UI/AsdaTargetFrameSubsystem.cpp:1804
+asda.Target.SelfTestPickHidden	world!	asda.Target.SelfTestPickHidden delay=12		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/AsdaPickHiddenSelfTest.cpp:287
+asda.Text.SelfTestArabic	world	asda.Text.SelfTestArabic		ru,en	1		AsdaReborn/Private/AsdaArabicTextSelfTest.cpp:717
+asda.Title.SelfTest	world	asda.Title.SelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaTitleSubsystem.cpp:455
+asda.Title.SelfTestStar	world	asda.Title.SelfTestStar		ru,en	1		AsdaReborn/Private/UI/AsdaTitleSubsystem.cpp:974
+asda.Trade.SelfTestExchangeO1	world	asda.Trade.SelfTestExchangeO1 delay=12		ru	1		AsdaReborn/Private/UI/AsdaExchangeP2PSelfTest.cpp:566
+asda.Trade.SelfTestExchangeO2	world	asda.Trade.SelfTestExchangeO2 delay=12		ru	1		AsdaReborn/Private/UI/AsdaExchangeP2PSelfTestO2.cpp:677
+asda.Trade.SelfTestExchangeO3	world	asda.Trade.SelfTestExchangeO3 delay=12		ru	1		AsdaReborn/Private/UI/AsdaExchangeP2PSelfTestO3.cpp:758
+asda.Trade.SelfTestExchangeO4	world	asda.Trade.SelfTestExchangeO4 delay=12		ru	1		AsdaReborn/Private/UI/AsdaExchangeP2PSelfTestO4.cpp:736
+asda.Trade.SelfTestGates	world	asda.Trade.SelfTestGates delay=12		ru	1		AsdaReborn/Private/UI/AsdaTradeGatesSelfTest.cpp:425
+asda.Trade.SelfTestStallPlate	world	asda.Trade.SelfTestStallPlate delay=12		ru	1		AsdaReborn/Private/UI/AsdaStallPlateSelfTest.cpp:317
+asda.Trade.SelfTestStoreL1	world	asda.Trade.SelfTestStoreL1 delay=12		ru	1		AsdaReborn/Private/UI/AsdaSelfStoreSelfTest.cpp:965
+asda.Trade.SelfTestStoreL2	world	asda.Trade.SelfTestStoreL2 delay=12		ru	1		AsdaReborn/Private/UI/AsdaSelfStoreSelfTestL2.cpp:1100
+asda.Trade.SelfTestStoreL3	world	asda.Trade.SelfTestStoreL3 delay=12		ru	1		AsdaReborn/Private/UI/AsdaSelfStoreSelfTestL3.cpp:536
+asda.Trade.SelfTestStoreL4	world	asda.Trade.SelfTestStoreL4 delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaSelfStoreSelfTestL4.cpp:408
+asda.Trade.SelfTestStoreL5	world	asda.Trade.SelfTestStoreL5 delay=12		ru	1		AsdaReborn/Private/UI/AsdaSelfStoreSelfTestL5.cpp:666
+asda.UI.FrameSeamScanSelfTest	world	asda.UI.FrameSeamScanSelfTest		ru,en	1		AsdaReborn/Private/UI/AsdaFrameSeamScanSelfTest.cpp:361
+asda.UI.SelfTestBodyPress	world!	asda.UI.SelfTestBodyPress		ru	1	зависит от порядка в пакете (находка R1) — в одиночной игре	AsdaReborn/Private/UI/AsdaBodyPressSelfTest.cpp:584
+asda.UI.SelfTestCampWarBattle	world	asda.UI.SelfTestCampWarBattle		ru	1		AsdaReborn/Private/UI/AsdaCampWarBattleSelfTest.cpp:1315
+asda.UI.SelfTestCampWarReg	world	asda.UI.SelfTestCampWarReg		ru	1		AsdaReborn/Private/UI/AsdaCampWarRegSelfTest.cpp:499
+asda.UI.SelfTestClickAway	world	asda.UI.SelfTestClickAway		ru	1		AsdaReborn/Private/UI/AsdaClickAwaySelfTest.cpp:221
+asda.UI.SelfTestClickThrough	world	asda.UI.SelfTestClickThrough		ru,en	1		AsdaReborn/Private/UI/AsdaClickThroughSelfTest.cpp:563
+asda.UI.SelfTestCloseGear	world	asda.UI.SelfTestCloseGear		ru,en	1		AsdaReborn/Private/UI/AsdaCloseGearSelfTest.cpp:340
+asda.UI.SelfTestDragFollow	world!	asda.UI.SelfTestDragFollow		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaDragFollowSelfTest.cpp:204
+asda.UI.SelfTestDropdownHover	world!	asda.UI.SelfTestDropdownHover		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaDropdownHoverSelfTest.cpp:384
+asda.UI.SelfTestDuelLoser	world	asda.UI.SelfTestDuelLoser		ru	1		AsdaReborn/Private/UI/AsdaDuelLoserSelfTest.cpp:355
+asda.UI.SelfTestEscExtra	world!	asda.UI.SelfTestEscExtra		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaEscExtraSelfTest.cpp:323
+asda.UI.SelfTestEscOnTop	world	asda.UI.SelfTestEscOnTop delay=12		ru	1		AsdaReborn/Private/UI/AsdaEscOnTopSelfTest.cpp:766
+asda.UI.SelfTestFactionSelect	world!	asda.UI.SelfTestFactionSelect		ru	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaFactionSelectSelfTest.cpp:412
+asda.UI.SelfTestMiniState	world	asda.UI.SelfTestMiniState delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaMiniStateSelfTest.cpp:768
+asda.UI.SelfTestModalLock	world	asda.UI.SelfTestModalLock delay=12	240	ru	1		AsdaReborn/Private/UI/AsdaModalLockSelfTest.cpp:1685
+asda.UI.SelfTestOpenOnTop	world	asda.UI.SelfTestOpenOnTop delay=12	300	ru,en	1		AsdaReborn/Private/UI/AsdaOpenOnTopSelfTest.cpp:637
+asda.UI.SelfTestRaiseClick	world!	asda.UI.SelfTestRaiseClick delay=12	900	ru,en	1	разведка: не уложился в 240 с; 14.11 потолок 900 — под тремя играми 600 с не хватило (rx_r5fix3)	AsdaReborn/Private/UI/AsdaRaiseClickSelfTest.cpp:1270
+asda.UI.SelfTestShareRow	world	asda.UI.SelfTestShareRow delay=12		ru,en	1		AsdaReborn/Private/UI/AsdaShareRowSelfTest.cpp:160
+asda.UI.SelfTestWave1B	world!	asda.UI.SelfTestWave1B delay=12		ru,en	1	D4 11.11: одиночная игра — наводит системный курсор (подсказка 6692), в пачке нестабилен	AsdaReborn/Private/UI/AsdaWave1BSelfTest.cpp:851
+asda.UI.SelfTestWave2C	world	asda.UI.SelfTestWave2C delay=12		ru	1		AsdaReborn/Private/UI/AsdaWave2CSelfTest.cpp:643
+asda.UI.SelfTestWave2D	world!	asda.UI.SelfTestWave2D delay=12		ru,en	1	разведка: красный в пачке — в одиночной игре (отделить зависимость от порядка)	AsdaReborn/Private/UI/AsdaWave2DSelfTest.cpp:809
+asda.UI.SelfTestWindowDrag	world	asda.UI.SelfTestWindowDrag		ru	1		AsdaReborn/Private/UI/AsdaWindowDragSelfTest.cpp:423
+asda.UI.SelfTestWorldClick	world	asda.UI.SelfTestWorldClick		ru,en	1		AsdaReborn/Private/UI/AsdaWorldClickSelfTest.cpp:536
+asda.Upgrade.SelfTest	world!	asda.Upgrade.SelfTest		ru,en	1	разведка: игра завершилась посреди самотеста — в одиночной игре	AsdaReborn/Private/UI/AsdaItemUpgradeSubsystem.cpp:2809
+asda.ViewRange.SelfTest	world	asda.ViewRange.SelfTest		ru,en	1		AsdaReborn/Private/World/AsdaViewRangeSelfTest.cpp:496
+asda.Window.PortalSoulPopSelfTest	world	asda.Window.PortalSoulPopSelfTest		ru	1		AsdaReborn/Private/UI/AsdaPortalSoulPopSelfTest.cpp:221
+asda.Dedup.W2C.Fade	world!	asda.Dedup.W2C.Fade	120	ru	1	самотест без SelfTest в имени; в разведке не был — в одиночной игре	
+asda.Dedup.W2C.FxLoop	world!	asda.Dedup.W2C.FxLoop	120	ru	1	самотест без SelfTest в имени; в разведке не был — в одиночной игре	
+asda.Dedup.W2C.Life	world!	asda.Dedup.W2C.Life	120	ru	1	самотест без SelfTest в имени; в разведке не был — в одиночной игре	
+asda.Dedup.W2C.Quality	world!	asda.Dedup.W2C.Quality	120	ru	1	самотест без SelfTest в имени; в разведке не был — в одиночной игре	
+asda.Dedup.W2C.Ride	world!	asda.Dedup.W2C.Ride	120	ru	1	самотест без SelfTest в имени; в разведке не был — в одиночной игре	
+asda.Dedup.W2C.Glyph	login!	asda.Dedup.W2C.Glyph	120	ru	1	самотест без SelfTest в имени; в разведке не был — в одиночной игре	
+asda.SelfTest.XytKeyHex	world	asda.SelfTest.XytKeyHex		ru	1	R5-fix D1: разбор hex-ключа приёма XyT; красный при asda.XyT.RecvKeyStrictHex 0	AsdaReborn/Private/AsdaXytKeyHexSelfTest.cpp:57
+asda.SelfTest.SprintfOneInt	world	asda.SelfTest.SprintfOneInt		ru	1	R5-fix Г15: общий разбор printf-шаблона с одним целым равен прежней FormatOneInt	AsdaReborn/Private/UI/AsdaSprintfOneIntSelfTest.cpp:87
+asda.Fx.SelfTestDeadMobHost	world	asda.Fx.SelfTestDeadMobHost		ru	1	R5-fix5: следящий эффект не ветки удара гаснет со смертью моба (состояние 296, фаза каста 908 и 756 — R5-fix6); контроль asda.Fx.DieWithDeadMob 0 внутри; эффект добивающего удара 906 жив	AsdaReborn/Private/AsdaFxDeadMobHostSelfTest.cpp:428
+asda.Fx.SelfTestVitalsState	world	asda.Fx.SelfTestVitalsState		ru	1	R5-fix6: эффект мгновенного состояния из пакетов HP 4058 / MP 4059 (тип 4 — состояния 267/268/269/275/276/296, тип 6 — на своём); контроль asda.Fx.VitalsStateFx 0 внутри	AsdaReborn/Private/AsdaVitalsStateFxSelfTest.cpp:314
+asda.Skill.SelfTestHitFxPlayer	world	asda.Skill.SelfTestHitFxPlayer		ru	1	R5-fix6: эффект удара навыка у цели-игрока следит за ней (дефект оригинала исправлен), за мобом с тем же номером не едет; контроль asda.Skill.HitFxTrackPlayer 0 внутри	AsdaReborn/Private/AsdaSkillHitFxPlayerSelfTest.cpp:345
+asda.Input.SelfTestClickQueueSupersede	world	asda.Input.SelfTestClickQueueSupersede		ru	1	R5-fix6: ход клавишами W/S вытесняет отложенный очередью клик хода; контроль asda.Input.ClickQueueSupersede 0 внутри	AsdaReborn/Private/AsdaClickQueueSupersedeSelfTest.cpp:272
+asda.Combat.SelfTestAwaitReply	world	asda.Combat.SelfTestAwaitReply		ru	1	R5-fix8: безответная заявка удара и новая серия — отказ состояния 6001 и ответ по другой цели снимают заявку (ключ asda.Combat.AwaitReplyByTarget, контроль 0)	AsdaReborn/Private/AsdaAwaitReplySelfTest.cpp:166
+asda.Combat.SelfTestTraceFile	world	asda.Combat.SelfTestTraceFile		ru	1	R4, доля a: файл журнала боя пишет фоновый поток — строки не теряются, порядок и текст прежние; ключ asda.Combat.TraceFileAsync	AsdaReborn/Private/Test/AsdaCombatTraceFileSelfTest.cpp
+asda.Perf.A.FxCacheSelfTest	world	asda.Perf.A.FxCacheSelfTest		ru	1	R4, доля a: удержание и предзагрузка классов эффектов — прежний код грузит класс заново после сборки мусора, удержание и предзагрузка убирают синхронную загрузку, предел и отмена заявок; ключи asda.Perf.FxClassKeep, asda.Perf.FxPreload	AsdaReborn/Private/Test/AsdaFxClassCacheSelfTest.cpp
+asda.Perf.SelfTest	world	asda.Perf.SelfTest		ru	1	R4, доля c (M0): инструмент замера AsdaPerf.h — накопитель, резервуар, кадры, чужой поток, часы против QPC, файл снимка	AsdaReborn/Private/Test/AsdaPerfSelfTest.cpp:181
+asda.Perf.SelfTestSpin	world	asda.Perf.SelfTestSpin		ru	0	R4, доля c: не самотест — учебный нагрузчик для asda.Perf.Series (итога ИТОГ не печатает); в набор не входит	AsdaReborn/Private/Test/AsdaPerfSelfTest.cpp:187

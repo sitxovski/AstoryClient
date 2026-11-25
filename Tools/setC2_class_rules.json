@@ -1,0 +1,84 @@
+{
+  "_comment": [
+    "Классы силы рельефа NormalStudio (сет C-2, 05.09.2026; gamedesigner_round2.md §3.3, developer_round2.md §3 таблица раздачи).",
+    "Читает Tools/NormalStudio/ue_apply_maps_to_materials.py. Правила — ПО ПОРЯДКУ, первое совпадение решает. Поля: parent (имя мастера),",
+    "pkg (regex по пути пакета MIC, без учёта регистра), name (regex по имени MIC, без учёта регистра). strength = ClassStrength MIC;",
+    "0 ⇒ карты НЕ раздаются (HasMaps=0, ClassStrength=0 явно) — класс D/лицо/спорное. Спорные имена намеренно в 0 (правило владельца).",
+    "Имена MIC = имена текстур оригинала: mdel_* модели карт (архитектура/пропсы), natu_* природа, npc_*/mon_*/lmon_* персонажи NPC/мобы,",
+    "ch1_<пол>_<уровень>_<часть>: hcap шапка, chst грудь, pant штаны, grov перчатки, shoe обувь, hair волосы, face лицо; оружие swrd/bbow/lbow/cbow/sbow/stap/spir/thnd/shid/step/arrs;",
+    "itm1_n/itm_n/cb1_* предметы (оружие/самоцветы), sb_* оружие магазина, cre_* сцена выбора персонажа, fs_fsm_* рыба, chek/sign/shop/flabis/gie/gigu/stick/unicon/mudea пропсы карт.",
+    "★ natu_*tree* — атлас ствола И листвы в одном MIC: попадает в C (кора 0.55) целиком; разделить нельзя — решение за владельцем (в отчёте).",
+    "Правило-ловушка по пути /Game/Map/ УБРАНО 05.09: неизвестные корейские романизации (gi, sh, sat, milk, husuabi, yong…) — спорное → 0, список в setC2_report.md §3.",
+    "★ fix 05.09 (review_setC2.md ВАЖНО-1): D ловит _ip_/_ip\\d в середине имени (MI_tree_ip_01 → 0); `vine` только с границей слова (npc_f_h_ludivine-* — NPC, 0.35, а не 0); добавлены frond/foliage. Применение к MIC — UE-этап (ue_apply… без SKIP_DONE).",
+    "★ доводка 05.09 (review_setD.md МЕЛОЧЬ №1): MI_natu_maple01-b_00 (silalis/rein/conquester) — листва клёна, СОЗНАТЕЛЬНО в D (`maple01-b`, strength 0, Foliage=true в сете D); правило C `natu_maple` его НЕ ловит, т.к. D стоит раньше (первое совпадение решает). Порядок D→C менять нельзя."
+  ],
+  "default_strength": 0.0,
+  "rules": [
+    {
+      "class": "B_terrain",
+      "strength": 0.45,
+      "parent": "M_AsdaTerrainLit",
+      "note": "тайлы террейна (Detail0)"
+    },
+    {
+      "class": "E_face_hair",
+      "strength": 0.0,
+      "name": "_face\\d|_hair\\d|_hcap\\d|^hair|^face",
+      "note": "лицо/волосы/шапка-волосы — 0 (ГД)"
+    },
+    {
+      "class": "D_foliage_water_fx",
+      "strength": 0.0,
+      "name": "leaf|lawn|grass|flower|gru|glass|water|poison|mushroom|weed|(^|[_-])vine|ivy|bush|(^|_)eff|effect|smoke|fire|flame|cloud|socollny|ball_ani|gachya|template|luckcoin|socks|flag|creback|roombg|creation|fs_fsm|dove|circle|smoking|reed|fern|moss|algae|^mi_ip_|^ip_|_ip_|_ip\\d|dandelion|cosmos|maple01-b|frond|foliage",
+      "note": "листва/трава/вода/эффекты/фон сцены выбора/рыба/животные — 0 (спорное → 0); fix 05.09: _ip_/_ip\\d внутри имени (tree_ip = лист пальмы), vine только как слово (ludivine = NPC), frond/foliage"
+    },
+    {
+      "class": "C_bark_rock",
+      "strength": 0.55,
+      "name": "tree|rock|ston|cliff|statue|stoneman|wreck|poplar|trunk|stump|boulder|crystal|birch|oak|pine|palm|willow|cedar|natu_maple|natu_grove|natu_tunnel",
+      "note": "кора/скалы/крупные пропсы природы"
+    },
+    {
+      "class": "A_architecture_mdel",
+      "strength": 0.75,
+      "name": "^mdel_|^mi_mdel_",
+      "note": "модели карт mdel_* (архитектура/пропсы) — раньше правил персонажей: mdel_worker/guard = статуи-пропсы"
+    },
+    {
+      "class": "E_metal_weapon",
+      "strength": 0.35,
+      "name": "^itm|^item|^sb_|^cb1_|_swrd|_bbow|_lbow|_cbow|_sbow|_stap|_spir|_thnd|_shid|_step|_arrs|drill|fishrod|weapon|vehicle|broom|propelra",
+      "note": "оружие/предметы/техника — металл"
+    },
+    {
+      "class": "E_npc_mob",
+      "strength": 0.35,
+      "name": "^npc_|^mon_|^lmon_|^mi_npc_|^mi_mon_|^mi_lmon_|wizard|fight|artcher|worker|guard|bandit",
+      "note": "NPC/мобы (developer_round2 таблица: 0.35)"
+    },
+    {
+      "class": "E_cloth",
+      "strength": 0.2,
+      "name": "^ch1_|^ch4|^cre_|^mi_ch1_|^mi_ch4|^mi_cre_",
+      "note": "части игрока/созданий выбора — ткань/доспех 0.2 (по коду части не различимы)"
+    },
+    {
+      "class": "E_cloth_charlit",
+      "strength": 0.2,
+      "parent": "M_AsdaCharLit",
+      "note": "прочие MIC мастера персонажа (кор. имена оригинала) — ткань 0.2"
+    },
+    {
+      "class": "E_cloth_skinlit",
+      "strength": 0.0,
+      "parent": "M_AsdaSkinLit",
+      "note": "лицо (SkinLit) — 0"
+    },
+    {
+      "class": "A_architecture",
+      "strength": 0.75,
+      "name": "^mdel_|^mi_mdel_|sign|shop|chek|flabis|gie|gigu|^gi$|^mi_gi_|stick|unicon|mudea|tile|window|house|wall|door|gate|bridge|tower|tent|machine|portal|board|barricade|arrest|bury|shell|starfish|chess0|box|bench|chair|altar|burner|excavat|block|target|alpengod|inferion",
+      "note": "архитектура/пропсы карт"
+    }
+  ]
+}

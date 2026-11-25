@@ -1,0 +1,1387 @@
+idnum	idc	window_idnum	window_idc	outline	bold	shadow	conditional	evidence	note
+32	MINISTATE_HPTEXT	1	MINISTATE_WIN	1	0	0	0	ui_core.c:74900	
+33	MINISTATE_MPTEXT	1	MINISTATE_WIN	1	0	0	0	ui_core.c:74901	
+60	STATE_ICON00	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+61	STATE_ICON01	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+62	STATE_ICON02	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+63	STATE_ICON03	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+64	STATE_ICON04	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+65	STATE_ICON05	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+66	STATE_ICON06	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+67	STATE_ICON07	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+68	STATE_ICON08	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+69	STATE_ICON09	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+70	STATE_ICON10	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+71	STATE_ICON11	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+72	STATE_ICON12	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+73	STATE_ICON13	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+74	STATE_ICON14	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+75	STATE_ICON15	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+76	STATE_ICON16	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+77	STATE_ICON17	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+78	STATE_ICON18	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+79	STATE_ICON19	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+80	STATE_ICON20	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+82	STATE_ICON21	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+83	STATE_ICON22	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+84	STATE_ICON23	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+85	STATE_ICON24	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+86	STATE_ICON25	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+87	STATE_ICON26	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+88	STATE_ICON27	1	MINISTATE_WIN	1	0	0	1	ui_core.c:76402; ui_core.c:76430; ui_core.c:76674; ui_core.c:76702	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | STATE_ICON 60..80,82..88 (привязка ui_core.c:74720); ветка стака 2..30 | то же, вторая ветка | то же | условие: if ( skillRecord->buff0SubType[0] == 1 ) && if ( *(unsigned __int8 *)(buffEntry + 5) >= 2u && *(unsigned __int8 *)(buffEntry + 5) <= 0x1Eu )
+159	CHAT_SysMsg_Win	214	CHAT_BACKWIN	0	0	1	0	chat.c:326	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+212	CHAT_LISTBOXNOR	214	CHAT_BACKWIN	0	0	1	0	chat.c:362; chat.c:5128; ui_core.c:13321	дополнительно по ветке: жирный @ui_core.c:13321 [if ( a3 == 1 ) && if ( a2 == 1 || a2 == 5 )] | повторная установка тени на CHAT_LISTBOXNOR; привязка chat.c:285 | CChat: жирный только при a3==1 и (a2==1||a2==5); перекрывает тень из CChat_Init | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+216	CHAT_LISTBOXCUP	214	CHAT_BACKWIN	0	0	1	0	chat.c:371; ui_core.c:13322	дополнительно по ветке: жирный @ui_core.c:13322 [if ( a3 == 1 ) && if ( a2 == 1 || a2 == 5 )] | то же условие | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+217	CHAT_LISTBOXPAT	214	CHAT_BACKWIN	0	0	1	0	chat.c:379; ui_core.c:13323	дополнительно по ветке: жирный @ui_core.c:13323 [if ( a3 == 1 ) && if ( a2 == 1 || a2 == 5 )] | то же условие | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+218	CHAT_LISTBOXGIL	214	CHAT_BACKWIN	0	0	1	0	chat.c:387; ui_core.c:13324	дополнительно по ветке: жирный @ui_core.c:13324 [if ( a3 == 1 ) && if ( a2 == 1 || a2 == 5 )] | то же условие | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+220	MINI_CHATWIN	214	CHAT_BACKWIN	0	0	1	0	chat.c:411	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+221	WARMESSAGE_WIN	221	WARMESSAGE_WIN	1	0	0	0	chat.c:336; chat.c:417; quest.c:1401	НЕСКОЛЬКО установок подряд (обводка, тень, обводка) — поле перезаписывается, побеждает последняя: обводка | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+222	CHAT_MINILIST	200	CHAT_OPENBUT_base	0	0	1	0	chat.c:402	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+226	CHAT_LISTBOXSYS	214	CHAT_BACKWIN	0	0	1	0	chat.c:395	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+227	CHAT_NOTICE	214	CHAT_BACKWIN	1	0	0	0	chat.c:444	
+229	NOTICE_TXT00	228	NOTICE_WIN	0	1	0	0	chat.c:442	
+231	NOTICE_TXT02	228	NOTICE_WIN	0	1	0	0	chat.c:443	
+232	CHAT_LISTBOXEAR	214	CHAT_BACKWIN	0	0	1	0	chat.c:565; ui_core.c:13325	дополнительно по ветке: жирный @ui_core.c:13325 [if ( a3 == 1 ) && if ( a2 == 1 || a2 == 5 )] | то же условие | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+233	CHAT_LISTBOXCHANNEL	214	CHAT_BACKWIN	0	0	1	0	chat.c:572; ui_core.c:13326	дополнительно по ветке: жирный @ui_core.c:13326 [if ( a3 == 1 ) && if ( a2 == 1 || a2 == 5 )] | то же условие | сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+313	QUICK_SLOT0	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+314	QUICK_SLOT1	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+315	QUICK_SLOT2	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+316	QUICK_SLOT3	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+317	QUICK_SLOT4	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+318	QUICK_SLOT5	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+319	QUICK_SLOT6	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+320	QUICK_SLOT7	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+321	QUICK_SLOT8	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+322	QUICK_SLOT9	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+323	QUICK_SLOT10	300	QUICK_WIN	1	0	0	0	ui_core.c:65764	while ctrlId=313..323
+414	INVEN_ITEMNAME	400	INVEN_WIN	1	0	0	0	item_inventory.c:35392	
+418	INVEN_SOLLTXT00	400	INVEN_WIN	0	1	0	0	item_inventory.c:35317	
+544	EPISODEPOP_ITEMICON01	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59399	
+546	EPISODEPOP_ITEMICON02	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59408	
+548	EPISODEPOP_ITEMICON03	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59417	
+550	EPISODEPOP_ITEMICON04	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59426	
+552	EPISODEPOP_ITEMICON05	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59435	
+557	EPISODEPOP_ITEMICON06	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59456	
+559	EPISODEPOP_ITEMICON07	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59465	
+561	EPISODEPOP_ITEMICON08	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59474	
+563	EPISODEPOP_ITEMICON09	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59483	
+565	EPISODEPOP_ITEMICON10	540	EPISODEPOP_WIN	1	0	0	0	ui_core.c:59492	
+573	NPC_TNAME	570	NPC_LINE NPC	0	1	0	0	ui_core.c:59305	
+587	QUEST_INFO	599	QUEST_INFO_WIN	0	1	0	0	ui_core.c:59691	QUEST_INFO; привязка ui_core.c:59504
+600	EQUIP_SET0	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+601	EQUIP_SET1	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+602	EQUIP_SET2	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+603	EQUIP_SET3	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+604	EQUIP_SET4	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+605	EQUIP_SET5	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+606	EQUIP_SET6	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+607	EQUIP_SET7	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+608	EQUIP_SET8	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+609	EQUIP_SET9	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+610	EQUIP_SET10	400	INVEN_WIN	1	0	0	0	item_inventory.c:22598	while v3=600..610
+715	QUEST_TRAY0	700	QUEST_WIN	1	0	0	0	quest.c:1365	while ctrlId=715..719
+716	QUEST_TRAY1	700	QUEST_WIN	1	0	0	0	quest.c:1365	while ctrlId=715..719
+717	QUEST_TRAY2	700	QUEST_WIN	1	0	0	0	quest.c:1365	while ctrlId=715..719
+718	QUEST_TRAY3	700	QUEST_WIN	1	0	0	0	quest.c:1365	while ctrlId=715..719
+719	QUEST_TRAY4	700	QUEST_WIN	1	0	0	0	quest.c:1365	while ctrlId=715..719
+762	QUEST_Confirm_Text_T1_MARK1	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1442	
+764	QUEST_Confirm_Text_T1_MARK2	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1442	
+766	QUEST_Confirm_Text_T1_MARK3	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1442	
+768	QUEST_Confirm_Text_T1_MARK4	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1442	
+772	QUEST_Confirm_Text_T2_MARK1	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1453	
+774	QUEST_Confirm_Text_T2_MARK2	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1453	
+776	QUEST_Confirm_Text_T2_MARK3	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1453	
+778	QUEST_Confirm_Text_T2_MARK4	750	QUEST_Confirm_Win	1	0	0	0	quest.c:1453	
+904	STATUS_NAME	900	CHARAINFO_WIN	0	1	0	0	ui_core.c:11279	привязка ui_core.c:10690
+906	STATUS_LEVEL	900	CHARAINFO_WIN	0	1	0	0	ui_core.c:11213	v7[29]=906 (привязка ui_core.c:10733); функция вызывается только из UI_FillEquipDetailPanel
+922	CHARAINFO_CAMPWART1-S	900	CHARAINFO_WIN	0	1	0	0	ui_core.c:10710	
+930	STATUS_ST0	900	CHARAINFO_WIN	0	1	0	0	ui_core.c:11292	pPanel[41] = первый элемент массива STATUS_ST0 (привязка ui_core.c:10799)
+1320	NPCSHOP_TRAY00	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1321	NPCSHOP_TRAY01	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1322	NPCSHOP_TRAY02	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1323	NPCSHOP_TRAY03	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1324	NPCSHOP_TRAY04	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1325	NPCSHOP_TRAY05	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1326	NPCSHOP_TRAY06	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1327	NPCSHOP_TRAY07	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1328	NPCSHOP_TRAY08	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1329	NPCSHOP_TRAY09	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1330	NPCSHOP_TRAY10	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1331	NPCSHOP_TRAY11	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1332	NPCSHOP_TRAY12	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1333	NPCSHOP_TRAY13	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1334	NPCSHOP_TRAY14	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1335	NPCSHOP_TRAY15	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1336	NPCSHOP_TRAY16	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1337	NPCSHOP_TRAY17	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1338	NPCSHOP_TRAY18	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1339	NPCSHOP_TRAY19	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1340	NPCSHOP_TRAY20	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1341	NPCSHOP_TRAY21	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1342	NPCSHOP_TRAY22	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1343	NPCSHOP_TRAY23	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1344	NPCSHOP_TRAY24	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1345	NPCSHOP_TRAY25	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1346	NPCSHOP_TRAY26	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1347	NPCSHOP_TRAY27	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1348	NPCSHOP_TRAY28	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1349	NPCSHOP_TRAY29	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1350	NPCSHOP_TRAY30	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1351	NPCSHOP_TRAY31	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1352	NPCSHOP_TRAY32	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1353	NPCSHOP_TRAY33	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1354	NPCSHOP_TRAY34	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1355	NPCSHOP_TRAY35	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5899	while ctrlId=1320..1355
+1360	NPCSHOP_BTRAY00	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5910	while bCtrlId=1360..1364
+1361	NPCSHOP_BTRAY01	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5910	while bCtrlId=1360..1364
+1362	NPCSHOP_BTRAY02	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5910	while bCtrlId=1360..1364
+1363	NPCSHOP_BTRAY03	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5910	while bCtrlId=1360..1364
+1364	NPCSHOP_BTRAY04	1300	NPCSHOP_WIN	1	0	0	0	npc_mob_pet.c:5910	while bCtrlId=1360..1364
+1603	TARGETMARK_MONNAME	1600	TARGETMARK_MON	1	0	0	0	ui_core.c:2798; ui_core.c:2920	
+1621	TARGETMARK_MANNAME	1620	TARGETMARK_MAN	1	0	0	0	ui_core.c:2802; ui_core.c:2857; ui_core.c:2870; ui_core.c:2908; ui_core.c:2921	клон шаблона TARGETMARK_MANNAME (1621) | клон шаблона 1621, повтор
+1622	TARGETMARK_GUILD	1620	TARGETMARK_MAN	1	0	0	0	ui_core.c:2897; ui_core.c:2953	*(this+1319) = gap_1430[108] = 1622 TARGETMARK_GUILD (привязка ui_core.c:2805)
+1627	TargtMark_ManTitle	1620	TARGETMARK_MAN	1	0	0	0	ui_core.c:2813	
+1661	TARGETMARK_MANNAME1	1660	TARGETMARK_MAN1	1	0	0	0	entity_char.c:22131; ui_core.c:2915; ui_core.c:2922; ui_core.c:99018; ui_core.c:99020	клон шаблона TARGETMARK_MANNAME1 (1661) — имя игрока | клон шаблона TARGETMARK_MANNAME1 (1661) | клон шаблона 1661, повтор
+1662	TARGETMARK_GUILDNAME1	1660	TARGETMARK_MAN1	1	0	0	0	entity_char.c:22133	клон шаблона TARGETMARK_GUILDNAME1 (1662)
+1667	TargtMark_Man1Title	1660	TARGETMARK_MAN1	1	0	0	0	entity_char.c:22061; entity_char.c:22136	клон шаблона TargtMark_Man1Title (1667) | клон шаблона 1667, повтор
+1690	Quest_Display_RewardIcon_0	700	QUEST_WIN	1	0	0	0	quest.c:1476	
+1691	Quest_Display_RewardIcon_1	700	QUEST_WIN	1	0	0	0	quest.c:1476	
+1692	Quest_Display_RewardIcon_2	700	QUEST_WIN	1	0	0	0	quest.c:1476	
+1693	Quest_Display_RewardIcon_3	700	QUEST_WIN	1	0	0	0	quest.c:1476	
+1694	Quest_Display_CRewardIcon_0	700	QUEST_WIN	1	0	0	0	quest.c:1486	
+1695	Quest_Display_CRewardIcon_1	700	QUEST_WIN	1	0	0	0	quest.c:1486	
+1696	Quest_Display_CRewardIcon_2	700	QUEST_WIN	1	0	0	0	quest.c:1486	
+1697	Quest_Display_CRewardIcon_3	700	QUEST_WIN	1	0	0	0	quest.c:1486	
+1703	MINIMAP_NAME	1702	MINIMAP_WIN	1	0	0	0	world_map.c:7012	
+1801	Quest_State_Title1	1800	Quest_State_Win	0	0	1	0	quest.c:775	
+1802	Quest_State_Condition1_1	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1803	Quest_State_Condition1_2	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1804	Quest_State_Condition1_3	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1805	Quest_State_Title2	1800	Quest_State_Win	0	0	1	0	quest.c:775	
+1806	Quest_State_Condition2_1	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1807	Quest_State_Condition2_2	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1808	Quest_State_Condition2_3	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1809	Quest_State_Title3	1800	Quest_State_Win	0	0	1	0	quest.c:775	
+1810	Quest_State_Condition3_1	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1811	Quest_State_Condition3_2	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1812	Quest_State_Condition3_3	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1813	Quest_State_Title4	1800	Quest_State_Win	0	0	1	0	quest.c:775	
+1814	Quest_State_Condition4_1	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1815	Quest_State_Condition4_2	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1816	Quest_State_Condition4_3	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1817	Quest_State_Title5	1800	Quest_State_Win	0	0	1	0	quest.c:775	
+1818	Quest_State_Condition5_1	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1819	Quest_State_Condition5_2	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1820	Quest_State_Condition5_3	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1821	Quest_State_Title6	1800	Quest_State_Win	0	0	1	0	quest.c:775	
+1822	Quest_State_Condition6_1	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1823	Quest_State_Condition6_2	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+1824	Quest_State_Condition6_3	1800	Quest_State_Win	0	0	1	0	quest.c:783	
+2013	TRAN_TRAY01	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2014	TRAN_TRAY02	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2015	TRAN_TRAY03	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2016	TRAN_TRAY04	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2017	TRAN_TRAY05	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2018	TRAN_TRAY06	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2019	TRAN_TRAY07	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2020	TRAN_TRAY08	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2021	TRAN_TRAY09	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2022	TRAN_TRAY10	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2023	TRAN_TRAY11	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2024	TRAN_TRAY12	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2025	TRAN_TRAY13	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2026	TRAN_TRAY14	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2027	TRAN_TRAY15	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2028	TRAN_TRAY16	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2029	TRAN_TRAY17	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2030	TRAN_TRAY18	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2031	TRAN_TRAY19	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2032	TRAN_TRAY20	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2033	TRAN_TRAY21	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2034	TRAN_TRAY22	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2035	TRAN_TRAY23	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2036	TRAN_TRAY24	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7392	while controlId=2013..2036
+2037	TRAN_TRAY25	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7402	while controlId_2=2037..2041
+2038	TRAN_TRAY26	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7402	while controlId_2=2037..2041
+2039	TRAN_TRAY27	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7402	while controlId_2=2037..2041
+2040	TRAN_TRAY28	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7402	while controlId_2=2037..2041
+2041	TRAN_TRAY29	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7402	while controlId_2=2037..2041
+2042	TRAN_TRAY30	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7412	while controlId3=2042..2046
+2043	TRAN_TRAY31	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7412	while controlId3=2042..2046
+2044	TRAN_TRAY32	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7412	while controlId3=2042..2046
+2045	TRAN_TRAY33	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7412	while controlId3=2042..2046
+2046	TRAN_TRAY34	2008	TRAN_WIN	1	0	0	0	shop_trade.c:7412	while controlId3=2042..2046
+2521	CHAT_NEW_C_NOR	2500	CHAT_NEW	0	0	1	0	chat.c:806	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+2551	CHAT_NEW_SERV_NOTICE	310	EXPBar_WIn	1	0	0	0	chat.c:1042	
+2557	CHAT_NEW_SERV_SysMsg_Win	2550	CHAT_NEW_SERV	0	0	1	0	chat.c:1024	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+2558	CHAT_NEW_SERV_SysMsg_Win_2	2550	CHAT_NEW_SERV	0	0	1	0	chat.c:1036	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+2572	CHAT_NEW_SERV_listbox	2570	CHAT_NEW_SYSTEM	0	0	1	0	chat.c:1001	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+2581		2500	CHAT_NEW	0	1	0	0	chat.c:1249	
+4008	WAREKEEP_TRAY00	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4009	WAREKEEP_TRAY01	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4010	WAREKEEP_TRAY02	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4011	WAREKEEP_TRAY03	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4012	WAREKEEP_TRAY04	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4013	WAREKEEP_TRAY05	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4014	WAREKEEP_TRAY06	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4015	WAREKEEP_TRAY07	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4016	WAREKEEP_TRAY08	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4017	WAREKEEP_TRAY09	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4018	WAREKEEP_TRAY10	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4019	WAREKEEP_TRAY11	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4020	WAREKEEP_TRAY12	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4021	WAREKEEP_TRAY13	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4022	WAREKEEP_TRAY14	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4023	WAREKEEP_TRAY15	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4024	WAREKEEP_TRAY16	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4025	WAREKEEP_TRAY17	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4026	WAREKEEP_TRAY18	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4027	WAREKEEP_TRAY19	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4028	WAREKEEP_TRAY20	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4029	WAREKEEP_TRAY21	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4030	WAREKEEP_TRAY22	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4031	WAREKEEP_TRAY23	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4032	WAREKEEP_TRAY24	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4033	WAREKEEP_TRAY25	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4034	WAREKEEP_TRAY26	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4035	WAREKEEP_TRAY27	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4036	WAREKEEP_TRAY28	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4037	WAREKEEP_TRAY29	4000	WARE_WIN	0	0	1	0	item_inventory.c:57381	ctrlId++ 4008..4037
+4039	WAREKEEP_TRAY30	4000	WARE_WIN	0	0	1	0	item_inventory.c:57345	ctrlId++ 4039..4043
+4040	WAREKEEP_TRAY31	4000	WARE_WIN	0	0	1	0	item_inventory.c:57345	ctrlId++ 4039..4043
+4041	WAREKEEP_TRAY32	4000	WARE_WIN	0	0	1	0	item_inventory.c:57345	ctrlId++ 4039..4043
+4042	WAREKEEP_TRAY33	4000	WARE_WIN	0	0	1	0	item_inventory.c:57345	ctrlId++ 4039..4043
+4043	WAREKEEP_TRAY34	4000	WARE_WIN	0	0	1	0	item_inventory.c:57345	ctrlId++ 4039..4043
+4055	WAREBAG1_TRAY00	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4056	WAREBAG1_TRAY01	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4057	WAREBAG1_TRAY02	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4058	WAREBAG1_TRAY03	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4059	WAREBAG1_TRAY04	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4060	WAREBAG1_TRAY05	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4061	WAREBAG1_TRAY06	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4062	WAREBAG1_TRAY07	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4063	WAREBAG1_TRAY08	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4064	WAREBAG1_TRAY09	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4065	WAREBAG1_TRAY10	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4066	WAREBAG1_TRAY11	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4067	WAREBAG1_TRAY12	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4068	WAREBAG1_TRAY13	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4069	WAREBAG1_TRAY14	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4070	WAREBAG1_TRAY15	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4071	WAREBAG1_TRAY16	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4072	WAREBAG1_TRAY17	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4073	WAREBAG1_TRAY18	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4074	WAREBAG1_TRAY19	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4075	WAREBAG1_TRAY20	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4076	WAREBAG1_TRAY21	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4077	WAREBAG1_TRAY22	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4078	WAREBAG1_TRAY23	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4079	WAREBAG1_TRAY24	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4080	WAREBAG1_TRAY25	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4081	WAREBAG1_TRAY26	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4082	WAREBAG1_TRAY27	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4083	WAREBAG1_TRAY28	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4084	WAREBAG1_TRAY29	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4089	WAREBAG2_TRAY00	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4090	WAREBAG2_TRAY01	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4091	WAREBAG2_TRAY02	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4092	WAREBAG2_TRAY03	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4093	WAREBAG2_TRAY04	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4094	WAREBAG2_TRAY05	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4095	WAREBAG2_TRAY06	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4096	WAREBAG2_TRAY07	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4097	WAREBAG2_TRAY08	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4098	WAREBAG2_TRAY09	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4099	WAREBAG2_TRAY10	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4100	WAREBAG2_TRAY11	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4101	WAREBAG2_TRAY12	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4102	WAREBAG2_TRAY13	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4103	WAREBAG2_TRAY14	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4104	WAREBAG2_TRAY15	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4105	WAREBAG2_TRAY16	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4106	WAREBAG2_TRAY17	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4107	WAREBAG2_TRAY18	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4108	WAREBAG2_TRAY19	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4109	WAREBAG2_TRAY20	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4110	WAREBAG2_TRAY21	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4111	WAREBAG2_TRAY22	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4112	WAREBAG2_TRAY23	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4113	WAREBAG2_TRAY24	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4114	WAREBAG2_TRAY25	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4115	WAREBAG2_TRAY26	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4116	WAREBAG2_TRAY27	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4117	WAREBAG2_TRAY28	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4118	WAREBAG2_TRAY29	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4123	WAREBAG3_TRAY00	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4124	WAREBAG3_TRAY01	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4125	WAREBAG3_TRAY02	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4126	WAREBAG3_TRAY03	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4127	WAREBAG3_TRAY04	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4128	WAREBAG3_TRAY05	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4129	WAREBAG3_TRAY06	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4130	WAREBAG3_TRAY07	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4131	WAREBAG3_TRAY08	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4132	WAREBAG3_TRAY09	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4133	WAREBAG3_TRAY10	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4134	WAREBAG3_TRAY11	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4135	WAREBAG3_TRAY12	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4136	WAREBAG3_TRAY13	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4137	WAREBAG3_TRAY14	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4138	WAREBAG3_TRAY15	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4139	WAREBAG3_TRAY16	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4140	WAREBAG3_TRAY17	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4141	WAREBAG3_TRAY18	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4142	WAREBAG3_TRAY19	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4143	WAREBAG3_TRAY20	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4144	WAREBAG3_TRAY21	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4145	WAREBAG3_TRAY22	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4146	WAREBAG3_TRAY23	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4147	WAREBAG3_TRAY24	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4148	WAREBAG3_TRAY25	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4149	WAREBAG3_TRAY26	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4150	WAREBAG3_TRAY27	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4151	WAREBAG3_TRAY28	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4152	WAREBAG3_TRAY29	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4157	WAREBAG4_TRAY00	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4158	WAREBAG4_TRAY01	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4159	WAREBAG4_TRAY02	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4160	WAREBAG4_TRAY03	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4161	WAREBAG4_TRAY04	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4162	WAREBAG4_TRAY05	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4163	WAREBAG4_TRAY06	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4164	WAREBAG4_TRAY07	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4165	WAREBAG4_TRAY08	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4166	WAREBAG4_TRAY09	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4167	WAREBAG4_TRAY10	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4168	WAREBAG4_TRAY11	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4169	WAREBAG4_TRAY12	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4170	WAREBAG4_TRAY13	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4171	WAREBAG4_TRAY14	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4172	WAREBAG4_TRAY15	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4173	WAREBAG4_TRAY16	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4174	WAREBAG4_TRAY17	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4175	WAREBAG4_TRAY18	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4176	WAREBAG4_TRAY19	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4177	WAREBAG4_TRAY20	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4178	WAREBAG4_TRAY21	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4179	WAREBAG4_TRAY22	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4180	WAREBAG4_TRAY23	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4181	WAREBAG4_TRAY24	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4182	WAREBAG4_TRAY25	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4183	WAREBAG4_TRAY26	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4184	WAREBAG4_TRAY27	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4185	WAREBAG4_TRAY28	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4186	WAREBAG4_TRAY29	4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+4202	OTHERCHARA_DATATXT00	4200	OTHERCHARA_DATA	0	1	0	0	ui_core.c:62352	
+5001	ITEM_TIPTITLE	5000	ITEM_TIPWIN	0	1	0	0	item_inventory.c:59488	
+5051	ItemCompareTip_Title	5050	ItemCompareTip_Win	0	1	0	0	item_inventory.c:59467	
+6088	SHELLITEM_POP00_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6097	SHELLITEM_POP01_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6106	SHELLITEM_POP02_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6115	SHELLITEM_POP03_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6124	SHELLITEM_POP04_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6133	SHELLITEM_POP05_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6142	SHELLITEM_POP06_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6151	SHELLITEM_POP07_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6160	SHELLITEM_POP08_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6169	SHELLITEM_POP09_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6178	SHELLITEM_POP10_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6187	SHELLITEM_POP11_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6196	SHELLITEM_POP12_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6205	SHELLITEM_POP13_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6214	SHELLITEM_POP14_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6223	SHELLITEM_POP15_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6232	SHELLITEM_POP16_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6241	SHELLITEM_POP17_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6250	SHELLITEM_POP18_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6259	SHELLITEM_POP19_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6268	SHELLITEM_POP20_ICON	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:27420	m_aPremStore[s].pSub[3] = 6088+9s (привязка item_inventory.c:19730)
+6585	Soul_HeartTxt	6400	COMMUNITY_WIN	0	1	0	0	social.c:6395	
+6600	Soul_Msg_TitleTxt	6400	COMMUNITY_WIN	0	1	0	0	social.c:6405	
+6611	Soul_RMsgTitle_Move	6610	Soul_RMsgWin	0	1	0	0	social.c:6436	
+6621	Soul_RMsgTitle_Move2	6620	Soul_RMsgWin2	0	1	0	0	social.c:6436	
+6631	Soul_RMsgTitle_Move3	6630	Soul_RMsgWin3	0	1	0	0	social.c:6436	
+6641	OldSoulmate_Title	6400	COMMUNITY_WIN	0	1	0	0	social.c:6455	
+6650	OldSoulmate_Name1	6400	COMMUNITY_WIN	0	1	0	1	social.c:6480	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ветка бывшего соулмейта; ctrlId 6650..6652 | условие: if ( self->m_pTxt6586 ) && for ( j = 0; j < 3; ++j )
+6651	OldSoulmate_N1Text02	6400	COMMUNITY_WIN	0	1	0	1	social.c:6480	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ветка бывшего соулмейта; ctrlId 6650..6652 | условие: if ( self->m_pTxt6586 ) && for ( j = 0; j < 3; ++j )
+6652	OldSoulmate_N1Text03	6400	COMMUNITY_WIN	0	1	0	1	social.c:6480	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ветка бывшего соулмейта; ctrlId 6650..6652 | условие: if ( self->m_pTxt6586 ) && for ( j = 0; j < 3; ++j )
+6703	ENERMY_STATE_ICON00	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6704	ENERMY_STATE_ICON01	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6705	ENERMY_STATE_ICON02	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6706	ENERMY_STATE_ICON03	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6707	ENERMY_STATE_ICON04	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6708	ENERMY_STATE_ICON05	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6709	ENERMY_STATE_ICON06	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6710	ENERMY_STATE_ICON07	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6711	ENERMY_STATE_ICON08	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6712	ENERMY_STATE_ICON09	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6713	ENERMY_STATE_ICON10	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6714	ENERMY_STATE_ICON11	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6715	ENERMY_STATE_ICON12	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6716	ENERMY_STATE_ICON13	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6717	ENERMY_STATE_ICON14	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6718	ENERMY_STATE_ICON15	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6719	ENERMY_STATE_ICON16	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6720	ENERMY_STATE_ICON17	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6721	ENERMY_STATE_ICON18	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6722	ENERMY_STATE_ICON19	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6723	ENERMY_STATE_ICON20	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6724	ENERMY_STATE_ICON21	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6725	ENERMY_STATE_ICON22	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6726	ENERMY_STATE_ICON23	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6727	ENERMY_STATE_ICON24	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6728	ENERMY_STATE_ICON25	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6729	ENERMY_STATE_ICON26	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+6730	ENERMY_STATE_ICON27	40	PVP_TARGET	1	0	0	1	ui_core.c:77079; ui_core.c:77280	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ENERMY_STATE_ICON 6703..6730 (привязка ui_core.c:74930/74934) | то же, j<28 | условие: if ( buffInfo ) && if ( *(unsigned __int8 *)(buffEntry + 22) >= 2u && *(unsigned __int8 *)(buffEntry + 22) <= 0x1Eu )
+7901	CharNameChange_Move	7900	CharNameChange_Win	0	1	0	0	item_inventory.c:35728	
+8201	Find_SMate_Move	8200	Find_Soulmate_Win	0	1	0	0	ui_core.c:73594	
+8268	Find_SMate_MyIntroTitle	8200	Find_Soulmate_Win	0	1	0	0	ui_core.c:73797	
+8301	My_Intro_Move	8300	My_Introduction_Win	0	1	0	0	ui_core.c:73833	
+8402	SMate_ReqAnsr_Name	8400	SMate_ReqAnsr_Win	0	1	0	0	social.c:6310	
+8501	Find_Party_Move	8500	Find_Party_WIn	0	1	0	0	ui_core.c:63596	
+8504	Find_Party_MTitle	8500	Find_Party_WIn	0	1	0	0	ui_core.c:63792	
+8578	Find_Party_PTitle	8500	Find_Party_WIn	0	1	0	0	ui_core.c:63934	
+9012	TALKBOXW_TXT	9010	TALKBOXW_WIN	0	1	0	1	ui_core.c:97384; ui_core.c:97388	НЕСКОЛЬКО установок подряд (жирный, сброс) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | *(this+3) = клон шаблона baseId+2 (baseId 9010/9013/9016 по variant); жирный только при a7==1 | СБРОС стиля (0x100000) при a7==0 | условие: if ( a2 && *(this + 1) && *(this + 3) ) && if ( a7 ) | есть СБРОС к дефолту 0x100000 (@ui_core.c:97388) — стиль снимается в рантайме
+9015	TALKBOXB_TXT	9013	TALKBOXB_WIN	0	1	0	1	ui_core.c:97384; ui_core.c:97388	НЕСКОЛЬКО установок подряд (жирный, сброс) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | *(this+3) = клон шаблона baseId+2 (baseId 9010/9013/9016 по variant); жирный только при a7==1 | СБРОС стиля (0x100000) при a7==0 | условие: if ( a2 && *(this + 1) && *(this + 3) ) && if ( a7 ) | есть СБРОС к дефолту 0x100000 (@ui_core.c:97388) — стиль снимается в рантайме
+9018	TALKBOX_Mon_Txt	9016	TALKBOX_Mon_WIN	0	1	0	1	ui_core.c:97384; ui_core.c:97388	НЕСКОЛЬКО установок подряд (жирный, сброс) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | *(this+3) = клон шаблона baseId+2 (baseId 9010/9013/9016 по variant); жирный только при a7==1 | СБРОС стиля (0x100000) при a7==0 | условие: if ( a2 && *(this + 1) && *(this + 3) ) && if ( a7 ) | есть СБРОС к дефолту 0x100000 (@ui_core.c:97388) — стиль снимается в рантайме
+9501	Whisper_ChatHistory	9500	Whisper_Win	0	0	1	0	shop_trade.c:1858	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+9502	Whisper_Title	9500	Whisper_Win	0	1	0	0	shop_trade.c:1854	
+10010	INVEN_SET0	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10011	INVEN_SET1	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10012	INVEN_SET2	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10013	INVEN_SET3	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10014	INVEN_SET4	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10015	INVEN_SET5	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10016	INVEN_SET6	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10017	INVEN_SET7	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10018	INVEN_SET8	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10019	INVEN_SET9	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10020	INVEN_SET10	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10021	INVEN_SET11	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10022	INVEN_SET12	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10023	INVEN_SET13	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10024	INVEN_SET14	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10025	INVEN_SET15	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10026	INVEN_SET16	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10027	INVEN_SET17	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10028	INVEN_SET18	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10029	INVEN_SET19	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10030	INVEN_SET20	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10031	INVEN_SET21	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10032	INVEN_SET22	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10033	INVEN_SET23	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10034	INVEN_SET24	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10035	INVEN_SET25	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10036	INVEN_SET26	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10037	INVEN_SET27	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10038	INVEN_SET28	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+10039	INVEN_SET29	400	INVEN_WIN	1	0	0	0	item_inventory.c:35253	while ctrlId=10010..10039
+11904	SKILLTREE_DLV30	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11911	SKILLTREE_DLV31	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11918	SKILLTREE_DLV32	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11925	SKILLTREE_DLV33	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11932	SKILLTREE_DLV34	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11939	SKILLTREE_DLV35	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11946	SKILLTREE_DLV36	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11953	SKILLTREE_DLV37	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11960	SKILLTREE_DLV38	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11967	SKILLTREE_DLV39	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11974	SKILLTREE_DLV40	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+11981	SKILLTREE_DLV41	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32498	ряды 30..41, ctrlId шаг 7 от 11900
+12015	SKILLTREE_DLV00	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12021	SKILLTREE_DLV01	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12027	SKILLTREE_DLV02	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12033	SKILLTREE_DLV03	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12039	SKILLTREE_DLV04	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12045	SKILLTREE_DLV05	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12051	SKILLTREE_DLV06	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12057	SKILLTREE_DLV07	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12063	SKILLTREE_DLV08	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12069	SKILLTREE_DLV09	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12075	SKILLTREE_DLV10	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12081	SKILLTREE_DLV11	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12087	SKILLTREE_DLV12	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12093	SKILLTREE_DLV13	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12099	SKILLTREE_DLV14	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12105	SKILLTREE_DLV15	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12111	SKILLTREE_DLV16	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12117	SKILLTREE_DLV17	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12123	SKILLTREE_DLV18	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12129	SKILLTREE_DLV19	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12135	SKILLTREE_DLV20	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12141	SKILLTREE_DLV21	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12147	SKILLTREE_DLV22	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12153	SKILLTREE_DLV23	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12159	SKILLTREE_DLV24	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12165	SKILLTREE_DLV25	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12171	SKILLTREE_DLV26	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12177	SKILLTREE_DLV27	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12183	SKILLTREE_DLV28	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12189	SKILLTREE_DLV29	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32451	ряды 0..29, ctrlId шаг 6 от 12011, стиль на slot+7
+12274	SKILLTREE_DLV42	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32545	ряды 42..44, ctrlId шаг 7 от 12270
+12281	SKILLTREE_DLV43	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32545	ряды 42..44, ctrlId шаг 7 от 12270
+12288	SKILLTREE_DLV44	12000	SKILL_WIN	1	0	0	0	skill_buff.c:32545	ряды 42..44, ctrlId шаг 7 от 12270
+13016	EXCH_ITEM01	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13821	regRowCtrlId шаг 8 от 13015, стиль на +1
+13024	EXCH_ITEM02	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13821	regRowCtrlId шаг 8 от 13015, стиль на +1
+13032	EXCH_ITEM03	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13821	regRowCtrlId шаг 8 от 13015, стиль на +1
+13040	EXCH_ITEM04	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13821	regRowCtrlId шаг 8 от 13015, стиль на +1
+13048	EXCH_ITEM05	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13821	regRowCtrlId шаг 8 от 13015, стиль на +1
+13064	EXCHANGE_SELL0	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13065	EXCHANGE_SELL1	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13066	EXCHANGE_SELL2	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13067	EXCHANGE_SELL3	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13068	EXCHANGE_SELL4	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13069	EXCHANGE_SELL5	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13070	EXCHANGE_SELL6	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13071	EXCHANGE_SELL7	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13072	EXCHANGE_SELL8	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13073	EXCHANGE_SELL9	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13074	EXCHANGE_SELL10	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13075	EXCHANGE_SELL11	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13076	EXCHANGE_SELL12	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13077	EXCHANGE_SELL13	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13078	EXCHANGE_SELL14	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13079	EXCHANGE_SELL15	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13080	EXCHANGE_SELL16	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13081	EXCHANGE_SELL17	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13082	EXCHANGE_SELL18	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13083	EXCHANGE_SELL19	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13084	EXCHANGE_SELL20	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13085	EXCHANGE_SELL21	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13086	EXCHANGE_SELL22	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13087	EXCHANGE_SELL23	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13088	EXCHANGE_SELL24	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13089	EXCHANGE_SELL25	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13090	EXCHANGE_SELL26	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13091	EXCHANGE_SELL27	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13092	EXCHANGE_SELL28	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13093	EXCHANGE_SELL29	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13094	EXCHANGE_SELL30	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13095	EXCHANGE_SELL31	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13096	EXCHANGE_SELL32	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13097	EXCHANGE_SELL33	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13098	EXCHANGE_SELL34	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13099	EXCHANGE_SELL35	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13100	EXCHANGE_SELL36	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13101	EXCHANGE_SELL37	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13102	EXCHANGE_SELL38	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13103	EXCHANGE_SELL39	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13104	EXCHANGE_SELL40	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13105	EXCHANGE_SELL41	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13106	EXCHANGE_SELL42	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13107	EXCHANGE_SELL43	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13108	EXCHANGE_SELL44	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13109	EXCHANGE_SELL45	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13110	EXCHANGE_SELL46	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13111	EXCHANGE_SELL47	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13112	EXCHANGE_SELL49	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13113	EXCHANGE_SELL50	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13114	EXCHANGE_SELL51	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13115	EXCHANGE_SELL52	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13116	EXCHANGE_SELL53	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13117	EXCHANGE_SELL54	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13118	EXCHANGE_SELL55	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13119	EXCHANGE_SELL56	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13120	EXCHANGE_SELL57	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13121	EXCHANGE_SELL58	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13122	EXCHANGE_SELL59	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13123	EXCHANGE_SELL60	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13852	60 ячеек инвентаря посредника
+13205	EXCHMY_ITEM01	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13210	EXCHMY_ITEM02	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13215	EXCHMY_ITEM03	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13220	EXCHMY_ITEM04	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13225	EXCHMY_ITEM05	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13230	EXCHMY_ITEM06	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13235	EXCHMY_ITEM07	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13240	EXCHMY_ITEM08	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:13892	myItemCtrlId шаг 5
+13429	EXCHANGER_ITEM01	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13434	EXCHANGER_ITEM02	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13439	EXCHANGER_ITEM03	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13444	EXCHANGER_ITEM04	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13449	EXCHANGER_ITEM05	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13454	EXCHANGER_ITEM06	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13459	EXCHANGER_ITEM07	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+13464	EXCHANGER_ITEM08	13000	EXCHANGE_WIN	1	0	0	0	shop_trade.c:14042	listingCtrlId шаг 5
+14002	CMTY_CLAN_NAME	6400	COMMUNITY_WIN	0	1	0	0	ui_core.c:13985	
+14020	Clan_MyIntro	6400	COMMUNITY_WIN	0	1	0	0	ui_core.c:14198	
+14024	CMTY_CLAN_NOTICE	6400	COMMUNITY_WIN	0	1	0	0	ui_core.c:14213	
+14404	CLAN_TITLE	14400	CLAN_MAKING_WIN	0	1	0	0	ui_core.c:14916	
+14451	CLAN_INC_NAME	14450	CLAN_INCREASE_BOX	0	1	0	0	ui_core.c:15072	
+14471	CLAN_DEL_NAME	14470	CLAN_DELETE_BOX	0	1	0	0	ui_core.c:15177	
+14609	CMTY_Who_TitleTxt	6400	COMMUNITY_WIN	0	1	0	0	social.c:9128	
+15202	ITEM_SWAP_BEFORE	15200	ITEM_SWAP_WIN	0	1	0	0	shop_trade.c:10685; shop_trade.c:10743	привязка shop_trade.c:10490
+15213	ITEM_SWAP_ITEM00	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15214	ITEM_SWAP_ITEM01	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15215	ITEM_SWAP_ITEM02	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15216	ITEM_SWAP_ITEM03	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15217	ITEM_SWAP_ITEM04	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15218	ITEM_SWAP_ITEM05	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15219	ITEM_SWAP_ITEM06	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15220	ITEM_SWAP_ITEM07	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15221	ITEM_SWAP_ITEM08	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15222	ITEM_SWAP_ITEM09	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15223	ITEM_SWAP_ITEM10	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15224	ITEM_SWAP_ITEM11	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15225	ITEM_SWAP_ITEM12	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15226	ITEM_SWAP_ITEM13	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15227	ITEM_SWAP_ITEM14	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15228	ITEM_SWAP_ITEM15	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15229	ITEM_SWAP_ITEM16	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15230	ITEM_SWAP_ITEM17	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15231	ITEM_SWAP_ITEM18	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15232	ITEM_SWAP_ITEM19	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15233	ITEM_SWAP_ITEM20	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15234	ITEM_SWAP_ITEM21	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15235	ITEM_SWAP_ITEM22	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15236	ITEM_SWAP_ITEM23	15200	ITEM_SWAP_WIN	1	0	0	0	shop_trade.c:10528	while ctrlId=15213..15236
+15243	ITEM_SWAP_AFTER	15200	ITEM_SWAP_WIN	0	1	0	0	shop_trade.c:10688; shop_trade.c:10746	привязка shop_trade.c:10543
+15538	BOOSTER_PUR_ITEM_NAME	15300	BOOSTER_SHOP_WIN	0	1	0	0	shop_trade.c:376	
+15646	BOOSTER_PREV_NAME	15600	BOOSTER_PREV_WIN	0	1	0	0	shop_trade.c:496	
+15901	Inven_Fishrod_TitleTxt	400	INVEN_WIN	0	1	0	0	item_inventory.c:35238	
+16030	EXTRACT_F_TITLE	16000	EXTRACT_WIN	0	1	0	0	item_enhance.c:756	
+16031	EXTRACT_F_OPTION1	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:765	цикл j<5
+16032	EXTRACT_F_OPTION2	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:765	цикл j<5
+16033	EXTRACT_F_OPTION3	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:765	цикл j<5
+16034	EXTRACT_F_OPTION4	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:765	цикл j<5
+16035	EXTRACT_F_OPTION5	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:765	цикл j<5
+16080	EXTRACT_B_TITLE	16000	EXTRACT_WIN	0	1	0	0	item_enhance.c:840	
+16230	EXTRACT_B_OPTION1	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:849	цикл kk<5
+16231	EXTRACT_B_OPTION2	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:849	цикл kk<5
+16232	EXTRACT_B_OPTION3	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:849	цикл kk<5
+16233	EXTRACT_B_OPTION4	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:849	цикл kk<5
+16234	EXTRACT_B_OPTION5	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:849	цикл kk<5
+16400	EXTRACT_Scroll00	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:911	цикл i1<6
+16401	EXTRACT_Scroll01	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:911	цикл i1<6
+16402	EXTRACT_Scroll02	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:911	цикл i1<6
+16403	EXTRACT_Scroll03	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:911	цикл i1<6
+16404	EXTRACT_Scroll04	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:911	цикл i1<6
+16405	EXTRACT_Scroll05	16000	EXTRACT_WIN	0	0	1	0	item_enhance.c:911	цикл i1<6
+16501	Skill_Reset_Title	16500	Skill_OneTree_Reset_Win	0	0	1	0	ui_core.c:55897	
+17003	Smelting2_WiN_MOVE	17000	Smelting2_Win	0	1	0	0	item_enhance.c:5299	
+17030	Smelting2_Assem	17000	Smelting2_Win	0	0	1	0	item_enhance.c:5309	
+17040	Smelting2_Alchemy	17000	Smelting2_Win	0	0	1	0	item_enhance.c:5329	
+17050	Smelting2_Process	17000	Smelting2_Win	0	0	1	0	item_enhance.c:5348	
+17110	Smelting2_SelectedItem	17000	Smelting2_Win	1	0	0	0	item_enhance.c:5514	привязка item_enhance.c:5510
+17503	Change_Channel00	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17504	Change_Channel01	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17505	Change_Channel02	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17506	Change_Channel03	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17507	Change_Channel04	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17508	Change_Channel05	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17509	Change_Channel06	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17510	Change_Channel07	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17511	Change_Channel08	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17512	Change_Channel09	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17513	Change_Channel10	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+17514	Change_Channel11	1702	MINIMAP_WIN	0	1	0	1	ui_core.c:54913; ui_core.c:54917	НЕСКОЛЬКО установок подряд (сброс, жирный) — поле перезаписывается, побеждает последняя: жирный | стиль ставится ТОЛЬКО по ветке — в ассет не запекать | СБРОС стиля (0x100000) у метки ПРЕДЫДУЩЕГО канала | жирный у метки ТЕКУЩЕГО канала; привязка world_map.c:7143 | есть СБРОС к дефолту 0x100000 (@ui_core.c:54913) — стиль снимается в рантайме
+19101	Gain_Upgrade_Title	19100	Get_UpgradeOtion	0	1	0	1	item_inventory.c:44384	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | попап результата улучшения; привязка item_inventory.c:43800 | условие: if ( *((unsigned __int8 *)resultRecord + 24) <= 0xAu ) && if ( result )
+19103	Icon_noimage	19100	Get_UpgradeOtion	0	0	1	1	item_inventory.c:44409	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | привязка item_inventory.c:43806 | условие: if ( *((unsigned __int8 *)resultRecord + 24) <= 0xAu ) && if ( result )
+20001	Item_Upgrade_Title	20000	Item_Upgrade_Win	0	1	0	0	item_inventory.c:43757	
+20006	Item_Upgrade_Name	20000	Item_Upgrade_Win	0	0	1	0	item_inventory.c:43708	
+20020	Item_Upgrade_Item00	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20021	Item_Upgrade_Item01	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20022	Item_Upgrade_Item02	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20023	Item_Upgrade_Item03	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20024	Item_Upgrade_Item04	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20025	Item_Upgrade_Item05	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20026	Item_Upgrade_Item06	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20027	Item_Upgrade_Item07	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20028	Item_Upgrade_Item08	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20029	Item_Upgrade_Item09	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20030	Item_Upgrade_Item10	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20031	Item_Upgrade_Item11	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20032	Item_Upgrade_Item12	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20033	Item_Upgrade_Item13	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20034	Item_Upgrade_Item14	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20035	Item_Upgrade_Item15	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20036	Item_Upgrade_Item16	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20037	Item_Upgrade_Item17	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20038	Item_Upgrade_Item18	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20039	Item_Upgrade_Item19	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20040	Item_Upgrade_Item20	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20041	Item_Upgrade_Item21	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20042	Item_Upgrade_Item22	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20043	Item_Upgrade_Item23	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20044	Item_Upgrade_Item24	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20045	Item_Upgrade_Item25	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20046	Item_Upgrade_Item26	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20047	Item_Upgrade_Item27	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20048	Item_Upgrade_Item28	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20049	Item_Upgrade_Item29	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43774	
+20050	Item_Ugrade_Scroll00	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43766	
+20051	Item_Ugrade_Scroll01	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43766	
+20052	Item_Ugrade_Scroll02	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43766	
+20053	Item_Ugrade_Scroll03	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43766	
+20054	Item_Ugrade_Scroll04	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43766	
+20055	Item_Ugrade_Scroll05	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43766	
+20081	Item_Ugrade_Sub0_0	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43836	
+20082	Item_Ugrade_Sub0_1	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43836	
+20083	Item_Ugrade_Sub0_2	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43836	
+20090	Item_Ugrade_Sub1_0	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43844	
+20091	Item_Ugrade_Sub1_1	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43844	
+20092	Item_Ugrade_Sub1_2	20000	Item_Upgrade_Win	1	0	0	0	item_inventory.c:43844	
+20202	Item_Initializ_Title	20200	Item_Initializ_Win	0	1	0	0	item_inventory.c:45059	
+20204	Item_Initializ_SelItemName	20200	Item_Initializ_Win	0	0	1	0	item_inventory.c:45057	
+20240	Item_Initializ_Item00	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20241	Item_Initializ_Item01	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20242	Item_Initializ_Item02	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20243	Item_Initializ_Item03	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20244	Item_Initializ_Item04	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20245	Item_Initializ_Item05	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20246	Item_Initializ_Item06	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20247	Item_Initializ_Item07	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20248	Item_Initializ_Item08	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20249	Item_Initializ_Item09	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20250	Item_Initializ_Item10	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20251	Item_Initializ_Item11	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20252	Item_Initializ_Item12	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20253	Item_Initializ_Item13	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20254	Item_Initializ_Item14	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20255	Item_Initializ_Item15	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20256	Item_Initializ_Item16	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20257	Item_Initializ_Item17	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20258	Item_Initializ_Item18	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20259	Item_Initializ_Item19	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20260	Item_Initializ_Item20	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20261	Item_Initializ_Item21	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20262	Item_Initializ_Item22	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20263	Item_Initializ_Item23	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20264	Item_Initializ_Item24	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20265	Item_Initializ_Item25	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20266	Item_Initializ_Item26	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20267	Item_Initializ_Item27	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20268	Item_Initializ_Item28	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20269	Item_Initializ_Item29	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44923	
+20280	Item_Initializ_Disable00	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20281	Item_Initializ_Disable01	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20282	Item_Initializ_Disable02	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20283	Item_Initializ_Disable03	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20284	Item_Initializ_Disable04	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20285	Item_Initializ_Disable05	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20286	Item_Initializ_Disable06	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20287	Item_Initializ_Disable07	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20288	Item_Initializ_Disable08	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20289	Item_Initializ_Disable09	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20290	Item_Initializ_Disable10	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20291	Item_Initializ_Disable11	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20292	Item_Initializ_Disable12	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20293	Item_Initializ_Disable13	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20294	Item_Initializ_Disable14	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20295	Item_Initializ_Disable15	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20296	Item_Initializ_Disable16	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20297	Item_Initializ_Disable17	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20298	Item_Initializ_Disable18	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20299	Item_Initializ_Disable19	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20300	Item_Initializ_Disable20	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20301	Item_Initializ_Disable21	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20302	Item_Initializ_Disable22	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20303	Item_Initializ_Disable23	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20304	Item_Initializ_Disable24	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20305	Item_Initializ_Disable25	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20306	Item_Initializ_Disable26	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20307	Item_Initializ_Disable27	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20308	Item_Initializ_Disable28	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20309	Item_Initializ_Disable29	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44930	
+20330	Item_Initializ_Target00	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44936	
+20331	Item_Initializ_Target01	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44936	
+20332	Item_Initializ_Target02	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44936	
+20333	Item_Initializ_Target03	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44936	
+20334	Item_Initializ_Target04	20200	Item_Initializ_Win	1	0	0	0	item_inventory.c:44936	
+22100	Stall_Open_Inven00	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22101	Stall_Open_Inven01	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22102	Stall_Open_Inven02	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22103	Stall_Open_Inven03	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22104	Stall_Open_Inven04	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22105	Stall_Open_Inven05	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22106	Stall_Open_Inven06	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22107	Stall_Open_Inven07	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22108	Stall_Open_Inven08	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22109	Stall_Open_Inven09	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22110	Stall_Open_Inven10	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22111	Stall_Open_Inven11	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22112	Stall_Open_Inven12	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22113	Stall_Open_Inven13	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22114	Stall_Open_Inven14	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22115	Stall_Open_Inven15	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22116	Stall_Open_Inven16	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22117	Stall_Open_Inven17	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22118	Stall_Open_Inven18	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22119	Stall_Open_Inven19	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22120	Stall_Open_Inven20	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22121	Stall_Open_Inven21	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22122	Stall_Open_Inven22	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22123	Stall_Open_Inven23	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22124	Stall_Open_Inven24	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22125	Stall_Open_Inven25	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22126	Stall_Open_Inven26	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22127	Stall_Open_Inven27	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22128	Stall_Open_Inven28	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22129	Stall_Open_Inven29	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15456	30 ячеек
+22308	Stall_Open_SellIcon00	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22328	Stall_Open_SellIcon01	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22348	Stall_Open_SellIcon02	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22368	Stall_Open_SellIcon03	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22388	Stall_Open_SellIcon04	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22408	Stall_Open_SellIcon05	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22428	Stall_Open_SellIcon06	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22448	Stall_Open_SellIcon07	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22468	Stall_Open_SellIcon08	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+22488	Stall_Open_SellIcon09	22000	StreetStall_Open_Win	0	0	1	0	shop_trade.c:15443	10 строк, шаг 20
+23121	Stall_SellIcon00	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23131	Stall_SellIcon01	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23141	Stall_SellIcon02	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23151	Stall_SellIcon03	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23161	Stall_SellIcon04	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23171	Stall_SellIcon05	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23181	Stall_SellIcon06	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23191	Stall_SellIcon07	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23201	Stall_SellIcon08	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23211	Stall_SellIcon09	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16700	10 строк, шаг 10
+23250	Stall_PurItem00	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23251	Stall_PurItem01	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23252	Stall_PurItem02	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23253	Stall_PurItem03	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23254	Stall_PurItem04	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23255	Stall_PurItem05	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23256	Stall_PurItem06	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23257	Stall_PurItem07	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23258	Stall_PurItem08	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23259	Stall_PurItem09	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16708	10 вкладок
+23402	Stall_Chat_History	23000	StreetStall_Win	0	0	1	0	shop_trade.c:16723	сеттер = set_o14B@0xB88950 (поле 331 у листбокса), не 926
+26501	Package_Contents_Move	26500	Package_Contents_Win	0	0	1	0	ui_core.c:63043	
+26511	Package_BagIcon0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26513	Package_BagItemIcon0_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26515	Package_BagItemIcon0_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26517	Package_BagItemIcon0-2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26519	Package_BagItemIcon0_3	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26521	Package_BagItemIcon0_4	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26531	Package_BagIcon1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26533	Package_BagItemIcon1_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26535	Package_BagItemIcon1_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26537	Package_BagItemIcon1_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26539	Package_BagItemIcon1_3	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26541	Package_BagItemIcon1_4	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26551	Package_BagIcon2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26553	Package_BagItemIcon2_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26555	Package_BagItemIcon2_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26557	Package_BagItemIcon2_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26559	Package_BagItemIcon2_3	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26561	Package_BagItemIcon2_4	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26571	Package_BagIcon3	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26573	Package_BagItemIcon3_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26575	Package_BagItemIcon3_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26577	Package_BagItemIcon3_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26579	Package_BagItemIcon3_3	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26581	Package_BagItemIcon3_4	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26591	Package_BagIcon4	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26593	Package_BagItemIcon4_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26595	Package_BagItemIcon4_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26597	Package_BagItemIcon4_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26599	Package_BagItemIcon4_3	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26601	Package_BagItemIcon4_4	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3334	aSowelRows[148*r+80+16*k] = 26513+20r+2k; привязка ui_core.c:63066
+26701	Package_ItemIcon0_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26703	Package_ItemIcon0_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26705	Package_ItemIcon0_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26711	Package_ItemIcon1_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26713	Package_ItemIcon1_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26715	Package_ItemIcon1_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26721	Package_ItemIcon2_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26723	Package_ItemIcon2_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26725	Package_ItemIcon2_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26731	Package_ItemIcon3_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26733	Package_ItemIcon3_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26735	Package_ItemIcon3_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26741	Package_ItemIcon4_0	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26743	Package_ItemIcon3_1	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+26745	Package_ItemIcon3_2	26500	Package_Contents_Win	0	0	1	0	item_enhance.c:3323	сброс ячеек: aSowelRows[148*r+16+16*i]; i=0 -> 26511+20r, i=1 -> 26701+10r, i=2 -> 26703+10r, i=3 -> 26705+10r; привязки ui_core.c:63054/63131
+28110	Opend_Item_Item0	28100	Opend_Item_Win	0	0	1	1	item_inventory.c:45511; item_inventory.c:45518; item_inventory.c:45526	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ветка ItemRecord; привязка item_inventory.c:35698 | ветка Table2Record | ветка SowelRecord | условие: for ( j = 0; ; ++j ) && if ( ItemRecord )
+28111	Opend_Item_User0	28100	Opend_Item_Win	0	0	1	1	item_inventory.c:45498	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | j<v16<=3; привязка item_inventory.c:35704 | условие: if ( result > a2 ) && for ( j = 0; ; ++j )
+28120	Opend_Item_Item1	28100	Opend_Item_Win	0	0	1	1	item_inventory.c:45511; item_inventory.c:45518; item_inventory.c:45526	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ветка ItemRecord; привязка item_inventory.c:35698 | ветка Table2Record | ветка SowelRecord | условие: for ( j = 0; ; ++j ) && if ( ItemRecord )
+28121	Opend_Item_User1	28100	Opend_Item_Win	0	0	1	1	item_inventory.c:45498	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | j<v16<=3; привязка item_inventory.c:35704 | условие: if ( result > a2 ) && for ( j = 0; ; ++j )
+28130	Opend_Item_Item2	28100	Opend_Item_Win	0	0	1	1	item_inventory.c:45511; item_inventory.c:45518; item_inventory.c:45526	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | ветка ItemRecord; привязка item_inventory.c:35698 | ветка Table2Record | ветка SowelRecord | условие: for ( j = 0; ; ++j ) && if ( ItemRecord )
+28131	Opend_Item_User2	28100	Opend_Item_Win	0	0	1	1	item_inventory.c:45498	стиль ставится ТОЛЬКО по ветке — в ассет не запекать | j<v16<=3; привязка item_inventory.c:35704 | условие: if ( result > a2 ) && for ( j = 0; ; ++j )
+31001	Job_Guide_Title	31000	Job_Guide_Win	0	1	0	0	ui_core.c:53520	
+31021	Job_Guide_JobName0	31000	Job_Guide_Win	0	1	0	0	ui_core.c:53552	
+31041	Job_Guide_JobName1	31000	Job_Guide_Win	0	1	0	0	ui_core.c:53552	
+31061	Job_Guide_JobName2	31000	Job_Guide_Win	0	1	0	0	ui_core.c:53552	
+32003	Disassembly_Title	32000	Disassembly_Win	0	1	0	0	ui_core.c:70046	
+32004	Disassembly_Target	32000	Disassembly_Win	1	0	0	0	ui_core.c:70056	
+32010	Disassembly_RIcon00	32000	Disassembly_Win	1	0	0	0	ui_core.c:70050	
+32011	Disassembly_RIcon01	32000	Disassembly_Win	1	0	0	0	ui_core.c:70050	
+32012	Disassembly_RIcon02	32000	Disassembly_Win	1	0	0	0	ui_core.c:70050	
+32013	Disassembly_RIcon03	32000	Disassembly_Win	1	0	0	0	ui_core.c:70050	
+32014	Disassembly_RIcon04	32000	Disassembly_Win	1	0	0	0	ui_core.c:70050	
+32015	Disassembly_RIcon05	32000	Disassembly_Win	1	0	0	0	ui_core.c:70050	
+32016	Disassembly_RIcon06	32000	Disassembly_Win	1	0	0	0	ui_core.c:70059	
+32050	Disassembly_Icon00	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32051	Disassembly_Icon01	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32052	Disassembly_Icon02	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32053	Disassembly_Icon03	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32054	Disassembly_Icon04	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32055	Disassembly_Icon05	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32056	Disassembly_Icon06	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32057	Disassembly_Icon07	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32058	Disassembly_Icon08	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32059	Disassembly_Icon09	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32060	Disassembly_Icon10	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32061	Disassembly_Icon11	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32062	Disassembly_Icon12	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32063	Disassembly_Icon13	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32064	Disassembly_Icon14	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32065	Disassembly_Icon15	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32066	Disassembly_Icon16	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32067	Disassembly_Icon17	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32068	Disassembly_Icon18	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32069	Disassembly_Icon19	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32070	Disassembly_Icon20	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32071	Disassembly_Icon21	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32072	Disassembly_Icon22	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32073	Disassembly_Icon23	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32074	Disassembly_Icon24	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32075	Disassembly_Icon25	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32076	Disassembly_Icon26	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32077	Disassembly_Icon27	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32078	Disassembly_Icon28	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+32079	Disassembly_Icon29	32000	Disassembly_Win	1	0	0	0	ui_core.c:70065	
+42001	Pet_Hatchery_Title	42000	Pet_Hatchery_Win	0	1	0	0	npc_mob_pet.c:4033	
+43001	Pet_Cage_Title	43000	Pet_Cage_Win	0	1	0	0	item_enhance.c:4069	
+43301	Pet_Tooltips_Top_T1	43300	Pet_Tooltips_Win	0	1	0	0	ui_core.c:90412	
+43431	Pet_Inven_Top_Text	43400	Pet_Inven_Win	0	1	0	0	ui_core.c:89882	
+43501	Pet_Evolution_Top_TextMove	43500	Pet_Evolution_Win	0	1	0	0	ui_core.c:89815	
+44201	Pet_LimitBreak_Top_Textmove	44200	Pet_LimitBreak_Win	0	1	0	0	ui_core.c:90513	
+44251	Pet_LimitBreak_SETMARK	44200	Pet_LimitBreak_Win	1	0	0	0	ui_core.c:90555	
+44252	Pet_LimitBreak_SETMARK2	44200	Pet_LimitBreak_Win	1	0	0	0	ui_core.c:90560	
+44253	Pet_LimitBreak_SETMARK3	44200	Pet_LimitBreak_Win	1	0	0	0	ui_core.c:90550	
+49850	CAMPWAR_End_2_Item1_M	49800	CAMPWAR_End	1	0	0	0	combat_pvp.c:5058	
+49860	CAMPWAR_End_2_Item2_M	49800	CAMPWAR_End	1	0	0	0	combat_pvp.c:5058	
+49870	CAMPWAR_End_2_Item3_M	49800	CAMPWAR_End	1	0	0	0	combat_pvp.c:5058	
+50101	EDG_Move	50100	EventDungeon_Win	0	1	0	0	ui_core.c:6202	
+50301	ItemOptionValue_Top_Text	50300	ItemOptionValue_WIN	0	1	0	0	item_inventory.c:3760	
+50302	ItemOptionValue_Mark_1	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3764	
+50304	ItemOptionValue_1_Box_Mark_01	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50305	ItemOptionValue_1_Box_Mark_02	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50306	ItemOptionValue_1_Box_Mark_03	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50307	ItemOptionValue_1_Box_Mark_04	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50308	ItemOptionValue_1_Box_Mark_05	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50309	ItemOptionValue_1_Box_Mark_06	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50310	ItemOptionValue_1_Box_Mark_07	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50311	ItemOptionValue_1_Box_Mark_08	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50312	ItemOptionValue_1_Box_Mark_09	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50313	ItemOptionValue_1_Box_Mark_10	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50314	ItemOptionValue_1_Box_Mark_11	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50315	ItemOptionValue_1_Box_Mark_12	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50316	ItemOptionValue_1_Box_Mark_13	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50317	ItemOptionValue_1_Box_Mark_14	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50318	ItemOptionValue_1_Box_Mark_15	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50319	ItemOptionValue_1_Box_Mark_16	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50320	ItemOptionValue_1_Box_Mark_17	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50321	ItemOptionValue_1_Box_Mark_18	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50322	ItemOptionValue_1_Box_Mark_19	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50323	ItemOptionValue_1_Box_Mark_20	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50324	ItemOptionValue_1_Box_Mark_21	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50325	ItemOptionValue_1_Box_Mark_22	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50326	ItemOptionValue_1_Box_Mark_23	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50327	ItemOptionValue_1_Box_Mark_24	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50328	ItemOptionValue_1_Box_Mark_25	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50329	ItemOptionValue_1_Box_Mark_26	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50330	ItemOptionValue_1_Box_Mark_27	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50331	ItemOptionValue_1_Box_Mark_28	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50332	ItemOptionValue_1_Box_Mark_29	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50333	ItemOptionValue_1_Box_Mark_30	50300	ItemOptionValue_WIN	0	0	1	0	item_inventory.c:3775	
+50336	ItemOptionValue_2_T1	50300	ItemOptionValue_WIN	0	1	0	0	item_inventory.c:3767	
+50501	Strength_Part_Top_Text	50500	Strength_Part_Win	0	1	0	0	social.c:1300	
+50510	Strength_Part_1_Text_1	50500	Strength_Part_Win	0	1	0	0	social.c:1305	
+50516	Strength_Part_1_Mark	50500	Strength_Part_Win	0	0	1	0	social.c:1307	
+50520	Strength_Part_2_Text_1	50500	Strength_Part_Win	0	1	0	0	social.c:1320	
+50526	Strength_Part_2_Mark1	50500	Strength_Part_Win	0	0	1	0	social.c:1322	
+50536	Strength_Part_3_Mark	50500	Strength_Part_Win	0	0	1	0	social.c:1338	
+50540	Strength_Part_4_Text2	50500	Strength_Part_Win	0	1	0	0	social.c:1353	
+50551	Strength_Part_4_BOX_1	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50552	Strength_Part_4_BOX_2	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50553	Strength_Part_4_BOX_3	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50554	Strength_Part_4_BOX_4	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50555	Strength_Part_4_BOX_5	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50556	Strength_Part_4_BOX_6	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50557	Strength_Part_4_BOX_7	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50558	Strength_Part_4_BOX_8	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50559	Strength_Part_4_BOX_9	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50560	Strength_Part_4_BOX_10	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50561	Strength_Part_4_BOX_11	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50562	Strength_Part_4_BOX_12	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50563	Strength_Part_4_BOX_13	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50564	Strength_Part_4_BOX_14	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50565	Strength_Part_4_BOX_15	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50566	Strength_Part_4_BOX_16	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50567	Strength_Part_4_BOX_17	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50568	Strength_Part_4_BOX_18	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50569	Strength_Part_4_BOX_19	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50570	Strength_Part_4_BOX_20	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50571	Strength_Part_4_BOX_21	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50572	Strength_Part_4_BOX_22	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50573	Strength_Part_4_BOX_23	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50574	Strength_Part_4_BOX_24	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50575	Strength_Part_4_BOX_25	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50576	Strength_Part_4_BOX_26	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50577	Strength_Part_4_BOX_27	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50578	Strength_Part_4_BOX_28	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50579	Strength_Part_4_BOX_29	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50580	Strength_Part_4_BOX_30	50500	Strength_Part_Win	0	0	1	0	social.c:1357	
+50601	Item_Union_Top_Text	50600	Item_Union_Win	0	1	0	0	ui_core.c:91115	
+50602	Item_Union1_Text1	50600	Item_Union_Win	0	1	0	0	ui_core.c:91120	
+50603	Item_Union_1_Mark	50600	Item_Union_Win	1	0	0	0	ui_core.c:91122	
+50620	Item_Union_2_Text1	50600	Item_Union_Win	0	1	0	0	ui_core.c:91152	
+50621	Item_Union_2_Text2	50600	Item_Union_Win	0	1	0	0	ui_core.c:91157	
+50623	Item_Union_2_Text4	50600	Item_Union_Win	0	1	0	0	ui_core.c:91168	
+50628	Item_Union_2_Text9	50600	Item_Union_Win	0	1	0	0	ui_core.c:91185	
+50635	Item_Union_2_Mark1	50600	Item_Union_Win	1	0	0	0	ui_core.c:91160	
+50636	Item_Union_2_Mark2	50600	Item_Union_Win	1	0	0	0	ui_core.c:91173	
+50637	Item_Union_2_Mark3	50600	Item_Union_Win	1	0	0	0	ui_core.c:91173	
+50638	Item_Union_2_Mark4	50600	Item_Union_Win	1	0	0	0	ui_core.c:91173	
+50639	Item_Union_2_Mark5	50600	Item_Union_Win	1	0	0	0	ui_core.c:91173	
+50650	Item_Union_3_Text1	50600	Item_Union_Win	0	1	0	0	ui_core.c:91192	
+50651	Item_Union_3_Mark_01	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50652	Item_Union_3_Mark_02	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50653	Item_Union_3_Mark_03	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50654	Item_Union_3_Mark_04	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50655	Item_Union_3_Mark_05	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50656	Item_Union_3_Mark_06	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50657	Item_Union_3_Mark_07	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50658	Item_Union_3_Mark_08	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50659	Item_Union_3_Mark_09	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50660	Item_Union_3_Mark_10	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50661	Item_Union_3_Mark_11	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50662	Item_Union_3_Mark_12	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50663	Item_Union_3_Mark_13	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50664	Item_Union_3_Mark_14	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50665	Item_Union_3_Mark_15	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50666	Item_Union_3_Mark_16	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50667	Item_Union_3_Mark_17	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50668	Item_Union_3_Mark_18	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50669	Item_Union_3_Mark_19	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50670	Item_Union_3_Mark_20	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50671	Item_Union_3_Mark_21	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50672	Item_Union_3_Mark_22	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50673	Item_Union_3_Mark_23	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50674	Item_Union_3_Mark_24	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50675	Item_Union_3_Mark_25	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50676	Item_Union_3_Mark_26	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50677	Item_Union_3_Mark_27	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50678	Item_Union_3_Mark_28	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50679	Item_Union_3_Mark_29	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+50680	Item_Union_3_Mark_30	50600	Item_Union_Win	1	0	0	0	ui_core.c:91197	цикл matCostIdx<30
+56261	soul_boost_hot1	1	MINISTATE_WIN	1	0	0	0	ui_core.c:92266	
+56262	soul_boost_hot2	1	MINISTATE_WIN	1	0	0	0	ui_core.c:92266	
+56263	soul_boost_hot3	1	MINISTATE_WIN	1	0	0	0	ui_core.c:92266	
+56301	SKILL_SOUL_TEXT_p1	12000	SKILL_WIN	0	1	0	0	skill_buff.c:34230	
+56451	Hunt report_Mark_0	56450	Hunt report_Win	1	0	0	0	ui_core.c:87590	
+56452	Hunt report_Text1	56450	Hunt report_Win	0	1	0	0	ui_core.c:87593	
+56461	Hunt report_Mark_1	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56462	Hunt report_Mark_2	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56463	Hunt report_Mark_3	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56464	Hunt report_Mark_4	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56465	Hunt report_Mark_5	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56466	Hunt report_Mark_6	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56467	Hunt report_Mark_7	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56468	Hunt report_Mark_8	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56469	Hunt report_Mark_9	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56470	Hunt report_Mark_10	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56471	Hunt report_Mark_11	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56472	Hunt report_Mark_12	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56473	Hunt report_Mark_13	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56474	Hunt report_Mark_14	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56475	Hunt report_Mark_15	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56476	Hunt report_Mark_16	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56477	Hunt report_Mark_17	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56478	Hunt report_Mark_18	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56479	Hunt report_Mark_19	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56480	Hunt report_Mark_20	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56481	Hunt report_Mark_21	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56482	Hunt report_Mark_22	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56483	Hunt report_Mark_23	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56484	Hunt report_Mark_24	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56485	Hunt report_Mark_25	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56486	Hunt report_Mark_26	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56487	Hunt report_Mark_27	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56488	Hunt report_Mark_28	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56489	Hunt report_Mark_29	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56490	Hunt report_Mark_30	56450	Hunt report_Win	1	0	0	0	ui_core.c:87598	
+56494	Hunt report_Text_Move	56450	Hunt report_Win	0	1	0	0	ui_core.c:87587	
+57311	INVEN_Repair_Jmark_2	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57312	INVEN_Repair_Jmark_6	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57313	INVEN_Repair_Jmark_8	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57314	INVEN_Repair_Jmark_7	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57315	INVEN_Repair_Jmark_5	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57316	INVEN_Repair_Jmark_1	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57317	INVEN_Repair_Jmark_4	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57318	INVEN_Repair_Jmark_3	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57319	INVEN_Repair_Jmark_10	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57320	INVEN_Repair_Jmark_9	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57321	INVEN_Repair_Jmark_11	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89361	
+57331	INVEN_Repair_Imark_1	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57332	INVEN_Repair_Imark_2	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57333	INVEN_Repair_Imark_3	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57334	INVEN_Repair_Imark_4	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57335	INVEN_Repair_Imark_5	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57336	INVEN_Repair_Imark_6	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57337	INVEN_Repair_Imark_7	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57338	INVEN_Repair_Imark_8	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57339	INVEN_Repair_Imark_9	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57340	INVEN_Repair_Imark_10	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57341	INVEN_Repair_Imark_11	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57342	INVEN_Repair_Imark_12	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57343	INVEN_Repair_Imark_13	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57344	INVEN_Repair_Imark_14	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57345	INVEN_Repair_Imark_15	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57346	INVEN_Repair_Imark_16	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57347	INVEN_Repair_Imark_17	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57348	INVEN_Repair_Imark_18	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57349	INVEN_Repair_Imark_19	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57350	INVEN_Repair_Imark_20	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57351	INVEN_Repair_Imark_21	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57352	INVEN_Repair_Imark_22	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57353	INVEN_Repair_Imark_23	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57354	INVEN_Repair_Imark_24	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57355	INVEN_Repair_Imark_25	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57356	INVEN_Repair_Imark_26	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57357	INVEN_Repair_Imark_27	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57358	INVEN_Repair_Imark_28	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57359	INVEN_Repair_Imark_29	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+57360	INVEN_Repair_Imark_30	57300	INVEN_Repair_Win	1	0	0	0	ui_core.c:89369	
+58851	Package_Pur_Move_N	6000	SHELLITEM_STORE_WIN	0	0	1	0	ui_core.c:63075	
+66002	SKILL_TEST_TEXT_1	66000	SKILL_BAR_Win	1	0	0	0	ui_core.c:89696	
+66003	SKILL-TEST_TEXT2	66000	SKILL_BAR_Win	1	0	0	0	ui_core.c:89699	
+67021	GOLD_roullete_gfont1_m1	67000	GOLD_roullete_WIN	1	0	0	0	social.c:6783	
+67022	GOLD_roullete_gfont2_m2	67000	GOLD_roullete_WIN	1	0	0	0	social.c:6783	
+67023	GOLD_roullete_gfont3_m3	67000	GOLD_roullete_WIN	1	0	0	0	social.c:6783	
+67024	GOLD_roullete_gfont4_m4	67000	GOLD_roullete_WIN	1	0	0	0	social.c:6783	
+68311		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68312		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68313		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68314		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68315		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68316		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68317		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68318		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68319		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68320		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68321		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68322		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68323		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68324		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68325		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68326		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68327		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68328		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68329		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68330		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68331		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68332		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68333		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68334		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68335		68300	Premium_Pick_View_Win	1	0	0	0	world_map.c:4629	
+68501	Premium_Pick_select_2_move	68500	Premium_Pick_select_2	0	1	0	0	world_map.c:4648	
+69001	Primium_Item_post_movetext	69000	Primium_Item_post_WIN	0	1	0	0	ui_core.c:91962	
+71346	FISH_BAR_1_TEXT	71300	FISH_WIN	0	0	1	0	entity_char.c:62912	
+73011	QUICK_NEW_SLOT1	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73012	QUICK_NEW_SLOT2	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73013	QUICK_NEW_SLOT3	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73014	QUICK_NEW_SLOT4	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73015	QUICK_NEW_SLOT5	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73016	QUICK_NEW_SLOT6	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73017	QUICK_NEW_SLOT7	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73018	QUICK_NEW_SLOT8	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73019	QUICK_NEW_SLOT9	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73020	QUICK_NEW_SLOT10	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73021	QUICK_NEW_SLOT11	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73022	QUICK_NEW_SLOT12	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73023	QUICK_NEW_SLOT_WEAPON	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:65971	while ctrlId=73011..73023
+73161	QUICK_NEW_SLOT_T1	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73162	QUICK_NEW_SLOT_T2	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73163	QUICK_NEW_SLOT_T3	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73164	QUICK_NEW_SLOT_T4	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73165	QUICK_NEW_SLOT_T5	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73166	QUICK_NEW_SLOT_T6	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73167	QUICK_NEW_SLOT_T7	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73168	QUICK_NEW_SLOT_T8	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73169	QUICK_NEW_SLOT_T9	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73170	QUICK_NEW_SLOT_T10	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73171	QUICK_NEW_SLOT_T11	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+73172	QUICK_NEW_SLOT_T12	73000	QUICK_NEW_WIN	1	0	0	0	ui_core.c:66110	
+74021	FISH_BOOK_BAR00_TEXT00	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100104	клон шаблона 74021 x30 (имя в ячейке коллекции)
+74025	FISH_BOOK_no00	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100124	клон шаблона 74025 x30
+74026	FISH_BOOK_NO_K00	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100133	клон шаблона 74026 x30
+74051	FISH_BOOK_BIG_BOX_BARD1TEXT	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100220	
+74053	FISH_BOOK_BIG_BOX_NO_D1	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100225	
+74054	FISH_BOOK_BIG_BOX_K_D1	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100228	
+74080	FISH_BOOK_BIG_BOX_3_T3	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100233	
+74081	FISH_BOOK_BIG_BOX_3_MARK_1	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100239	цикл tabIdx<4
+74082	FISH_BOOK_BIG_BOX_3_MARK_2	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100239	цикл tabIdx<4
+74083	FISH_BOOK_BIG_BOX_3_MARK_4	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100239	цикл tabIdx<4
+74084	FISH_BOOK_BIG_BOX_3_MARK_4	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100239	цикл tabIdx<4
+74211	FISH_BOOK_JOINBOX_M1	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74212	FISH_BOOK_JOINBOX_M2	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74213	FISH_BOOK_JOINBOX_M3	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74214	FISH_BOOK_JOINBOX_M4	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74215	FISH_BOOK_JOINBOX_M5	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74216	FISH_BOOK_JOINBOX_M6	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74217	FISH_BOOK_JOINBOX_M7	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74218	FISH_BOOK_JOINBOX_M8	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74219	FISH_BOOK_JOINBOX_M9	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74220	FISH_BOOK_JOINBOX_M10	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74221	FISH_BOOK_JOINBOX_M11	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74222	FISH_BOOK_JOINBOX_M12	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74223	FISH_BOOK_JOINBOX_M13	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74224	FISH_BOOK_JOINBOX_M14	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74225	FISH_BOOK_JOINBOX_M15	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74226	FISH_BOOK_JOINBOX_M16	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74227	FISH_BOOK_JOINBOX_M17	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74228	FISH_BOOK_JOINBOX_M18	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74229	FISH_BOOK_JOINBOX_M19	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74230	FISH_BOOK_JOINBOX_M20	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74231	FISH_BOOK_JOINBOX_M21	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74232	FISH_BOOK_JOINBOX_M22	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74233	FISH_BOOK_JOINBOX_M23	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74234	FISH_BOOK_JOINBOX_M24	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74235	FISH_BOOK_JOINBOX_M25	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74236	FISH_BOOK_JOINBOX_M26	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74237	FISH_BOOK_JOINBOX_M27	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74238	FISH_BOOK_JOINBOX_M28	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74239	FISH_BOOK_JOINBOX_M29	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+74240	FISH_BOOK_JOINBOX_M30	74000	FISH_BOOK_WIN	1	0	0	0	ui_core.c:100275	цикл layoutIdx_2<30
+75252	Subjugate_R_M1	75000	Subjugate_WIN	1	0	0	0	quest.c:9235	
+75254	Subjugate_R_M2	75000	Subjugate_WIN	1	0	0	0	quest.c:9235	
+75256		75000	Subjugate_WIN	1	0	0	0	quest.c:9235	
+75258		75000	Subjugate_WIN	1	0	0	0	quest.c:9235	
+75261	Subjugate_R_M3	75000	Subjugate_WIN	1	0	0	0	quest.c:9253	
+75263	Subjugate_R_M4	75000	Subjugate_WIN	1	0	0	0	quest.c:9253	
+75265	Subjugate_R_M5	75000	Subjugate_WIN	1	0	0	0	quest.c:9253	
+75267	Subjugate_R_M6	75000	Subjugate_WIN	1	0	0	0	quest.c:9253	
+75411		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75412		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75413		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75414		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75415		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75416		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75417		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75418		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75419		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75420		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75421		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75422		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75423		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75424		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75425		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75426		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75427		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75428		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75429		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75430		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75431		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75432		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75433		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75434		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75435		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75436		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75437		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75438		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75439		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75440		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75511		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75512		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75513		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75514		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75515		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75516		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75517		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75518		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75519		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75520		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75521		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75522		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75523		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75524		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75525		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75526		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75527		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75528		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75529		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75530		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75531		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75532		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75533		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75534		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75535		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75536		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75537		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75538		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75539		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75540		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75611		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75612		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75613		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75614		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75615		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75616		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75617		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75618		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75619		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75620		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75621		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75622		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75623		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75624		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75625		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75626		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75627		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75628		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75629		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75630		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75631		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75632		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75633		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75634		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75635		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75636		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75637		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75638		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75639		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75640		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75711		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75712		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75713		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75714		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75715		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75716		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75717		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75718		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75719		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75720		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75721		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75722		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75723		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75724		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75725		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75726		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75727		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75728		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75729		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75730		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75731		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75732		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75733		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75734		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75735		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75736		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75737		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75738		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75739		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+75740		4000	WARE_WIN	0	0	1	0	item_inventory.c:57598	8 вкладок склада x 30 ячеек, pageCtrlIds[i]+j
+83401	NOTICE_TXT00_C	83400	HERO_NOTICE_WIN	1	0	0	0	chat.c:645	
+				1	0	0	1	chat.c:6473	НЕ СОПОСТАВЛЕН с idnum: облачко чата над головой: клон дочернего контрола шаблона CChat+0x610 / +0x5F8; шаблоны в срезе эталона не привязаны | условие: if ( !*(_DWORD *)(pChatEntry + 464) ) && if ( *((_DWORD *)pChatMgr + 377) )
+				1	0	0	1	chat.c:6475	НЕ СОПОСТАВЛЕН с idnum: то же, повтор после SetField924 | условие: if ( !*(_DWORD *)(pChatEntry + 464) ) && if ( *((_DWORD *)pChatMgr + 377) )
+				0	1	0	1	combat_pvp.c:9082	НЕ СОПОСТАВЛЕН с idnum: CCampWarPanel m_aObjectTime[3].gap_18 (+0x18) — поле не привязано в срезе; группа ObjectTime[3] = 49980..49985 | условие: switch ( a2 )
+				1	0	0	1	game_main.c:4685	НЕ СОПОСТАВЛЕН с idnum: g_pTooltipTextLabel @0x2902F20 — глобаль, присваивание вне среза декомпила; текст из gap_93A[34], цвет 0xFFB2ECFF | условие: if ( targetNpcEntity && *(_DWORD *)targetNpcEntity->boneAttachA ) && else
+				1	0	0	1	game_main.c:4829	НЕ СОПОСТАВЛЕН с idnum: g_pNameplateTextLabel @0x2902E40 — глобаль, присваивание вне среза; ветка g_nInputControlState==3 | условие: if ( objectTargetEntity->pModelPartArray && (!*(_DWORD *)&objectTargetEntity->buffFxSlots[212] || *(_DWORD *)&objectTargetEntity->buffFxSlots[212] == 3 || *(_DWORD *)&objectTargetEntity->buffFxSlots[212] == 4) ) && if ( objFrustumVisible )
+				1	0	0	1	game_main.c:4901	НЕ СОПОСТАВЛЕН с idnum: g_pNameplateTextLabel — ветка смены имени цели; тот же источник текста, что у 1622 TARGETMARK_GUILD | условие: else && if ( strcmp(&targetEntity->gap_93A[34], Buffer) )
+				1	0	0	1	npc_mob_pet.c:9570	НЕ СОПОСТАВЛЕН с idnum: плашка NPC: клон из uiWnd_BuildTripleChildWindow(variant 2) — шаблоны 9016/9017/9018; слот узла (+0xA90) в срезе не привязан | условие: if ( *(_DWORD *)(pNpcNode + 2708) ) && if ( frustumVisible )
+				1	0	0	1	ui_core.c:50927	НЕ СОПОСТАВЛЕН с idnum: окно консигнации: pWnd[63..122], 60 ячеек; функция — сброс, привязка контролов вне среза эталона | условие: for ( slotIdx = 0; slotIdx < 60; ++slotIdx )

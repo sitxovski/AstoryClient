@@ -1,0 +1,127 @@
+# ui_scan_placeholders.tsv — служебные виды скана наездов `asda.Lang.ScanScreen` (AsdaLangScanSelfTest.cpp), 10.10.2026,
+#   отчёт Reports/owner_1010/overlaps.md. Столбцы: окно, узел, вид (ЗАГЛУШКА | ВЗАИМОИСКЛ | ОКНО-ВНЕ-ИГРЫ), сосед
+#   (для ВЗАИМОИСКЛ), где это делает код. ЗАГЛУШКА — строку-образец ассета код при показе заменяет (замер новой строки
+#   RU/EN — в столбце); ВЗАИМОИСКЛ — два узла разных панелей/режимов окна; ОКНО-ВНЕ-ИГРЫ — окно игра не открывает.
+#   ★ 10.10.2026 (overlaps_fixes.md, СРЕДН-3): столбец 6 `loc` — loc-id строки, которую код ставит в образец: скан подставляет её (язык сессии) и мерит как обычную строку; «-» — строка ДАННЫХ (имена, звания, числа), остаётся ЗАГЛУШКОЙ.
+окно	узел	вид	сосед	где это делает код	loc
+WBP_COMMONWIN_MSGBOX_CommonWin	COMMONWIN_BUT_Text	ЗАГЛУШКА		AsdaDisconnectPopupSubsystem.cpp:240 — 2288 «ОК»/«OK» 16/17 px, правее значка	2288
+WBP_My_Introduction_Win	My_Intro_OKBtn_Text	ЗАГЛУШКА		AsdaCharaInfoSubsystem.cpp:850 — 2423 «ОК»/«Confirm» 16/39 px в поле 77 по центру: 25…64, значок 5…21	2423
+WBP_SOULMATE_LINK_WIN	SOULMATE_LINK_BTN1_Text	ЗАГЛУШКА		AsdaSoulmateSubsystem.cpp:1982 — 2288 «ОК»/«OK»	2288
+WBP_TRAN_WIN	TRAN_OKBUT_Text	ЗАГЛУШКА		AsdaExchangeP2PWindow.cpp:295 — 6805 «ОК»/«OK»	6805
+WBP_MAXMAP_WIN	MaxMap_MyPosBtn_Text	ЗАГЛУШКА		AsdaMinimapSubsystem.cpp:987 — 9699 «Где я?»/«View my location» 34/82 в кнопке 140 по центру	9699
+WBP_INVEN_WIN	Inven_primium_item_btn_Text	ЗАГЛУШКА		AsdaInventorySubsystem.cpp:1111 — 110666 «Элитный почтовый ящик» 127 / «Premium Item Postbox» 111 между крыльями 24…159 (135)	110666
+WBP_SHELLITEM_STORE_WIN	SHELLITEM_STORE_BUT07_Text	ЗАГЛУШКА		AsdaPremiumShopSubsystem.cpp:672 — 6851 «Купить выбранное» 95 / «Purchase selected» 92 по центру кнопки 140: с x 25 (значок до 21)	6851
+WBP_SHELLITEM_STORE2_WIN	SHELLITEM_STORE2_BUT02_Text	ЗАГЛУШКА		AsdaEquipShopSubsystem.cpp:673 — 6957 «Купить надетое» 80 / «Buy Items Worn» 79 в поле 118 правее значка	6957
+WBP_SHELLITEM_STORE2_WIN	SHELLITEM_STORE2_TXT10	ЗАГЛУШКА		AsdaEquipShopSubsystem.cpp:679 SetupControls — 13241 «Золото:» / «My Gold» в блок «Золото игрока» 7001 (отступление Д5; эталон CShellItemStore_InitControls@0xC28820); добавлено 10.10.2026 (ревизия overlaps_fixes МЕЛК-4)	13241
+WBP_CHARAINFO_WIN	STATUS_MyIntroBtn_Text	ЗАГЛУШКА		AsdaCharaInfoSubsystem.cpp:790 — 11698 «Обо мне» / «My Introduction» на кнопку 987, как эталон CWidget_SetTextAll4(987, 11698) (ui_core.c:10739-10743); добавлено 10.10.2026 (МЕЛК-4)	11698
+WBP_CLAN_INCREASE_BOX	CLAN_INC_MEMNOW	ЗАГЛУШКА		AsdaClanSubsystem.cpp:150 — 12444 «- Текущие вакансии в кланах:» / EN «■ Currently available clan member openings» в 14452; добавлено 10.10.2026 (МЕЛК-4)	12444
+WBP_CLAN_INCREASE_BOX	CLAN_INC_MEMINC	ЗАГЛУШКА		AsdaClanSubsystem.cpp:151 — 12445 «- Новый лимит членов клана:» / EN «■ Desired increase in clan membership openings» в 14454; добавлено 10.10.2026 (МЕЛК-4)	12445
+WBP_TRANTOOL_WIN	TRANTOOL_BUT04_Text	ЗАГЛУШКА		AsdaPlayerMenuSubsystem.cpp:365 — 6803 «Обмен предметами» 102 / «Normal Item Trade» 92 в кнопке 143	6803
+WBP_Premium_Pick_select	Premium_Pick_select_ok_Text	ЗАГЛУШКА		AsdaPremiumGachaSubsystem.cpp:770 — 110663 «Играть» 36 / «Prize drawing» 67 в поле 81 правее значка (10.10)	110663
+WBP_NUMPAD_WIN	NUMPAD_MESSAGE	ЗАГЛУШКА		AsdaWindowSubsystem.cpp:6204 — 12124 «Кол-во»/«Quantity» 35/42, до крестика 82	12124
+WBP_SYSTEM_Option_NEW	SYSTEM_default_Text	ЗАГЛУШКА		AsdaSystemOptionSubsystem.cpp:1264-1269 — 11600 «По умолчанию» 76 / 11601 «Снять клавишу»; проверено в игре asda.SysOpt.Open (RU/EN)	11600
+WBP_SYSTEM_Option_NEW	SYSTEM_cancel_Text	ЗАГЛУШКА		AsdaSystemOptionSubsystem.cpp:1264-1269 — 11600 «По умолчанию» 76 / 11601 «Снять клавишу»; проверено в игре asda.SysOpt.Open (RU/EN)	11601
+WBP_SYSTEM_Option_NEW	SYSTEM_Op_Hk_2_TXT12	ЗАГЛУШКА		AsdaSystemOptionSubsystem.cpp:1312-1316/971 — подписи действий из loc и ячейки привязок ставит код; строки сверх списка скрыты; проверено в игре (asda.SysOpt.Tab 2, все 4 страницы RU/EN)	-
+WBP_SYSTEM_Option_NEW	SYSTEM_Op_Hk_3_TXT13	ЗАГЛУШКА		AsdaSystemOptionSubsystem.cpp:1312-1316/971 — подписи действий из loc и ячейки привязок ставит код; строки сверх списка скрыты; проверено в игре (asda.SysOpt.Tab 2, все 4 страницы RU/EN)	-
+WBP_SYSTEM_Option_NEW	PICK_BACK_64_txt	ЗАГЛУШКА		AsdaSystemOptionSubsystem.cpp:1312-1316/971 — подписи действий из loc и ячейки привязок ставит код; строки сверх списка скрыты; проверено в игре (asda.SysOpt.Tab 2, все 4 страницы RU/EN)	-
+WBP_SYSTEM_Option_NEW	PICK_BACK_119_txt	ЗАГЛУШКА		AsdaSystemOptionSubsystem.cpp:1312-1316/971 — подписи действий из loc и ячейки привязок ставит код; строки сверх списка скрыты; проверено в игре (asda.SysOpt.Tab 2, все 4 страницы RU/EN)	-
+WBP_INVEN_Repair_Win	INVEN_Repair_Win_TXT00	ЗАГЛУШКА		AsdaRepairSubsystem.cpp:224 (10.10: строки 57327/57328 берутся эти же узлы) — 110306 «Стоимость»/«Repair cost» 57 в поле 60, значение — число	110306
+WBP_INVEN_Repair_Win	INVEN_Repair_Win_TXT01	ЗАГЛУШКА		AsdaRepairSubsystem.cpp:224 (10.10: строки 57327/57328 берутся эти же узлы) — 110306 «Стоимость»/«Repair cost» 57 в поле 60, значение — число	-
+WBP_ITEM_making_WIN	ITEM_making_m_t2	ЗАГЛУШКА		AsdaCraftWindowSubsystem.cpp:418 — 5502 «Ур.»/«Level» 17/27 в поле 36	5502
+WBP_ITEM_making_Mark_WIN	ITEM_making_BOX_text_ea	ЗАГЛУШКА		AsdaCraftMakeWindowSubsystem.cpp:343 — 5520 «Кол-во»/«Quantity» 35/42 в поле 40	5520
+WBP_Pet_Hatchery_Win	PetHatchery_ItemTitle_Text	ЗАГЛУШКА		AsdaPetHatcherySubsystem.cpp:329 — 100407 «Бустер»/«Supplement Item» 37/82 на вкладке	100407
+WBP_Pet_Evolution_Win	Pet_Evolution_R_Text2	ЗАГЛУШКА		AsdaPetEvolutionSubsystem.cpp:578-582 — 109964 «Основной питомец» 98 / «Main Pet» 43 в поле 100 (10.10); «Основной материал» — образец ассета	109964
+WBP_FISH_BOOK_WIN	FISH_BOOK_GG_T1	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp:532 — 111004 «Поймано»/«Collect» 47/34 в поле 60	111004
+WBP_EXTRACT_WIN	EXTRACT_TXT01	ЗАГЛУШКА		AsdaExtractShopSubsystem.cpp:518 — 13257 «Цена:»/«Cost» 30/24 в поле 60	13257
+WBP_Find_Soulmate_Win	Find_SMate_List_D8	ЗАГЛУШКА		AsdaSoulmateSubsystem.cpp:1405 — 110811 «Совместимость»/«Matching» 83/45 в поле 120	110811
+WBP_Title_Win	Title_TNum_Text	ЗАГЛУШКА		AsdaTitleSubsystem.cpp:1293 — заголовки столбцов ставит код («№», «Позиц.»); проверено в игре asda.Title.Open	-
+WBP_CHARAINFO_WIN	STATUS_NAME	ЗАГЛУШКА		AsdaCharaInfoSubsystem.cpp:498-499 — имя персонажа и звание	-
+WBP_CHARAINFO_WIN	Status_FrontTitle	ЗАГЛУШКА		AsdaCharaInfoSubsystem.cpp:498-499 — имя персонажа и звание	-
+WBP_CHARAINFO_WIN	CHARAINFO_STMENU_Text	ЗАГЛУШКА		AsdaCharaInfoSubsystem.cpp:1164-1175 — обе полосы-подписи код прячет и строит клоны CHARAINFO_STMENU_Cap<N> по плашкам вкладок	-
+WBP_CHARAINFO_WIN	CHARAINFO_STMENU_Text_1	ЗАГЛУШКА		AsdaCharaInfoSubsystem.cpp:1164-1175 — обе полосы-подписи код прячет и строит клоны CHARAINFO_STMENU_Cap<N> по плашкам вкладок	-
+WBP_Title_Win	Title_1stTitle_Name	ЗАГЛУШКА		AsdaTitleSubsystem.cpp:1256-1258, 1314 — звания и строки списка — данные	-
+WBP_Title_Win	Title_2ndTitle_Name	ЗАГЛУШКА		AsdaTitleSubsystem.cpp:1256-1258, 1314 — звания и строки списка — данные	-
+WBP_Title_Win	Title_ListCate01	ЗАГЛУШКА		AsdaTitleSubsystem.cpp:1256-1258, 1314 — звания и строки списка — данные	-
+WBP_Title_Win	Title_ListName01	ЗАГЛУШКА		AsdaTitleSubsystem.cpp:1256-1258, 1314 — звания и строки списка — данные	-
+WBP_Find_Soulmate_Win	Find_SMate_ListName01	ЗАГЛУШКА		AsdaSoulmateSubsystem.cpp:2849-2851 — имя и «о себе» найденного персонажа	-
+WBP_Find_Soulmate_Win	Find_SMate_ListInt01	ЗАГЛУШКА		AsdaSoulmateSubsystem.cpp:2849-2851 — имя и «о себе» найденного персонажа	-
+WBP_QUEST_WIN	Quest_Display_RewardIcon_T3	ЗАГЛУШКА		AsdaQuestLogSubsystem.cpp — название награды задания	-
+WBP_Package_Contents_Win	Package_BagItemName0_0	ЗАГЛУШКА		AsdaPackagePanelSubsystem.cpp — названия предметов набора	-
+WBP_Package_Contents_Win	Package_BagItemName0_1	ЗАГЛУШКА		AsdaPackagePanelSubsystem.cpp — названия предметов набора	-
+WBP_After_Death_Win	After_Death_Txt0	ЗАГЛУШКА		AsdaAfterDeathSubsystem.cpp:531 — описание способа воскрешения (образец — корейский)	-
+WBP_EXTRACT_WIN	EXTRACT_B_OPTION5	ЗАГЛУШКА		AsdaExtractShopSubsystem.cpp:354 — строка опции предмета	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_BAR00_TEXT00	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL00_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL01_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL02_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL03_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL04_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL05_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL06_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL07_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL08_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL09_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL10_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL11_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL12_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL13_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL14_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL15_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL16_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL17_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL18_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL19_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL20_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL21_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL22_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL23_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL24_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL25_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL26_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL27_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL28_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL29_NAME	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL00_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL01_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL02_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL03_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL04_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL05_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL06_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL07_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL08_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL09_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL10_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL11_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL12_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL13_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL14_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL15_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL16_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL17_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL18_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL19_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL20_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL21_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL22_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL23_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL24_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL25_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL26_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL27_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL28_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_CELL29_CNT	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_no00	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_FISH_BOOK_WIN	FISH_BOOK_NO_K00	ЗАГЛУШКА		AsdaFishBookSubsystem.cpp — ячейки книги (клоны шага asda_ui_fishbook_clones): имя рыбы и счёт — данные	-
+WBP_EXCHANGE_WIN	EXCH_TOTALFEETEXT	ВЗАИМОИСКЛ	EXCHANGER_BUYPRICE1	AsdaExchangeSubsystem.cpp:1911 ShowPanel — панель выставления (EXCH_*) и поиска (EXCHANGER_*) взаимоисключающие	
+WBP_EXCHANGE_WIN	EXCH_TOTALFEE	ВЗАИМОИСКЛ	EXCHANGER_BUYPRICE2	AsdaExchangeSubsystem.cpp:1911 ShowPanel — панель выставления (EXCH_*) и поиска (EXCHANGER_*) взаимоисключающие	
+WBP_EXCHANGE_WIN	EXCH_CASHTEXT	ВЗАИМОИСКЛ	EXCHANGER_GOLD	AsdaExchangeSubsystem.cpp:1911 ShowPanel — панель выставления (EXCH_*) и поиска (EXCHANGER_*) взаимоисключающие	
+WBP_EXCHANGE_WIN	EXCH_MONEY	ВЗАИМОИСКЛ	EXCHANGER_GOLD1	AsdaExchangeSubsystem.cpp:1911 ShowPanel — панель выставления (EXCH_*) и поиска (EXCHANGER_*) взаимоисключающие	
+WBP_EXCHANGE_WIN	EXCHANGER_TXT2	ВЗАИМОИСКЛ	EXCH_ALLCHK	AsdaExchangeSubsystem.cpp:1911 ShowPanel — панель выставления (EXCH_*) и поиска (EXCHANGER_*) взаимоисключающие	
+WBP_NOTICE_WIN	NOTICE_TXT00	ВЗАИМОИСКЛ	NOTICE_TXT01	AsdaHudSubsystem.cpp RefreshNoticeLines — 1 объявление: только TXT00; 2 и более: TXT01+TXT02 (две последние, старшая выбрасывается); TXT00 с TXT01/TXT02 одновременно не показывается никогда — эталон uiNoticeUpdate3Line@0xBAC300 (ui_core.c:12820-12890), исправлено 10.10.2026 (было: при 3 объявлениях все три внахлёст)	
+WBP_NOTICE_WIN	NOTICE_TXT00	ВЗАИМОИСКЛ	NOTICE_TXT02	AsdaHudSubsystem.cpp RefreshNoticeLines — 1 объявление: только TXT00; 2 и более: TXT01+TXT02 (две последние, старшая выбрасывается); TXT00 с TXT01/TXT02 одновременно не показывается никогда — эталон uiNoticeUpdate3Line@0xBAC300 (ui_core.c:12820-12890), исправлено 10.10.2026 (было: при 3 объявлениях все три внахлёст)	
+WBP_SYSTEM_WIN	*	ОКНО-ВНЕ-ИГРЫ		ссылок в срезе Source/Content нет (только план подписей); настройки игры — WBP_SYSTEM_Option_NEW (AsdaSystemOptionSubsystem.cpp:55)	
+WBP_Item_Upgrade_NEW_win	*	ОКНО-ВНЕ-ИГРЫ		ссылок в срезе Source/Content/Tools нет; окно заточки — WBP_Item_Upgrade_Win (AsdaItemUpgradeSubsystem)	
+WBP_CHAT_SETUP_Win	*	ОКНО-ВНЕ-ИГРЫ		меню вкладок чата строит код (AsdaChatContextMenu.cpp:554 BuildPopupWindow), ассет не открывается	
+WBP_CAMPWAR_ATTACK	*	ОКНО-ВНЕ-ИГРЫ		ссылок в срезе Source/Content нет (только план подписей); единственная находка — образец имени клана	
+WBP_Mine_team_WIN	*	ОКНО-ВНЕ-ИГРЫ		в порте ссылок в срезе Source/Content нет (только Tools/asda_player_ui_layout.py): система «битва за шахту» (блок Mine_* 76100…76400) не перенесена — PORT_PENDING_ON_SYSTEMS.md п. 95. Оригинал окно использует (item_enhance.c:10863-10885: 76250 окно, 76252/76253 данные, 76256 ← loc 10125, 76257 ← loc 10127, 76259 ← 2288). Образец Mine_team_text_1 «Название поля победившей команды» 191 px шире поля 150 — это ДАННЫЕ (76252); при переносе системы мерить настоящие строки	

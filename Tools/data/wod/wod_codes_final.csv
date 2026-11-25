@@ -1,0 +1,214 @@
+wod_code,our_code,cat,idx,name_en
+27141,79722,gear,,Chess's Sword
+27143,79723,gear,,Chess's Shield
+27166,79724,gear,,Sword of Wound
+27168,79725,gear,,Aspis
+27287,79726,gear,,Elquines Magic Staff
+27288,79727,gear,,Elquines Protective Rod
+27312,79728,gear,,Elite MagicStaff(Uncommon)
+27313,79729,gear,,Elite ProtectStaff(Uncommon)
+27337,79730,gear,,Elite MagicStaff(Uncommon)
+27338,79731,gear,,Elite ProtectStaff(Uncommon)
+27638,79732,gear,,Lion Heart of Victory Magic Wand
+27639,79733,gear,,Lion Heart of Victory Life Staff
+27863,79734,gear,,Mining War Magic Staff(Legend)
+27864,79735,gear,,Mining War Protective Staff(Legend)
+28463,79736,gear,,Michael's Staff
+28464,79737,gear,,Michael's Rod
+31797,79738,gear,,White Tiger Rod
+31801,79739,gear,,Bone Rod
+31802,79740,gear,,Legendary Rod
+31803,79741,gear,,Rabbit Rod
+31804,79742,gear,,High-Tech Rod
+31805,79743,gear,,[E]Fish Rod
+33146,79744,gear,,Premium Fishing Rod
+33148,79745,gear,,Bunny Fishing Rod
+33149,79746,gear,,Fish Rod
+33151,79747,gear,,[Unlimited]Gold Fishing Rod
+33152,79748,gear,,[E]Candy Fishing Rod
+33153,79749,gear,,Candy Fishing Rod
+33159,79750,gear,,Legendary Fishing Rod
+33160,79751,gear,,Skeleton Fishing Rod
+33161,79752,gear,,Rabbit Fishing Rod
+33162,79753,gear,,Silver Fishing Rod
+33163,79754,gear,,Fish Fishing Rod
+33164,79755,gear,,Golden Fishing Rod
+33165,79756,gear,,Legendary Fishing Rod
+33166,79757,gear,,Skeleton Fishing Rod
+33167,79758,gear,,Rabbit Fishing Rod
+33168,79759,gear,,Silver Fishing Rod
+33169,79760,gear,,Fish Fishing Rod
+33170,79761,gear,,Golden Fishing Rod
+33171,79762,gear,,Legendary Fishing Rod
+33172,79763,gear,,Skeleton Fishing Rod
+33173,79764,gear,,Rabbit Fishing Rod
+33174,79765,gear,,Silver Fishing Rod
+33175,79766,gear,,Fish Fishing Rod
+33176,79767,gear,,Golden Fishing Rod
+36876,79768,gear,,[E]Bunny Fishing Rod
+37074,79769,box,5521,[P]Legendary Rod
+40647,79770,gear,,Skeleton Fishing Rod
+40845,79771,box,5522,[P]Event Fish Rod
+40855,79772,box,5523,[P]Event Fish Rod
+40865,79773,box,5524,[P]Event Fish Rod
+42514,79774,gear,,Lv60 Exquisite Sword
+42516,79775,gear,,Lv60 Exquisite Shield
+42538,79776,gear,,Lv65 Exquisite Sword
+42540,79777,gear,,Lv65 Exquisite Shield
+47013,79778,misc,,(C)100% Success Stone
+47014,79779,misc,,(U)100% Success Stone
+47015,79780,misc,,(R)100% Success Stone
+47016,79781,misc,,(H)100% Success Stone
+47017,79782,box,5525,[P](C)100% Success Stone(1)
+47018,79783,box,5526,[P](C)100% Success Stone(2)
+47019,79784,box,5527,[P](C)100% Success Stone(3)
+47020,79785,box,5528,[P](C)100% Success Stone(4)
+47021,79786,box,5529,[P](C)100% Success Stone(5)
+47022,79787,box,5530,[P](C)100% Success Stone(6)
+47023,79788,box,5531,[P](C)100% Success Stone(7)
+47024,79789,box,5532,[P](C)100% Success Stone(8)
+47025,79790,box,5533,[P](C)100% Success Stone(9)
+47026,79791,box,5534,[P](C)100% Success Stone(10)
+47027,79792,box,5535,[P](U)100% Success Stone(1)
+47028,79793,box,5536,[P](U)100% Success Stone(2)
+47029,79794,box,5537,[P](U)100% Success Stone(3)
+47030,79795,box,5538,[P](U)100% Success Stone(4)
+47031,79796,box,5539,[P](U)100% Success Stone(5)
+47032,79797,box,5540,[P](U)100% Success Stone(6)
+47033,79798,box,5541,[P](U)100% Success Stone(7)
+47034,79799,box,5542,[P](U)100% Success Stone(8)
+47035,79800,box,5543,[P](U)100% Success Stone(9)
+47036,79801,box,5544,[P](U)100% Success Stone(10)
+47037,79802,box,5545,[P](R)100% Success Stone(1)
+47038,79803,box,5546,[P](R)100% Success Stone(2)
+47039,79804,box,5547,[P](R)100% Success Stone(3)
+47040,79805,box,5548,[P](R)100% Success Stone(4)
+47041,79806,box,5549,[P](R)100% Success Stone(5)
+47042,79807,box,5550,[P](R)100% Success Stone(6)
+47043,79808,box,5551,[P](R)100% Success Stone(7)
+47044,79809,box,5552,[P](R)100% Success Stone(8)
+47045,79810,box,5553,[P](R)100% Success Stone(9)
+47046,79811,box,5554,[P](R)100% Success Stone(10)
+47047,79812,box,5555,[P](H)100% Success Stone(1)
+47048,79813,box,5556,[P](H)100% Success Stone(2)
+47049,79814,box,5557,[P](H)100% Success Stone(3)
+47050,79815,box,5558,[P](H)100% Success Stone(4)
+47051,79816,box,5559,[P](H)100% Success Stone(5)
+47052,79817,box,5560,[P](H)100% Success Stone(6)
+47053,79818,box,5561,[P](H)100% Success Stone(7)
+47054,79819,box,5562,[P](H)100% Success Stone(8)
+47055,79820,box,5563,[P](H)100% Success Stone(9)
+47056,79821,box,5564,[P](H)100% Success Stone(10)
+53251,79822,gear,,Necklace of Pace
+53252,79823,gear,,Necklace of Mana
+53256,79824,gear,,Left Ring of Pace
+53261,79825,gear,,Right Ring of Pace
+53857,79826,gear,,Lv90 Exquisite Magic Staff
+53866,79827,gear,,Lv90 Exquisite Warrior Gauntlets
+53868,79828,gear,,Lv90 Exquisite Warrior Greaves
+53871,79829,gear,,Lv90 Exquisite Archer Gloves
+53873,79830,gear,,Lv90 Exquisite Archer Boots
+53876,79831,gear,,Lv90 Exquisite Mage Gloves
+53878,79832,gear,,Lv90 Exquisite Mage Shoes
+57041,79833,gear,,[Act.]Enemy's Dangpa
+57066,79834,gear,,[Act.]Reverse Spear
+57091,79835,gear,,[Act.]Heat Radiating Spear
+57116,79836,gear,,[Act.]Spear of Artificial Soldiers
+57141,79837,gear,,[Act.]Desert King Spear
+57166,79838,gear,,[Act.]Penetration Spear
+57191,79839,gear,,[Act.]Penetration Spear
+57216,79840,gear,,[Act.]Xyston
+57966,79841,gear,,[Act.]Enemy's Dangpa
+57991,79842,gear,,[Act.]Reverse Spear
+58016,79843,gear,,[Act.]Heat Radiating Spear
+58041,79844,gear,,[Act.]Spear of Artificial Soldiers
+58066,79845,gear,,[Act.]Desert King Spear
+58091,79846,gear,,[Act.]Penetration Spear
+58116,79847,gear,,[Act.]Penetration Spear
+58141,79848,gear,,[Act.]Xyston
+58603,79849,gear,,[Act.]Executer's Spear
+58706,79850,gear,,[Act.]Phailan's Spear
+58715,79851,gear,,[Act.]Lava Prince's Spear
+58739,79852,gear,,[Act.]Aqueon's Luxury Weapon - Spear
+58753,79853,gear,,[Act.]Desolate desert Spear
+58777,79854,gear,,[Act.]Booty of Chess - Spear
+58801,79855,gear,,[Act.]Aqueon's Luxury Weapon - Spear
+58816,79856,gear,,[Act.]Booty of Dragon Spear
+59256,79857,gear,,[Act.]Glass Caliburn
+59288,79858,gear,,[Act.]Sajabi Caliburn
+59337,79859,gear,,[Act.]Caliburn of Frame
+59370,79860,gear,,[Act.]Royal Caliburn
+59387,79861,gear,,[Act.]Pegasus Caliburn
+59421,79862,gear,,[Act.]Noble Rose Caliburn
+59439,79863,gear,,[Act.]KazeAze Caliburn
+59456,79864,gear,,[Act.]Saint Caliburn
+59490,79865,gear,,[Act.]Bull's Rain Caliburn
+59661,79866,gear,,[Act.]Spear of Omen
+59825,79867,gear,,[Act.]The spear of cross lava
+59850,79868,gear,,[Act.]Chess's Spear
+59875,79869,gear,,[Act.]Spear of Omen
+60125,79870,gear,,[Act.]The spear of cross lava
+60150,79871,gear,,[Act.]Chess's Spear
+60175,79872,gear,,[Act.]Spear of Omen
+60400,79873,gear,,[Act.]Spade's Spear
+60425,79874,gear,,[Act.]The spear of cross lava
+60450,79875,gear,,[Act.]Chess's Spear
+60475,79876,gear,,[Act.]Spear of Omen
+60700,79877,gear,,[Act.]Courageous Warrior's Soul Spear
+60800,79878,gear,,[Act.]Justice Warrior's Soul Spear
+60875,79879,gear,,[Act.]Mining War Spear(Rare)
+60950,79880,gear,,[Act.]Mining War Spear(Hero)
+61075,79881,gear,,[Act.]Arseniel's Spear
+61200,79882,gear,,[Act.]Arseniel's Spear
+61275,79883,gear,,[Act.]Ragual's Spear
+61350,79884,gear,,[Act.]The spear of cross lava
+61525,79885,gear,,[Act.]War Pick
+61550,79886,gear,,[Act.]Assault Polearm
+61877,79887,gear,,[Act.][Replica]Agnis Spear
+61886,79888,gear,,[Act.][Replica]Spade Spear
+61895,79889,gear,,[Act.][Replica]Sphinx Spear
+62153,79890,gear,,[Act.]Spear of Nora
+62228,79891,gear,,[Act.]Spear of Nora
+62270,79892,gear,,[Act.]Pirate Spear
+62297,79893,gear,,[Act.][Lv65]Pirate Spear
+62549,79894,gear,,[Act.]Lv55 Special Spear
+62573,79895,gear,,[Act.]Lv55 Superior Spear
+62597,79896,gear,,[Act.]Lv55 Elite Spear
+62621,79897,gear,,[Act.]Lv60 Special Spear
+62645,79898,gear,,[Act.]Lv60 Superior Spear
+62669,79899,gear,,[Act.]Lv60 Elite Spear
+62693,79900,gear,,[Act.]Lv65 Special Spear
+62717,79901,gear,,[Act.]Lv65 Superior Spear
+62741,79902,gear,,[Act.]Lv65 Elite Spear
+63296,79903,gear,,[Act.]Lv55 Holly Spear
+63305,79904,gear,,[Act.]Lv60 Holly Spear
+63314,79905,gear,,[Act.]Lv65 Holly Spear
+63413,79906,gear,,[Act.]Lv55 Cloud Dragon Spear
+63422,79907,gear,,[Act.]Lv60 Cloud Dragon Spear
+63431,79908,gear,,[Act.]Lv65 Cloud Dragon Spear
+63530,79909,gear,,[Act.]Lv55 Swashbuckler Spear
+63539,79910,gear,,[Act.]Lv60 Swashbuckler Spear
+63548,79911,gear,,[Act.]Lv65 Swashbuckler Spear
+63647,79912,gear,,[Act.]Lv55 Lucifer Spear
+63656,79913,gear,,[Act.]Lv60 Lucifer Spear
+63665,79914,gear,,[Act.]Lv65 Lucifer Spear
+73143,79915,box,5565,[P](R)OHSTiga
+73144,79916,box,5566,[P](R)SpearTiga
+73145,79917,box,5567,[P](R)THSTiga
+73146,79918,box,5568,[P](R)CrossbowDogi
+73147,79919,box,5569,[P](R)BowDogi
+73148,79920,box,5570,[P](R)FlameBunny
+73149,79921,box,5571,[P](R)EarthBunny
+73150,79922,box,5572,[P](R)ClimateBunny
+73656,79923,box,5573,[P][E]Banana Kick(10)
+74594,79924,box,5574,[P][E][Unlimited]Gold Fishing Rod
+80743,79925,misc,,(R)OHSTiga
+80744,79926,misc,,(R)SpearTiga
+80745,79927,misc,,(R)THSTiga
+80746,79928,misc,,(R)CrossbowDogi
+80747,79929,misc,,(R)BowDogi
+80748,79930,misc,,(R)FlameBunny
+80749,79931,misc,,(R)EarthBunny
+80750,79932,misc,,(R)ClimateBunny
+80901,79933,misc,,[E]Banana Kick
+80931,79934,misc,,(R)BallistaDogi

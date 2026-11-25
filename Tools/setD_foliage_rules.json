@@ -1,0 +1,17 @@
+{
+  "_comment": [
+    "Сет D (05.09.2026): какие MIC мастера M_AsdaObjectLit получают StaticSwitch Foliage=true (TwoSidedFoliage + SubsurfaceColor).",
+    "Читает Tools/asda_set_foliage_switch.py. Кандидат = MIC с parent M_AsdaObjectLit (по тегу реестра), имя (без регистра) совпало с include",
+    "и НЕ совпало с exclude. Источник списка — класс D Tools/setC2_class_rules.json (листва/трава/вода/эффекты/фон выбора/рыба), из которого",
+    "убрано всё, что листвой не является: вода/стекло/эффекты/огонь/дым/облака/шары/гача/носки/флаги/фон сцены выбора/рыба/голуби/круги/спорные",
+    "романизации. Билборды без нормалей (e5b_billboards.md): flower_002_* → flower_003.TEX, tree_gru_012/021 → ip_001.TEX (잎 = лист) — оба в include.",
+    "natu_*tree* (ствол и листва в ОДНОМ атласе) — класс C; в листву НЕ включены (TwoSidedFoliage на стволе просветил бы кору) — за владельцем.",
+    "★ Первый прогон 05.09 (118 MIC) зацепил ЖИВЫХ: NPC npc_f_h_ludivine* (27, «vine» в имени), мобов mon_s_0_grass01/02, flower01 (6) — живые на ObjectLit",
+    "(классы MASK/BLEND) листвой не считаются: exclude ^npc_|^mon_|^lmon_|^ch1_|^cre_|^itm|^sb_|^cb1_ (+mi_-варианты). Режим apply СИНХРОНИЗИРУЕТ:",
+    "у MIC мастера, где Foliage=true стоит, а правило не совпало, свитч снимается (False).",
+    "Режимы скрипта: ASDA_FOLIAGE_MODE=apply (умолч.) | dry | revert (Foliage=false у всех MIC мастера с оверрайдом)."
+  ],
+  "parent": "M_AsdaObjectLit",
+  "include": "leaf|lawn|grass|flower|gru|mushroom|weed|vine|ivy|bush|reed|fern|moss|algae|^mi_ip_|^ip_|dandelion|cosmos|maple01-b|poisonpt|creeper|horsetail",
+  "exclude": "^npc_|^mi_npc_|^mon_|^lmon_|^mi_mon_|^mi_lmon_|^ch1_|^cre_|^mi_ch1_|^mi_cre_|^itm|^sb_|^cb1_|glass|water|(^|_)eff|effect|smoke|fire|flame|cloud|socollny|ball_ani|gachya|template|luckcoin|socks|flag|creback|roombg|creation|fs_fsm|dove|circle|smoking|rock|cliff|stone|ston_|waterfall|tunnel"
+}

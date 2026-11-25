@@ -1,0 +1,99 @@
+{
+  "_comment": "Ведомость правок EN-оверлея DT_Loc_title_list_en (ключ = _row.колонка). Применяет Tools/extract_text_lang.py ПОСЛЕ извлечения: was = значение извлечения или null; не совпало (и не prev) - стоп. names11, 14.10.2026.",
+  "rows": [
+    {
+      "key": "15.Desc",
+      "value": "Selling items to the shop is too bothersome. Let's throw away some.",
+      "was": "Selling items to the shop is too bothersome. Let's throw away so",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "16.Desc",
+      "value": "Miss my old soul mate. Read messages from the old soul mate several times.",
+      "was": "Miss my old soul mate. Read messages from the old soul mate seve",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "49.Desc",
+      "value": "Well trained for two-handed swords. Take the Berserker's body tree.",
+      "was": "Well trained for two-handed swords. Take the Berserker's body tr",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "77.Desc",
+      "value": "I killed all the bosses and saved the Asda kingdom. I am the brave!",
+      "was": "I killed all the bosses and saved the Asda kingdom. I am the bra",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "78.Desc",
+      "value": "Earn Event Gemstone by disassembling the item. Don’t miss this chance!",
+      "was": "Earn Event Gemstone by disassembling the item. Don’t miss this ",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "79.Desc",
+      "value": "Make Event Necklace by producing the equipment. Don’t miss this chance!",
+      "was": "Make Event Necklace by producing the equipment. Don’t miss this",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "80.Desc",
+      "value": "Hunt down Golden Turkeys to gather special coins. This is the only chance!",
+      "was": "Hunt down Golden Turkeys to gather special coins. This is the on",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "96.Desc",
+      "value": "Mine to get the lucky Gold treasure chest!! What is the lucky number?",
+      "was": "Mine to get the lucky Gold treasure chest!! What is the lucky nu",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "133.Desc",
+      "value": "A title you can earn by hunting wolves, mushrooms, cats, crabs and cucumbers.",
+      "was": "A title you can earn by hunting wolves, mushrooms, cats, crabs a",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "134.Desc",
+      "value": "A title you can earn by hunting bosses from Rain river, Silaris, and Conquest Land.",
+      "was": "A title you can earn by hunting bosses from Rain river, Silaris,",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту; 14.10.2026 ревизия L10N: термины порта: Conquest Land (GameText 602)",
+      "source": "owner_translation",
+      "prev": [
+        "A title you can earn by hunting bosses from Rain river, Silaris, and the Conquered Land."
+      ]
+    },
+    {
+      "key": "135.Desc",
+      "value": "A title you can earn by hunting bosses from the Queen's palace and the Chess Castle.",
+      "was": "A title you can earn by hunting bosses from the Queen's palace a",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "136.Desc",
+      "value": "A title you can earn by hunting all the elite bosses including Gilgamesh.",
+      "was": "A title you can earn by hunting all the elite bosses including G",
+      "why": "14.10.2026 описание звания оборвано лимитом 64 знака посреди слова; дописано по целому русскому тексту",
+      "source": "owner_translation"
+    },
+    {
+      "key": "204.Desc",
+      "value": "I participated in Asda Interlude's Anniversary Celebration!",
+      "was": "I participated in Asda Interlude?s Anniversary Celebration!",
+      "why": "14.10.2026 этап 5 (дефекты данных): «?» мёртвой кодировки / типографский «?» исправлен (wDATA2_logs/q_final.tsv)",
+      "source": "owner_translation"
+    }
+  ]
+}

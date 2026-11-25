@@ -1,0 +1,452 @@
+{
+  "format": "asda_login_packages",
+  "version": 1,
+  "about": [
+    "★★★ Пакеты сцены логина (свет владельца в Login.umap и ассеты, которые использует ТОЛЬКО логин). Единый источник для",
+    "Tools/asda_login_guard.py (Python) и C++-сторожа (Source/AsdaImporters/.../AsdaLoginSaveGuard). Отчёт:",
+    "Reports/dedup_audit/tex_rebind_2026-09-15.md, разделы 11-17. Правка списка — только по доказательству «использует только логин»",
+    "(байтовый поиск Content, Source вне Login/, данные игры) и с бэкапом файла. Кодировка UTF-8 без BOM, LF."
+  ],
+  "rules": [
+    "Путь сверяется в нижнем регистре после нормализации: «\\» → «/», повторные «/» схлопываются, «/All/Game/…» и «Game/…» → «/Game/…»,",
+    "ссылка «Класс'…'» / «/Script/Модуль.Класс'…'» → внутренний путь, дисковый «…/Content/….uasset|.umap» → «/Game/…», путь объекта",
+    "«…/Имя.Имя[:Подобъект]» → путь пакета (всё от первой точки в последнем сегменте отбрасывается), хвостовой «/» снимается.",
+    "1) shared_exceptions: match=exact — путь РАВЕН path → НЕ логин (проверяется первым).",
+    "2) model_dirs и packages (одинаковая семантика): match=tree — путь равен path ИЛИ начинается с path + «/» (сам пакет и path/**);",
+    "   match=prefix — путь начинается с path (маска path*, префикс имени).",
+    "3) Иначе — не логин.",
+    "Проверки при чтении (иначе fail-closed: ВСЁ под /Game — логин): format/version; три массива; у элемента строка path с «/Game/»,",
+    "без «*», «\\», хвостового «/», без повторов; match из допустимых для группы; в model_dirs+packages есть {/Game/Map/Login, tree}."
+  ],
+  "groups": {
+    "model_dirs": "Модели сцены логина (Python: LOGIN_OWNED_MODEL_DIRS): задник, шкатулка, колодцы, затемнение, силуэты души.",
+    "packages": "Прочие пакеты только логина (Python: LOGIN_OWNED_PACKAGES): уровень и его данные, текстуры/материалы/эффекты, окна UI/Login, данные, музыка, JUI-атласы окон логина.",
+    "shared_exceptions": "Пакеты внутри записей выше, которые использует не только логин (Python: LOGIN_SHARED_EXCEPTIONS)."
+  },
+  "model_dirs": [
+    {
+      "path": "/Game/AsdaAssets/Models/Char/cre_creback-a_00",
+      "match": "tree",
+      "note": "задник логина: скелетный фолбэк и клип cre_creback-a_00_Anim (AsdaLoginGameMode.cpp GBackdropAnimPath, поиск BackdropActor по мешу cre_creback); ведёт только import_creback.py"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Char/cre_creation01",
+      "match": "prefix",
+      "note": "шкатулка cre_creation01* (cre_creation01-a_00 — клипы открытия/поворота, GCasketOpenAnimPath; cre_creation01_static); ведёт только import_casket.py"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Backdrop",
+      "match": "tree",
+      "note": "★ 15.09.2026: задник логина (MIC MI_cre_creback-*, меши SM_m*; asda_build_backdrop_elements.py)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Char/cre_cresowell0",
+      "match": "prefix",
+      "note": "★ 15.09.2026 (доработка): 3 модели колодцев сцены создания; из 41 .umap подстрока"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Char/blackscreen",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): меш затемнения, грузит только AsdaLoginGameMode.cpp"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Skeletal/Characters/cre_cresoulman_preview",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): силуэты души на выборе"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Skeletal/Characters/cre_cresoulwoman_preview",
+      "match": "tree",
+      "note": "персонажа — грузит только Login/AsdaPossessScene.cpp"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Skeletal/Characters/cre_cresoulmwwoman_preview",
+      "match": "tree",
+      "note": "(GSoulBaseM/F/MW/WM); ссылок из других ассетов нет"
+    },
+    {
+      "path": "/Game/AsdaAssets/Models/Skeletal/Characters/cre_cresoulwmman_preview",
+      "match": "tree",
+      "note": "то же — силуэт души на выборе персонажа (GSoulBaseWM, Login/AsdaPossessScene.cpp)"
+    }
+  ],
+  "packages": [
+    {
+      "path": "/Game/AsdaAssets/Textures/Backdrop",
+      "match": "tree",
+      "note": "24 текстуры задника (их берут MIC Models/Backdrop и Char/cre_creback-a_00)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Config/DA_LoginBackdropAnim",
+      "match": "tree",
+      "note": "данные анимации задника (asda_build_backdrop_anim.py)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eft_creation0",
+      "match": "prefix",
+      "note": "свечение шкатулки (01) и глифы слотов (02..04): 30 MIC"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_cre_cresowell0",
+      "match": "prefix",
+      "note": "эффекты колодцев сцены создания: 6 MIC"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eff_0_othr_99_hpptn01-b_00_add",
+      "match": "prefix",
+      "note": "эффекты сцены выбора (копии Map/*/EffectMat — отдельные пакеты)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eff_0_othr_99_hpptn01-c_00_add",
+      "match": "prefix",
+      "note": "эффекты сцены выбора (копии Map/*/EffectMat — отдельные пакеты); пары _add / _add_fxb300 — обе"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eff_0_othr_99_mpptn01-b_00_add",
+      "match": "prefix",
+      "note": "эффекты сцены выбора (копии Map/*/EffectMat — отдельные пакеты); пары _add / _add_fxb300 — обе"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eff_0_othr_99_mpptn01-c_00_add",
+      "match": "prefix",
+      "note": "эффекты сцены выбора (копии Map/*/EffectMat — отдельные пакеты); пары _add / _add_fxb300 — обе"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eff_0_othr_99_reptn01-b_00_add",
+      "match": "prefix",
+      "note": "эффекты сцены выбора (копии Map/*/EffectMat — отдельные пакеты); пары _add / _add_fxb300 — обе"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/Mat/MI_eff_0_othr_99_reptn01-c_00_add",
+      "match": "prefix",
+      "note": "эффекты сцены выбора (копии Map/*/EffectMat — отдельные пакеты); пары _add / _add_fxb300 — обе"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eft_creation0",
+      "match": "prefix",
+      "note": "15 текстур eft_creation01..04 (ссылаются только MIC выше)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eff_0_othr_99_hpptn01-b_00",
+      "match": "tree",
+      "note": "текстура эффекта сцены выбора (её берут MIC MI_eff_0_othr_99_*_add* выше)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eff_0_othr_99_hpptn01-c_00",
+      "match": "tree",
+      "note": "текстура эффекта сцены выбора (её берут MIC MI_eff_0_othr_99_*_add* выше)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eff_0_othr_99_mpptn01-b_00",
+      "match": "tree",
+      "note": "текстура эффекта сцены выбора (её берут MIC MI_eff_0_othr_99_*_add* выше)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eff_0_othr_99_mpptn01-c_00",
+      "match": "tree",
+      "note": "текстура эффекта сцены выбора (её берут MIC MI_eff_0_othr_99_*_add* выше)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eff_0_othr_99_reptn01-b_00",
+      "match": "tree",
+      "note": "текстура эффекта сцены выбора (её берут MIC MI_eff_0_othr_99_*_add* выше)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/eff_0_othr_99_reptn01-c_00",
+      "match": "tree",
+      "note": "текстура эффекта сцены выбора (её берут MIC MI_eff_0_othr_99_*_add* выше)"
+    },
+    {
+      "path": "/Game/Map/HolyLight_SpotLight",
+      "match": "tree",
+      "note": "BP прожектора; из уровней стоит только в Login.umap"
+    },
+    {
+      "path": "/Game/Map/Login_Shine",
+      "match": "tree",
+      "note": "Niagara-система уровня логина"
+    },
+    {
+      "path": "/Game/Map/Shine_Dust",
+      "match": "tree",
+      "note": "материал частиц Login_Shine"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Effects/cre_cresowell0",
+      "match": "prefix",
+      "note": "★ 15.09.2026 (доработка): 3 текстуры колодцев (MIC выше + модели Char/cre_cresowell0*)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Config/DA_LoginConfig",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): настройки логина (AsdaLoginGameMode.cpp)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Cinematics/LS_LoginFlight",
+      "match": "prefix",
+      "note": "★ 15.09.2026 (доработка): LS_LoginFlight и _SceneMove (DA_LoginConfig, AsdaLoginGameMode.cpp)"
+    },
+    {
+      "path": "/Game/AsdaAssets/UI/Login",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): окна Login.JUI (AsdaLoginGameMode.cpp), кроме LOGIN_SHARED_EXCEPTIONS"
+    },
+    {
+      "path": "/Game/AsdaAssets/Data/DT_ServerList",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): список серверов (AsdaLoginData.cpp)"
+    },
+    {
+      "path": "/Game/Effects/M_AsdaBlackScreen",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): материал затемнения (AsdaLoginGameMode.cpp)"
+    },
+    {
+      "path": "/Game/Materials/M_AsdaSoulAura",
+      "match": "tree",
+      "note": "★ 15.09.2026 (доработка): мастер ауры души на выборе (AsdaLoginGameMode.cpp)"
+    },
+    {
+      "path": "/Game/Materials/M_AsdaSoulSilhouette",
+      "match": "tree",
+      "note": "★ 15.09.2026 (раздел 15): мастер силуэта души на выборе — его берут ТОЛЬКО 14 MIC cre_cresoul*_preview"
+    },
+    {
+      "path": "/Game/Map/Login",
+      "match": "tree",
+      "note": "★ 15.09.2026 (раздел 16): сам уровень логина (свет владельца) и /Game/Map/Login/** — обходы карт"
+    },
+    {
+      "path": "/Game/Map/Login_BuiltData",
+      "match": "tree",
+      "note": "★ (раздел 16): запечённые данные уровня логина (в Content сейчас нет)"
+    },
+    {
+      "path": "/Game/__ExternalActors__/Map/Login",
+      "match": "tree",
+      "note": "★ (раздел 16): внешние акторы/объекты уровня логина (One File Per Actor;"
+    },
+    {
+      "path": "/Game/__ExternalObjects__/Map/Login",
+      "match": "tree",
+      "note": "в Content сейчас нет)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creation01-a_00",
+      "match": "tree",
+      "note": "★ (раздел 16): текстура сцены логина — шкатулка cre_creation01 (MIC Models/Char/cre_creation01*)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creation01-a_01",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creation01-a_02",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creation01-a_03",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-a_00",
+      "match": "tree",
+      "note": "★ (раздел 16): текстура сцены логина — задник (MIC Models/Backdrop, Char/cre_creback-a_00)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-b_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-c_03",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-c_04",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-d_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-e_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-f_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/blackscreen",
+      "match": "tree",
+      "note": "★ (раздел 16): текстура сцены логина — затемнение (MIC Models/Char/blackscreen)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/silhoutte_tex_blue",
+      "match": "tree",
+      "note": "★ (раздел 16): текстура сцены логина — дымка души (M_AsdaSoulAura)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_cresoulman-a_00",
+      "match": "tree",
+      "note": "★ (раздел 16): текстура сцены логина — силуэты души (MIC cre_cresoul*_preview; статичные Char/cre_cresoul* никем не используются, §13.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_cresoulwoman-a_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-c_00",
+      "match": "tree",
+      "note": "★ (раздел 16): текстура сцены логина — остальные текстуры задника: ссылаются только MIC Models/Char/cre_creback-a_00 (индекс папки, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-c_01",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-c_02",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-l_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-m_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-n_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-o_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-p_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-q_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-r_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-s_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-t_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-u_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-v_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-w_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-x_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/Characters/Texture/cre_creback-z_00",
+      "match": "tree",
+      "note": "то же; ссылаются только пакеты логина (байтовый поиск, §16.2)"
+    },
+    {
+      "path": "/Game/AsdaAssets/Sounds/Music/Login",
+      "match": "tree",
+      "note": "★ (раздел 16): музыка логина — DA_LoginConfig и PlayMusic(\"Login\") в AsdaLoginGameMode.cpp"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/christmas_00",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_Christ_mas_WIN (скины ChristmasWreath, Christmas_Socks1/2, Present1..4, Twinkle); в Source нет"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/christmas_01",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_Christ_mas_WIN (скин ChristmasTree); в Source нет; ключ строки DT_AtlasSourceSize — размер атласа по пути, текстуру не грузит"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/halloween",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_Halloween_event (скины Halloween_*); в Source нет; «Halloween» в ItemDB — названия предметов"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/ne_godrobot02_warning",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_ANI_WIN (скины Ani_GodRobot_Warning, Log_AniGodRobot02); C++ — прогрев AsdaLoginGameMode.cpp"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/ne_godrobot03_sation",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_ANI_WIN, WBP_LoginScreen (скины Ani_GodRobot_Normal, Log_AniGodRobot03); C++ — прогрев AsdaLoginGameMode.cpp"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/tpl_talkwin",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_LoginScreen (шаблон 9-slice extract_jui_textures.py из скина Log_GiantGod_TalkWin); C++ — прогрев AsdaLoginGameMode.cpp"
+    },
+    {
+      "path": "/Game/AsdaAssets/Textures/JUI/tpl_yellowwin",
+      "match": "tree",
+      "note": "★ 16.09.2026 (раздел 17): JUI-атлас окон логина — скины только в login_jui.ini (gamemain/commonwin/temp — 0), путём ссылаются только UI/Login/WBP_LoginScreen, WBP_CharSelect, WBP_ServerSelect (шаблон 9-slice extract_jui_textures.py из скина Log_YellowWin); C++ — прогрев AsdaLoginGameMode.cpp"
+    }
+  ],
+  "shared_exceptions": [
+    {
+      "path": "/Game/AsdaAssets/UI/Login/WBP_MESSAGE2_WIN",
+      "match": "exact",
+      "note": "диалог подтверждения всей игры: UAsdaWindowSubsystem::ShowConfirm"
+    },
+    {
+      "path": "/Game/AsdaAssets/UI/Login/WBP_MESSAGE2_WIN_NEUTRAL",
+      "match": "exact",
+      "note": "его нейтральный вариант (там же)"
+    },
+    {
+      "path": "/Game/AsdaAssets/UI/Login/WBP_AD_Win",
+      "match": "exact",
+      "note": "окно новостей UAsdaStartupAdSubsystem (подсистема GameInstance, не логина)"
+    }
+  ]
+}

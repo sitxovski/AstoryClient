@@ -1,0 +1,242 @@
+{
+ "_comment": "Ведомость Tools/asda_nsr_script_align.py (условия шагов «Принять» по серверному ConditionTable.Bin). Правится только генератором; применяется импортёром при каждом прогоне.",
+ "rows": [
+  {
+   "nsr": "144npc",
+   "talk": 20,
+   "step": 0,
+   "sub": 0,
+   "episode": 2198,
+   "quest": 197,
+   "npc": 144,
+   "give_slot": 0,
+   "server_cond": 487,
+   "groups": [
+    "class"
+   ],
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 14,
+    "ClassMode": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 14,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      189
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       189
+      ],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "144npc",
+   "talk": 21,
+   "step": 0,
+   "sub": 0,
+   "episode": 2199,
+   "quest": 198,
+   "npc": 144,
+   "give_slot": 1,
+   "server_cond": 489,
+   "groups": [
+    "class"
+   ],
+   "was": {
+    "ClassId": -1,
+    "ClassMode": -1
+   },
+   "set": {
+    "ClassId": 14,
+    "ClassMode": 0
+   },
+   "check": {
+    "pos": {
+     "level": 60,
+     "cls": 14,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      197
+     ]
+    },
+    "neg": [
+     {
+      "level": 60,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       197
+      ],
+      "what": "класс не тот"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "170npc",
+   "talk": 36,
+   "step": 0,
+   "sub": 0,
+   "episode": 2361,
+   "quest": 360,
+   "npc": 170,
+   "give_slot": 4,
+   "server_cond": 830,
+   "groups": [
+    "level"
+   ],
+   "was": {
+    "LevelMin": 34,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 35,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 35,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": [
+      359
+     ]
+    },
+    "neg": [
+     {
+      "level": 34,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [
+       359
+      ],
+      "what": "уровень 34"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "soldier13",
+   "talk": 25,
+   "step": 0,
+   "sub": 0,
+   "episode": 2416,
+   "quest": 417,
+   "npc": 36,
+   "give_slot": 4,
+   "server_cond": 984,
+   "groups": [
+    "level"
+   ],
+   "was": {
+    "LevelMin": 150,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 140,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 139,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "уровень 139"
+     }
+    ]
+   }
+  },
+  {
+   "nsr": "soldier13",
+   "talk": 27,
+   "step": 0,
+   "sub": 0,
+   "episode": 2417,
+   "quest": 418,
+   "npc": 36,
+   "give_slot": 5,
+   "server_cond": 987,
+   "groups": [
+    "level"
+   ],
+   "was": {
+    "LevelMin": 150,
+    "LevelMax": 150
+   },
+   "set": {
+    "LevelMin": 140,
+    "LevelMax": 150
+   },
+   "check": {
+    "pos": {
+     "level": 140,
+     "cls": 1,
+     "active": [
+      -1,
+      0
+     ],
+     "done": []
+    },
+    "neg": [
+     {
+      "level": 139,
+      "cls": 1,
+      "active": [
+       -1,
+       0
+      ],
+      "done": [],
+      "what": "уровень 139"
+     }
+    ]
+   }
+  }
+ ]
+}

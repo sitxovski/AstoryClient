@@ -1,0 +1,145 @@
+{
+  "_comment": "Ведомость RU-названий воинских званий DT_WarRank (поле Title; ключ = RankIndex). 10.10.2026 (`Reports/owner_1010/esc_ranks.md`): в RU-сборке (MINE = ORIG побайтно) CampWar_HonorTable.BIN английский, эталон печатает имя из записи как есть (`GuildRankUI_BuildPage`, social.c:1481 — `sprintf(\"[%s]%s\", запись+8, loc 110607)`). Русский источник — та же таблица русского клиента «Фантазиум» (байты −1, «я» = 0x00). Применяют: импортёр Tools/asda_import_war_shop.py (после разбора .bin, кроме --verify) и точечно Tools/asda_warrank_ru_overrides.py (RawAssets WarRank.json + ассет). Запись только при текущем = was или уже = value. Запись 0 (пустое имя у эталона; у «Фантазиума» «Нет») не меняется. EN — оверлей DT_Loc_WarRank_en из ORIG (Tools/extract_text_lang.py).",
+  "rows": [
+    {
+      "key": "1",
+      "value": "Рядовой",
+      "was": "Private",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "2",
+      "value": "Рядовой 1-го класса",
+      "was": "Private 1st",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "3",
+      "value": "Капрал",
+      "was": "Corporal",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "4",
+      "value": "Сержант",
+      "was": "Sergeant",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "5",
+      "value": "Штаб-сержант",
+      "was": "Staff sergeant",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "6",
+      "value": "Сержант 1-го класса",
+      "was": "Sergeant 1st",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "7",
+      "value": "Мастер-сержант",
+      "was": "Master Sgt",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "8",
+      "value": "Команд-сержант",
+      "was": "Command Sgt",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "9",
+      "value": "Уоррент-офицер",
+      "was": "Warrant officer",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "10",
+      "value": "Второй лейтенант",
+      "was": "2nd lieutenant",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "11",
+      "value": "Первый лейтенант",
+      "was": "1st lieutenant",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "12",
+      "value": "Капитан",
+      "was": "Captain",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "13",
+      "value": "Майор",
+      "was": "Major",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "14",
+      "value": "Подполковник",
+      "was": "Lieutenant Col",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "15",
+      "value": "Полковник",
+      "was": "Colonel",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "16",
+      "value": "Бригадный генерал",
+      "was": "Brigadier Gen",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "17",
+      "value": "Генерал-майор",
+      "was": "Major Gen",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "18",
+      "value": "Генерал-лейтенант",
+      "was": "Lieutenant Gen",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "19",
+      "value": "Генерал",
+      "was": "General",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    },
+    {
+      "key": "20",
+      "value": "Генерал армии",
+      "was": "Gen of the army",
+      "why": "10.10.2026 решение владельца: в русской версии названия званий русские, английские — в EN",
+      "source": "Donors/Fantazium/data/CampWar_HonorTable.BIN (md5 5a72b82e99cf523e2b09ada0bec38310), запись того же номера; тот же формат HRT, честь 10…70 совпадает построчно"
+    }
+  ]
+}
