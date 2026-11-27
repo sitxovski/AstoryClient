@@ -4,6 +4,8 @@
 
 ### ❤️ Нравится проект? Поддержите труд на [**Boosty**](https://boosty.to/sitxovski_yurii)
 
+### 💬 Присоединяйтесь к нашему сообществу в [**Discord**](https://discord.gg/DBPFczQKb2)
+
 # Astory Client
 
 **Игровой клиент Astory — ремейк классической MMORPG на Unreal Engine 5.8**
@@ -56,5 +58,7 @@
 <div align="center">
 
 ### ❤️ Поддержите труд на [**Boosty**](https://boosty.to/sitxovski_yurii)
+
+### 💬 Присоединяйтесь к нашему сообществу в [**Discord**](https://discord.gg/DBPFczQKb2)
 
 </div>
